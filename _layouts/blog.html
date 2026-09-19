@@ -705,6 +705,33 @@
     .d-lg-none { display: none; }
     .ms-lg-2 { margin-inline-start: .5rem; }
   }
+
+  /* ---------------------------------------------------------------
+     Navbar demo styles for /components/.
+
+     These belong next to the demo markup in content/components.md, but
+     the generator escapes a <style> element it finds in markdown while
+     leaving its contents live: the rules render as visible text and the
+     demo they describe is left unstyled, with its links collapsing to
+     4x1px and failing WCAG 2.2 SC 2.5.8. Until that is fixed upstream
+     they live here, where they are emitted verbatim.
+     --------------------------------------------------------------- */
+  /* Demo uses light-dark() so it adapts to colour-scheme. */
+  .sk-header{position:relative;display:flex;align-items:center;gap:1rem;padding:.75rem 1rem;border:1px solid var(--c-border);border-radius:.5rem;background:light-dark(#fff,#1a1a1a);color:light-dark(#1a1a1a,#f5f5f5);}
+  .sk-header .sk-brand{font-weight:600;color:light-dark(#0a0a0a,#f5f5f5) !important;text-decoration:none;}
+  .sk-header .sk-toggle{position:absolute;left:-9999px;}
+  .sk-header .sk-burger{display:none;margin-left:auto;cursor:pointer;padding:.625rem .75rem;border:1px solid var(--c-border);border-radius:.375rem;font-size:1.125rem;line-height:1;min-width:2.75rem;min-height:2.75rem;color:inherit;background:transparent;}
+  .sk-header .sk-burger:focus-within,.sk-header .sk-toggle:focus-visible+.sk-burger{outline:2px solid hsl(210,100%,42%);outline-offset:2px;}
+  .sk-header .sk-menu{list-style:none;display:flex;gap:.25rem;margin:0 0 0 auto;padding:0;}
+  .sk-header .sk-menu a{display:inline-flex;align-items:center;min-height:2.75rem;padding:.5rem .875rem;border-radius:.375rem;color:light-dark(#1a1a1a,#f5f5f5) !important;text-decoration:none;}
+  .sk-header .sk-menu a:hover{background:light-dark(#f4f4f5,#262629);}
+  @media (max-width:640px){
+  .sk-header .sk-burger{display:inline-flex;align-items:center;justify-content:center;}
+  .sk-header .sk-menu{display:none;flex-direction:column;gap:0;position:absolute;top:calc(100% + .25rem);left:0;right:0;background:light-dark(#fff,#1a1a1a);border:1px solid var(--c-border);border-radius:.5rem;padding:.375rem;box-shadow:0 4px 24px rgba(0,0,0,.18);z-index:10;}
+  .sk-header .sk-menu a{padding:.75rem 1rem;border-bottom:1px solid var(--c-border);}
+  .sk-header .sk-menu li:last-child a{border-bottom:0;}
+  .sk-header .sk-toggle:checked ~ .sk-menu{display:flex;}
+  }
 </style>
 <style>
   /* Photo Lightbox Modal */
