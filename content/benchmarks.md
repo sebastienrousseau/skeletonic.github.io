@@ -8,6 +8,7 @@ date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css framework size, brotli benchmark, tailwind v4 size, pico css size, bulma size, bootstrap size, skeletonic stylus size"
+language: en-GB
 ---
 
 CSS framework "size" claims are usually marketing. This page reports

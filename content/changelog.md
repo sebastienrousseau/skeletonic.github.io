@@ -7,6 +7,7 @@ permalink: https://skeletonic.io/changelog/
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "skeletonic changelog, release notes, v2.0.0, oklch, css grid, container queries, view transitions, semver"
+language: en-GB
 ---
 
 ## skeletonic.io — 2026-05 site refresh

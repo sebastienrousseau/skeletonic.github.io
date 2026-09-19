@@ -8,6 +8,7 @@ date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "skeletonic, about, stylus, css framework, philosophy"
+language: en-GB
 ---
 
 <dl class="stat-strip" aria-label="Project facts">

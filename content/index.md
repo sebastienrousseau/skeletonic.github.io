@@ -8,12 +8,13 @@ date: 2026-05-01
 author: Sebastien Rousseau
 theme_color: "oklch(0.55 0.2 250)"
 keywords: "css, stylus, css framework, oklch, css grid, container queries, view transitions, css cascade layers, accessible css, wcag 2.2, rtl, no javascript, htmx"
+language: en-GB
 ---
 
 **Skeletonic Stylus 2.0** — modern CSS for the post-bundler web.
 **7.7&nbsp;KB&nbsp;gzip · 6.7&nbsp;KB&nbsp;brotli**. OKLCH colours,
 native `@layer`, CSS Grid, container queries, view transitions.
-WCAG&nbsp;2.2 AA. RTL-ready. Zero JavaScript. One `<link>` and
+WCAG&nbsp;2.2 AA. RTL-ready. Zero JavaScript. One `&lt;link&gt;` and
 you're done.
 
 ```bash
@@ -91,7 +92,7 @@ Skeletonic exists for the parts of the web where Tailwind v4's Oxide
 pipeline is overkill: HTMX apps, Hotwire and Phoenix LiveView,
 Astro MPA, every Hugo / Eleventy / **Shokunin** SSG, server-rendered
 Laravel / Django / Rails templates, and AI-scaffolded HTML. One
-`<link>`, no JavaScript, no compile step, real RTL, real WCAG 2.2 AA.
+`&lt;link&gt;`, no JavaScript, no compile step, real RTL, real WCAG 2.2 AA.
 No surprises in production.
 
 ```html

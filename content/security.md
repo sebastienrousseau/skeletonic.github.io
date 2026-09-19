@@ -8,6 +8,7 @@ date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css security, sbom, cyclonedx, npm provenance, openssf scorecard, supply chain"
+language: en-GB
 ---
 
 ## Performance

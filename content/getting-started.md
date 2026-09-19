@@ -8,6 +8,7 @@ date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "oklch(0.55 0.2 250)"
 keywords: "install skeletonic, stylus setup, css cdn, getting started"
+language: en-GB
 ---
 
 ## Intro
@@ -16,7 +17,7 @@ New to Skeletonic Stylus? In **v2.0.0** the core stylesheet is
 **7.7&nbsp;KB gzip / 6.7&nbsp;KB brotli** for the full RTL-ready,
 WCAG&nbsp;2.2&nbsp;AA bundle — measured against the canonical CDN file,
 not approximated. It integrates into any web app from a single
-`<link>` — no JavaScript framework required, no build step needed if
+`&lt;link&gt;` — no JavaScript framework required, no build step needed if
 you load it from a CDN.
 
 Ready to install? Every path covered below — pick one.
@@ -62,7 +63,7 @@ yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 ### From a CDN
 
-If you only need the compiled CSS, drop one of these into your `<head>`:
+If you only need the compiled CSS, drop one of these into your `&lt;head&gt;`:
 
 ```html
 <!-- jsDelivr -->

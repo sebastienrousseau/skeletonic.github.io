@@ -8,6 +8,7 @@ date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "wcag 2.2, accessibility, focus visible, skip link, prefers reduced motion, contrast"
+language: en-GB
 ---
 
 > **Skeletonic Stylus v2.0.0 ships WCAG 2.2 conformance as the default

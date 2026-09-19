@@ -8,6 +8,7 @@ date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "terms of use, license, mit, apache 2"
+language: en-GB
 ---
 
 ## 1. The library

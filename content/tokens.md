@@ -8,6 +8,7 @@ date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css custom properties, design tokens, theme, dark mode, css variables, retheme"
+language: en-GB
 ---
 
 Skeletonic exposes its design system as CSS custom properties on

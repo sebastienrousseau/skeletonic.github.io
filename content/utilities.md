@@ -8,6 +8,7 @@ date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css utilities, attribute selector, html data attributes, flex utilities, text utilities, css classes vs attributes"
+language: en-GB
 ---
 
 Skeletonic ships a small, opinionated set of utility classes — and

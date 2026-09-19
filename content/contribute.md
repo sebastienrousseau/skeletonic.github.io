@@ -8,6 +8,7 @@ date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "contribute, open source, pull request, issue, conventions"
+language: en-GB
 ---
 
 Skeletonic Stylus is an open-source project; contributions of all sizes

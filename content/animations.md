@@ -9,6 +9,7 @@ author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css animations, keyframes, prefers-reduced-motion, bounce, pulse, fade"
 load_animations: true
+language: en-GB
 ---
 
 <p class="anim-lede">
