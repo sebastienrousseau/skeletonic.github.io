@@ -120,7 +120,7 @@
         return new DOMParser()
           .parseFromString(String(html), 'text/html')
           .body.textContent || '';
-      } catch (e) {
+      } catch {
         return String(html);
       }
     }
@@ -131,15 +131,6 @@
     function safeUrl(url) {
       var value = String(url || '');
       return /^(?:https?:|\/|\.\/|#|\?)/i.test(value) ? value : '#';
-    }
-
-    function escapeHtml(str) {
-      if (!str) return '';
-      return String(str)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;');
     }
 
     async function loadSearch() {
@@ -153,7 +144,7 @@
         } else {
           searchIndex = [];
         }
-      } catch (e) {
+      } catch {
         searchIndex = [];
       } finally {
         isFetching = false;
