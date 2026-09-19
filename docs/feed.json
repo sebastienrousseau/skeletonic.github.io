@@ -12,6 +12,7 @@
       "date_modified": "",
       "date_published": "",
       "id": "https://skeletonic.com/404/",
+      "language": "en-GB",
       "tags": [],
       "title": "Page not found",
       "url": "https://skeletonic.com/404/"
@@ -26,6 +27,7 @@
       "date_modified": "",
       "date_published": "",
       "id": "https://skeletonic.com/about/",
+      "language": "en-GB",
       "tags": [],
       "title": "About Skeletonic Stylus",
       "url": "https://skeletonic.com/about/"
@@ -40,6 +42,7 @@
       "date_modified": "",
       "date_published": "",
       "id": "https://skeletonic.com/accessibility/",
+      "language": "en-GB",
       "tags": [],
       "title": "Accessibility — WCAG 2.2 in v2.0.0",
       "url": "https://skeletonic.com/accessibility/"
@@ -54,6 +57,7 @@
       "date_modified": "",
       "date_published": "",
       "id": "https://skeletonic.com/animations/",
+      "language": "en-GB",
       "tags": [],
       "title": "Animations",
       "url": "https://skeletonic.com/animations/"
@@ -413,6 +417,7 @@
       "date_modified": "",
       "date_published": "",
       "id": "https://skeletonic.com/benchmarks/",
+      "language": "en-GB",
       "tags": [],
       "title": "Framework size benchmarks — measured, not marketed",
       "url": "https://skeletonic.com/benchmarks/"

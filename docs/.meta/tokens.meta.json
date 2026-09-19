@@ -3,6 +3,7 @@
   "date": "2026-04-30",
   "description": "Every CSS custom property exposed by Skeletonic Stylus v2.0.0 — colours, headings, line heights, golden-ratio constants, focus ring, link colours.",
   "keywords": "css custom properties, design tokens, theme, dark mode, css variables, retheme",
+  "language": "en-GB",
   "layout": "page",
   "name": "Skeletonic Stylus",
   "permalink": "https://skeletonic.io/tokens/",

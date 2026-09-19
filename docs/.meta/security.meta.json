@@ -3,6 +3,7 @@
   "date": "2026-04-08",
   "description": "How Skeletonic Stylus v2.0.0 secures its build pipeline, signs releases, and ships an SBOM.",
   "keywords": "css security, sbom, cyclonedx, npm provenance, openssf scorecard, supply chain",
+  "language": "en-GB",
   "layout": "page",
   "name": "Skeletonic Stylus",
   "permalink": "https://skeletonic.io/security/",

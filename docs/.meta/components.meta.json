@@ -3,11 +3,12 @@
   "date": "2026-04-08",
   "description": "Live HTML examples of every Skeletonic Stylus component, grouped, anchored, and rendered with the very stylesheet being demoed.",
   "keywords": "skeletonic components, buttons, cards, forms, alerts, badges, header, navbar, css only hamburger",
+  "language": "en-GB",
   "layout": "page",
   "name": "Skeletonic Stylus",
   "permalink": "https://skeletonic.io/components/",
   "reading_time": 15,
   "theme_color": "hsl(210, 100%, 42%)",
   "title": "Components",
-  "word_count": 3135
+  "word_count": 3069
 }
