@@ -73,7 +73,7 @@ Placez ceci **en tout premier dans `<body>`** :
 ```
 
 La classe n'est **pas** dans la feuille de style principale (le poids
-de page n'augmente pas) ; c'est un extrait de 4 lignes que vous
+de page n'augmente pas); c'est un extrait de 4 lignes que vous
 composez vous-même ou que vous utilisez via le mixin `skip-link()`
 inclus. Ce site l'utilise — cliquez sur la page puis appuyez sur Tab
 pour le voir apparaître en haut à gauche.

@@ -28,7 +28,7 @@ de non-contrefaçon.
 ## 2. Ce site
 
 Le contenu de `skeletonic.io` (textes, exemples, captures d'écran,
-mises en page) est Copyright © 2021 – 2026 Skeletonic CSS, tous droits
+mises en page) est Copyright © 2021 - 2026 – 2026 Skeletonic CSS, tous droits
 réservés, et sous licence
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — vous
 pouvez le citer, le traduire ou le remixer à condition de citer la

@@ -11,7 +11,7 @@ theme_color: "hsl(210, 100%, 42%)"
 keywords: "contribuer, open source, pull request, ticket, conventions"
 ---
 
-Skeletonic Stylus est un projet open source ; toutes les contributions
+Skeletonic Stylus est un projet open source; toutes les contributions
 sont les bienvenues — des corrections de coquilles aux nouveaux
 composants.
 
@@ -47,7 +47,7 @@ node scripts/a11y-test.mjs
   les `$variables` aux valeurs en dur, chaque classe publique vit dans
   une couche de cascade.
 - **Accessibilité :** tout nouveau composant doit satisfaire WCAG 2.2 AA
-  de manière démontrable ; exécuter `node scripts/a11y-test.mjs` sur
+  de manière démontrable; exécuter `node scripts/a11y-test.mjs` sur
   la vitrine avant d'ouvrir une PR.
 - **Budget de taille :** la feuille de style principale doit rester sous
   **8 Ko gzippé**. Si votre modification dépasse ce seuil, justifiez-la
@@ -62,7 +62,7 @@ node scripts/a11y-test.mjs
 2. Garder les PR ciblées : une modification logique par PR.
 3. Mettre à jour le `CHANGELOG.md` dans la section « Unreleased ».
 4. Vérifier que la CI est au vert avant de demander une revue.
-5. Le squash-merge est la norme ; les messages de commit seront
+5. Le squash-merge est la norme; les messages de commit seront
    nettoyés lors de la fusion.
 
 <hr class="hr-text" data-content="Code de conduite">

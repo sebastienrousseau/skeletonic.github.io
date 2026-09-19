@@ -16,9 +16,9 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net unpkg.com; connect-src 'self' https://cdn.jsdelivr.net; img-src 'self' data: https: https://cloudcdn.pro cloudcdn.pro; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; media-src 'self' https://cloudcdn.pro;" />
   
   <link rel="alternate" href="{{url}}" hreflang="{{hreflang}}" />
-  <link rel="preload" as="image" href="{{banner}}">
+  <link rel="preload" as="image" href="/images/banner.svg">
   <link rel="canonical" href="{{url}}" />
-  <link rel="icon" type="image/svg+xml" href="{{logo}}" />
+  <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
   <link rel="icon" type="image/x-icon" href="{{icon}}" sizes="16x16 32x32" />
   <link rel="apple-touch-icon" href="https://cloudcdn.pro/cmn/v1/icons/192x192.png" sizes="192x192" />
   <link rel="manifest" href="/manifest.json" />
@@ -667,6 +667,161 @@
     }
   }
 
+  
+  /* Exact Apple UK Business Questions? Answers. Layout */
+  .apple-faq-page {
+    background-color: var(--bg-canvas, #fbfbfd);
+    min-height: 80vh;
+    padding: 3rem 1.25rem 6rem;
+  }
+  .apple-faq-wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .apple-faq-title-main {
+    font-size: clamp(2.5rem, 5vw, 3.5rem) !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.015em !important;
+    line-height: 1.1 !important;
+    color: var(--text-headline, #1d1d1f) !important;
+    margin: 0 0 1rem 0 !important;
+    text-align: left !important;
+  }
+  .apple-faq-topbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.25rem;
+  }
+  .apple-expand-all-btn {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #0066cc !important;
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    outline: none !important;
+  }
+  :root[data-theme-mode="dark"] .apple-expand-all-btn,
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme-mode="light"]) .apple-expand-all-btn {
+      color: #2997ff !important;
+    }
+  }
+  .apple-expand-all-btn:hover {
+    text-decoration: underline !important;
+  }
+  .apple-faq-list-exact {
+    list-style: none !important;
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
+  }
+  :root[data-theme-mode="dark"] .apple-faq-list-exact,
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme-mode="light"]) .apple-faq-list-exact {
+      border-top-color: rgba(255, 255, 255, 0.15) !important;
+    }
+  }
+  .apple-faq-item-exact {
+    list-style: none !important;
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+  }
+  :root[data-theme-mode="dark"] .apple-faq-item-exact,
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme-mode="light"]) .apple-faq-item-exact {
+      border-bottom-color: rgba(255, 255, 255, 0.15) !important;
+    }
+  }
+  .apple-faq-item-exact details {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+  }
+  .apple-faq-summary-exact {
+    list-style: none !important;
+    list-style-type: none !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 1.75rem 0 !important;
+    width: 100% !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    outline: none !important;
+    gap: 1.5rem !important;
+    text-align: left !important;
+  }
+  .apple-faq-summary-exact::-webkit-details-marker,
+  .apple-faq-summary-exact::marker {
+    display: none !important;
+    content: "" !important;
+  }
+  .apple-faq-q-text {
+    font-size: clamp(1.2rem, 2.2vw, 1.5rem) !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.015em !important;
+    line-height: 1.3 !important;
+    color: var(--text-headline, #1d1d1f) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .apple-chevron-exact {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #86868b;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  details[open] .apple-chevron-exact {
+    transform: rotate(180deg);
+  }
+  .apple-faq-body-exact {
+    padding: 0 0 2rem !important;
+    font-size: 1.0625rem !important;
+    line-height: 1.55 !important;
+    color: var(--text-muted, #374151) !important;
+    max-width: 820px !important;
+  }
+  .apple-faq-body-exact p {
+    margin-bottom: 0.75rem !important;
+  }
+  .apple-faq-body-exact p:last-child {
+    margin-bottom: 0 !important;
+  }
+  .apple-faq-link-exact {
+    margin-top: 0.85rem !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    color: #0066cc !important;
+    text-decoration: none !important;
+    font-size: 1rem !important;
+  }
+  :root[data-theme-mode="dark"] .apple-faq-link-exact,
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme-mode="light"]) .apple-faq-link-exact {
+      color: #2997ff !important;
+    }
+  }
+  .apple-faq-link-exact:hover {
+    text-decoration: underline !important;
+  }
+
   </style>
 <style>
   /* Photo Lightbox Modal */
@@ -767,7 +922,7 @@
     <div class="navbar-container">
       <div class="navbar-header">
         <a class="navbar-brand" href="/">
-          <img src="{{logo}}" alt="" aria-hidden="true" width="32" height="32" class="d-inline-block" />
+          <img src="/images/logo.svg" alt="" aria-hidden="true" width="32" height="32" class="d-inline-block" />
           <span class="navbar-brand-text">{{name}}</span>
         </a>
 
@@ -826,26 +981,25 @@
     </div>
   </nav>
 
-  <!-- Hero Banner -->
-  <header class="hero-banner-container">
-    <img src="{{banner}}" alt="{{banner_alt}}" class="hero-banner-img" loading="eager" />
-  </header>
-
   <!-- Main Content -->
-  <main id="main" class="content-wrapper" aria-label="Main content">
-  <header class="page-header text-center mb-4"><h1 class="display-5 fw-bold text-headline mb-3">{{title}}</h1></header>
-    <div class="callout-surface text-center">
-      <p class="mb-0 fs-5 fw-normal">{{subtitle}}</p>
-    </div>
+  <main id="main" aria-label="Main content">
+    <div class="apple-faq-page">
+      <div class="apple-faq-wrapper">
+        <h1 class="apple-faq-title-main">Questions? Answers.</h1>
 
-    <div class="card-surface">
-      {{content}}
-    </div>
+        <div class="apple-faq-topbar">
+          <button type="button" class="apple-expand-all-btn" id="toggleAllBtn" aria-expanded="false">
+            <span id="toggleAllText">Expand all</span>
+            <svg width="12" height="12" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m3.75 6.75 5.25 5.25 5.25-5.25"/>
+            </svg>
+          </button>
+        </div>
 
-    <div class="card-surface text-center security-card">
-      <img src="{{logo}}" alt="{{name}} Logo" width="120" height="120" class="mb-4" />
-      <h2>{{security_name}}</h2>
-      <p class="text-muted mx-auto" style="max-width:44rem;">{{security_description}}</p>
+        <ul class="apple-faq-list-exact" role="list">
+          {{content}}
+        </ul>
+      </div>
     </div>
   </main>
 

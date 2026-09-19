@@ -16,9 +16,9 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net unpkg.com; connect-src 'self' https://cdn.jsdelivr.net; img-src 'self' data: https: https://cloudcdn.pro cloudcdn.pro; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; media-src 'self' https://cloudcdn.pro;" />
   
   <link rel="alternate" href="{{url}}" hreflang="{{hreflang}}" />
-  <link rel="preload" as="image" href="{{banner}}">
+  <link rel="preload" as="image" href="/images/banner.svg">
   <link rel="canonical" href="{{url}}" />
-  <link rel="icon" type="image/svg+xml" href="{{logo}}" />
+  <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
   <link rel="icon" type="image/x-icon" href="{{icon}}" sizes="16x16 32x32" />
   <link rel="apple-touch-icon" href="https://cloudcdn.pro/cmn/v1/icons/192x192.png" sizes="192x192" />
   <link rel="manifest" href="/manifest.json" />
@@ -767,7 +767,7 @@
     <div class="navbar-container">
       <div class="navbar-header">
         <a class="navbar-brand" href="/">
-          <img src="{{logo}}" alt="" aria-hidden="true" width="32" height="32" class="d-inline-block" />
+          <img src="/images/logo.svg" alt="" aria-hidden="true" width="32" height="32" class="d-inline-block" />
           <span class="navbar-brand-text">{{name}}</span>
         </a>
 
@@ -826,11 +826,6 @@
     </div>
   </nav>
 
-  <!-- Hero Banner -->
-  <header class="hero-banner-container">
-    <img src="{{banner}}" alt="{{banner_alt}}" class="hero-banner-img" loading="eager" />
-  </header>
-
   <!-- Main Content -->
   <main id="main" class="content-wrapper" aria-label="Main content">
   <header class="page-header text-center mb-4"><h1 class="display-5 fw-bold text-headline mb-3">{{title}}</h1></header>
@@ -840,10 +835,44 @@
 
     <div class="card-surface">
       {{content}}
+
+    <div class="card-surface">
+      <div class="contact-form-wrapper">
+        <div class="text-center mb-4">
+          <h2 class="h3 fw-bold">Send us a message</h2>
+          <p class="text-muted mx-auto" style="max-width:36rem;">Fill in the form below and our team will get back to you promptly.</p>
+        </div>
+
+        <form action="https://formspree.io/f/xjvqprbg" method="POST" class="contact-form" aria-label="Contact Form">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="contactName" class="form-label fw-semibold">Full Name <span class="text-danger">*</span></label>
+              <input type="text" id="contactName" name="name" class="form-control" placeholder="e.g. Jane Doe" required autocomplete="name" />
+            </div>
+            <div class="col-md-6">
+              <label for="contactEmail" class="form-label fw-semibold">Email Address <span class="text-danger">*</span></label>
+              <input type="email" id="contactEmail" name="email" class="form-control" placeholder="e.g. jane@example.com" required autocomplete="email" />
+            </div>
+            <div class="col-12">
+              <label for="contactSubject" class="form-label fw-semibold">Subject <span class="text-danger">*</span></label>
+              <input type="text" id="contactSubject" name="subject" class="form-control" placeholder="e.g. Inquiries, feedback, support..." required />
+            </div>
+            <div class="col-12">
+              <label for="contactMessage" class="form-label fw-semibold">Message <span class="text-danger">*</span></label>
+              <textarea id="contactMessage" name="message" rows="5" class="form-control" placeholder="Please provide details about your inquiry..." required></textarea>
+            </div>
+            <div class="col-12 text-center mt-4">
+              <button type="submit" class="btn btn-dark btn-lg px-5 py-2 fw-bold">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
     </div>
 
     <div class="card-surface text-center security-card">
-      <img src="{{logo}}" alt="{{name}} Logo" width="120" height="120" class="mb-4" />
+      <img src="/images/logo.svg" alt="{{name}} Logo" width="120" height="120" class="mb-4" />
       <h2>{{security_name}}</h2>
       <p class="text-muted mx-auto" style="max-width:44rem;">{{security_description}}</p>
     </div>

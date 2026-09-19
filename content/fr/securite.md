@@ -76,7 +76,7 @@ Actions qui l'a produit.
 | **CVE-2023-44270** (analyse de retour à la ligne postcss) | Modérée | **Corrigée** en v2.0.0 via `pnpm.overrides` mettant à jour `postcss` vers ≥ 8.4.31 |
 
 La base de données Snyk et les avis de sécurité GitHub sont surveillés
-en continu ; les correctifs de sécurité sont livrés en **versions patch**.
+en continu; les correctifs de sécurité sont livrés en **versions patch**.
 
 <hr class="hr-text" data-content="Signalement">
 
