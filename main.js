@@ -102,6 +102,37 @@
     var results = document.getElementById('searchResults');
     var closeBtn = document.getElementById('searchClose');
 
+    // Builds the "no results"/"type to search" line as a node. Nothing that
+    // reaches innerHTML here is derived from user input or the search index.
+    function renderNotice(results, text) {
+      var div = document.createElement('div');
+      div.className = 'search-empty';
+      div.textContent = text;
+      results.replaceChildren(div);
+    }
+
+    // Takes the text out of a description that may contain markup. A regex
+    // cannot strip tags reliably — `<<script>script>` survives one pass — so
+    // the parser does it. DOMParser does not execute what it parses.
+    function textOf(html) {
+      if (!html) return '';
+      try {
+        return new DOMParser()
+          .parseFromString(String(html), 'text/html')
+          .body.textContent || '';
+      } catch (e) {
+        return String(html);
+      }
+    }
+
+    // Search-index URLs are same-origin paths, but the index is fetched at
+    // runtime, so a scheme that can execute is refused rather than assumed
+    // absent.
+    function safeUrl(url) {
+      var value = String(url || '');
+      return /^(?:https?:|\/|\.\/|#|\?)/i.test(value) ? value : '#';
+    }
+
     function escapeHtml(str) {
       if (!str) return '';
       return String(str)
@@ -147,7 +178,7 @@
       if (!modal) return;
       modal.classList.remove('active');
       if (input) input.value = '';
-      if (results) results.innerHTML = '<div class="search-empty">Type to search...</div>';
+      if (results) renderNotice(results, 'Type to search...');
     }
 
     var triggers = document.querySelectorAll('#searchTrigger, #searchTriggerMobile, .search-trigger');
@@ -177,18 +208,18 @@
       input.addEventListener('input', function() {
         var query = input.value.trim().toLowerCase();
         if (!query) {
-          results.innerHTML = '<div class="search-empty">Type to search...</div>';
+          renderNotice(results, 'Type to search...');
           return;
         }
         if (!searchIndex) {
-          results.innerHTML = '<div class="search-empty">Loading search index...</div>';
+          renderNotice(results, 'Loading search index...');
           loadSearch().then(function() {
             input.dispatchEvent(new Event('input'));
           });
           return;
         }
         if (searchIndex.length === 0) {
-          results.innerHTML = '<div class="search-empty">No results found for "' + escapeHtml(query) + '"</div>';
+          renderNotice(results, 'No results found for "' + query + '"');
           return;
         }
         var tokens = query.split(/\s+/).filter(Boolean);
@@ -202,15 +233,26 @@
         }).slice(0, 10);
 
         if (matches.length === 0) {
-          results.innerHTML = '<div class="search-empty">No results found for "' + escapeHtml(query) + '"</div>';
+          renderNotice(results, 'No results found for "' + query + '"');
           return;
         }
-        results.innerHTML = matches.map(function(item) {
-          return '<a class="search-item" href="' + item.url + '">' +
-            '<div class="search-item-title">' + escapeHtml(item.title) + '</div>' +
-            '<div class="search-item-desc">' + escapeHtml((item.description || item.content || '').replace(/<[^>]+>/g, '').slice(0, 140)) + '...</div>' +
-          '</a>';
-        }).join('');
+        results.replaceChildren.apply(results, matches.map(function(item) {
+          var link = document.createElement('a');
+          link.className = 'search-item';
+          link.href = safeUrl(item.url);
+
+          var title = document.createElement('div');
+          title.className = 'search-item-title';
+          title.textContent = item.title || '';
+
+          var desc = document.createElement('div');
+          desc.className = 'search-item-desc';
+          desc.textContent = textOf(item.description || item.content).slice(0, 140) + '...';
+
+          link.appendChild(title);
+          link.appendChild(desc);
+          return link;
+        }));
       });
     }
     // 5. Photo Lightbox Modal Engine
