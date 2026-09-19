@@ -39,10 +39,14 @@ jobs:
           restore-keys: |
             cargo-${{ runner.os }}-
 
-      - name: Install Shokunin SSG (v0.0.34)
-        run: |
-          cargo install --locked --git https://github.com/sebastienrousseau/shokunin --tag v0.0.34 ssg \
-            || cargo install --locked --version 0.0.56 ssg
+      # cargo-ssg, pinned to the version the site is developed against.
+      # The previous pin was Shokunin v0.0.34, which cannot render these
+      # templates: it failed with "Unresolved template tag: language" on
+      # every locale. Because the build was backgrounded and never checked,
+      # the job carried on and published whatever docs/ was committed, so a
+      # broken build reported success.
+      - name: Install cargo-ssg (v0.0.63)
+        run: cargo install --locked --version 0.0.63 ssg
 
       - name: Build site (all locales)
         run: bash scripts/build-i18n.sh
