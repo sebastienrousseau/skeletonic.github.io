@@ -1,12 +1,14 @@
 {
-  "keywords": "css, stylus, css framework, css tro nang, wcag 2.2, css nhe, cascade layers, he thong thiet ke",
+  "author": "Sebastien Rousseau",
+  "date": "2026-04-08",
   "description": "Skeletonic Stylus la thu vien CSS Stylus nhe, mo-dun, san sang WCAG 2.2, phan tang cascade, 8,3 KB gzip — duoc thiet ke de toi uu hoa phat trien giao dien web hien dai.",
+  "keywords": "css, stylus, css framework, css tro nang, wcag 2.2, css nhe, cascade layers, he thong thiet ke",
   "language": "vi",
   "layout": "index",
-  "permalink": "https://skeletonic.io/vi/",
-  "title": "Skeletonic Stylus — CSS Tro nang, 8,3 KB gzip",
-  "date": "2026-04-08",
-  "theme_color": "hsl(210, 100%, 42%)",
   "name": "Skeletonic Stylus",
-  "author": "Sebastien Rousseau"
+  "permalink": "https://skeletonic.io/vi/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Skeletonic Stylus — CSS Tro nang, 8,3 KB gzip",
+  "word_count": 248
 }

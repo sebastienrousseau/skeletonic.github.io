@@ -15,7 +15,7 @@ CSS ti a le wọle si ni **labẹ 8&nbsp;KB gzipped**. Ti setan fun WCAG&nbsp;2.
 Ti a fi cascade-layer ṣe. JavaScript kankan ko si. Fi si ojulowo eyikeyi.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Ẹya ara Skeletonic

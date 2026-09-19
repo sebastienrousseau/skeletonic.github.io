@@ -1,12 +1,14 @@
 {
-  "language": "fil",
-  "theme_color": "hsl(210, 100%, 42%)",
-  "title": "Tungkol sa Skeletonic Stylus",
-  "description": "Ang Skeletonic Stylus ay isang open-source na Stylus CSS library para sa accessible, mabilis, at modular na pag-istilo ng UI.",
-  "permalink": "https://skeletonic.io/fil/tungkol/",
-  "keywords": "skeletonic, tungkol, stylus, css framework, pilosopiya",
   "author": "Sebastien Rousseau",
   "date": "2026-04-08",
+  "description": "Ang Skeletonic Stylus ay isang open-source na Stylus CSS library para sa accessible, mabilis, at modular na pag-istilo ng UI.",
+  "keywords": "skeletonic, tungkol, stylus, css framework, pilosopiya",
+  "language": "fil",
   "layout": "page",
-  "name": "Skeletonic Stylus"
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/fil/tungkol/",
+  "reading_time": 3,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Tungkol sa Skeletonic Stylus",
+  "word_count": 784
 }

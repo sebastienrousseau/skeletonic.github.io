@@ -1,11 +1,13 @@
 {
-  "name": "Skeletonic Stylus",
-  "title": "পরিবর্তন তালিকা",
-  "layout": "page",
-  "theme_color": "hsl(210, 100%, 42%)",
-  "language": "bn",
   "author": "Sebastien Rousseau",
   "description": "Skeletonic Stylus-এর রিলিজ নোট, v2.0.0 সম্পূর্ণ বিবরণ সহ।",
   "keywords": "skeletonic পরিবর্তন তালিকা, রিলিজ নোট, v2.0.0, semver",
-  "permalink": "https://skeletonic.io/bn/poriborton-talika/"
+  "language": "bn",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/bn/poriborton-talika/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "পরিবর্তন তালিকা",
+  "word_count": 320
 }

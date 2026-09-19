@@ -30,13 +30,13 @@ Skeletonic Stylus를 처음 사용하시나요? **v2.0.0**에서는 필요한 �
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### CDN을 통한 설치
@@ -47,13 +47,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -63,8 +63,8 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | 예 | 예 |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | 예 | 아니오 |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | 예 | 예 |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | 예 | 아니오 |
 
 ### GitHub 릴리스 다운로드
 
@@ -140,7 +140,7 @@ Skeletonic은 디자인 토큰을 **CSS 커스텀 속성**으로 노출하므로
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>작동합니다.</h1>
@@ -156,7 +156,7 @@ Skeletonic은 디자인 토큰을 **CSS 커스텀 속성**으로 노출하므로
 패키지에는 모든 소스 파일, 컴파일 및 최소화된 CSS 번들, 소스 맵, 카테고리별로 구성된 전체 Stylus 트리가 포함되어 있습니다:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -194,7 +194,7 @@ Skeletonic은 디자인 토큰을 **CSS 커스텀 속성**으로 노출하므로
 ## 자주 묻는 질문
 
 **Skeletonic Stylus는 어떻게 설치합니까?**
-`pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`을 실행하십시오. 또는 컴파일된 CSS를 CDN에서 직접 로드할 수 있습니다. 빌드 단계가 필요하지 않습니다.
+`pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`을 실행하십시오. 또는 컴파일된 CSS를 CDN에서 직접 로드할 수 있습니다. 빌드 단계가 필요하지 않습니다.
 
 **JavaScript가 필요합니까?**
 아닙니다. 코어 스타일시트는 순수 CSS이며 런타임 비용이 없습니다. 모든 구성 요소가 JavaScript 한 줄 없이 작동합니다.
@@ -218,7 +218,7 @@ MIT와 Apache 2.0 이중 라이선스입니다. 프로젝트에 적합한 라이
       "name": "Skeletonic Stylus는 어떻게 설치합니까?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0을 실행하십시오. 또는 컴파일된 CSS를 CDN에서 직접 로드할 수 있습니다. 빌드 단계가 필요하지 않습니다."
+        "text": "pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0을 실행하십시오. 또는 컴파일된 CSS를 CDN에서 직접 로드할 수 있습니다. 빌드 단계가 필요하지 않습니다."
       }
     },
     {

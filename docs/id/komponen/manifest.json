@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Contoh HTML langsung dari setiap komponen Skeletonic Stylus, dikelompokkan, diberi jangkar, dan dirender dengan styleshe",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

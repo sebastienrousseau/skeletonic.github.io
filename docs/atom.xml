@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Skeletonic Stylus</title>
+  <link href="https://skeletonic.com/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://skeletonic.com"/>
+  <id>https://skeletonic.com</id>
+  <updated></updated>
+  <entry>
+    <title>Page not found</title>
+    <link href="https://skeletonic.com/404/"/>
+    <id>https://skeletonic.com/404/</id>
+    <updated></updated>
+    <published></published>
+    <summary>The page you requested does not exist on skeletonic.io.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>About Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/about/"/>
+    <id>https://skeletonic.com/about/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus is an open-source Stylus CSS library for accessible, fast, modular UI styling.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Accessibility — WCAG 2.2 in v2.0.0</title>
+    <link href="https://skeletonic.com/accessibility/"/>
+    <id>https://skeletonic.com/accessibility/</id>
+    <updated></updated>
+    <published></published>
+    <summary>What v2.0.0 ships out of the box for WCAG 2.2 conformance — focus rings, contrast, skip links, motion, and dark mode.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Animations</title>
+    <link href="https://skeletonic.com/animations/"/>
+    <id>https://skeletonic.com/animations/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Optional animations module shipped with Skeletonic Stylus v2.0.0 — 45 keyframes across 9 families, all behind prefers-reduced-motion.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Skeletonic Stylus — CSS سهل الوصول، بحجم ~7.5 كيلوبايت مضغوط</title>
+    <link href="https://skeletonic.com/ar/"/>
+    <id>https://skeletonic.com/ar/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus هي مكتبة CSS خفيفة ومعيارية مبنية بـ Stylus — متوافقة مع WCAG 2.2، تعتمد على طبقات التسلسل، بحجم ~7.5 كيلوبايت مضغوط — مصممة لتبسيط تطوير واجهات الويب الحديثة.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>الصفحة غير موجودة</title>
+    <link href="https://skeletonic.com/ar/404/"/>
+    <id>https://skeletonic.com/ar/404/</id>
+    <updated></updated>
+    <published></published>
+    <summary>الصفحة التي طلبتها غير موجودة على skeletonic.io.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>لوحات الألوان</title>
+    <link href="https://skeletonic.com/ar/al-alwan/"/>
+    <id>https://skeletonic.com/ar/al-alwan/</id>
+    <updated></updated>
+    <published></published>
+    <summary>لوحات ألوان Material وTachyons والألوان الآمنة للويب المُشحونة مع Skeletonic Stylus الإصدار 2.0.0.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>الأمان وسلسلة التوريد</title>
+    <link href="https://skeletonic.com/ar/al-aman/"/>
+    <id>https://skeletonic.com/ar/al-aman/</id>
+    <updated></updated>
+    <published></published>
+    <summary>كيف يؤمّن Skeletonic Stylus الإصدار 2.0.0 خط أنابيب البناء، ويوقّع الإصدارات، ويشحن قائمة مواد البرمجيات.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>البدء مع Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/ar/al-bidaya/"/>
+    <id>https://skeletonic.com/ar/al-bidaya/</id>
+    <updated></updated>
+    <published></published>
+    <summary>ثبّت Skeletonic Stylus من npm أو CDN، واستوردها في خط أنابيب Stylus الخاص بك، وعدّل المتغيرات في ثوانٍ.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>الحركات</title>
+    <link href="https://skeletonic.com/ar/al-harakaat/"/>
+    <id>https://skeletonic.com/ar/al-harakaat/</id>
+    <updated></updated>
+    <published></published>
+    <summary>وحدة الحركات الاختيارية المُشحونة مع Skeletonic Stylus الإصدار 2.0.0 — ارتداد، نبض، تلاشٍ، تكبير، اهتزاز وغيرها، جميعها خلف prefers-reduced-motion.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>الخصوصية</title>
+    <link href="https://skeletonic.com/ar/al-khususiyya/"/>
+    <id>https://skeletonic.com/ar/al-khususiyya/</id>
+    <updated></updated>
+    <published></published>
+    <summary>ما البيانات التي يجمعها skeletonic.io، ولماذا، وكيفية إلغاء الاشتراك.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>المكوّنات</title>
+    <link href="https://skeletonic.com/ar/al-mukawwinat/"/>
+    <id>https://skeletonic.com/ar/al-mukawwinat/</id>
+    <updated></updated>
+    <published></published>
+    <summary>أمثلة HTML حية لكل مكوّن في Skeletonic Stylus، مجمّعة ومثبّتة ومعروضة بورقة الأنماط نفسها التي يتم عرضها.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>المساهمة</title>
+    <link href="https://skeletonic.com/ar/al-musahama/"/>
+    <id>https://skeletonic.com/ar/al-musahama/</id>
+    <updated></updated>
+    <published></published>
+    <summary>كيفية تقديم المشكلات واقتراح التغييرات وإرسال طلبات السحب إلى Skeletonic Stylus.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>شروط الاستخدام</title>
+    <link href="https://skeletonic.com/ar/al-shurut/"/>
+    <id>https://skeletonic.com/ar/al-shurut/</id>
+    <updated></updated>
+    <published></published>
+    <summary>الشروط التي تحكم استخدامك لـ skeletonic.io ومكتبة Skeletonic Stylus.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>مقاييس حجم الإطار — مقاسة وليست مسوقة</title>
+    <link href="https://skeletonic.com/ar/benchmarks/"/>
+    <id>https://skeletonic.com/ar/benchmarks/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Breakpoints — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/ar/breakpoints/"/>
+    <id>https://skeletonic.com/ar/breakpoints/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic doesn&apos;t ship the usual xs/sm/md/lg ladder. The container width adapts continuously through 38 min-width media queries from 220 px to 7680 px.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Cascade-layers — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/ar/cascade-layers/"/>
+    <id>https://skeletonic.com/ar/cascade-layers/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic ships inside @layer skeletonic so any CSS you write outside that layer wins, regardless of selector specificity. No more !important, no more order tricks.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>حول Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/ar/hawla/"/>
+    <id>https://skeletonic.com/ar/hawla/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus هي مكتبة CSS مفتوحة المصدر مبنية بـ Stylus لتنسيق واجهات مستخدم يسهل الوصول إليها، سريعة ومعيارية.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0</title>
+    <link href="https://skeletonic.com/ar/imkaniyyat-al-wusul/"/>
+    <id>https://skeletonic.com/ar/imkaniyyat-al-wusul/</id>
+    <updated></updated>
+    <published></published>
+    <summary>ما يشحنه الإصدار 2.0.0 مباشرة للتوافق مع WCAG 2.2 — حلقات التركيز، التباين، روابط التخطي، الحركة، والوضع الداكن.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>اتصل بنا</title>
+    <link href="https://skeletonic.com/ar/ittisal/"/>
+    <id>https://skeletonic.com/ar/ittisal/</id>
+    <updated></updated>
+    <published></published>
+    <summary>تواصل معنا بشأن Skeletonic Stylus — تقارير الأخطاء، أفكار الميزات، الشراكات، أو الملاحظات العامة.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>أنت غير متصل</title>
+    <link href="https://skeletonic.com/ar/offline/"/>
+    <id>https://skeletonic.com/ar/offline/</id>
+    <updated></updated>
+    <published></published>
+    <summary>لم يتمكن skeletonic.io من الوصول إلى الشبكة. الصفحة التي طلبتها لم يتم تخزينها مؤقتًا بعد.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>شكرًا!</title>
+    <link href="https://skeletonic.com/ar/shukran/"/>
+    <id>https://skeletonic.com/ar/shukran/</id>
+    <updated></updated>
+    <published></published>
+    <summary>تم إرسال رسالتك بنجاح.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>سجل التغييرات</title>
+    <link href="https://skeletonic.com/ar/sijil-al-taghyirat/"/>
+    <id>https://skeletonic.com/ar/sijil-al-taghyirat/</id>
+    <updated></updated>
+    <published></published>
+    <summary>ملاحظات الإصدار لـ Skeletonic Stylus، مع الإصدار 2.0.0 بالكامل.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Spacing — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/ar/spacing/"/>
+    <id>https://skeletonic.com/ar/spacing/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic&apos;s spacing scale uses five t-shirt-sized steps (xs / sm / md / lg / xl) derived from the golden ratio. Padding and margin utilities map to one ladder.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>الوسوم</title>
+    <link href="https://skeletonic.com/ar/tags/"/>
+    <id>https://skeletonic.com/ar/tags/</id>
+    <updated></updated>
+    <published></published>
+    <summary>تصفّح توثيق Skeletonic Stylus حسب الوسم.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Tokens — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/ar/tokens/"/>
+    <id>https://skeletonic.com/ar/tokens/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Every CSS custom property exposed by Skeletonic Stylus v2.0.0 — colours, headings, line heights, golden-ratio constants, focus ring, link colours.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Utilities — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/ar/utilities/"/>
+    <id>https://skeletonic.com/ar/utilities/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Every utility class in Skeletonic Stylus, with the equivalent HTML attribute form. Layout, flex, text, sizing, visibility, spacing — class or attribute, your choice.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Framework size benchmarks — measured, not marketed</title>
+    <link href="https://skeletonic.com/benchmarks/"/>
+    <id>https://skeletonic.com/benchmarks/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Skeletonic Stylus — অ্যাক্সেসিবল CSS, ~৭.৫ KB gzipped</title>
+    <link href="https://skeletonic.com/bn/"/>
+    <id>https://skeletonic.com/bn/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus একটি হালকা, মডুলার Stylus CSS লাইব্রেরি — WCAG 2.2 সমর্থিত, cascade-layered, ~৭.৫ KB gzipped — আধুনিক ওয়েব UI ডেভেলপমেন্টকে সহজতর করতে ডিজাইন করা হয়েছে।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>পেজ পাওয়া যায়নি</title>
+    <link href="https://skeletonic.com/bn/404/"/>
+    <id>https://skeletonic.com/bn/404/</id>
+    <updated></updated>
+    <published></published>
+    <summary>আপনি যে পেজটি অনুরোধ করেছেন সেটি skeletonic.io-তে বিদ্যমান নেই।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>অ্যানিমেশন — v2.0.0-এ prefers-reduced-motion</title>
+    <link href="https://skeletonic.com/bn/animations/"/>
+    <id>https://skeletonic.com/bn/animations/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus v2.0.0-এর সাথে শিপ করা ঐচ্ছিক অ্যানিমেশন মডিউল — bounce, pulse, fade, zoom, shake এবং আরও অনেক, সবই prefers-reduced-motion দ্বারা নিয়ন্ত্রিত।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Benchmarks — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/bn/benchmarks/"/>
+    <id>https://skeletonic.com/bn/benchmarks/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Breakpoints — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/bn/breakpoints/"/>
+    <id>https://skeletonic.com/bn/breakpoints/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic doesn&apos;t ship the usual xs/sm/md/lg ladder. The container width adapts continuously through 38 min-width media queries from 220 px to 7680 px.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Cascade-layers — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/bn/cascade-layers/"/>
+    <id>https://skeletonic.com/bn/cascade-layers/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic ships inside @layer skeletonic so any CSS you write outside that layer wins, regardless of selector specificity. No more !important, no more order tricks.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>ধন্যবাদ!</title>
+    <link href="https://skeletonic.com/bn/dhonnobad/"/>
+    <id>https://skeletonic.com/bn/dhonnobad/</id>
+    <updated></updated>
+    <published></published>
+    <summary>আপনার বার্তা সফলভাবে পাঠানো হয়েছে।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>গোপনীয়তা</title>
+    <link href="https://skeletonic.com/bn/goponioyota/"/>
+    <id>https://skeletonic.com/bn/goponioyota/</id>
+    <updated></updated>
+    <published></published>
+    <summary>skeletonic.io কী ডেটা সংগ্রহ করে, কেন এবং কীভাবে অপ্ট আউট করবেন।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>যোগাযোগ</title>
+    <link href="https://skeletonic.com/bn/jogajog/"/>
+    <id>https://skeletonic.com/bn/jogajog/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus সম্পর্কে যোগাযোগ করুন — বাগ রিপোর্ট, ফিচার ধারণা, পার্টনারশিপ বা সাধারণ মতামত।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>নিরাপত্তা ও সাপ্লাই চেইন</title>
+    <link href="https://skeletonic.com/bn/nirapotta/"/>
+    <id>https://skeletonic.com/bn/nirapotta/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus v2.0.0 কীভাবে তার বিল্ড পাইপলাইন সুরক্ষিত করে, রিলিজ স্বাক্ষর করে এবং SBOM শিপ করে।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>আপনি অফলাইনে আছেন</title>
+    <link href="https://skeletonic.com/bn/offline/"/>
+    <id>https://skeletonic.com/bn/offline/</id>
+    <updated></updated>
+    <published></published>
+    <summary>skeletonic.io নেটওয়ার্কে পৌঁছাতে পারেনি। আপনি যে পেজটি অনুরোধ করেছেন সেটি এখনও ক্যাশ হয়নি।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>পরিবর্তন তালিকা</title>
+    <link href="https://skeletonic.com/bn/poriborton-talika/"/>
+    <id>https://skeletonic.com/bn/poriborton-talika/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus-এর রিলিজ নোট, v2.0.0 সম্পূর্ণ বিবরণ সহ।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>প্রবেশাধিকার — v2.0.0-এ WCAG 2.2</title>
+    <link href="https://skeletonic.com/bn/probeshadhikar/"/>
+    <id>https://skeletonic.com/bn/probeshadhikar/</id>
+    <updated></updated>
+    <published></published>
+    <summary>WCAG 2.2 সামঞ্জস্যের জন্য v2.0.0 বাক্সের বাইরে কী শিপ করে — ফোকাস রিং, কনট্রাস্ট, স্কিপ লিংক, মোশন এবং ডার্ক মোড।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>রঙ প্যালেট</title>
+    <link href="https://skeletonic.com/bn/rong-palat/"/>
+    <id>https://skeletonic.com/bn/rong-palat/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus v2.0.0-এর সাথে শিপ করা Material, Tachyons এবং web-safe রঙ প্যালেট।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>ব্যবহারের শর্তাবলি</title>
+    <link href="https://skeletonic.com/bn/shartaboli/"/>
+    <id>https://skeletonic.com/bn/shartaboli/</id>
+    <updated></updated>
+    <published></published>
+    <summary>skeletonic.io এবং Skeletonic Stylus লাইব্রেরির ব্যবহার নিয়ন্ত্রণকারী শর্তাবলি।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Skeletonic Stylus দিয়ে শুরু করুন</title>
+    <link href="https://skeletonic.com/bn/shuru/"/>
+    <id>https://skeletonic.com/bn/shuru/</id>
+    <updated></updated>
+    <published></published>
+    <summary>npm বা CDN থেকে Skeletonic Stylus ইনস্টল করুন, আপনার Stylus বিল্ডে আমদানি করুন এবং সেকেন্ডে ভেরিয়েবল ওভাররাইড করুন।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Skeletonic Stylus সম্পর্কে</title>
+    <link href="https://skeletonic.com/bn/somporke/"/>
+    <id>https://skeletonic.com/bn/somporke/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus একটি ওপেন-সোর্স Stylus CSS লাইব্রেরি, অ্যাক্সেসিবল, দ্রুত ও মডুলার UI স্টাইলিংয়ের জন্য।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Spacing — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/bn/spacing/"/>
+    <id>https://skeletonic.com/bn/spacing/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic&apos;s spacing scale uses five t-shirt-sized steps (xs / sm / md / lg / xl) derived from the golden ratio. Padding and margin utilities map to one ladder.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>ট্যাগ</title>
+    <link href="https://skeletonic.com/bn/tags/"/>
+    <id>https://skeletonic.com/bn/tags/</id>
+    <updated></updated>
+    <published></published>
+    <summary>ট্যাগ অনুসারে Skeletonic Stylus ডকুমেন্টেশন ব্রাউজ করুন।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Tokens — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/bn/tokens/"/>
+    <id>https://skeletonic.com/bn/tokens/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Every CSS custom property exposed by Skeletonic Stylus v2.0.0 — colours, headings, line heights, golden-ratio constants, focus ring, link colours.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>উপাদান</title>
+    <link href="https://skeletonic.com/bn/upadan/"/>
+    <id>https://skeletonic.com/bn/upadan/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Skeletonic Stylus-এর প্রতিটি উপাদানের লাইভ HTML উদাহরণ, গোষ্ঠীবদ্ধ, অ্যাংকরড এবং যে স্টাইলশিট ডেমো করা হচ্ছে সেটি দিয়েই রেন্ডারড।</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+  <entry>
+    <title>Utilities — Skeletonic Stylus</title>
+    <link href="https://skeletonic.com/bn/utilities/"/>
+    <id>https://skeletonic.com/bn/utilities/</id>
+    <updated></updated>
+    <published></published>
+    <summary>Every utility class in Skeletonic Stylus, with the equivalent HTML attribute form. Layout, flex, text, sizing, visibility, spacing — class or attribute, your choice.</summary>
+    <author><name>Sebastien Rousseau</name></author>
+  </entry>
+</feed>

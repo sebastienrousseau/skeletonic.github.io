@@ -1,12 +1,14 @@
 {
-  "keywords": "css, stylus, css framework, accessible na css, wcag 2.2, magaan na css, cascade layers, design system",
-  "permalink": "https://skeletonic.io/fil/",
   "author": "Sebastien Rousseau",
-  "name": "Skeletonic Stylus",
+  "date": "2026-04-08",
+  "description": "Ang Skeletonic Stylus ay isang magaan at modular na Stylus CSS library — handa sa WCAG 2.2, cascade-layered, 7.7 KB gzipped — na idinisenyo upang gawing mas madali ang modernong web UI development.",
+  "keywords": "css, stylus, css framework, accessible na css, wcag 2.2, magaan na css, cascade layers, design system",
+  "language": "fil",
   "layout": "index",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/fil/",
+  "reading_time": 1,
   "theme_color": "hsl(210, 100%, 42%)",
   "title": "Skeletonic Stylus — Accessible na CSS, 7.7 KB gzipped",
-  "description": "Ang Skeletonic Stylus ay isang magaan at modular na Stylus CSS library — handa sa WCAG 2.2, cascade-layered, 7.7 KB gzipped — na idinisenyo upang gawing mas madali ang modernong web UI development.",
-  "language": "fil",
-  "date": "2026-04-08"
+  "word_count": 216
 }

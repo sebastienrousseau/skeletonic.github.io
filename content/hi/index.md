@@ -15,7 +15,7 @@ keywords: "css, stylus, css framework, सुलभ css, wcag 2.2, हल्क�
 Cascade-layered। शून्य JavaScript। किसी भी पेज में जोड़ें।
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Skeletonic की संरचना

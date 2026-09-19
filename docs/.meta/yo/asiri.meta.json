@@ -1,12 +1,14 @@
 {
   "author": "Sebastien Rousseau",
-  "title": "Asiri",
-  "permalink": "https://skeletonic.io/yo/asiri/",
-  "language": "yo",
-  "keywords": "asiri, gdpr, awọn kuki, ko si ilepa",
-  "name": "Skeletonic Stylus",
-  "layout": "page",
-  "description": "Data wo ni skeletonic.io gba, idi rẹ, ati bawo ni o ṣe le yọ ararẹ kuro.",
   "date": "2026-04-08",
-  "theme_color": "hsl(210, 100%, 42%)"
+  "description": "Data wo ni skeletonic.io gba, idi rẹ, ati bawo ni o ṣe le yọ ararẹ kuro.",
+  "keywords": "asiri, gdpr, awọn kuki, ko si ilepa",
+  "language": "yo",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/yo/asiri/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Asiri",
+  "word_count": 257
 }

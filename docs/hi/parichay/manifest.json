@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Skeletonic Stylus एक ओपन-सोर्स Stylus CSS लाइब्रेरी है — सुलभ, तेज़ और मॉड्यूलर UI स्टाइलिंग के लिए।",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

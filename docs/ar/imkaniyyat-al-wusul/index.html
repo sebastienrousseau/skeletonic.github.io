@@ -1,140 +1,16 @@
-&lt;div lang=&quot;en&quot;&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Translation note (2026-04-30).&lt;/strong&gt; v2.0.0 adds RTL support and a refreshed
-2026 framework comparison. The English source is the canonical reference
-while these translations catch up. See &lt;a href=&quot;https://skeletonic.io/about/&quot;&gt;https://skeletonic.io/about/&lt;/a&gt; ·
-&lt;a href=&quot;https://skeletonic.io/components/&quot;&gt;https://skeletonic.io/components/&lt;/a&gt; · &lt;a href=&quot;https://skeletonic.io/benchmarks/&quot;&gt;https://skeletonic.io/benchmarks/&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;يشحن Skeletonic Stylus الإصدار 2.0.0 التوافق مع WCAG 2.2 كسلوك
-افتراضي، وليس كمظهر اختياري.&lt;/strong&gt; هذه الصفحة توثّق ما هو مدمج
-وما هي الخلطات التي يمكنك اختيارها لتحكّم أدق.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;مباشرة&quot;&gt;
-&lt;h2&gt;ما تحصل عليه مجانًا&lt;/h2&gt;
-&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table&quot;&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;معيار WCAG 2.2&lt;/th&gt;
-&lt;th&gt;ما يفعله الإصدار 2.0.0&lt;/th&gt;
-&lt;th&gt;كيفية التحقق&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.3 التباين (الحد الأدنى) — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;تم تغميق &lt;code&gt;--cl-primary&lt;/code&gt; و&lt;code&gt;--cl-secondary&lt;/code&gt; إلى ≥ 4.5:1 مقابل الأبيض&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;أدوات المطور ← فاحص التباين&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.11 تباين غير النص — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;حدود النماذج والأزرار والشارات جميعها ≥ 3:1&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;نفسه&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.4.7 التركيز المرئي — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;كل عنصر قابل للتركيز يحتوي على حلقة &lt;code&gt;:focus-visible&lt;/code&gt; (أصفر على خلفيات داكنة، أزرق على فاتحة)&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;Tab&lt;/code&gt; عبر أي صفحة&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.4.11 التركيز غير المحجوب — AA (جديد في 2.2)&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;الترويسة الثابتة بارتفاع مخفّض + هامش تمرير التركيز&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;Tab&lt;/code&gt; بعد الترويسة الثابتة&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.5.8 حجم الهدف — AA (جديد في 2.2)&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;الأزرار / الروابط: ≥ 24×24 بكسل CSS مساحة نقر&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;نموذج الصندوق في أدوات المطور&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.12 تباعد النص — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;جميع العناصر تحترم تجاوزات line-height / letter-spacing للمستخدم&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;التجاوز في أدوات المطور&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.3.3 الحركة من التفاعلات — AAA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;جميع فئات الحركة مغلّفة في &lt;code&gt;@media (prefers-reduced-motion: no-preference)&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;تقليل الحركة على مستوى النظام&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.10 إعادة التدفق — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;التخطيط يعمل عند 320 بكسل بدون تمرير أفقي&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;نافذة ضيقة في أدوات المطور&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;الوضع الداكن&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;prefers-color-scheme: dark&lt;/code&gt; يبدّل الرموز تلقائيًا&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;تبديل الوضع الداكن في النظام&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;&lt;/div&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;الخلطات&quot;&gt;
-&lt;h2&gt;خلطات Stylus التي يمكنك اختيارها&lt;/h2&gt;
-&lt;p&gt;إذا جمّعت من المصدر، الخلطات التالية متاحة في
-&lt;code&gt;src/stylus/utilities/mixins.styl&lt;/code&gt;:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;الخلطة&lt;/th&gt;
-&lt;th&gt;الاستخدام&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;focus-ring()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;حلقة تركيز عالية التباين تحترم &lt;code&gt;:focus-visible&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;visually-hidden()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;نص لقارئات الشاشة فقط يبقى قابلًا للتركيز&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;skip-link()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;مرساة تصبح مرئية عند التركيز&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;reduced-motion()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;تغلّف أي كتلة في &lt;code&gt;prefers-reduced-motion: no-preference&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;forced-colors()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;تعديلات لوضع التباين العالي في Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;target-size(24px)&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;تضيف حشوًا لأي عنصر قابل للنقر لتحقيق حد أدنى لهدف اللمس&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;مثال:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-stylus&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#c0c5ce;&quot;&gt;// تطبيق حلقة تركيز قوية على زر مخصص
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;.my-button
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    focus-ring()
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    target-size(28px)
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;رابط التخطي&quot;&gt;
-&lt;h2&gt;مساعد رابط التخطي&lt;/h2&gt;
-&lt;p&gt;ضع هذا &lt;strong&gt;أول شيء داخل &lt;code&gt;&lt;body&gt;&lt;/code&gt;&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&lt;&lt;/span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a &lt;/span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;href&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&quot;&lt;/span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;#main-content&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&quot; &lt;/span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&quot;&lt;/span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;skip-link&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&quot;&gt;تخطي إلى المحتوى الرئيسي&lt;/&lt;/span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&gt;
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;الفئة &lt;strong&gt;ليست&lt;/strong&gt; في ورقة الأنماط الأساسية (حتى لا يزيد وزن الصفحة)؛
-هي مقتطف من 4 أسطر تكتبه بنفسك أو تستخدم خلطة &lt;code&gt;skip-link()&lt;/code&gt; المضمّنة.
-هذا الموقع يستخدمها — ركّز على الصفحة واضغط Tab لرؤيتها تظهر
-في أعلى اليسار.&lt;/p&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;التحقق&quot;&gt;
-&lt;h2&gt;التحقق من صفحاتك&lt;/h2&gt;
-&lt;p&gt;تشحن المكتبة نص &lt;code&gt;a11y-test.mjs&lt;/code&gt; تحت &lt;code&gt;scripts/&lt;/code&gt; يشغّل
-&lt;a href=&quot;https://github.com/dequelabs/axe-core&quot;&gt;axe-core&lt;/a&gt; على كل رابط تقدّمه.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#8fa1b3;&quot;&gt;node&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; scripts/a11y-test.mjs https://example.com
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;يشغّل CI هذا النص على صفحة العرض &lt;code&gt;dist/index.html&lt;/code&gt; مع كل دفع.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/ar/sijil-al-taghyirat/&quot;&gt;اقرأ عن إصدار v2.0.0 →&lt;/a&gt; ·
-&lt;a href=&quot;/ar/al-aman/&quot;&gt;انظر صفحة الأمان →&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
+<!DOCTYPE html> <html lang="ar" data-theme-mode="system"> <head> <meta charset="" /> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> <meta itemprop="datePublished" content="" id="date"> <meta itemprop="dateModified" content="" id="last-modified"> <title>إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0</title> &lt;meta name=&quot;author&quot; content=&quot;Sebastien Rousseau&quot;&gt; &lt;meta name=&quot;description&quot; content=&quot;ما يشحنه الإصدار 2.0.0 مباشرة للتوافق مع WCAG 2.2 — حلقات التركيز، التباين، روابط التخطي، الحركة، والوضع الداكن.&quot;&gt; &lt;meta name=&quot;keywords&quot; content=&quot;wcag 2.2, إمكانية الوصول, focus visible, رابط التخطي, prefers reduced motion, تباين&quot;&gt; <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net unpkg.com; connect-src 'self' https://cdn.jsdelivr.net; img-src 'self' data: https: https://cloudcdn.pro cloudcdn.pro; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; media-src 'self' https://cloudcdn.pro;" /> <link rel="alternate" href="" hreflang="" /> <link rel="preload" as="image" href="/images/banner.svg">  <link rel="icon" type="image/svg+xml" href="/images/logo.svg" /> <link rel="icon" type="image/x-icon" href="" sizes="16x16 32x32" /> <link rel="apple-touch-icon" href="https://cloudcdn.pro/cmn/v1/icons/192x192.png" sizes="192x192" /> <link rel="manifest" href="/manifest.json" /> <link rel="alternate" type="application/rss+xml" href="/rss.xml" /> <link rel="stylesheet" href="/css/skeletonic.min.css" /> <link rel="stylesheet" href="/css/skeletonic-ui.min.css" />   <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="https://skeletonic.com/atom.xml"/> <link rel="alternate" type="application/feed+json" title="JSON Feed" href="https://skeletonic.com/feed.json"/> <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"> <meta name="description" content="إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework">
+<meta property="og:title" content="إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0">
+<meta property="og:description" content="إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/images/logo.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ar">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0">
+<meta name="twitter:description" content="إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework">
+<meta name="twitter:image" content="/images/logo.svg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","description":"إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework","image":{"@type":"ImageObject","url":"/images/logo.svg"},"inLanguage":"ar","name":"إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0","url":"https://skeletonic.com/ar/imkaniyyat-al-wusul/index.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://skeletonic.com/","name":"Home","position":1},{"@type":"ListItem","item":"https://skeletonic.com/ar","name":"ar","position":2},{"@type":"ListItem","item":"https://skeletonic.com/ar/imkaniyyat-al-wusul","name":"imkaniyyat al wusul","position":3}]}</script>
+<link rel="canonical" href="https://skeletonic.com/ar/imkaniyyat-al-wusul/"><link rel="stylesheet" href="/_csp/eecebe12d767417d.css" integrity="sha384-aKxjFKaALdC93REx3G69GsQUDj/j21UCYd8sX7kdJQUpkntrp3rIn8RScYuL1hEV" crossorigin="anonymous"><link rel="stylesheet" href="/_csp/f2f5dc5a9bceaafc.css" integrity="sha384-BGvLinJ7hGuTBmAehfeznUMsDR8XvK2N0F+7fXns8xuZyCHKcPnVNfJ6v50IEgxF" crossorigin="anonymous"><link rel="sbom" type="application/vnd.cyclonedx+json" href="/sbom.cdx.json">
+</head> <body> <!-- Responsive Navbar --> <nav class="navbar" aria-label="Main Navigation"> <div class="navbar-container"> <div class="navbar-header"> <a class="navbar-brand" href="/"> <img src="/images/logo.svg" alt="" aria-hidden="true" width="32" height="32" class="d-inline-block" /> <span class="navbar-brand-text">Skeletonic Stylus</span> </a> <!-- Mobile actions (Search + Theme + Toggle) --> <div class="navbar-actions flex d-lg-none"> <button type="button" class="btn search-trigger" id="searchTriggerMobile" aria-label="Search"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> </button> <div class="theme-switcher" role="radiogroup" aria-label="Theme mode"> <button type="button" class="theme-btn" data-theme-mode="light" aria-label="Light mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> </button> <button type="button" class="theme-btn" data-theme-mode="dark" aria-label="Dark mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </button> <button type="button" class="theme-btn active" data-theme-mode="system" aria-label="System mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> </button> </div> <button type="button" class="navbar-toggle" id="navbarToggle" aria-expanded="false" aria-controls="navbarMenu" aria-label="Toggle navigation menu"> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg> </button> </div> </div> <!-- Links menu --> <div class="navbar-menu" id="navbarMenu"> <ul class="nav-list"> <li class="nav-item"><a class="nav-link" href="/about/index.html">About</a></li> <li class="nav-item nav-item-cta"><a class="btn btn-dark ms-lg-2" href="/contact/index.html">Get in touch</a></li> </ul> </div> <!-- Desktop actions --> <div class="navbar-actions d-none d-lg-flex"> <button type="button" class="btn search-trigger" id="searchTrigger" aria-label="Search"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <span>Search</span> <kbd class="search-kbd">⌘K</kbd> </button> <div class="theme-switcher" role="radiogroup" aria-label="Theme mode"> <button type="button" class="theme-btn" data-theme-mode="light" aria-label="Light mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> </button> <button type="button" class="theme-btn" data-theme-mode="dark" aria-label="Dark mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </button> <button type="button" class="theme-btn active" data-theme-mode="system" aria-label="System mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> </button> </div> </div> </div> </nav> <!-- Main Content --> <main id="main" class="content-wrapper" aria-label="Main content"> <header class="page-header text-center mb-lg"><h1 class="display-5 bold text-headline mb-md">إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0</h1></header> <div class="callout-surface text-center"> <p class="mb-0 fs-5 fw-normal"></p> </div> <div class="card-surface"> <div lang="en"><blockquote> <p><strong>Translation note (2026-04-30).</strong> v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is the canonical reference while these translations catch up. See <a href="https://skeletonic.io/about/">https://skeletonic.io/about/</a> · <a href="https://skeletonic.io/components/">https://skeletonic.io/components/</a> · <a href="https://skeletonic.io/benchmarks/">https://skeletonic.io/benchmarks/</a>.</p> </blockquote> <blockquote> <p><strong>يشحن Skeletonic Stylus الإصدار 2.0.0 التوافق مع WCAG 2.2 كسلوك افتراضي، وليس كمظهر اختياري.</strong> هذه الصفحة توثّق ما هو مدمج وما هي الخلطات التي يمكنك اختيارها لتحكّم أدق.</p> </blockquote> <hr class="hr-text" data-content="مباشرة"> <h2>ما تحصل عليه مجانًا</h2> <div class="table-responsive"><table class="table"> <thead> <tr> <th>معيار WCAG 2.2</th> <th>ما يفعله الإصدار 2.0.0</th> <th>كيفية التحقق</th> </tr> </thead> <tbody> <tr> <td class="text-left"><strong>1.4.3 التباين (الحد الأدنى) — AA</strong></td> <td class="text-left">تم تغميق &lt;code&gt;--cl-primary&lt;/code&gt; و&lt;code&gt;--cl-secondary&lt;/code&gt; إلى ≥ 4.5:1 مقابل الأبيض</td> <td class="text-left">أدوات المطور ← فاحص التباين</td> </tr> <tr> <td class="text-left"><strong>1.4.11 تباين غير النص — AA</strong></td> <td class="text-left">حدود النماذج والأزرار والشارات جميعها ≥ 3:1</td> <td class="text-left">نفسه</td> </tr> <tr> <td class="text-left"><strong>2.4.7 التركيز المرئي — AA</strong></td> <td class="text-left">كل عنصر قابل للتركيز يحتوي على حلقة &lt;code&gt;:focus-visible&lt;/code&gt; (أصفر على خلفيات داكنة، أزرق على فاتحة)</td> <td class="text-left">&lt;code&gt;Tab&lt;/code&gt; عبر أي صفحة</td> </tr> <tr> <td class="text-left"><strong>2.4.11 التركيز غير المحجوب — AA (جديد في 2.2)</strong></td> <td class="text-left">الترويسة الثابتة بارتفاع مخفّض + هامش تمرير التركيز</td> <td class="text-left">&lt;code&gt;Tab&lt;/code&gt; بعد الترويسة الثابتة</td> </tr> <tr> <td class="text-left"><strong>2.5.8 حجم الهدف — AA (جديد في 2.2)</strong></td> <td class="text-left">الأزرار / الروابط: ≥ 24×24 بكسل CSS مساحة نقر</td> <td class="text-left">نموذج الصندوق في أدوات المطور</td> </tr> <tr> <td class="text-left"><strong>1.4.12 تباعد النص — AA</strong></td> <td class="text-left">جميع العناصر تحترم تجاوزات line-height / letter-spacing للمستخدم</td> <td class="text-left">التجاوز في أدوات المطور</td> </tr> <tr> <td class="text-left"><strong>2.3.3 الحركة من التفاعلات — AAA</strong></td> <td class="text-left">جميع فئات الحركة مغلّفة في &lt;code&gt;@media (prefers-reduced-motion: no-preference)&lt;/code&gt;</td> <td class="text-left">تقليل الحركة على مستوى النظام</td> </tr> <tr> <td class="text-left"><strong>1.4.10 إعادة التدفق — AA</strong></td> <td class="text-left">التخطيط يعمل عند 320 بكسل بدون تمرير أفقي</td> <td class="text-left">نافذة ضيقة في أدوات المطور</td> </tr> <tr> <td class="text-left"><strong>الوضع الداكن</strong></td> <td class="text-left">&lt;code&gt;prefers-color-scheme: dark&lt;/code&gt; يبدّل الرموز تلقائيًا</td> <td class="text-left">تبديل الوضع الداكن في النظام</td> </tr> </tbody> </table></div> <hr class="hr-text" data-content="الخلطات"> <h2>خلطات Stylus التي يمكنك اختيارها</h2> <p>إذا جمّعت من المصدر، الخلطات التالية متاحة في &lt;code&gt;src/stylus/utilities/mixins.styl&lt;/code&gt;:</p> <div class="table-responsive"><table class="table"> <thead> <tr> <th>الخلطة</th> <th>الاستخدام</th> </tr> </thead> <tbody> <tr> <td class="text-left">&lt;code&gt;focus-ring()&lt;/code&gt;</td> <td class="text-left">حلقة تركيز عالية التباين تحترم &lt;code&gt;:focus-visible&lt;/code&gt;</td> </tr> <tr> <td class="text-left">&lt;code&gt;visually-hidden()&lt;/code&gt;</td> <td class="text-left">نص لقارئات الشاشة فقط يبقى قابلًا للتركيز</td> </tr> <tr> <td class="text-left">&lt;code&gt;skip-link()&lt;/code&gt;</td> <td class="text-left">مرساة تصبح مرئية عند التركيز</td> </tr> <tr> <td class="text-left">&lt;code&gt;reduced-motion()&lt;/code&gt;</td> <td class="text-left">تغلّف أي كتلة في &lt;code&gt;prefers-reduced-motion: no-preference&lt;/code&gt;</td> </tr> <tr> <td class="text-left">&lt;code&gt;forced-colors()&lt;/code&gt;</td> <td class="text-left">تعديلات لوضع التباين العالي في Windows</td> </tr> <tr> <td class="text-left">&lt;code&gt;target-size(24px)&lt;/code&gt;</td> <td class="text-left">تضيف حشوًا لأي عنصر قابل للنقر لتحقيق حد أدنى لهدف اللمس</td> </tr> </tbody> </table></div> <p>مثال:</p> <pre>&lt;code class=&quot;language-stylus&quot;&gt;<span class="text plain">// تطبيق حلقة تركيز قوية على زر مخصص .my-button focus-ring() target-size(28px) </span>&lt;/code&gt;&lt;/pre&gt; <hr class="hr-text" data-content="رابط التخطي"> <h2>مساعد رابط التخطي</h2> <p>ضع هذا <strong>أول شيء داخل &lt;code&gt;&lt;body&gt;&lt;/code&gt;</strong>:</p> <pre>&lt;code class=&quot;language-html&quot;&gt;<span class="text html basic"><span class="meta tag inline a html"><span class="punctuation definition tag begin html">&lt;</span><span class="entity name tag inline a html">a</span> <span class="meta attribute-with-value html"><span class="entity other attribute-name html">href</span><span class="punctuation separator key-value html">=</span></span><span class="meta attribute-with-value html"><span class="string quoted double html"><span class="punctuation definition string begin html">&quot;</span>#main-content<span class="punctuation definition string end html">&quot;</span></span></span> <span class="meta attribute-with-value class html"><span class="entity other attribute-name class html">class</span><span class="punctuation separator key-value html">=</span></span><span class="meta attribute-with-value class html"><span class="string quoted double html"><span class="punctuation definition string begin html">&quot;</span></span></span><span class="meta attribute-with-value class html"><span class="string quoted double html"><span class="meta class-name html">skip-link</span><span class="punctuation definition string end html">&quot;</span></span></span><span class="punctuation definition tag end html">&gt;</span></span>تخطي إلى المحتوى الرئيسي<span class="meta tag inline a html"><span class="punctuation definition tag begin html">&lt;/</span><span class="entity name tag inline a html">a</span><span class="punctuation definition tag end html">&gt;</span></span> </span>&lt;/code&gt;&lt;/pre&gt; <p>الفئة <strong>ليست</strong> في ورقة الأنماط الأساسية (حتى لا يزيد وزن الصفحة)؛ هي مقتطف من 4 أسطر تكتبه بنفسك أو تستخدم خلطة &lt;code&gt;skip-link()&lt;/code&gt; المضمّنة. هذا الموقع يستخدمها — ركّز على الصفحة واضغط Tab لرؤيتها تظهر في أعلى اليسار.</p> <hr class="hr-text" data-content="التحقق"> <h2>التحقق من صفحاتك</h2> <p>تشحن المكتبة نص &lt;code&gt;a11y-test.mjs&lt;/code&gt; تحت &lt;code&gt;scripts/&lt;/code&gt; يشغّل <a href="https://github.com/dequelabs/axe-core">axe-core</a> على كل رابط تقدّمه.</p> <pre>&lt;code class=&quot;language-bash&quot;&gt;<span class="source shell bash"><span class="meta function-call shell"><span class="variable function shell">node</span></span><span class="meta function-call arguments shell"> scripts/a11y-test.mjs https://example.com</span> </span>&lt;/code&gt;&lt;/pre&gt; <p>يشغّل CI هذا النص على صفحة العرض &lt;code&gt;dist/index.html&lt;/code&gt; مع كل دفع.</p> <p><a href="/ar/sijil-al-taghyirat/">اقرأ عن إصدار v2.0.0 →</a> · <a href="/ar/al-aman/">انظر صفحة الأمان →</a></p> </div> </div> <div class="card-surface text-center security-card"> <img src="/images/logo.svg" alt="Skeletonic Stylus Logo" width="120" height="120" class="mb-lg" /> <h2></h2> <p class="text-muted mx-auto" style="max-width:44rem;"></p> </div> </main> <!-- Top Anchor --> <div class="text-center py-lg"> <a href="#main" class="btn btn-outline-dark" aria-label="Back to the top">Back to the top ↑</a> </div> <!-- Footer --> <footer> <div class="container"> <div class="row gap-lg"> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">About</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/about/index.html">About us</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Legal</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/accessibility/index.html">Accessibility</a></li> <li><a href="/terms/index.html">Terms of use</a></li> <li><a href="/privacy/index.html">Privacy Policy</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Support</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/contact/index.html">Contact Us</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Follow Us</h3> <div class="flex gap-md"> <a href="https://www.youtube.com/@AkandeAI" target="_blank" rel="noopener" aria-label="YouTube (opens in a new tab)"> <img src="https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg" alt="" aria-hidden="true" width="32" height="32" /> </a> <a href="https://twitter.com/AkandeAI" target="_blank" rel="noopener" aria-label="Twitter (opens in a new tab)"> <img src="https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg" alt="" aria-hidden="true" width="32" height="32" /> </a> </div> </div> </div> <div class="text-center pt-lg mt-lg border-top text-muted" style="border-color:var(--border-hairline) !important;"> </div> </div> </footer> <!-- Search Modal Dialog (HIDDEN BY DEFAULT) --> <div id="searchModal" class="search-modal" role="dialog" aria-modal="true" aria-label="Site Search"> <div class="search-backdrop"></div> <div class="search-dialog"> <div class="search-header"> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <input type="search" id="searchInput" class="search-input" placeholder="Search pages, articles, docs..." aria-label="Search query" autocomplete="off"> <button type="button" class="search-close" id="searchClose" aria-label="Close search">✕</button> </div> <div id="searchResults" class="search-results" role="listbox"> <div class="search-empty">Type to search...</div> </div> </div> </div> <script src="/main.286174fa.js" integrity="sha384-vAdtym8cgrxiPtkVu99V1ZYrhILxNlyuq8+xQ1J3uhZkuFeWePdW3rXHN8Mt9t9G" crossorigin="anonymous" defer></script> </body> </html> 

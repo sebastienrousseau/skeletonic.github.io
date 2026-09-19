@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Skeletonic Stylus v2.0.0에 포함된 선택적 애니메이션 모듈 — bounce, pulse, fade, zoom, shake 등, 모두 prefers-reduced-motion 기반으로 제어됩니다.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

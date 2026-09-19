@@ -1,12 +1,14 @@
 {
-  "layout": "page",
-  "description": "Skeletonic Stylus je open-source knihovna CSS v preprocesoru Stylus pro pristupne, rychle a modularni stylovani rozhrani.",
   "author": "Sebastien Rousseau",
-  "title": "O projektu Skeletonic Stylus",
-  "name": "Skeletonic Stylus",
   "date": "2026-04-08",
+  "description": "Skeletonic Stylus je open-source knihovna CSS v preprocesoru Stylus pro pristupne, rychle a modularni stylovani rozhrani.",
   "keywords": "skeletonic, o projektu, stylus, css framework, filosofie",
-  "theme_color": "hsl(210, 100%, 42%)",
+  "language": "cs",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
   "permalink": "https://skeletonic.io/cs/o-projektu/",
-  "language": "cs"
+  "reading_time": 3,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "O projektu Skeletonic Stylus",
+  "word_count": 688
 }

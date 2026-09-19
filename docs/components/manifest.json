@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Live HTML examples of every Skeletonic Stylus component, grouped, anchored, and rendered with the very stylesheet being ",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

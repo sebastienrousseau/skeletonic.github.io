@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Ponte en contacto sobre Skeletonic Stylus — reportes de errores, ideas de funcionalidades, colaboraciones o comentarios ",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

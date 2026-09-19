@@ -78,26 +78,27 @@ build_locale() {
 
   echo ">>> Building $lang → $out_dir/"
 
-  # Shokunin's --config flag causes an early return that skips --output
-  # and --content CLI overrides (bug in SsgConfig::from_matches).
-  # Work around by generating a temporary config that points at the
-  # locale's content directory and output directory.
+  # --config takes a whole config rather than CLI overrides, so each
+  # locale gets a copy of ssg.toml with its own content and output
+  # directory. ssg.toml is the config that renders: config.toml points
+  # template_dir at templates/, whose tags this generator cannot resolve.
   local tmp_config
   tmp_config="$(mktemp "${TMPDIR:-/tmp}/ssg-i18n-XXXXXX.toml")"
   sed -e "s|^content_dir.*|content_dir = \"$content_dir\"|" \
       -e "s|^output_dir.*|output_dir  = \"$out_dir\"|" \
       -e "s|^language.*|language    = \"$lang\"|" \
-      config.toml > "$tmp_config"
+      ssg.toml > "$tmp_config"
 
-  ssg --config "$tmp_config" >/dev/null &
-  local ssg_pid=$!
-  for _i in $(seq 1 60); do
-    if [ -d "$out_dir" ] && ls "$out_dir"/*.html >/dev/null 2>&1; then break; fi
-    sleep 1
-  done
-  sleep 2
-  kill "$ssg_pid" 2>/dev/null || true
-  wait "$ssg_pid" 2>/dev/null || true
+  # Run it in the foreground and check that it worked. This used to be
+  # backgrounded, polled for and killed, which meant a failed build was
+  # indistinguishable from a slow one: ssg errored on every locale and
+  # the script carried on, leaving whatever was already in docs/ and
+  # reporting success.
+  if ! ssg --config "$tmp_config" >/dev/null; then
+    rm -f "$tmp_config"
+    echo "error: ssg failed building $lang" >&2
+    return 1
+  fi
   rm -f "$tmp_config"
 
   # Strip duplicates that the per-locale build re-creates but which
@@ -115,25 +116,13 @@ build_locale() {
 # ─── Phase 1: English (root) ─────────────────────────────────────────
 if [ "$BUILD_EN" -eq 1 ]; then
   echo ">>> Building en → docs/"
-  # ssg v0.0.34 auto-starts a dev server after building; run it in the
-  # background and kill once docs/ output is produced.
-  ssg --config config.toml --content content --output docs >/dev/null &
-  SSG_PID=$!
-  # Wait for the build to produce output (poll for fingerprinted CSS).
-  for _i in $(seq 1 60); do
-    if ls docs/css/*.css >/dev/null 2>&1; then break; fi
-    sleep 1
-  done
-  # SSG runs the tera_plugin in `after_compile`, AFTER css fingerprinting
-  # but BEFORE it enters the dev-server loop. Tera reads each
-  # docs/**/index.html fragment and rewrites it through templates/tera/
-  # base.html so it ends up as a full <!doctype html>…</html> document.
-  # That second pass takes a noticeable amount of time on first build
-  # (no plugin cache) — wait long enough for it to finish before
-  # killing, otherwise we ship bare content fragments.
-  sleep 30
-  kill "$SSG_PID" 2>/dev/null || true
-  wait "$SSG_PID" 2>/dev/null || true
+  # ssg.toml already declares content/ and docs/, and this generator
+  # exits when the build finishes rather than dropping into a dev
+  # server, so there is nothing to poll for or kill.
+  if ! ssg >/dev/null; then
+    echo "error: ssg failed building en" >&2
+    exit 1
+  fi
   # Prevent GitHub Pages from running Jekyll on the output.
   touch docs/.nojekyll
   # Copy static assets — shokunin v0.0.34 doesn't auto-copy static/

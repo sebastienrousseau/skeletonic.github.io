@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Como Skeletonic Stylus v2.0.0 asegura su pipeline de compilacion, firma las releases y distribuye un SBOM.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

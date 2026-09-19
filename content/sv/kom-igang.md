@@ -36,13 +36,13 @@ lokalt om du foredrar det.
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### Fran ett CDN
@@ -53,13 +53,13 @@ Om du bara behover den kompilerade CSS:en, lagg till en av dessa i din `<head>`:
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ och lagg till ett `integrity="sha384-…"`-attribut.
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Ja | Ja |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Ja | Nej |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Ja | Ja |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Ja | Nej |
 
 ### Ladda ner GitHub-releasen
 
@@ -153,7 +153,7 @@ En minimal "fungerar det?"-kontroll:
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Det fungerar.</h1>
@@ -172,7 +172,7 @@ minifierade CSS-paketen, source maps och ett komplett Stylus-trad
 organiserat efter kategori:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -211,7 +211,7 @@ halla din CSS-payload sa liten som mojligt.
 ## Vanliga fragor
 
 **Hur installerar jag Skeletonic Stylus?**
-Kor `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Eller ladda den
+Kor `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Eller ladda den
 kompilerade CSS:en direkt fran ett CDN — inget byggsteg kravs.
 
 **Kraver det JavaScript?**
@@ -240,7 +240,7 @@ projekt. Gratis for kommersiellt och personligt bruk.
       "name": "Hur installerar jag Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Kor pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Eller ladda den kompilerade CSS:en direkt fran ett CDN — inget byggsteg kravs."
+        "text": "Kor pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Eller ladda den kompilerade CSS:en direkt fran ett CDN — inget byggsteg kravs."
       }
     },
     {

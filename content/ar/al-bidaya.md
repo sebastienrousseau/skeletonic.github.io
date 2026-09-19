@@ -34,13 +34,13 @@ keywords: "تثبيت skeletonic, إعداد stylus, css cdn, البدء"
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### من CDN
@@ -51,13 +51,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -68,8 +68,8 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 
 | CDN | الرابط | HTTPS | دمج |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | نعم | نعم |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | نعم | لا |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | نعم | نعم |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | نعم | لا |
 
 ### تحميل إصدار GitHub
 
@@ -152,7 +152,7 @@ pnpm run build
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>إنها تعمل.</h1>
@@ -169,7 +169,7 @@ pnpm run build
 وخرائط المصدر، وشجرة Stylus كاملة منظّمة حسب الفئة:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -208,7 +208,7 @@ pnpm run build
 ## الأسئلة الشائعة
 
 **كيف أثبّت Skeletonic Stylus؟**
-شغّل `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. أو حمّل CSS
+شغّل `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. أو حمّل CSS
 المُجمّع مباشرة من CDN — بدون خطوة بناء مطلوبة.
 
 **هل تتطلب JavaScript؟**
@@ -237,7 +237,7 @@ pnpm run build
       "name": "كيف أثبّت Skeletonic Stylus؟",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "شغّل pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. أو حمّل CSS المُجمّع مباشرة من CDN — بدون خطوة بناء مطلوبة."
+        "text": "شغّل pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. أو حمّل CSS المُجمّع مباشرة من CDN — بدون خطوة بناء مطلوبة."
       }
     },
     {

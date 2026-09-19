@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "ติดต่อเกี่ยวกับ Skeletonic Stylus — รายงานบั๊ก แนวคิดฟีเจอร์ ความร่วมมือ หรือข้อเสนอแนะทั่วไป",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

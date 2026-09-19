@@ -1,0 +1,20 @@
+# Generated site-level configuration for skeletonic.github.io
+site_name = "Skeletonic Stylus"
+site_title = "Skeletonic Stylus | Lightweight, Modular CSS UI Framework"
+site_description = "Modern, accessible, zero-JS frontend UI components built on Stylus and clean semantic HTML."
+base_url = "https://skeletonic.com"
+language = "en-GB"
+
+content_dir = "content"
+template_dir = "_layouts"
+output_dir = "docs"
+
+[agents]
+agents_txt = true
+ai_plugin = true
+
+[agents.mcp]
+enabled = true
+
+[edge_headers]
+targets = ["netlify", "cloudflare", "vercel"]

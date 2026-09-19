@@ -8,6 +8,7 @@ date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css security, sbom, cyclonedx, npm provenance, openssf scorecard, supply chain"
+language: en-GB
 ---
 
 ## Performance
@@ -41,7 +42,7 @@ Every published tarball includes a CycloneDX SBOM at `dist/sbom.json`.
 You can verify a freshly installed package with:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -59,7 +60,7 @@ The published artefact is signed using
 You can verify it after installation with:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

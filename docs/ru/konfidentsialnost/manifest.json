@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Какие данные собирает skeletonic.io, зачем и как отказаться.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

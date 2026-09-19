@@ -36,13 +36,13 @@ fișierele de distribuție.
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### De pe un CDN
@@ -53,13 +53,13 @@ Dacă ai nevoie doar de CSS-ul compilat, adaugă una din aceste linii în `<head
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -69,8 +69,8 @@ Pentru integritate maximă, copiază **hash-ul SRI** din notele de lansare v2.0.
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Da | Da |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Da | Nu |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Da | Da |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Da | Nu |
 
 ### Descarcă versiunea de pe GitHub
 
@@ -150,7 +150,7 @@ O verificare minimă „a funcționat?":
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Funcționează.</h1>
@@ -166,7 +166,7 @@ Dacă titlul este dimensionat fluid și butonul are o formă albastră de pastil
 În interiorul pachetului vei găsi toate fișierele sursă, bundle-urile CSS compilate și minificate, source maps și un arbore Stylus complet organizat pe categorii:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -204,7 +204,7 @@ Fiecare modul este independent — include doar bundle-urile de care ai nevoie p
 ## Întrebări frecvente
 
 **Cum instalez Skeletonic Stylus?**
-Rulează `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Sau încarcă CSS-ul compilat direct de pe un CDN — fără pas de build necesar.
+Rulează `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Sau încarcă CSS-ul compilat direct de pe un CDN — fără pas de build necesar.
 
 **Necesită JavaScript?**
 Nu. Stylesheet-ul principal este CSS pur, cu zero costuri la runtime. Componentele funcționează fără o singură linie de JS.
@@ -228,7 +228,7 @@ Licență duală sub MIT și Apache 2.0 — alege pe cea potrivită proiectului 
       "name": "Cum instalez Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rulează pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Sau încarcă CSS-ul compilat direct de pe un CDN — fără pas de build necesar."
+        "text": "Rulează pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Sau încarcă CSS-ul compilat direct de pe un CDN — fără pas de build necesar."
       }
     },
     {

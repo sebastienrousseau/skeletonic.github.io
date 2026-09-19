@@ -1,7 +1,15 @@
 {
   "background_color": "#ffffff",
-  "description": "Skeletonic Stylus to lekka, modularna biblioteka CSS oparta na Stylus — zgodna z WCAG 2.2, z warstwami kaskadowymi, 8,3...",
+  "description": "Skeletonic Stylus to lekka, modularna biblioteka CSS oparta na Stylus — zgodna z WCAG 2.2, z warstwami kaskadowymi, 8,3 ",
   "display": "standalone",
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

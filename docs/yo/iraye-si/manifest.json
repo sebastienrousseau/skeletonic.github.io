@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Ohun ti v2.0.0 fi ranṣẹ lẹsẹkẹsẹ fun ibamu WCAG 2.2 — awọn oruka idojukọ, iyatọ, awọn ọna asọye, iṣipopada, ati ipo dudu",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

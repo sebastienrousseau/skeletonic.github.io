@@ -1,12 +1,14 @@
 {
-  "name": "Skeletonic Stylus",
-  "language": "fr",
-  "date": "2026-04-30",
   "author": "Sebastien Rousseau",
-  "permalink": "https://skeletonic.io/fr/cascade-layers/",
+  "date": "2026-04-30",
   "description": "Skeletonic ships inside @layer skeletonic so any CSS you write outside that layer wins, regardless of selector specificity. No more !important, no more order tricks.",
+  "keywords": "css cascade layers, @layer, css specificity, !important, override css, framework override",
+  "language": "fr",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/fr/cascade-layers/",
+  "reading_time": 1,
   "theme_color": "hsl(210, 100%, 42%)",
   "title": "Couches de cascade CSS — contrôler la cascade",
-  "layout": "page",
-  "keywords": "css cascade layers, @layer, css specificity, !important, override css, framework override"
+  "word_count": 360
 }

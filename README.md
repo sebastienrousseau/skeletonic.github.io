@@ -1,141 +1,127 @@
-# skeletonic.io
+<!-- SPDX-License-Identifier: Apache-2.0 OR MIT -->
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7df45f6a0c3b49d283ef64d9944ab7ce)](https://app.codacy.com/gh/sebastienrousseau/skeletonic.io?utm_source=github.com&utm_medium=referral&utm_content=sebastienrousseau/skeletonic.io&utm_campaign=Badge_Grade_Settings)
+<p align="center">
+  <img src="https://cloudcdn.pro/skeletonic/v1/logos/skeletonic.svg" alt="Skeletonic CSS logo" width="128" />
+</p>
 
-The official documentation and homepage for **[Skeletonic Stylus v2.0.0](https://github.com/sebastienrousseau/skeletonic-stylus)** — the accessible, modular, cascade-layered CSS library for the post-bundler web.
+<h1 align="center">Skeletonic CSS</h1>
 
-Crafted with precision, zero dependencies, and 100% native browser baselines. Served live at **[https://skeletonic.io](https://skeletonic.io)** via GitHub Pages.
+<p align="center">
+  Ultra-lightweight, modular CSS library and design system built with modern CSS custom properties and zero build steps.
+</p>
 
----
-
-## Key Highlights
-
-- **2026 CSS Baseline:** Built natively on `@layer`, OKLCH colours, CSS Grid, Container Queries, Popover API, CSS Anchor Positioning, and native View Transitions.
-- **WCAG AAA Compliance:** Engineered for maximum accessibility, featuring strict ≥ 7.0:1 contrast ratios, keyboard-scrollable code regions, focusable skip-links, and full `prefers-reduced-motion` integration.
-- **Ultra-Fast Performance:** Inlined critical CSS for sub-1s First Contentful Paint (FCP), paired with a 7.7 KB gzip (~6.7 KB Brotli) core bundle.
-- **28 Locales & Native RTL:** Complete multi-language matrix supporting 28 locales with zero-overhead Right-to-Left (`dir="rtl"`) layout flipping via CSS logical properties.
-- **Content-First SSG Pipeline:** Powered by **[Shokunin SSG](https://github.com/sebastienrousseau/shokunin) v0.0.34** (Rust) and an automated i18n post-processing build script (`scripts/build-i18n.sh`).
-
----
-
-## Repository Layout
-
-```text
-skeletonic.io/
-├── config.toml             # Shokunin SSG configuration (output_dir = "docs")
-├── content/                # Markdown source pages (en + 27 localized subdirs)
-│   ├── index.md            # / (Hero, feature matrix, quick start)
-│   ├── getting-started.md  # /getting-started/ (Installation & setup)
-│   ├── components.md       # /components/ (Complete 21-category interactive showcase)
-│   ├── palettes.md         # /palettes/ (Material, Tachyons, web-safe & OKLCH systems)
-│   ├── animations.md       # /animations/ (48 keyframe motion utilities)
-│   ├── accessibility.md    # /accessibility/ (WCAG AAA standards & RTL guidance)
-│   ├── tokens.md           # /tokens/ (Design tokens & custom properties)
-│   ├── spacing.md          # /spacing/ (Golden-ratio spacing ladder)
-│   ├── breakpoints.md      # /breakpoints/ (Responsive viewport grid scale)
-│   ├── cascade-layers.md   # /cascade-layers/ (Native @layer specification)
-│   ├── benchmarks.md       # /benchmarks/ (Framework performance comparisons)
-│   ├── utilities.md        # /utilities/ (Class and HTML attribute utility matrix)
-│   ├── changelog.md        # /changelog/ (Release history)
-│   ├── security.md         # /security/ (Security policy & SBOM)
-│   ├── contribute.md       # /contribute/ (Contribution guidelines)
-│   ├── about.md            # /about/ (Project vision & architecture)
-│   ├── contact.md          # /contact/ (Contact form page)
-│   ├── privacy.md          # /privacy/ (Privacy policy)
-│   ├── terms.md            # /terms/ (Terms of service)
-│   └── 404.md              # /404/ (Custom 404 error page)
-├── templates/tera/         # Tera HTML templates
-│   ├── base.html           # Core HTML5 skeleton & JSON-LD schemas
-│   ├── index.html          # Homepage & hero layout
-│   ├── page.html           # Generic documentation page
-│   └── contact.html        # Contact form layout
-├── static/                 # Static assets mirrored into docs/
-│   ├── css/                # Skeletonic Stylus v2.0.0 stylesheets + chrome.css + critical.css
-│   ├── js/                 # Main JavaScript (search overlay, theme & palette switchers)
-│   ├── images/             # Brand logos, icons, and social sharing banners
-│   ├── CNAME               # Custom domain configuration (skeletonic.com)
-│   ├── manifest.webmanifest# Progressive Web App manifest
-│   └── robots.txt          # Search engine crawler instructions
-├── scripts/
-│   └── build-i18n.sh       # Automated multi-locale build and HTML post-processor
-├── docs/                   # Compiled static HTML output (committed for GitHub Pages)
-└── .github/workflows/      # Automated CI workflows (build-site.yml, codeql.yml, codacy-analysis.yml)
-```
+<p align="center">
+  <a href="https://github.com/sebastienrousseau/skeletonic.github.io/actions"><img src="https://img.shields.io/github/actions/workflow/status/sebastienrousseau/skeletonic.github.io/ci.yml?style=for-the-badge&logo=github" alt="Build" /></a>
+  <a href="https://github.com/sebastienrousseau/skeletonic.github.io/releases"><img src="https://img.shields.io/github/v/release/sebastienrousseau/skeletonic.github.io?style=for-the-badge&color=fc8d62&logo=git" alt="Release" /></a>
+  <a href="https://static-site-generator.com/"><img src="https://img.shields.io/badge/SSG-0.0.56-66c2a5?style=for-the-badge&labelColor=555555&logo=rust" alt="Built with SSG" /></a>
+  <a href="https://scorecard.dev/viewer/?uri=github.com/sebastienrousseau/skeletonic.github.io"><img src="https://img.shields.io/ossf-scorecard/github.com/sebastienrousseau/skeletonic.github.io?style=for-the-badge&label=OpenSSF%20Scorecard&logo=openssf" alt="OpenSSF Scorecard" /></a>
+</p>
 
 ---
 
-## Local Development & Build
+## Contents
+
+**Getting started**
+
+- [Overview](#overview) — architecture and design principles
+- [Quick Start](#quick-start) — build and serve locally in minutes
+
+**Ecosystem & Architecture**
+
+- [Features](#features) — core capabilities and performance highlights
+- [Technology Stack](#technology-stack) — SSG, Rust, and modern web standards
+- [Accessibility & Compliance](#accessibility--compliance) — 100% WCAG 2.1 AAA and Lighthouse scores
+
+**Operational**
+
+- [Development](#development) — make targets, quality gates, and automated testing
+- [Security](#security) — Subresource Integrity (SRI) and Content Security Policy (CSP)
+- [License](#license) — dual Apache-2.0 and MIT licensing
+
+---
+
+## Overview
+
+`skeletonic.github.io` is engineered for speed, privacy, and accessibility. Built with **Static Site Generator (SSG)** and the **Skeletonic Design System**, it delivers lightning-fast static page generation, zero third-party tracking cookies, and responsive Apple Human Interface Guidelines (HIG) navigation.
+
+---
+
+## Quick Start
 
 ### Prerequisites
-Install **Shokunin (`ssg`)** v0.0.34 (Rust toolchain required):
+
+Ensure you have `ssg` installed via Cargo:
 
 ```bash
-cargo install --locked --git https://github.com/sebastienrousseau/shokunin --tag v0.0.34 ssg
+cargo install ssg
 ```
 
-### Build Everything (28 Locales)
+### Local Build & Development
 
-To build the canonical English site and all 27 localized translations with complete post-processing, run:
+Clone the repository and compile the static assets:
 
 ```bash
-bash scripts/build-i18n.sh
+git clone https://github.com/sebastienrousseau/skeletonic.github.io.git
+cd skeletonic.github.io
+
+# Compile with Static Site Generator (SSG)
+ssg build --content _posts --template _layouts --output docs
+
+# Or serve locally using Makefile
+make serve
 ```
-
-### Build English Only (Fast Rebuild)
-
-For rapid local iteration on content or styling:
-
-```bash
-ssg --config config.toml
-```
-
-### Serve Locally
-
-Serve the static output from `docs/` using any HTTP server:
-
-```bash
-python3 -m http.server 8000 --directory docs
-```
-
-Open **[http://localhost:8000](http://localhost:8000)** in your browser to inspect the build.
 
 ---
 
-## CSS Architecture & Performance
+## Features
 
-The site applies a lightweight, render-optimised stylesheet architecture:
-
-| Stylesheet | Path | Purpose |
-| :--- | :--- | :--- |
-| **Critical CSS** | Inlined into `<head>` | Above-the-fold styling for sub-1s First Contentful Paint |
-| **Core Skeletonic** | `/css/skeletonic.min.css` | Native `@layer` core components, elements, and layout |
-| **Chrome Theme** | `/css/chrome.css` | Site navigation, footer, frosted glass, & View Transitions |
-| **Animations** | `/css/skeletonic-animations.min.css` | Optional keyframe motion module (`/animations/` only) |
+- **Static Site Generator (SSG) Compilation**: High-throughput Markdown and Tera template processing with pre-rendered HTML.
+- **Apple HIG Responsive Navigation**: Sticky blur glass header with horizontal/vertical element alignment, squarcle buttons, and mobile hamburger drawer.
+- **Subresource Integrity (SRI)**: SHA-384 cryptographic hashing on all external and internal stylesheets and scripts.
+- **Content Security Policy (CSP)**: Hardened security headers restricting unvetted origins while permitting high-performance execution.
+- **Full Client Search Engine**: Instant multi-term indexing and live modal search via `search-index.json`.
+- **System Theme Auto-Detection**: Instant switching between Light, Dark, and System modes with zero visual flash.
+- **100% WCAG AAA Compliance**: High contrast ratios, full keyboard navigation, ARIA landmarks, and semantic heading hierarchies.
 
 ---
 
-## Content Frontmatter Standard
+## Technology Stack
 
-Every documentation page under `content/` incorporates standard metadata:
+| Component | Technology | Description |
+|---|---|---|
+| **Static Engine** | [Static Site Generator (SSG)](https://static-site-generator.com/) | High-speed Rust static site generator |
+| **Design Framework** | [Skeletonic CSS](https://skeletonic.io) | Minimalist, zero-dependency layout engine |
+| **Icons & Assets** | [CloudCDN](https://cloudcdn.pro) | Distributed edge CDN for SVG vector assets |
+| **Runtime** | Vanilla ECMAScript | Zero runtime framework overhead |
 
-```yaml
 ---
-title: "Components"
-name: "Skeletonic Stylus"
-description: "Live HTML examples of every Skeletonic Stylus component rendered with native CSS."
-layout: page
-permalink: https://skeletonic.io/components/
-date: 2026-07-24
-author: Sebastien Rousseau
-theme_color: "hsl(210, 100%, 42%)"
-keywords: "skeletonic components, css library, wcag aaa, oklch, popover api"
----
+
+## Development
+
+Run automated regression tests and the 10-pillar quality audit:
+
+```bash
+# Run repository regression test
+python3 scripts/regression-test.py
+
+# Run portfolio master quality gate
+make test
 ```
+
+---
+
+## Security
+
+Every deployment adheres to strict security and integrity standards:
+
+- **Zero Inline Code Execution**: All scripts are isolated and digest-verified.
+- **Cryptographic Asset Integrity**: Guaranteed Subresource Integrity via SHA-384 digests.
+- **Privacy by Default**: No user tracking, analytics cookies, or third-party fingerprinting.
 
 ---
 
 ## License
 
-Copyright © 2021 – 2026 Skeletonic CSS. All rights reserved.
+Copyright © 2024 - 2026 Sebastien Rousseau. All rights reserved.
 
-Licensed under the **[MIT License](https://opensource.org/licenses/MIT)**.
+Licensed under the Apache License, Version 2.0 or the MIT license at your option.

@@ -1,133 +1,16 @@
-&lt;div lang=&quot;en&quot;&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Translation note (2026-04-30).&lt;/strong&gt; v2.0.0 adds RTL support and a refreshed
-2026 framework comparison. The English source is the canonical reference
-while these translations catch up. See &lt;a href=&quot;https://skeletonic.io/about/&quot;&gt;https://skeletonic.io/about/&lt;/a&gt; ·
-&lt;a href=&quot;https://skeletonic.io/components/&quot;&gt;https://skeletonic.io/components/&lt;/a&gt; · &lt;a href=&quot;https://skeletonic.io/benchmarks/&quot;&gt;https://skeletonic.io/benchmarks/&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Skeletonic Stylus v2.0.0 將 WCAG 2.2 合規性作為預設行為，而非可選主題。&lt;/strong&gt; 本頁記錄了內建功能以及可選啟用的 mixin。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;開箱即用&quot;&gt;
-&lt;h2&gt;免費獲得的功能&lt;/h2&gt;
-&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table&quot;&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;WCAG 2.2 成功準則&lt;/th&gt;
-&lt;th&gt;v2.0.0 的做法&lt;/th&gt;
-&lt;th&gt;驗證方式&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.3 對比度（最低）— AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;--cl-primary&lt;/code&gt; 和 &lt;code&gt;--cl-secondary&lt;/code&gt; 加深至白色背景上 ≥ 4.5:1&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;開發者工具 → 對比度檢查器&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.11 非文字對比度 — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;表單邊框、按鈕、徽章均 ≥ 3:1&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;同上&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.4.7 焦點可見 — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;每個可聚焦元素均有 &lt;code&gt;:focus-visible&lt;/code&gt; 焦點環（深色背景為黃色，淺色背景為藍色）&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;在任意頁面按 &lt;code&gt;Tab&lt;/code&gt; 鍵&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.4.11 焦點不被遮蔽 — AA（2.2 新增）&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;固定頁首高度縮減 + 焦點 scroll-margin&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;按 &lt;code&gt;Tab&lt;/code&gt; 鍵越過固定頁首&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.5.8 目標大小 — AA（2.2 新增）&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;按鈕/連結：≥ 24×24 CSS px 點擊區域&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;開發者工具盒模型&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.12 文字間距 — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;所有元素支援使用者自訂的 line-height / letter-spacing&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;在開發者工具中覆寫&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.3.3 互動動畫 — AAA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;所有動畫類別包裹在 &lt;code&gt;@media (prefers-reduced-motion: no-preference)&lt;/code&gt; 中&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;作業系統級減少動態效果&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.10 內容重排 — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;版面在 320 px 寬度下無水平捲動&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;開發者工具窄視窗&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;深色模式&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;prefers-color-scheme: dark&lt;/code&gt; 自動切換 token&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;作業系統深色模式切換&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;&lt;/div&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;Mixins&quot;&gt;
-&lt;h2&gt;可選啟用的 Stylus mixins&lt;/h2&gt;
-&lt;p&gt;如果您從原始碼編譯，以下 mixin 可在 &lt;code&gt;src/stylus/utilities/mixins.styl&lt;/code&gt; 中使用：&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Mixin&lt;/th&gt;
-&lt;th&gt;用途&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;focus-ring()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;支援 &lt;code&gt;:focus-visible&lt;/code&gt; 的高對比度焦點環&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;visually-hidden()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;僅供螢幕閱讀器的文字，保持可聚焦&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;skip-link()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;聚焦時可見的錨點&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;reduced-motion()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;將任意區塊包裹在 &lt;code&gt;prefers-reduced-motion: no-preference&lt;/code&gt; 中&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;forced-colors()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;針對 Windows 高對比模式的調整&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;target-size(24px)&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;將任何可點擊元素填充至最小觸控目標&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;範例：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-stylus&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#c0c5ce;&quot;&gt;// 在自訂按鈕上應用強焦點環
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;.my-button
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    focus-ring()
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    target-size(28px)
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;跳轉連結&quot;&gt;
-&lt;h2&gt;跳轉連結輔助&lt;/h2&gt;
-&lt;p&gt;將以下程式碼放在 &lt;strong&gt;&lt;code&gt;&lt;body&gt;&lt;/code&gt; 內的第一個位置&lt;/strong&gt;：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&lt;&lt;/span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a &lt;/span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;href&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&quot;&lt;/span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;#main-content&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&quot; &lt;/span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&quot;&lt;/span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;skip-link&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&quot;&gt;跳至主要內容&lt;/&lt;/span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&gt;
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;此類別&lt;strong&gt;不在&lt;/strong&gt;核心樣式表中（因此頁面大小不會增加）；它是一個 4 行的片段，您可以自行編寫或使用內建的 &lt;code&gt;skip-link()&lt;/code&gt; mixin。本站即使用了它——聚焦頁面並按 Tab 鍵即可看到它出現在左上角。&lt;/p&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;驗證&quot;&gt;
-&lt;h2&gt;驗證您自己的頁面&lt;/h2&gt;
-&lt;p&gt;函式庫在 &lt;code&gt;scripts/&lt;/code&gt; 下隨附一個 &lt;code&gt;a11y-test.mjs&lt;/code&gt; 腳本，可對您提供的每個 URL 執行 &lt;a href=&quot;https://github.com/dequelabs/axe-core&quot;&gt;axe-core&lt;/a&gt;。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#8fa1b3;&quot;&gt;node&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; scripts/a11y-test.mjs https://example.com
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;CI 在每次推送時都會對 &lt;code&gt;dist/index.html&lt;/code&gt; 展示頁面執行此腳本。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/zh-hant/geng-xin-ri-zhi/&quot;&gt;閱讀 v2.0.0 發行說明 →&lt;/a&gt; ·
-&lt;a href=&quot;/zh-hant/an-quan/&quot;&gt;查看安全頁面 →&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
+<!DOCTYPE html> <html lang="zh-hant" data-theme-mode="system"> <head> <meta charset="" /> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> <meta itemprop="datePublished" content="" id="date"> <meta itemprop="dateModified" content="" id="last-modified"> <title>無障礙——v2.0.0 中的 WCAG 2.2</title> &lt;meta name=&quot;author&quot; content=&quot;Sebastien Rousseau&quot;&gt; &lt;meta name=&quot;description&quot; content=&quot;v2.0.0 為 WCAG 2.2 合規性開箱即用的功能——焦點環、對比度、跳轉連結、動效與深色模式。&quot;&gt; &lt;meta name=&quot;keywords&quot; content=&quot;wcag 2.2, 無障礙, focus visible, 跳轉連結, prefers reduced motion, 對比度&quot;&gt; <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net unpkg.com; connect-src 'self' https://cdn.jsdelivr.net; img-src 'self' data: https: https://cloudcdn.pro cloudcdn.pro; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; media-src 'self' https://cloudcdn.pro;" /> <link rel="alternate" href="" hreflang="" /> <link rel="preload" as="image" href="/images/banner.svg">  <link rel="icon" type="image/svg+xml" href="/images/logo.svg" /> <link rel="icon" type="image/x-icon" href="" sizes="16x16 32x32" /> <link rel="apple-touch-icon" href="https://cloudcdn.pro/cmn/v1/icons/192x192.png" sizes="192x192" /> <link rel="manifest" href="/manifest.json" /> <link rel="alternate" type="application/rss+xml" href="/rss.xml" /> <link rel="stylesheet" href="/css/skeletonic.min.css" /> <link rel="stylesheet" href="/css/skeletonic-ui.min.css" />   <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="https://skeletonic.com/atom.xml"/> <link rel="alternate" type="application/feed+json" title="JSON Feed" href="https://skeletonic.com/feed.json"/> <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"> <meta name="description" content="無障礙——v2.0.0 中的 WCAG 2.2 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is">
+<meta property="og:title" content="無障礙——v2.0.0 中的 WCAG 2.2">
+<meta property="og:description" content="無障礙——v2.0.0 中的 WCAG 2.2 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/images/logo.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_Hant">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="無障礙——v2.0.0 中的 WCAG 2.2">
+<meta name="twitter:description" content="無障礙——v2.0.0 中的 WCAG 2.2 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is">
+<meta name="twitter:image" content="/images/logo.svg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","description":"無障礙——v2.0.0 中的 WCAG 2.2 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is","image":{"@type":"ImageObject","url":"/images/logo.svg"},"inLanguage":"zh-Hant","name":"無障礙——v2.0.0 中的 WCAG 2.2","url":"https://skeletonic.com/zh-hant/wu-zhang-ai/index.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://skeletonic.com/","name":"Home","position":1},{"@type":"ListItem","item":"https://skeletonic.com/zh-hant","name":"zh hant","position":2},{"@type":"ListItem","item":"https://skeletonic.com/zh-hant/wu-zhang-ai","name":"wu zhang ai","position":3}]}</script>
+<link rel="canonical" href="https://skeletonic.com/zh-hant/wu-zhang-ai/"><link rel="stylesheet" href="/_csp/eecebe12d767417d.css" integrity="sha384-aKxjFKaALdC93REx3G69GsQUDj/j21UCYd8sX7kdJQUpkntrp3rIn8RScYuL1hEV" crossorigin="anonymous"><link rel="stylesheet" href="/_csp/f2f5dc5a9bceaafc.css" integrity="sha384-BGvLinJ7hGuTBmAehfeznUMsDR8XvK2N0F+7fXns8xuZyCHKcPnVNfJ6v50IEgxF" crossorigin="anonymous"><link rel="sbom" type="application/vnd.cyclonedx+json" href="/sbom.cdx.json">
+</head> <body> <!-- Responsive Navbar --> <nav class="navbar" aria-label="Main Navigation"> <div class="navbar-container"> <div class="navbar-header"> <a class="navbar-brand" href="/"> <img src="/images/logo.svg" alt="" aria-hidden="true" width="32" height="32" class="d-inline-block" /> <span class="navbar-brand-text">Skeletonic Stylus</span> </a> <!-- Mobile actions (Search + Theme + Toggle) --> <div class="navbar-actions flex d-lg-none"> <button type="button" class="btn search-trigger" id="searchTriggerMobile" aria-label="Search"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> </button> <div class="theme-switcher" role="radiogroup" aria-label="Theme mode"> <button type="button" class="theme-btn" data-theme-mode="light" aria-label="Light mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> </button> <button type="button" class="theme-btn" data-theme-mode="dark" aria-label="Dark mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </button> <button type="button" class="theme-btn active" data-theme-mode="system" aria-label="System mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> </button> </div> <button type="button" class="navbar-toggle" id="navbarToggle" aria-expanded="false" aria-controls="navbarMenu" aria-label="Toggle navigation menu"> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg> </button> </div> </div> <!-- Links menu --> <div class="navbar-menu" id="navbarMenu"> <ul class="nav-list"> <li class="nav-item"><a class="nav-link" href="/about/index.html">About</a></li> <li class="nav-item nav-item-cta"><a class="btn btn-dark ms-lg-2" href="/contact/index.html">Get in touch</a></li> </ul> </div> <!-- Desktop actions --> <div class="navbar-actions d-none d-lg-flex"> <button type="button" class="btn search-trigger" id="searchTrigger" aria-label="Search"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <span>Search</span> <kbd class="search-kbd">⌘K</kbd> </button> <div class="theme-switcher" role="radiogroup" aria-label="Theme mode"> <button type="button" class="theme-btn" data-theme-mode="light" aria-label="Light mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> </button> <button type="button" class="theme-btn" data-theme-mode="dark" aria-label="Dark mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </button> <button type="button" class="theme-btn active" data-theme-mode="system" aria-label="System mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> </button> </div> </div> </div> </nav> <!-- Main Content --> <main id="main" class="content-wrapper" aria-label="Main content"> <header class="page-header text-center mb-lg"><h1 class="display-5 bold text-headline mb-md">無障礙——v2.0.0 中的 WCAG 2.2</h1></header> <div class="callout-surface text-center"> <p class="mb-0 fs-5 fw-normal"></p> </div> <div class="card-surface"> <div lang="en"><blockquote> <p><strong>Translation note (2026-04-30).</strong> v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is the canonical reference while these translations catch up. See <a href="https://skeletonic.io/about/">https://skeletonic.io/about/</a> · <a href="https://skeletonic.io/components/">https://skeletonic.io/components/</a> · <a href="https://skeletonic.io/benchmarks/">https://skeletonic.io/benchmarks/</a>.</p> </blockquote> <blockquote> <p><strong>Skeletonic Stylus v2.0.0 將 WCAG 2.2 合規性作為預設行為，而非可選主題。</strong> 本頁記錄了內建功能以及可選啟用的 mixin。</p> </blockquote> <hr class="hr-text" data-content="開箱即用"> <h2>免費獲得的功能</h2> <div class="table-responsive"><table class="table"> <thead> <tr> <th>WCAG 2.2 成功準則</th> <th>v2.0.0 的做法</th> <th>驗證方式</th> </tr> </thead> <tbody> <tr> <td class="text-left"><strong>1.4.3 對比度（最低）— AA</strong></td> <td class="text-left">&lt;code&gt;--cl-primary&lt;/code&gt; 和 &lt;code&gt;--cl-secondary&lt;/code&gt; 加深至白色背景上 ≥ 4.5:1</td> <td class="text-left">開發者工具 → 對比度檢查器</td> </tr> <tr> <td class="text-left"><strong>1.4.11 非文字對比度 — AA</strong></td> <td class="text-left">表單邊框、按鈕、徽章均 ≥ 3:1</td> <td class="text-left">同上</td> </tr> <tr> <td class="text-left"><strong>2.4.7 焦點可見 — AA</strong></td> <td class="text-left">每個可聚焦元素均有 &lt;code&gt;:focus-visible&lt;/code&gt; 焦點環（深色背景為黃色，淺色背景為藍色）</td> <td class="text-left">在任意頁面按 &lt;code&gt;Tab&lt;/code&gt; 鍵</td> </tr> <tr> <td class="text-left"><strong>2.4.11 焦點不被遮蔽 — AA（2.2 新增）</strong></td> <td class="text-left">固定頁首高度縮減 + 焦點 scroll-margin</td> <td class="text-left">按 &lt;code&gt;Tab&lt;/code&gt; 鍵越過固定頁首</td> </tr> <tr> <td class="text-left"><strong>2.5.8 目標大小 — AA（2.2 新增）</strong></td> <td class="text-left">按鈕/連結：≥ 24×24 CSS px 點擊區域</td> <td class="text-left">開發者工具盒模型</td> </tr> <tr> <td class="text-left"><strong>1.4.12 文字間距 — AA</strong></td> <td class="text-left">所有元素支援使用者自訂的 line-height / letter-spacing</td> <td class="text-left">在開發者工具中覆寫</td> </tr> <tr> <td class="text-left"><strong>2.3.3 互動動畫 — AAA</strong></td> <td class="text-left">所有動畫類別包裹在 &lt;code&gt;@media (prefers-reduced-motion: no-preference)&lt;/code&gt; 中</td> <td class="text-left">作業系統級減少動態效果</td> </tr> <tr> <td class="text-left"><strong>1.4.10 內容重排 — AA</strong></td> <td class="text-left">版面在 320 px 寬度下無水平捲動</td> <td class="text-left">開發者工具窄視窗</td> </tr> <tr> <td class="text-left"><strong>深色模式</strong></td> <td class="text-left">&lt;code&gt;prefers-color-scheme: dark&lt;/code&gt; 自動切換 token</td> <td class="text-left">作業系統深色模式切換</td> </tr> </tbody> </table></div> <hr class="hr-text" data-content="Mixins"> <h2>可選啟用的 Stylus mixins</h2> <p>如果您從原始碼編譯，以下 mixin 可在 &lt;code&gt;src/stylus/utilities/mixins.styl&lt;/code&gt; 中使用：</p> <div class="table-responsive"><table class="table"> <thead> <tr> <th>Mixin</th> <th>用途</th> </tr> </thead> <tbody> <tr> <td class="text-left">&lt;code&gt;focus-ring()&lt;/code&gt;</td> <td class="text-left">支援 &lt;code&gt;:focus-visible&lt;/code&gt; 的高對比度焦點環</td> </tr> <tr> <td class="text-left">&lt;code&gt;visually-hidden()&lt;/code&gt;</td> <td class="text-left">僅供螢幕閱讀器的文字，保持可聚焦</td> </tr> <tr> <td class="text-left">&lt;code&gt;skip-link()&lt;/code&gt;</td> <td class="text-left">聚焦時可見的錨點</td> </tr> <tr> <td class="text-left">&lt;code&gt;reduced-motion()&lt;/code&gt;</td> <td class="text-left">將任意區塊包裹在 &lt;code&gt;prefers-reduced-motion: no-preference&lt;/code&gt; 中</td> </tr> <tr> <td class="text-left">&lt;code&gt;forced-colors()&lt;/code&gt;</td> <td class="text-left">針對 Windows 高對比模式的調整</td> </tr> <tr> <td class="text-left">&lt;code&gt;target-size(24px)&lt;/code&gt;</td> <td class="text-left">將任何可點擊元素填充至最小觸控目標</td> </tr> </tbody> </table></div> <p>範例：</p> <pre>&lt;code class=&quot;language-stylus&quot;&gt;<span class="text plain">// 在自訂按鈕上應用強焦點環 .my-button focus-ring() target-size(28px) </span>&lt;/code&gt;&lt;/pre&gt; <hr class="hr-text" data-content="跳轉連結"> <h2>跳轉連結輔助</h2> <p>將以下程式碼放在 <strong>&lt;code&gt;&lt;body&gt;&lt;/code&gt; 內的第一個位置</strong>：</p> <pre>&lt;code class=&quot;language-html&quot;&gt;<span class="text html basic"><span class="meta tag inline a html"><span class="punctuation definition tag begin html">&lt;</span><span class="entity name tag inline a html">a</span> <span class="meta attribute-with-value html"><span class="entity other attribute-name html">href</span><span class="punctuation separator key-value html">=</span></span><span class="meta attribute-with-value html"><span class="string quoted double html"><span class="punctuation definition string begin html">&quot;</span>#main-content<span class="punctuation definition string end html">&quot;</span></span></span> <span class="meta attribute-with-value class html"><span class="entity other attribute-name class html">class</span><span class="punctuation separator key-value html">=</span></span><span class="meta attribute-with-value class html"><span class="string quoted double html"><span class="punctuation definition string begin html">&quot;</span></span></span><span class="meta attribute-with-value class html"><span class="string quoted double html"><span class="meta class-name html">skip-link</span><span class="punctuation definition string end html">&quot;</span></span></span><span class="punctuation definition tag end html">&gt;</span></span>跳至主要內容<span class="meta tag inline a html"><span class="punctuation definition tag begin html">&lt;/</span><span class="entity name tag inline a html">a</span><span class="punctuation definition tag end html">&gt;</span></span> </span>&lt;/code&gt;&lt;/pre&gt; <p>此類別<strong>不在</strong>核心樣式表中（因此頁面大小不會增加）；它是一個 4 行的片段，您可以自行編寫或使用內建的 &lt;code&gt;skip-link()&lt;/code&gt; mixin。本站即使用了它——聚焦頁面並按 Tab 鍵即可看到它出現在左上角。</p> <hr class="hr-text" data-content="驗證"> <h2>驗證您自己的頁面</h2> <p>函式庫在 &lt;code&gt;scripts/&lt;/code&gt; 下隨附一個 &lt;code&gt;a11y-test.mjs&lt;/code&gt; 腳本，可對您提供的每個 URL 執行 <a href="https://github.com/dequelabs/axe-core">axe-core</a>。</p> <pre>&lt;code class=&quot;language-bash&quot;&gt;<span class="source shell bash"><span class="meta function-call shell"><span class="variable function shell">node</span></span><span class="meta function-call arguments shell"> scripts/a11y-test.mjs https://example.com</span> </span>&lt;/code&gt;&lt;/pre&gt; <p>CI 在每次推送時都會對 &lt;code&gt;dist/index.html&lt;/code&gt; 展示頁面執行此腳本。</p> <p><a href="/zh-hant/geng-xin-ri-zhi/">閱讀 v2.0.0 發行說明 →</a> · <a href="/zh-hant/an-quan/">查看安全頁面 →</a></p> </div> </div> <div class="card-surface text-center security-card"> <img src="/images/logo.svg" alt="Skeletonic Stylus Logo" width="120" height="120" class="mb-lg" /> <h2></h2> <p class="text-muted mx-auto" style="max-width:44rem;"></p> </div> </main> <!-- Top Anchor --> <div class="text-center py-lg"> <a href="#main" class="btn btn-outline-dark" aria-label="Back to the top">Back to the top ↑</a> </div> <!-- Footer --> <footer> <div class="container"> <div class="row gap-lg"> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">About</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/about/index.html">About us</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Legal</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/accessibility/index.html">Accessibility</a></li> <li><a href="/terms/index.html">Terms of use</a></li> <li><a href="/privacy/index.html">Privacy Policy</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Support</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/contact/index.html">Contact Us</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Follow Us</h3> <div class="flex gap-md"> <a href="https://www.youtube.com/@AkandeAI" target="_blank" rel="noopener" aria-label="YouTube (opens in a new tab)"> <img src="https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg" alt="" aria-hidden="true" width="32" height="32" /> </a> <a href="https://twitter.com/AkandeAI" target="_blank" rel="noopener" aria-label="Twitter (opens in a new tab)"> <img src="https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg" alt="" aria-hidden="true" width="32" height="32" /> </a> </div> </div> </div> <div class="text-center pt-lg mt-lg border-top text-muted" style="border-color:var(--border-hairline) !important;"> </div> </div> </footer> <!-- Search Modal Dialog (HIDDEN BY DEFAULT) --> <div id="searchModal" class="search-modal" role="dialog" aria-modal="true" aria-label="Site Search"> <div class="search-backdrop"></div> <div class="search-dialog"> <div class="search-header"> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <input type="search" id="searchInput" class="search-input" placeholder="Search pages, articles, docs..." aria-label="Search query" autocomplete="off"> <button type="button" class="search-close" id="searchClose" aria-label="Close search">✕</button> </div> <div id="searchResults" class="search-results" role="listbox"> <div class="search-empty">Type to search...</div> </div> </div> </div> <script src="/main.286174fa.js" integrity="sha384-vAdtym8cgrxiPtkVu99V1ZYrhILxNlyuq8+xQ1J3uhZkuFeWePdW3rXHN8Mt9t9G" crossorigin="anonymous" defer></script> </body> </html> 

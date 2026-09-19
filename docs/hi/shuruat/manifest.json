@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Skeletonic Stylus को npm या CDN से इंस्टॉल करें, अपने Stylus बिल्ड में इम्पोर्ट करें, और सेकंडों में वेरिएबल ओवरराइड करे",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

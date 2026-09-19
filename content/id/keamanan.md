@@ -40,7 +40,7 @@ Performa adalah kontrol keamanan. Setiap byte yang tidak dikirimkan adalah satu 
 Setiap tarball yang dipublikasikan menyertakan CycloneDX SBOM di `dist/sbom.json`. Anda dapat memverifikasi paket yang baru diinstal dengan:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -58,7 +58,7 @@ Artefak yang dipublikasikan ditandatangani menggunakan
 Anda dapat memverifikasinya setelah instalasi dengan:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

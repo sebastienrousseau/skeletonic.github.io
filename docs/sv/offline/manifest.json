@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "skeletonic.io kunde inte na natverket. Sidan du begarde har inte cachelagrats annu.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

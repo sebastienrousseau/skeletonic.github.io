@@ -1,1 +1,410 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Skeletonic Stylus 2.0 — Modern CSS, 7.7 KB gzip</title><link>https://skeletonic.io/</link><description>Skeletonic Stylus 2.0 — OKLCH colours, native @layer, CSS Grid, container queries, view transitions. Class-based, JS-free, WCAG 2.2 AA, 7.7 KB gzip / 6.7 KB brotli.</description><item></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skeletonic Stylus 2.0 — Modern CSS, 7.7 KB gzip</title>
+    <link>https://skeletonic.io/</link>
+    <description>Skeletonic Stylus 2.0 — OKLCH colours, native @layer, CSS Grid, container queries, view transitions. Class-based, JS-free, WCAG 2.2 AA, 7.7 KB gzip / 6.7 KB brotli.</description>
+    <atom:link href="https://skeletonic.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <item>
+      <title>A ko ri oju-iwe</title>
+      <link>https://skeletonic.com/yo/404/</link>
+      <description>Oju-iwe ti o beere ko si lori skeletonic.io.</description>
+      <guid isPermaLink="true">https://skeletonic.com/yo/404/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Aabo &amp; ẹwọn ipese</title>
+      <link>https://skeletonic.com/yo/aabo/</link>
+      <description>Bawo ni Skeletonic Stylus v2.0.0 ṣe ni aabo fun opo ikọ rẹ, fọwọsi awọn itusilẹ, ati fi SBOM ranṣẹ.</description>
+      <guid isPermaLink="true">https://skeletonic.com/yo/aabo/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Aan de slag met Skeletonic Stylus</title>
+      <link>https://skeletonic.com/nl/aan-de-slag/</link>
+      <description>Installeer Skeletonic Stylus via npm of een CDN, importeer het in je Stylus-build en overschrijf variabelen in seconden.</description>
+      <guid isPermaLink="true">https://skeletonic.com/nl/aan-de-slag/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>About Skeletonic Stylus</title>
+      <link>https://skeletonic.com/about/</link>
+      <description>Skeletonic Stylus is an open-source Stylus CSS library for accessible, fast, modular UI styling.</description>
+      <guid isPermaLink="true">https://skeletonic.com/about/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Abubuwan Hadi</title>
+      <link>https://skeletonic.com/ha/abubuwan-hadi/</link>
+      <description>Misalan HTML masu rai na kowane abun hadi na Skeletonic Stylus, an haɗa su, an sanya masu maƙala, kuma an nuna su da stylesheet ɗin da ake nunawa.</description>
+      <guid isPermaLink="true">https://skeletonic.com/ha/abubuwan-hadi/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Accesibilidad — WCAG 2.2 en v2.0.0</title>
+      <link>https://skeletonic.com/es/accesibilidad/</link>
+      <description>Lo que v2.0.0 incluye de serie para la conformidad con WCAG 2.2 — anillos de enfoque, contraste, skip links, movimiento y modo oscuro.</description>
+      <guid isPermaLink="true">https://skeletonic.com/es/accesibilidad/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Accesibilitate — WCAG 2.2 în v2.0.0</title>
+      <link>https://skeletonic.com/ro/accesibilitate/</link>
+      <description>Ce livrează v2.0.0 implicit pentru conformitatea WCAG 2.2 — inele de focus, contrast, skip links, mișcare și mod întunecat.</description>
+      <guid isPermaLink="true">https://skeletonic.com/ro/accesibilitate/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Accessibilita — WCAG 2.2 nella v2.0.0</title>
+      <link>https://skeletonic.com/it/accessibilita/</link>
+      <description>Cosa include la v2.0.0 per la conformita WCAG 2.2 — anelli di focus, contrasto, skip link, movimento e modalita scura.</description>
+      <guid isPermaLink="true">https://skeletonic.com/it/accessibilita/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Accessibility — WCAG 2.2 in v2.0.0</title>
+      <link>https://skeletonic.com/accessibility/</link>
+      <description>What v2.0.0 ships out of the box for WCAG 2.2 conformance — focus rings, contrast, skip links, motion, and dark mode.</description>
+      <guid isPermaLink="true">https://skeletonic.com/accessibility/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Accessibilité — WCAG 2.2 dans la v2.0.0</title>
+      <link>https://skeletonic.com/fr/accessibilite/</link>
+      <description>Ce que la v2.0.0 propose nativement pour la conformité WCAG 2.2 — anneaux de focus, contraste, liens d&apos;évitement, mouvement et mode sombre.</description>
+      <guid isPermaLink="true">https://skeletonic.com/fr/accessibilite/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Acerca de Skeletonic Stylus</title>
+      <link>https://skeletonic.com/es/acerca-de/</link>
+      <description>Skeletonic Stylus es una biblioteca CSS Stylus de codigo abierto para un estilizado de interfaces accesible, rapido y modular.</description>
+      <guid isPermaLink="true">https://skeletonic.com/es/acerca-de/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Acessibilidade — WCAG 2.2 na v2.0.0</title>
+      <link>https://skeletonic.com/pt-br/acessibilidade/</link>
+      <description>O que a v2.0.0 entrega por padrao para conformidade com WCAG 2.2 — aneis de foco, contraste, skip links, movimento e modo escuro.</description>
+      <guid isPermaLink="true">https://skeletonic.com/pt-br/acessibilidade/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Aksesibilidad — WCAG 2.2 sa v2.0.0</title>
+      <link>https://skeletonic.com/fil/aksesibilidad/</link>
+      <description>Ano ang ipinapadala ng v2.0.0 agad mula sa kahon para sa WCAG 2.2 conformance — focus ring, contrast, skip link, motion, at dark mode.</description>
+      <guid isPermaLink="true">https://skeletonic.com/fil/aksesibilidad/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Aksesibilitas — WCAG 2.2 di v2.0.0</title>
+      <link>https://skeletonic.com/id/aksesibilitas/</link>
+      <description>Apa yang disertakan v2.0.0 secara bawaan untuk kesesuaian WCAG 2.2 — cincin fokus, kontras, skip link, gerakan, dan mode gelap.</description>
+      <guid isPermaLink="true">https://skeletonic.com/id/aksesibilitas/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Alamomi</title>
+      <link>https://skeletonic.com/ha/tags/</link>
+      <description>Bincika takardun Skeletonic Stylus ta hanyar alama.</description>
+      <guid isPermaLink="true">https://skeletonic.com/ha/tags/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Anda sedang offline</title>
+      <link>https://skeletonic.com/id/offline/</link>
+      <description>skeletonic.io tidak dapat terhubung ke jaringan. Halaman yang Anda minta belum di-cache.</description>
+      <guid isPermaLink="true">https://skeletonic.com/id/offline/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Andringslogg</title>
+      <link>https://skeletonic.com/sv/andringslogg/</link>
+      <description>Releaseanteckningar for Skeletonic Stylus, med v2.0.0 i sin helhet.</description>
+      <guid isPermaLink="true">https://skeletonic.com/sv/andringslogg/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animace — Skeletonic Stylus</title>
+      <link>https://skeletonic.com/cs/animace/</link>
+      <description>Volitelny modul animaci dodavany se Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake a dalsi, vse za prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/cs/animace/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animaciones</title>
+      <link>https://skeletonic.com/es/animaciones/</link>
+      <description>Modulo de animaciones opcional incluido en Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake y mas, todo protegido tras prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/es/animaciones/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animacje</title>
+      <link>https://skeletonic.com/pl/animacje/</link>
+      <description>Opcjonalny modul animacji dostarczany z Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake i inne, wszystkie za prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/pl/animacje/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animacoes</title>
+      <link>https://skeletonic.com/pt-br/animacoes/</link>
+      <description>Modulo de animacoes opcional incluido no Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake e outros, todos protegidos por prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/pt-br/animacoes/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animasi</title>
+      <link>https://skeletonic.com/id/animasi/</link>
+      <description>Modul animasi opsional yang disertakan dengan Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake, dan lainnya, semuanya di belakang prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/id/animasi/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animasyonlar — Skeletonic Stylus</title>
+      <link>https://skeletonic.com/tr/animasyonlar/</link>
+      <description>Skeletonic Stylus v2.0.0 ile gelen istege bagli animasyonlar modulu — bounce, pulse, fade, zoom, shake ve digerleri, tamami prefers-reduced-motion arkasinda.</description>
+      <guid isPermaLink="true">https://skeletonic.com/tr/animasyonlar/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animaties</title>
+      <link>https://skeletonic.com/nl/animaties/</link>
+      <description>Optionele animatiemodule geleverd met Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake en meer, allemaal achter prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/nl/animaties/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animationen</title>
+      <link>https://skeletonic.com/de/animationen/</link>
+      <description>Optionales Animationsmodul in Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake und mehr, alles hinter prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/de/animationen/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animationer</title>
+      <link>https://skeletonic.com/sv/animationer/</link>
+      <description>Valfri animationsmodul som levereras med Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake och fler, alla bakom prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/sv/animationer/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animations</title>
+      <link>https://skeletonic.com/animations/</link>
+      <description>Optional animations module shipped with Skeletonic Stylus v2.0.0 — 45 keyframes across 9 families, all behind prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/animations/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animations</title>
+      <link>https://skeletonic.com/fr/animations/</link>
+      <description>Module d&apos;animations optionnel livré avec Skeletonic Stylus v2.0.0 — rebond, pulsation, fondu, zoom, secousse et autres, tous protégés par prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/fr/animations/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animazioni</title>
+      <link>https://skeletonic.com/it/animazioni/</link>
+      <description>Modulo animazioni opzionale incluso in Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake e altro, il tutto dietro prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/it/animazioni/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Animații</title>
+      <link>https://skeletonic.com/ro/animatii/</link>
+      <description>Modulul opțional de animații livrat cu Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake și altele, toate condiționate de prefers-reduced-motion.</description>
+      <guid isPermaLink="true">https://skeletonic.com/ro/animatii/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Anvandningsvillkor</title>
+      <link>https://skeletonic.com/sv/villkor/</link>
+      <description>Villkor som styr din anvandning av skeletonic.io och Skeletonic Stylus-biblioteket.</description>
+      <guid isPermaLink="true">https://skeletonic.com/sv/villkor/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Asiri</title>
+      <link>https://skeletonic.com/yo/asiri/</link>
+      <description>Data wo ni skeletonic.io gba, idi rẹ, ati bawo ni o ṣe le yọ ararẹ kuro.</description>
+      <guid isPermaLink="true">https://skeletonic.com/yo/asiri/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Awọn Ami</title>
+      <link>https://skeletonic.com/yo/tags/</link>
+      <description>Ṣawari iwe-ẹkọ Skeletonic Stylus nipasẹ ami.</description>
+      <guid isPermaLink="true">https://skeletonic.com/yo/tags/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Awọn Paati</title>
+      <link>https://skeletonic.com/yo/awon-paati/</link>
+      <description>Awọn apẹẹrẹ HTML laaye ti gbogbo paati Skeletonic Stylus, ti a ṣe akojọpọ, ti a fi idi mulẹ, ti a si ṣe pẹlu iwe-aṣa kanna ti a n ṣafihan.</description>
+      <guid isPermaLink="true">https://skeletonic.com/yo/awon-paati/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Awọn Palẹti</title>
+      <link>https://skeletonic.com/yo/awon-paleti/</link>
+      <description>Awọn palẹti awọ Material, Tachyons ati aabo wẹẹbu ti a fi ranṣẹ ninu Skeletonic Stylus v2.0.0.</description>
+      <guid isPermaLink="true">https://skeletonic.com/yo/awon-paleti/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Awọn ofin lilo</title>
+      <link>https://skeletonic.com/yo/awon-ofin/</link>
+      <description>Awọn ofin ti o ṣakoso lilo rẹ ti skeletonic.io ati ile-ikawe Skeletonic Stylus.</description>
+      <guid isPermaLink="true">https://skeletonic.com/yo/awon-ofin/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Ba a sami shafin ba</title>
+      <link>https://skeletonic.com/ha/404/</link>
+      <description>Shafin da kuka nema bai wanzu a skeletonic.io ba.</description>
+      <guid isPermaLink="true">https://skeletonic.com/ha/404/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Ba da gudummawa</title>
+      <link>https://skeletonic.com/ha/ba-da-gudummawa/</link>
+      <description>Yadda ake shigar da matsaloli, ba da shawarar canje-canje, da aika buƙatun jawo zuwa Skeletonic Stylus.</description>
+      <guid isPermaLink="true">https://skeletonic.com/ha/ba-da-gudummawa/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Ba ku da haɗin yanar gizo</title>
+      <link>https://skeletonic.com/ha/offline/</link>
+      <description>skeletonic.io ba ta iya isa ga cibiyar sadarwa ba. Ba a adana shafin da kuka nema ba tukuna.</description>
+      <guid isPermaLink="true">https://skeletonic.com/ha/offline/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Ban dang offline</title>
+      <link>https://skeletonic.com/vi/offline/</link>
+      <description>skeletonic.io khong the ket noi mang. Trang ban yeu cau chua duoc luu trong bo nho cache.</description>
+      <guid isPermaLink="true">https://skeletonic.com/vi/offline/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Bang mau</title>
+      <link>https://skeletonic.com/vi/bang-mau/</link>
+      <description>Bang mau Material, Tachyons va web-safe duoc tich hop trong Skeletonic Stylus v2.0.0.</description>
+      <guid isPermaLink="true">https://skeletonic.com/vi/bang-mau/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Bao mat &amp; chuoi cung ung</title>
+      <link>https://skeletonic.com/vi/bao-mat/</link>
+      <description>Cach Skeletonic Stylus v2.0.0 bao mat pipeline build, ky ban phat hanh va cung cap SBOM.</description>
+      <guid isPermaLink="true">https://skeletonic.com/vi/bao-mat/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Barrierefreiheit — WCAG 2.2 in v2.0.0</title>
+      <link>https://skeletonic.com/de/barrierefreiheit/</link>
+      <description>Was v2.0.0 standardmäßig für WCAG-2.2-Konformität mitbringt — Fokusringe, Kontrast, Skip-Links, Bewegung und Dunkelmodus.</description>
+      <guid isPermaLink="true">https://skeletonic.com/de/barrierefreiheit/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Bat dau voi Skeletonic Stylus</title>
+      <link>https://skeletonic.com/vi/bat-dau/</link>
+      <description>Cai dat Skeletonic Stylus tu npm hoac CDN, nhap vao pipeline Stylus cua ban va ghi de cac bien trong vai giay.</description>
+      <guid isPermaLink="true">https://skeletonic.com/vi/bat-dau/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Bedankt!</title>
+      <link>https://skeletonic.com/nl/bedankt/</link>
+      <description>Je bericht is succesvol verzonden.</description>
+      <guid isPermaLink="true">https://skeletonic.com/nl/bedankt/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Benchmark delle dimensioni dei framework: misurati, non commercializzati</title>
+      <link>https://skeletonic.com/it/benchmarks/</link>
+      <description>Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.</description>
+      <guid isPermaLink="true">https://skeletonic.com/it/benchmarks/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Benchmarks de taille de framework — mesurés, pas marketés</title>
+      <link>https://skeletonic.com/fr/benchmarks/</link>
+      <description>Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.</description>
+      <guid isPermaLink="true">https://skeletonic.com/fr/benchmarks/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Benchmarks de tamanho de framework — medidos, não comercializados</title>
+      <link>https://skeletonic.com/pt-br/benchmarks/</link>
+      <description>Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.</description>
+      <guid isPermaLink="true">https://skeletonic.com/pt-br/benchmarks/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Benchmarks de tamaño de frameworks: medidos, no comercializados</title>
+      <link>https://skeletonic.com/es/benchmarks/</link>
+      <description>Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.</description>
+      <guid isPermaLink="true">https://skeletonic.com/es/benchmarks/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+    <item>
+      <title>Benchmarks — Skeletonic Stylus</title>
+      <link>https://skeletonic.com/bn/benchmarks/</link>
+      <description>Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.</description>
+      <guid isPermaLink="true">https://skeletonic.com/bn/benchmarks/</guid>
+      <pubDate></pubDate>
+      <author>Sebastien Rousseau</author>
+    </item>
+  </channel>
+</rss>

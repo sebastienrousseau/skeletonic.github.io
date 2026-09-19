@@ -1,7 +1,15 @@
 {
   "background_color": "#ffffff",
-  "description": "Skeletonic Stylus は軽量でモジュール式の Stylus CSS ライブラリです。WCAG 2.2 対応、カスケードレイヤー採用、gzip圧縮で約7.7 KB — モダンな Web UI...",
+  "description": "Skeletonic Stylus は軽量でモジュール式の Stylus CSS ライブラリです。WCAG 2.2 対応、カスケードレイヤー採用、gzip圧縮で約7.7 KB — モダンな Web UI 開発を効率化するために設計されていま",
   "display": "standalone",
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

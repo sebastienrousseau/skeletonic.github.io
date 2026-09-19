@@ -8,6 +8,7 @@ date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css cascade layers, @layer, css specificity, !important, override css, framework override"
+language: en-GB
 ---
 
 Every rule shipped by Skeletonic is wrapped in a single CSS

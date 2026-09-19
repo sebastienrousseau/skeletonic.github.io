@@ -1,12 +1,14 @@
 {
-  "name": "Skeletonic Stylus",
-  "date": "2026-04-08",
-  "language": "ar",
-  "description": "ما يشحنه الإصدار 2.0.0 مباشرة للتوافق مع WCAG 2.2 — حلقات التركيز، التباين، روابط التخطي، الحركة، والوضع الداكن.",
   "author": "Sebastien Rousseau",
+  "date": "2026-04-08",
+  "description": "ما يشحنه الإصدار 2.0.0 مباشرة للتوافق مع WCAG 2.2 — حلقات التركيز، التباين، روابط التخطي، الحركة، والوضع الداكن.",
+  "keywords": "wcag 2.2, إمكانية الوصول, focus visible, رابط التخطي, prefers reduced motion, تباين",
+  "language": "ar",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/ar/imkaniyyat-al-wusul/",
+  "reading_time": 2,
   "theme_color": "hsl(210, 100%, 42%)",
   "title": "إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0",
-  "layout": "page",
-  "permalink": "https://skeletonic.io/ar/imkaniyyat-al-wusul/",
-  "keywords": "wcag 2.2, إمكانية الوصول, focus visible, رابط التخطي, prefers reduced motion, تباين"
+  "word_count": 498
 }

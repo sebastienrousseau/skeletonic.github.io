@@ -1,12 +1,14 @@
 {
+  "author": "Sebastien Rousseau",
   "date": "2026-04-08",
-  "permalink": "https://skeletonic.io/pl/bezpieczenstwo/",
-  "language": "pl",
-  "name": "Skeletonic Stylus",
-  "layout": "page",
+  "description": "Jak Skeletonic Stylus v2.0.0 zabezpiecza swoj pipeline budowania, podpisuje wydania i dostarcza SBOM.",
   "keywords": "bezpieczenstwo css, sbom, cyclonedx, npm provenance, openssf scorecard, lancuch dostaw",
+  "language": "pl",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/pl/bezpieczenstwo/",
+  "reading_time": 1,
   "theme_color": "hsl(210, 100%, 42%)",
   "title": "Bezpieczenstwo &amp; lancuch dostaw",
-  "author": "Sebastien Rousseau",
-  "description": "Jak Skeletonic Stylus v2.0.0 zabezpiecza swoj pipeline budowania, podpisuje wydania i dostarcza SBOM."
+  "word_count": 362
 }

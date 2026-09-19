@@ -15,7 +15,7 @@ CSS נגיש ב**פחות מ-8&nbsp;KB בדחיסת gzip**. תואם WCAG&nbsp;2
 מאורגן בשכבות קסקייד. אפס JavaScript. מוכן לשילוב בכל דף.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## האנטומיה של Skeletonic

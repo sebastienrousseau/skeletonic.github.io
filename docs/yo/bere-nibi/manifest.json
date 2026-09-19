@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Fi Skeletonic Stylus sori ẹrọ lati npm tabi CDN, mu u wọle sinu ikọ Stylus rẹ, ki o si ṣe atunṣe awọn oniyipada ni iṣẹju",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

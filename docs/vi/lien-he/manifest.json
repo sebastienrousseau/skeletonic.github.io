@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Lien he ve Skeletonic Stylus — bao cao loi, y tuong tinh nang, hop tac, hoac phan hoi chung.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

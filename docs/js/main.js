@@ -1,1 +1,317 @@
-"use strict";(()=>{const e="theme",t=document.documentElement,n=n=>{t.setAttribute("data-theme",n),t.style.colorScheme=n;try{localStorage.setItem(e,n)}catch(e){}(e=>{const t="dark"===e;document.querySelectorAll("#themeToggle").forEach(e=>{const n=t?e.dataset.labelLight||"Light":e.dataset.labelDark||"Dark",r=t?e.dataset.ariaLight||"Switch to light mode":e.dataset.ariaDark||"Switch to dark mode";e.querySelector(".theme-label").textContent=n,e.setAttribute("aria-label",r)})})(n)};let r;try{r=localStorage.getItem(e)}catch(e){}r?n(r):window.matchMedia("(prefers-color-scheme: dark)").matches&&n("dark"),document.querySelectorAll("#themeToggle").forEach(e=>{e.addEventListener("click",()=>{const e=t.getAttribute("data-theme");n("dark"===e?"light":"dark")})})})(),(()=>{const e=document.getElementById("navToggle"),t=document.querySelector(".site-nav");e&&t&&e.addEventListener("click",()=>{const n=t.classList.toggle("open");e.setAttribute("aria-expanded",String(n))})})(),document.querySelectorAll("[data-dropdown]").forEach(e=>{const t=e.querySelector(".dropdown-toggle");t&&t.addEventListener("click",n=>{n.stopPropagation();const r=e.classList.toggle("open");t.setAttribute("aria-expanded",String(r))})}),document.addEventListener("click",()=>{document.querySelectorAll("[data-dropdown].open").forEach(e=>{e.classList.remove("open");const t=e.querySelector(".dropdown-toggle");t&&t.setAttribute("aria-expanded","false")})}),document.querySelectorAll(".lang-switcher").forEach(e=>{const t=e.querySelector("button"),n=e.querySelector(".lang-menu");t&&n&&(t.addEventListener("click",e=>{e.stopPropagation();const r="block"===n.style.display;n.style.display=r?"none":"block",t.setAttribute("aria-expanded",String(!r))}),document.addEventListener("click",()=>{n.style.display="none",t.setAttribute("aria-expanded","false")}),n.addEventListener("click",e=>e.stopPropagation()))}),(()=>{const e=document.getElementById("searchOverlay"),t=document.getElementById("searchInput"),n=document.getElementById("searchResults"),r=document.getElementById("searchTrigger");if(!e||!t||!n)return;const o=/Mac|iPhone|iPad|iPod/.test(navigator.platform||navigator.userAgent||"");document.querySelectorAll(".search-shortcut").forEach(e=>{e.textContent=o?"⌘K":"Ctrl+K"});const a=document.documentElement.getAttribute("lang")||"en",c="en"===a?"":"/"+a,l={en:function(e){return"No results for “"+e+"”"},fr:function(e){return"Aucun résultat pour « "+e+" »"},de:function(e){return"Keine Ergebnisse für „"+e+"“"},ar:function(e){return"لا نتائج لـ «"+e+"»"},bn:function(e){return"“"+e+"” এর জন্য কোনো ফলাফল নেই"},cs:function(e){return"Žádné výsledky pro „"+e+"“"},es:function(e){return"Sin resultados para «"+e+"»"},fil:function(e){return"Walang resulta para sa “"+e+"”"},ha:function(e){return"Babu sakamako don “"+e+"”"},he:function(e){return"אין תוצאות עבור „"+e+"“"},hi:function(e){return"“"+e+"” के लिए कोई परिणाम नहीं"},id:function(e){return"Tidak ada hasil untuk “"+e+"”"},it:function(e){return"Nessun risultato per “"+e+"”"},ja:function(e){return"「"+e+"」の検索結果はありません"},ko:function(e){return"“"+e+"”에 대한 검색 결과가 없습니다"},nl:function(e){return"Geen resultaten voor “"+e+"”"},pl:function(e){return"Brak wyników dla „"+e+"”"},"pt-br":function(e){return"Nenhum resultado para “"+e+"”"},ro:function(e){return"Niciun rezultat pentru „"+e+"”"},ru:function(e){return"Нет результатов для «"+e+"»"},sv:function(e){return"Inga resultat för ”"+e+"”"},th:function(e){return"ไม่พบผลลัพธ์สำหรับ “"+e+"”"},tr:function(e){return"“"+e+"” için sonuç bulunamadı"},uk:function(e){return"Немає результатів для «"+e+"»"},vi:function(e){return"Không có kết quả cho “"+e+"”"},yo:function(e){return"Kò sí àbájádé fún “"+e+"”"},"zh-hans":function(e){return"“"+e+"” 没有搜索结果"},"zh-hant":function(e){return"“"+e+"” 沒有搜尋結果"}},i=l[a]||l.en,s={en:"Loading…",fr:"Chargement…",de:"Lädt…",ar:"جاري التحميل…",bn:"লোড হচ্ছে…",cs:"Načítání…",es:"Cargando…",fil:"Naglo-load…",ha:"Ana lodi…",he:"טוען…",hi:"लोड हो रहा है…",id:"Memuat…",it:"Caricamento…",ja:"読み込み中…",ko:"로딩 중…",nl:"Laden…",pl:"Ładowanie…","pt-br":"Carregando…",ro:"Se încarcă…",ru:"Загрузка…",sv:"Laddar…",th:"กำลังโหลด…",tr:"Yükleniyor…",uk:"Завантаження…",vi:"Đang tải…",yo:"Tóo gba…","zh-hans":"加载中…","zh-hant":"載入中…"},d=s[a]||s.en;let u=null,m=null;function p(){return u?Promise.resolve(u):m||(m=fetch("/js/search-data.json",{credentials:"same-origin"}).then(function(e){return e.ok?e.json():Promise.reject(new Error("HTTP "+e.status))}).then(function(e){const t=e&&e.index&&(e.index[a]||e.index.en)||[];return u=t.map(function(e){return{t:e.t,d:e.d,u:c+e.u}}),u}).catch(function(){return u=[],u}),m)}let h=-1,f="";function g(e,t){if(e=e.toLowerCase(),-1!==(t=t.toLowerCase()).indexOf(e))return!0;let n=0;for(let r=0;r<t.length&&n<e.length;r++)t[r]===e[n]&&n++;return n===e.length}function y(e){if(f=e,0===e.length)return n.replaceChildren(),void(h=-1);if(!u)return function(){const e=document.createElement("div");e.className="search-empty",e.textContent=d,n.replaceChildren(e),h=-1}(),void p().then(function(){f===e&&y(e)});const t=[];if(u.forEach(function(n){(g(e,n.t)||g(e,n.d))&&t.push(n)}),0===t.length){const t=document.createElement("div");return t.className="search-empty",t.textContent=i(e),n.replaceChildren(t),void(h=-1)}const r=document.createDocumentFragment();t.forEach(function(e,t){const n=document.createElement("a");n.className="search-result"+(0===t?" active":""),n.href=e.u,n.dataset.idx=t;const o=document.createElement("div");o.className="search-result-title",o.textContent=e.t;const a=document.createElement("div");a.className="search-result-desc",a.textContent=e.d,n.appendChild(o),n.appendChild(a),r.appendChild(n)}),n.replaceChildren(r),h=0}function v(){e.classList.add("open"),t.value="",t.focus(),h=-1,f="",y(""),p()}function k(){e.classList.remove("open"),t.value="",n.replaceChildren(),h=-1,f=""}function E(){const e=n.querySelectorAll(".search-result");e.forEach(function(e,t){e.classList.toggle("active",t===h)}),e[h]&&e[h].scrollIntoView({block:"nearest"})}r&&r.addEventListener("click",function(e){e.preventDefault(),v()}),document.addEventListener("keydown",function(t){if((o?t.metaKey:t.ctrlKey)&&"k"===t.key)return t.preventDefault(),void(e.classList.contains("open")?k():v());if(!e.classList.contains("open"))return;if("Escape"===t.key)return t.preventDefault(),void k();const r=n.querySelectorAll(".search-result");return"ArrowDown"===t.key?(t.preventDefault(),void(r.length&&(h=(h+1)%r.length,E()))):"ArrowUp"===t.key?(t.preventDefault(),void(r.length&&(h=(h-1+r.length)%r.length,E()))):void("Enter"===t.key&&(t.preventDefault(),r[h]&&(window.location.href=r[h].getAttribute("href"))))}),t.addEventListener("input",function(){h=-1,y(t.value.trim())}),e.addEventListener("click",function(t){t.target===e&&k()})})(),(()=>{const e="Copy",t="Copied!",n=(n,r)=>{const o=document.createElement("textarea");o.value=n,o.style.cssText="position:fixed;left:-9999px",document.body.appendChild(o),o.select();try{document.execCommand("copy"),r.textContent=t,setTimeout(()=>{r.textContent=e},2e3)}catch(e){}document.body.removeChild(o)};document.querySelectorAll("pre").forEach(r=>{if(r.closest("pre pre")===r)return;if(r.parentElement&&r.parentElement.closest("pre"))return;if(r.querySelector(".copy-btn"))return;const o=document.createElement("button");o.className="copy-btn",o.type="button",o.textContent=e,o.setAttribute("aria-label","Copy code to clipboard"),o.addEventListener("click",()=>{const a=r.textContent.replace(/^Copy(ied!)?/,"").trim();navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(a).then(()=>{o.textContent=t,setTimeout(()=>{o.textContent=e},2e3)},()=>n(a,o)):n(a,o)}),r.appendChild(o)})})(),(()=>{const e=document.querySelectorAll("[data-token-grid]");if(!e.length)return;e.forEach(e=>{e.addEventListener("click",e=>{const t=e.target&&e.target.closest&&e.target.closest(".token-card");if(!t)return;const n=t.getAttribute("data-token");var r;n&&(r=n,navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(r).then(()=>!0,()=>!1):new Promise(e=>{try{const t=document.createElement("textarea");t.value=r,t.style.cssText="position:fixed;left:-9999px",document.body.appendChild(t),t.select();const n=document.execCommand("copy");document.body.removeChild(t),e(n)}catch(t){e(!1)}})).then(e=>{e&&(e=>{e.classList.add("is-copied"),setTimeout(()=>e.classList.remove("is-copied"),1500)})(t)})})})})(),(()=>{const e="skeletonic-palette",t=["default","ember","iris","lagoon"],n=document.documentElement,r=(()=>{try{return localStorage.getItem(e)}catch{return null}})();r&&t.includes(r)&&"default"!==r&&n.setAttribute("data-palette",r);const o=document.getElementById("paletteSwitcher");if(!o)return;const a=o.querySelector("#paletteToggle"),c=o.querySelector("#paletteMenu");if(!a||!c)return;const l=()=>{const e=n.getAttribute("data-palette")||"default";c.querySelectorAll(".palette-swatch").forEach(t=>{const n=t.getAttribute("data-palette")===e;t.classList.toggle("is-active",n),t.setAttribute("aria-checked",n?"true":"false")})};l();const i=()=>{c.hidden=!0,a.setAttribute("aria-expanded","false")};a.addEventListener("click",()=>c.hidden?(c.hidden=!1,void a.setAttribute("aria-expanded","true")):i()),c.addEventListener("click",r=>{const o=r.target&&r.target.closest&&r.target.closest(".palette-swatch");if(!o)return;const c=o.getAttribute("data-palette");if(c&&t.includes(c)){"default"===c?n.removeAttribute("data-palette"):n.setAttribute("data-palette",c);try{localStorage.setItem(e,c)}catch{}l(),i(),a.focus()}}),document.addEventListener("click",e=>{c.hidden||o.contains(e.target)||i()}),document.addEventListener("keydown",e=>{"Escape"!==e.key||c.hidden||(i(),a.focus())})})(),(()=>{const e=e=>{const t=((e.querySelector("code")||e).className||"")+" "+(e.className||"");return/language-html|language-markup/.test(t)?"html":/language-css|language-stylus|language-scss/.test(t)?"css":null};document.querySelectorAll("pre").forEach(t=>{if(t.closest("pre pre")===t)return;if(t.parentElement&&t.parentElement.closest("pre"))return;if(t.querySelector(".pen-btn"))return;const n=e(t);if(!n)return;const r=document.createElement("button");r.className="pen-btn",r.type="button",r.textContent="Open in CodePen";let o=1;for(const n of document.querySelectorAll("pre")){if(n===t)break;e(n)&&o++}r.setAttribute("aria-label",`Open code block ${o} in a new CodePen tab`),r.addEventListener("click",()=>{const e=t.querySelector("code"),r=(e?e.textContent:t.textContent).replace(/^(Copy(ied!)?|Open in CodePen)\s*/m,"").trim();if(!r)return;const o=document.createElement("form");o.action="https://codepen.io/pen/define",o.method="POST",o.target="_blank",o.rel="noopener noreferrer";const a=document.createElement("input");a.type="hidden",a.name="data",a.value=JSON.stringify(((e,t)=>{const n={title:"Skeletonic Stylus playground",description:"Live preview from skeletonic.io",head:'<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">\n<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic-ui.min.css">',editors:"css"===e?"010":"100",layout:"left"};return"html"===e&&(n.html=t),"css"===e&&(n.css=t),n})(n,r)),o.appendChild(a),document.body.appendChild(o),o.submit(),document.body.removeChild(o)}),t.appendChild(r)})})(),(()=>{if(!("serviceWorker"in navigator))return;if("https:"!==location.protocol&&"localhost"!==location.hostname&&"127.0.0.1"!==location.hostname)return;const e=()=>{navigator.serviceWorker.register("/sw.js",{scope:"/"}).catch(()=>{})};"complete"===document.readyState?e():window.addEventListener("load",e,{once:!0})})(),(()=>{if(!document.getElementById("oklchBuilder"))return;const e=document.getElementById("oklchL"),t=document.getElementById("oklchC"),n=document.getElementById("oklchH"),r=document.getElementById("oklchPreview"),o=document.getElementById("oklchCode"),a=()=>{const a=`oklch(${e.value} ${t.value} ${n.value})`;r&&(r.style.backgroundColor=a,r.textContent=a),o&&(o.textContent=`:root {\n  --cl-primary: ${a};\n}`)};[e,t,n].forEach(e=>e&&e.addEventListener("input",a)),a()})(),(()=>{if(!document.getElementById("frameworkCalc"))return;const e=document.getElementById("calcFramework"),t=document.getElementById("calcPages"),n=document.getElementById("calcSavedBytes"),r=document.getElementById("calcSavedPercent"),o={pico:11.6,bootstrap:30.9,bulma:64.9,tailwind:123.1},a=()=>{const a=e?e.value:"bootstrap",c=t?Math.max(1,parseInt(t.value,10)||1):1,l=o[a]||30.9,i=(l-7.7)*c*1e3;if(n&&(n.textContent=`${(i/1024).toFixed(1)} MB`),r){const e=(100*(1-7.7/l)).toFixed(0);r.textContent=`${e}% lighter`}};e&&e.addEventListener("change",a),t&&t.addEventListener("input",a),a()})();
+'use strict';
+
+// 1. Theme Engine
+(function() {
+  var storedTheme = localStorage.getItem('theme-mode') || 'system';
+
+  function applyTheme(mode) {
+    var effectiveTheme = mode;
+    if (mode === 'system') {
+      var isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      effectiveTheme = isDark ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme-mode', mode);
+    document.documentElement.setAttribute('data-theme', effectiveTheme);
+    localStorage.setItem('theme-mode', mode);
+
+    var buttons = document.querySelectorAll('.theme-btn');
+    buttons.forEach(function(btn) {
+      if (btn.getAttribute('data-theme-mode') === mode) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  }
+
+  // Apply immediately
+  applyTheme(storedTheme);
+
+  if (window.matchMedia) {
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+      if ((localStorage.getItem('theme-mode') || 'system') === 'system') {
+        applyTheme('system');
+      }
+    });
+  }
+
+  function initApp() {
+    applyTheme(localStorage.getItem('theme-mode') || 'system');
+
+    // Attach theme toggle buttons
+    var themeButtons = document.querySelectorAll('.theme-btn');
+    themeButtons.forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        var mode = btn.getAttribute('data-theme-mode');
+        if (mode) applyTheme(mode);
+      });
+    });
+
+    // Mobile Navbar toggle
+    var navToggle = document.getElementById('navbarToggle');
+    var navMenu = document.getElementById('navbarMenu');
+    if (navToggle && navMenu) {
+      navToggle.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', !isExpanded);
+        navMenu.classList.toggle('show');
+      });
+    }
+
+    // FAQ Expand / Collapse All Engine
+    var toggleBtn = document.getElementById('toggleAllBtn');
+    var toggleText = document.getElementById('toggleAllText');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        var allDetails = document.querySelectorAll('.apple-faq-list-exact details, .apple-faq-accordion details, details.apple-faq-item');
+        if (!allDetails.length) return;
+        var allOpen = Array.from(allDetails).every(function(d) { return d.open; });
+        var nextState = !allOpen;
+        allDetails.forEach(function(d) { d.open = nextState; });
+        if (toggleText) toggleText.textContent = nextState ? 'Collapse all' : 'Expand all';
+        toggleBtn.setAttribute('aria-expanded', String(nextState));
+        var icon = toggleBtn.querySelector('svg');
+        if (icon) {
+          icon.style.transform = nextState ? 'rotate(180deg)' : 'rotate(0deg)';
+          icon.style.transition = 'transform 0.25s ease';
+        }
+      });
+
+      document.querySelectorAll('.apple-faq-list-exact details, .apple-faq-accordion details, details.apple-faq-item').forEach(function(detail) {
+        detail.addEventListener('toggle', function() {
+          var allDetails = document.querySelectorAll('.apple-faq-list-exact details, .apple-faq-accordion details, details.apple-faq-item');
+          var allOpen = Array.from(allDetails).every(function(d) { return d.open; });
+          if (toggleText) toggleText.textContent = allOpen ? 'Collapse all' : 'Expand all';
+          toggleBtn.setAttribute('aria-expanded', String(allOpen));
+          var icon = toggleBtn.querySelector('svg');
+          if (icon) {
+            icon.style.transform = allOpen ? 'rotate(180deg)' : 'rotate(0deg)';
+          }
+        });
+      });
+    }
+
+    // Search Engine Modal
+    var searchIndex = null;
+    var isFetching = false;
+    var modal = document.getElementById('searchModal');
+    var input = document.getElementById('searchInput');
+    var results = document.getElementById('searchResults');
+    var closeBtn = document.getElementById('searchClose');
+
+    // Builds the "no results"/"type to search" line as a node. Nothing that
+    // reaches innerHTML here is derived from user input or the search index.
+    function renderNotice(results, text) {
+      var div = document.createElement('div');
+      div.className = 'search-empty';
+      div.textContent = text;
+      results.replaceChildren(div);
+    }
+
+    // Takes the text out of a description that may contain markup. A regex
+    // cannot strip tags reliably — `<<script>script>` survives one pass — so
+    // the parser does it. DOMParser does not execute what it parses.
+    function textOf(html) {
+      if (!html) return '';
+      try {
+        return new DOMParser()
+          .parseFromString(String(html), 'text/html')
+          .body.textContent || '';
+      } catch {
+        return String(html);
+      }
+    }
+
+    // Search-index URLs are same-origin paths, but the index is fetched at
+    // runtime, so a scheme that can execute is refused rather than assumed
+    // absent.
+    function safeUrl(url) {
+      var value = String(url || '');
+      return /^(?:https?:|\/|\.\/|#|\?)/i.test(value) ? value : '#';
+    }
+
+    async function loadSearch() {
+      if (searchIndex || isFetching) return;
+      isFetching = true;
+      try {
+        var res = await fetch('/search-index.json');
+        if (res.ok) {
+          var data = await res.json();
+          searchIndex = Array.isArray(data) ? data : (data.entries || []);
+        } else {
+          searchIndex = [];
+        }
+      } catch {
+        searchIndex = [];
+      } finally {
+        isFetching = false;
+      }
+    }
+
+    function openSearch() {
+      if (!modal) return;
+      modal.classList.add('active');
+      loadSearch();
+      setTimeout(function() {
+        if (input) {
+          input.focus();
+          if (input.value.trim()) {
+            input.dispatchEvent(new Event('input'));
+          }
+        }
+      }, 50);
+    }
+
+    function closeSearch() {
+      if (!modal) return;
+      modal.classList.remove('active');
+      if (input) input.value = '';
+      if (results) renderNotice(results, 'Type to search...');
+    }
+
+    var triggers = document.querySelectorAll('#searchTrigger, #searchTriggerMobile, .search-trigger');
+    triggers.forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        openSearch();
+      });
+    });
+
+    if (closeBtn) closeBtn.addEventListener('click', closeSearch);
+    if (modal) {
+      var backdrop = modal.querySelector('.search-backdrop');
+      if (backdrop) backdrop.addEventListener('click', closeSearch);
+    }
+
+    window.addEventListener('keydown', function(e) {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        openSearch();
+      } else if (e.key === 'Escape' && modal && modal.classList.contains('active')) {
+        closeSearch();
+      }
+    });
+
+    if (input) {
+      input.addEventListener('input', function() {
+        var query = input.value.trim().toLowerCase();
+        if (!query) {
+          renderNotice(results, 'Type to search...');
+          return;
+        }
+        if (!searchIndex) {
+          renderNotice(results, 'Loading search index...');
+          loadSearch().then(function() {
+            input.dispatchEvent(new Event('input'));
+          });
+          return;
+        }
+        if (searchIndex.length === 0) {
+          renderNotice(results, 'No results found for "' + query + '"');
+          return;
+        }
+        var tokens = query.split(/\s+/).filter(Boolean);
+        var matches = searchIndex.filter(function(item) {
+          var t = (item.title || '').toLowerCase();
+          var d = (item.description || '').toLowerCase();
+          var c = (item.content || '').toLowerCase();
+          var u = (item.url || '').toLowerCase();
+          var target = t + ' ' + d + ' ' + c + ' ' + u;
+          return tokens.every(function(tok) { return target.includes(tok); });
+        }).slice(0, 10);
+
+        if (matches.length === 0) {
+          renderNotice(results, 'No results found for "' + query + '"');
+          return;
+        }
+        results.replaceChildren.apply(results, matches.map(function(item) {
+          var link = document.createElement('a');
+          link.className = 'search-item';
+          link.href = safeUrl(item.url);
+
+          var title = document.createElement('div');
+          title.className = 'search-item-title';
+          title.textContent = item.title || '';
+
+          var desc = document.createElement('div');
+          desc.className = 'search-item-desc';
+          desc.textContent = textOf(item.description || item.content).slice(0, 140) + '...';
+
+          link.appendChild(title);
+          link.appendChild(desc);
+          return link;
+        }));
+      });
+    }
+    // 5. Photo Lightbox Modal Engine
+    var lightboxModal = document.getElementById('photoLightboxModal');
+    if (!lightboxModal) {
+      lightboxModal = document.createElement('div');
+      lightboxModal.id = 'photoLightboxModal';
+      lightboxModal.className = 'photo-lightbox-modal';
+      lightboxModal.setAttribute('role', 'dialog');
+      lightboxModal.setAttribute('aria-modal', 'true');
+      lightboxModal.setAttribute('aria-label', 'Photo Preview');
+      lightboxModal.innerHTML = '<div class="photo-lightbox-backdrop"></div>' +
+        '<div class="photo-lightbox-content">' +
+        '  <div class="photo-lightbox-media-wrap">' +
+        '    <button type="button" class="photo-lightbox-close" aria-label="Close photo preview">✕</button>' +
+        '    <img src="" alt="" class="photo-lightbox-img" id="lightboxImg" />' +
+        '  </div>' +
+        '  <div class="photo-lightbox-caption" id="lightboxCaption"></div>' +
+        '</div>';
+      document.body.appendChild(lightboxModal);
+    }
+
+    var lightboxImg = document.getElementById('lightboxImg');
+    var lightboxCaption = document.getElementById('lightboxCaption');
+    var lightboxClose = lightboxModal.querySelector('.photo-lightbox-close');
+    var lightboxBackdrop = lightboxModal.querySelector('.photo-lightbox-backdrop');
+
+    function openLightbox(src, alt) {
+      if (!lightboxImg) return;
+      lightboxImg.src = src;
+      lightboxImg.alt = alt || 'Photo Preview';
+      if (lightboxCaption) lightboxCaption.textContent = alt || '';
+      lightboxModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      if (!lightboxModal) return;
+      lightboxModal.classList.remove('active');
+      if (lightboxImg) lightboxImg.src = '';
+      document.body.style.overflow = '';
+    }
+
+    if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
+    if (lightboxBackdrop) lightboxBackdrop.addEventListener('click', closeLightbox);
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && lightboxModal && lightboxModal.classList.contains('active')) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener('click', function(e) {
+      var photoTarget = e.target.closest('.photo-card, .photo-img-wrapper, .gallery-card, .gallery-img-wrapper, figure');
+      if (photoTarget) {
+        var img = photoTarget.querySelector('img');
+        if (img && img.src) {
+          e.preventDefault();
+          openLightbox(img.src, img.alt);
+        }
+      }
+    });
+
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initApp);
+  } else {
+    initApp();
+  }
+})();

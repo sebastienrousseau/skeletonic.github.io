@@ -9,6 +9,7 @@ author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css animations, keyframes, prefers-reduced-motion, bounce, pulse, fade"
 load_animations: true
+language: en-GB
 ---
 
 <p class="anim-lede">
@@ -314,7 +315,7 @@ loaded):
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/animations/skeletonic-animations.min.css">
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/animations/skeletonic-animations.min.css">
 ```
 
 Apply any class from the gallery above and it works:

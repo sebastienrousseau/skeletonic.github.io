@@ -42,7 +42,7 @@ Chaque tarball publié inclut un SBOM CycloneDX à `dist/sbom.json`.
 Vérification d'un paquet fraîchement installé :
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ L'artefact publié est signé via la
 Vérification après installation :
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 
@@ -76,7 +76,7 @@ Actions qui l'a produit.
 | **CVE-2023-44270** (analyse de retour à la ligne postcss) | Modérée | **Corrigée** en v2.0.0 via `pnpm.overrides` mettant à jour `postcss` vers ≥ 8.4.31 |
 
 La base de données Snyk et les avis de sécurité GitHub sont surveillés
-en continu ; les correctifs de sécurité sont livrés en **versions patch**.
+en continu; les correctifs de sécurité sont livrés en **versions patch**.
 
 <hr class="hr-text" data-content="Signalement">
 

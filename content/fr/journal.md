@@ -42,10 +42,10 @@ La passe de « préparation au déploiement » : a11y, chaîne d'approvisionneme
 - Suppression du plugin archivé `stylelint-a11y` de la configuration de lint.
 
 ### Hygiène du dépôt et paquet consommateur
-- Suppression de l'ancien répertoire `package/` ; `dist/` est désormais
+- Suppression de l'ancien répertoire `package/`; `dist/` est désormais
   la source unique de vérité pour les consommateurs.
 - README réécrit pour refléter les chemins d'installation v2.0.0.
-- `dist/` est commité ; `debug/` est généré et gitignored.
+- `dist/` est commité; `debug/` est généré et gitignored.
 - Nouveau `.github/workflows/npm-publish.yml` déclenché par tag.
 
 ### Correctifs de bogues (P0)

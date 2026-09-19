@@ -8,6 +8,7 @@ date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "oklch(0.55 0.2 250)"
 keywords: "install skeletonic, stylus setup, css cdn, getting started"
+language: en-GB
 ---
 
 ## Intro
@@ -16,7 +17,7 @@ New to Skeletonic Stylus? In **v2.0.0** the core stylesheet is
 **7.7&nbsp;KB gzip / 6.7&nbsp;KB brotli** for the full RTL-ready,
 WCAG&nbsp;2.2&nbsp;AA bundle — measured against the canonical CDN file,
 not approximated. It integrates into any web app from a single
-`<link>` — no JavaScript framework required, no build step needed if
+`&lt;link&gt;` — no JavaScript framework required, no build step needed if
 you load it from a CDN.
 
 Ready to install? Every path covered below — pick one.
@@ -51,30 +52,30 @@ files locally if you prefer.
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### From a CDN
 
-If you only need the compiled CSS, drop one of these into your `<head>`:
+If you only need the compiled CSS, drop one of these into your `&lt;head&gt;`:
 
 ```html
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -85,8 +86,8 @@ notes and add an `integrity="sha384-…"` attribute.
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Yes | Yes |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Yes | No |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Yes | Yes |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Yes | No |
 
 ### Download the GitHub release
 
@@ -169,7 +170,7 @@ A minimal "did it work?" check:
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>It works.</h1>
@@ -188,7 +189,7 @@ minified CSS bundles, source maps, and a full Stylus tree organised by
 category:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -227,7 +228,7 @@ your CSS payload as small as possible.
 ## Frequently asked questions
 
 **How do I install Skeletonic Stylus?**
-Run `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Or load the
+Run `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Or load the
 compiled CSS straight from a CDN — no build step required.
 
 **Does it require JavaScript?**
@@ -259,7 +260,7 @@ needs. Free for commercial and personal use.
       "name": "How do I install Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Run pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Or load the compiled CSS straight from a CDN — no build step required."
+        "text": "Run pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Or load the compiled CSS straight from a CDN — no build step required."
       }
     },
     {

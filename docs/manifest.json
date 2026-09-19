@@ -1,8 +1,7 @@
 {
   "background_color": "#ffffff",
-  "description": "Skeletonic Stylus 2.0 — OKLCH colours, native @layer, CSS Grid, container queries, view transitions. Class-based, JS-fre",
+  "description": "Skeletonic Stylus 2.0 — OKLCH colours, native @layer, CSS Grid, container queries, view transitions. Class-based, JS-free, WCAG 2.2 AA, 7.7 KB gzip / 6.7 KB brotli.",
   "display": "standalone",
-  "icons": [],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

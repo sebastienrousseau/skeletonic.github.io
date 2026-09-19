@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "skeletonic.io 无法连接到网络。你请求的页面尚未被缓存。",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

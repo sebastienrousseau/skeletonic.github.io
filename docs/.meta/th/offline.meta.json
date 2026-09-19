@@ -1,12 +1,14 @@
 {
-  "keywords": "ออฟไลน์, service worker, pwa",
-  "description": "skeletonic.io ไม่สามารถเข้าถึงเครือข่ายได้ หน้าที่คุณร้องขอยังไม่ได้ถูกแคช",
-  "language": "th",
-  "date": "2026-04-08",
-  "title": "คุณออฟไลน์อยู่",
-  "name": "Skeletonic Stylus",
   "author": "Sebastien Rousseau",
-  "theme_color": "hsl(210, 100%, 42%)",
+  "date": "2026-04-08",
+  "description": "skeletonic.io ไม่สามารถเข้าถึงเครือข่ายได้ หน้าที่คุณร้องขอยังไม่ได้ถูกแคช",
+  "keywords": "ออฟไลน์, service worker, pwa",
+  "language": "th",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
   "permalink": "https://skeletonic.io/th/offline/",
-  "layout": "page"
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "คุณออฟไลน์อยู่",
+  "word_count": 22
 }

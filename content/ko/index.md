@@ -15,7 +15,7 @@ keywords: "css, stylus, css 프레임워크, 접근성 css, wcag 2.2, 경량 css
 캐스케이드 레이어 지원. JavaScript 없음. 어떤 페이지에든 바로 적용 가능합니다.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Skeletonic의 구조

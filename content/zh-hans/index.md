@@ -15,7 +15,7 @@ keywords: "css, stylus, css 框架, 无障碍 css, wcag 2.2, 轻量级 css, 级�
 级联层架构。零 JavaScript。即插即用。
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Skeletonic 架构解析

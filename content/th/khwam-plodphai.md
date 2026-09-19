@@ -42,7 +42,7 @@ keywords: "ความปลอดภัย css, sbom, cyclonedx, npm provenanc
 คุณสามารถตรวจสอบแพ็กเกจที่เพิ่งติดตั้งด้วย:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ artefact ที่เผยแพร่ถูกลงนามโดยใช�
 คุณสามารถตรวจสอบหลังการติดตั้งด้วย:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

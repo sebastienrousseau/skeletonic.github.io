@@ -36,13 +36,13 @@ gzipped कोर स्टाइलशीट) के कारण, यह क�
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### CDN से
@@ -53,13 +53,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | हाँ | हाँ |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | हाँ | नहीं |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | हाँ | हाँ |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | हाँ | नहीं |
 
 ### GitHub रिलीज़ डाउनलोड करें
 
@@ -156,7 +156,7 @@ Skeletonic अपने डिज़ाइन टोकन **CSS कस्टम
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>यह काम कर रहा है।</h1>
@@ -175,7 +175,7 @@ Skeletonic अपने डिज़ाइन टोकन **CSS कस्टम
 मिलेगा:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -214,7 +214,7 @@ Skeletonic अपने डिज़ाइन टोकन **CSS कस्टम
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Skeletonic Stylus कैसे इंस्टॉल करें?**
-`pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0` चलाएँ। या कंपाइल्ड
+`pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0` चलाएँ। या कंपाइल्ड
 CSS सीधे CDN से लोड करें — कोई बिल्ड स्टेप ज़रूरी नहीं।
 
 **क्या इसे JavaScript चाहिए?**
@@ -244,7 +244,7 @@ MIT और Apache 2.0 के तहत दोहरा लाइसेंस —
       "name": "Skeletonic Stylus कैसे इंस्टॉल करें?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0 चलाएँ। या कंपाइल्ड CSS सीधे CDN से लोड करें — कोई बिल्ड स्टेप ज़रूरी नहीं।"
+        "text": "pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0 चलाएँ। या कंपाइल्ड CSS सीधे CDN से लोड करें — कोई बिल्ड स्टेप ज़रूरी नहीं।"
       }
     },
     {

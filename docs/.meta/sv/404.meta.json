@@ -1,11 +1,13 @@
 {
-  "permalink": "https://skeletonic.io/sv/404/",
-  "theme_color": "hsl(210, 100%, 42%)",
-  "name": "Skeletonic Stylus",
-  "keywords": "404, hittades inte",
-  "description": "Sidan du begarde finns inte pa skeletonic.io.",
   "author": "Sebastien Rousseau",
-  "title": "Sidan hittades inte",
+  "description": "Sidan du begarde finns inte pa skeletonic.io.",
+  "keywords": "404, hittades inte",
   "language": "sv",
-  "layout": "page"
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/sv/404/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Sidan hittades inte",
+  "word_count": 68
 }

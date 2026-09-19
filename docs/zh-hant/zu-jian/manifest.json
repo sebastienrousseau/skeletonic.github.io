@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Skeletonic Stylus 每個組件的即時 HTML 範例，分組、錨定，並使用展示中的樣式表進行渲染。",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

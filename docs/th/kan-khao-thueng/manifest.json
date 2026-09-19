@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "สิ่งที่ v2.0.0 มาพร้อมสำหรับการรองรับ WCAG 2.2 — วงแหวนโฟกัส คอนทราสต์ ลิงก์ข้าม การเคลื่อนไหว และโหมดมืด",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

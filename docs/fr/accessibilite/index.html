@@ -1,144 +1,16 @@
-&lt;div lang=&quot;en&quot;&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Translation note (2026-04-30).&lt;/strong&gt; v2.0.0 adds RTL support and a refreshed
-2026 framework comparison. The English source is the canonical reference
-while these translations catch up. See &lt;a href=&quot;https://skeletonic.io/about/&quot;&gt;https://skeletonic.io/about/&lt;/a&gt; ·
-&lt;a href=&quot;https://skeletonic.io/components/&quot;&gt;https://skeletonic.io/components/&lt;/a&gt; · &lt;a href=&quot;https://skeletonic.io/benchmarks/&quot;&gt;https://skeletonic.io/benchmarks/&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Skeletonic Stylus v2.0.0 livre la conformité WCAG 2.2 comme
-comportement par défaut, pas en tant que thème optionnel.&lt;/strong&gt; Cette page
-documente ce qui est intégré et les mixins auxquels vous pouvez
-souscrire pour un contrôle plus fin.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;Inclus par défaut&quot;&gt;
-&lt;h2&gt;Ce que vous obtenez gratuitement&lt;/h2&gt;
-&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table&quot;&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;SC WCAG 2.2&lt;/th&gt;
-&lt;th&gt;Ce que fait la v2.0.0&lt;/th&gt;
-&lt;th&gt;Comment vérifier&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.3 Contraste (Minimum) — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;--cl-primary&lt;/code&gt; et &lt;code&gt;--cl-secondary&lt;/code&gt; assombris à ≥ 4,5:1 contre le blanc&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;DevTools → vérificateur de contraste&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.11 Contraste non textuel — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Bordures de formulaires, boutons, badges tous ≥ 3:1&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Idem&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.4.7 Focus visible — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Chaque élément focusable a un anneau &lt;code&gt;:focus-visible&lt;/code&gt; (jaune sur fond sombre, bleu sur fond clair)&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Appuyer sur &lt;code&gt;Tab&lt;/code&gt; sur n&#x27;importe quelle page&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.4.11 Focus non masqué — AA (nouveau en 2.2)&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;L&#x27;en-tête collant a une hauteur réduite + scroll-margin pour le focus&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Appuyer sur &lt;code&gt;Tab&lt;/code&gt; au-delà de l&#x27;en-tête collant&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.5.8 Taille de cible — AA (nouveau en 2.2)&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Boutons / liens : zone cliquable ≥ 24×24 px CSS&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;DevTools modèle de boîte&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.12 Espacement du texte — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Tous les éléments respectent les surcharges de hauteur de ligne / espacement des lettres&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Surcharger dans DevTools&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.3.3 Animation depuis les interactions — AAA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Toutes les classes d&#x27;animation sont encapsulées dans &lt;code&gt;@media (prefers-reduced-motion: no-preference)&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Réduire le mouvement au niveau OS&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.10 Redistribution — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;La mise en page fonctionne à 320 px sans défilement horizontal&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;DevTools viewport étroit&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;Mode sombre&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;prefers-color-scheme: dark&lt;/code&gt; bascule les jetons automatiquement&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Basculer le mode sombre de l&#x27;OS&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;&lt;/div&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;Mixins&quot;&gt;
-&lt;h2&gt;Mixins Stylus optionnels&lt;/h2&gt;
-&lt;p&gt;Si vous compilez depuis les sources, les mixins suivants sont
-disponibles dans &lt;code&gt;src/stylus/utilities/mixins.styl&lt;/code&gt; :&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Mixin&lt;/th&gt;
-&lt;th&gt;Usage&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;focus-ring()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Anneau de focus à haut contraste respectant &lt;code&gt;:focus-visible&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;visually-hidden()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Texte réservé aux lecteurs d&#x27;écran, restant focusable&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;skip-link()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Ancre qui devient visible au focus&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;reduced-motion()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Encapsule n&#x27;importe quel bloc dans &lt;code&gt;prefers-reduced-motion: no-preference&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;forced-colors()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Ajustements pour le mode contraste élevé de Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;target-size(24px)&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Augmente la zone cliquable de tout élément interactif&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Exemple :&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-stylus&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#c0c5ce;&quot;&gt;// Appliquer un anneau de focus prononcé sur un bouton personnalisé
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;.my-button
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    focus-ring()
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    target-size(28px)
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;Lien d&#x27;évitement&quot;&gt;
-&lt;h2&gt;L&#x27;aide au lien d&#x27;évitement&lt;/h2&gt;
-&lt;p&gt;Placez ceci &lt;strong&gt;en tout premier dans &lt;code&gt;&lt;body&gt;&lt;/code&gt;&lt;/strong&gt; :&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&lt;&lt;/span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a &lt;/span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;href&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&quot;&lt;/span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;#main-content&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&quot; &lt;/span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&quot;&lt;/span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;skip-link&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&quot;&gt;Aller au contenu principal&lt;/&lt;/span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&gt;
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;La classe n&#x27;est &lt;strong&gt;pas&lt;/strong&gt; dans la feuille de style principale (le poids
-de page n&#x27;augmente pas) ; c&#x27;est un extrait de 4 lignes que vous
-composez vous-même ou que vous utilisez via le mixin &lt;code&gt;skip-link()&lt;/code&gt;
-inclus. Ce site l&#x27;utilise — cliquez sur la page puis appuyez sur Tab
-pour le voir apparaître en haut à gauche.&lt;/p&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;Vérification&quot;&gt;
-&lt;h2&gt;Vérifier vos propres pages&lt;/h2&gt;
-&lt;p&gt;La bibliothèque fournit un script &lt;code&gt;a11y-test.mjs&lt;/code&gt; sous &lt;code&gt;scripts/&lt;/code&gt; qui
-exécute &lt;a href=&quot;https://github.com/dequelabs/axe-core&quot;&gt;axe-core&lt;/a&gt; sur chaque
-URL que vous lui fournissez.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#8fa1b3;&quot;&gt;node&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; scripts/a11y-test.mjs https://example.com
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;La CI exécute ce script sur la page vitrine &lt;code&gt;dist/index.html&lt;/code&gt; à
-chaque push.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/fr/journal/&quot;&gt;Lire les notes de version v2.0.0 →&lt;/a&gt; ·
-&lt;a href=&quot;/fr/securite/&quot;&gt;Voir la page Sécurité →&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
+<!DOCTYPE html> <html lang="fr" data-theme-mode="system"> <head> <meta charset="" /> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> <meta itemprop="datePublished" content="" id="date"> <meta itemprop="dateModified" content="" id="last-modified"> <title>Accessibilité — WCAG 2.2 dans la v2.0.0</title> &lt;meta name=&quot;author&quot; content=&quot;Sebastien Rousseau&quot;&gt; &lt;meta name=&quot;description&quot; content=&quot;Ce que la v2.0.0 propose nativement pour la conformité WCAG 2.2 — anneaux de focus, contraste, liens d&#x27;évitement, mouvement et mode sombre.&quot;&gt; &lt;meta name=&quot;keywords&quot; content=&quot;wcag 2.2, accessibilité, focus visible, lien d&#x27;évitement, prefers reduced motion, contraste&quot;&gt; <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net unpkg.com; connect-src 'self' https://cdn.jsdelivr.net; img-src 'self' data: https: https://cloudcdn.pro cloudcdn.pro; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; media-src 'self' https://cloudcdn.pro;" /> <link rel="alternate" href="" hreflang="" /> <link rel="preload" as="image" href="/images/banner.svg">  <link rel="icon" type="image/svg+xml" href="/images/logo.svg" /> <link rel="icon" type="image/x-icon" href="" sizes="16x16 32x32" /> <link rel="apple-touch-icon" href="https://cloudcdn.pro/cmn/v1/icons/192x192.png" sizes="192x192" /> <link rel="manifest" href="/manifest.json" /> <link rel="alternate" type="application/rss+xml" href="/rss.xml" /> <link rel="stylesheet" href="/css/skeletonic.min.css" /> <link rel="stylesheet" href="/css/skeletonic-ui.min.css" />   <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="https://skeletonic.com/atom.xml"/> <link rel="alternate" type="application/feed+json" title="JSON Feed" href="https://skeletonic.com/feed.json"/> <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"> <meta name="description" content="Accessibilité — WCAG 2.2 dans la v2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source">
+<meta property="og:title" content="Accessibilité — WCAG 2.2 dans la v2.0.0">
+<meta property="og:description" content="Accessibilité — WCAG 2.2 dans la v2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/images/logo.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="fr">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Accessibilité — WCAG 2.2 dans la v2.0.0">
+<meta name="twitter:description" content="Accessibilité — WCAG 2.2 dans la v2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source">
+<meta name="twitter:image" content="/images/logo.svg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","description":"Accessibilité — WCAG 2.2 dans la v2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source","image":{"@type":"ImageObject","url":"/images/logo.svg"},"inLanguage":"fr","name":"Accessibilité — WCAG 2.2 dans la v2.0.0","url":"https://skeletonic.com/fr/accessibilite/index.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://skeletonic.com/","name":"Home","position":1},{"@type":"ListItem","item":"https://skeletonic.com/fr","name":"fr","position":2},{"@type":"ListItem","item":"https://skeletonic.com/fr/accessibilite","name":"accessibilite","position":3}]}</script>
+<link rel="canonical" href="https://skeletonic.com/fr/accessibilite/"><link rel="stylesheet" href="/_csp/eecebe12d767417d.css" integrity="sha384-aKxjFKaALdC93REx3G69GsQUDj/j21UCYd8sX7kdJQUpkntrp3rIn8RScYuL1hEV" crossorigin="anonymous"><link rel="stylesheet" href="/_csp/f2f5dc5a9bceaafc.css" integrity="sha384-BGvLinJ7hGuTBmAehfeznUMsDR8XvK2N0F+7fXns8xuZyCHKcPnVNfJ6v50IEgxF" crossorigin="anonymous"><link rel="sbom" type="application/vnd.cyclonedx+json" href="/sbom.cdx.json">
+</head> <body> <!-- Responsive Navbar --> <nav class="navbar" aria-label="Main Navigation"> <div class="navbar-container"> <div class="navbar-header"> <a class="navbar-brand" href="/"> <img src="/images/logo.svg" alt="" aria-hidden="true" width="32" height="32" class="d-inline-block" /> <span class="navbar-brand-text">Skeletonic Stylus</span> </a> <!-- Mobile actions (Search + Theme + Toggle) --> <div class="navbar-actions flex d-lg-none"> <button type="button" class="btn search-trigger" id="searchTriggerMobile" aria-label="Search"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> </button> <div class="theme-switcher" role="radiogroup" aria-label="Theme mode"> <button type="button" class="theme-btn" data-theme-mode="light" aria-label="Light mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> </button> <button type="button" class="theme-btn" data-theme-mode="dark" aria-label="Dark mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </button> <button type="button" class="theme-btn active" data-theme-mode="system" aria-label="System mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> </button> </div> <button type="button" class="navbar-toggle" id="navbarToggle" aria-expanded="false" aria-controls="navbarMenu" aria-label="Toggle navigation menu"> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg> </button> </div> </div> <!-- Links menu --> <div class="navbar-menu" id="navbarMenu"> <ul class="nav-list"> <li class="nav-item"><a class="nav-link" href="/about/index.html">About</a></li> <li class="nav-item nav-item-cta"><a class="btn btn-dark ms-lg-2" href="/contact/index.html">Get in touch</a></li> </ul> </div> <!-- Desktop actions --> <div class="navbar-actions d-none d-lg-flex"> <button type="button" class="btn search-trigger" id="searchTrigger" aria-label="Search"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <span>Search</span> <kbd class="search-kbd">⌘K</kbd> </button> <div class="theme-switcher" role="radiogroup" aria-label="Theme mode"> <button type="button" class="theme-btn" data-theme-mode="light" aria-label="Light mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> </button> <button type="button" class="theme-btn" data-theme-mode="dark" aria-label="Dark mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </button> <button type="button" class="theme-btn active" data-theme-mode="system" aria-label="System mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> </button> </div> </div> </div> </nav> <!-- Main Content --> <main id="main" class="content-wrapper" aria-label="Main content"> <header class="page-header text-center mb-lg"><h1 class="display-5 bold text-headline mb-md">Accessibilité — WCAG 2.2 dans la v2.0.0</h1></header> <div class="callout-surface text-center"> <p class="mb-0 fs-5 fw-normal"></p> </div> <div class="card-surface"> <div lang="en"><blockquote> <p><strong>Translation note (2026-04-30).</strong> v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is the canonical reference while these translations catch up. See <a href="https://skeletonic.io/about/">https://skeletonic.io/about/</a> · <a href="https://skeletonic.io/components/">https://skeletonic.io/components/</a> · <a href="https://skeletonic.io/benchmarks/">https://skeletonic.io/benchmarks/</a>.</p> </blockquote> <blockquote> <p><strong>Skeletonic Stylus v2.0.0 livre la conformité WCAG 2.2 comme comportement par défaut, pas en tant que thème optionnel.</strong> Cette page documente ce qui est intégré et les mixins auxquels vous pouvez souscrire pour un contrôle plus fin.</p> </blockquote> <hr class="hr-text" data-content="Inclus par défaut"> <h2>Ce que vous obtenez gratuitement</h2> <div class="table-responsive"><table class="table"> <thead> <tr> <th>SC WCAG 2.2</th> <th>Ce que fait la v2.0.0</th> <th>Comment vérifier</th> </tr> </thead> <tbody> <tr> <td class="text-left"><strong>1.4.3 Contraste (Minimum) — AA</strong></td> <td class="text-left">&lt;code&gt;--cl-primary&lt;/code&gt; et &lt;code&gt;--cl-secondary&lt;/code&gt; assombris à ≥ 4,5:1 contre le blanc</td> <td class="text-left">DevTools → vérificateur de contraste</td> </tr> <tr> <td class="text-left"><strong>1.4.11 Contraste non textuel — AA</strong></td> <td class="text-left">Bordures de formulaires, boutons, badges tous ≥ 3:1</td> <td class="text-left">Idem</td> </tr> <tr> <td class="text-left"><strong>2.4.7 Focus visible — AA</strong></td> <td class="text-left">Chaque élément focusable a un anneau &lt;code&gt;:focus-visible&lt;/code&gt; (jaune sur fond sombre, bleu sur fond clair)</td> <td class="text-left">Appuyer sur &lt;code&gt;Tab&lt;/code&gt; sur n&#x27;importe quelle page</td> </tr> <tr> <td class="text-left"><strong>2.4.11 Focus non masqué — AA (nouveau en 2.2)</strong></td> <td class="text-left">L&#x27;en-tête collant a une hauteur réduite + scroll-margin pour le focus</td> <td class="text-left">Appuyer sur &lt;code&gt;Tab&lt;/code&gt; au-delà de l&#x27;en-tête collant</td> </tr> <tr> <td class="text-left"><strong>2.5.8 Taille de cible — AA (nouveau en 2.2)</strong></td> <td class="text-left">Boutons / liens : zone cliquable ≥ 24×24 px CSS</td> <td class="text-left">DevTools modèle de boîte</td> </tr> <tr> <td class="text-left"><strong>1.4.12 Espacement du texte — AA</strong></td> <td class="text-left">Tous les éléments respectent les surcharges de hauteur de ligne / espacement des lettres</td> <td class="text-left">Surcharger dans DevTools</td> </tr> <tr> <td class="text-left"><strong>2.3.3 Animation depuis les interactions — AAA</strong></td> <td class="text-left">Toutes les classes d&#x27;animation sont encapsulées dans &lt;code&gt;@media (prefers-reduced-motion: no-preference)&lt;/code&gt;</td> <td class="text-left">Réduire le mouvement au niveau OS</td> </tr> <tr> <td class="text-left"><strong>1.4.10 Redistribution — AA</strong></td> <td class="text-left">La mise en page fonctionne à 320 px sans défilement horizontal</td> <td class="text-left">DevTools viewport étroit</td> </tr> <tr> <td class="text-left"><strong>Mode sombre</strong></td> <td class="text-left">&lt;code&gt;prefers-color-scheme: dark&lt;/code&gt; bascule les jetons automatiquement</td> <td class="text-left">Basculer le mode sombre de l&#x27;OS</td> </tr> </tbody> </table></div> <hr class="hr-text" data-content="Mixins"> <h2>Mixins Stylus optionnels</h2> <p>Si vous compilez depuis les sources, les mixins suivants sont disponibles dans &lt;code&gt;src/stylus/utilities/mixins.styl&lt;/code&gt; :</p> <div class="table-responsive"><table class="table"> <thead> <tr> <th>Mixin</th> <th>Usage</th> </tr> </thead> <tbody> <tr> <td class="text-left">&lt;code&gt;focus-ring()&lt;/code&gt;</td> <td class="text-left">Anneau de focus à haut contraste respectant &lt;code&gt;:focus-visible&lt;/code&gt;</td> </tr> <tr> <td class="text-left">&lt;code&gt;visually-hidden()&lt;/code&gt;</td> <td class="text-left">Texte réservé aux lecteurs d&#x27;écran, restant focusable</td> </tr> <tr> <td class="text-left">&lt;code&gt;skip-link()&lt;/code&gt;</td> <td class="text-left">Ancre qui devient visible au focus</td> </tr> <tr> <td class="text-left">&lt;code&gt;reduced-motion()&lt;/code&gt;</td> <td class="text-left">Encapsule n&#x27;importe quel bloc dans &lt;code&gt;prefers-reduced-motion: no-preference&lt;/code&gt;</td> </tr> <tr> <td class="text-left">&lt;code&gt;forced-colors()&lt;/code&gt;</td> <td class="text-left">Ajustements pour le mode contraste élevé de Windows</td> </tr> <tr> <td class="text-left">&lt;code&gt;target-size(24px)&lt;/code&gt;</td> <td class="text-left">Augmente la zone cliquable de tout élément interactif</td> </tr> </tbody> </table></div> <p>Exemple :</p> <pre>&lt;code class=&quot;language-stylus&quot;&gt;<span class="text plain">// Appliquer un anneau de focus prononcé sur un bouton personnalisé .my-button focus-ring() target-size(28px) </span>&lt;/code&gt;&lt;/pre&gt; <hr class="hr-text" data-content="Lien d'évitement"> <h2>L&#x27;aide au lien d&#x27;évitement</h2> <p>Placez ceci <strong>en tout premier dans &lt;code&gt;&lt;body&gt;&lt;/code&gt;</strong> :</p> <pre>&lt;code class=&quot;language-html&quot;&gt;<span class="text html basic"><span class="meta tag inline a html"><span class="punctuation definition tag begin html">&lt;</span><span class="entity name tag inline a html">a</span> <span class="meta attribute-with-value html"><span class="entity other attribute-name html">href</span><span class="punctuation separator key-value html">=</span></span><span class="meta attribute-with-value html"><span class="string quoted double html"><span class="punctuation definition string begin html">&quot;</span>#main-content<span class="punctuation definition string end html">&quot;</span></span></span> <span class="meta attribute-with-value class html"><span class="entity other attribute-name class html">class</span><span class="punctuation separator key-value html">=</span></span><span class="meta attribute-with-value class html"><span class="string quoted double html"><span class="punctuation definition string begin html">&quot;</span></span></span><span class="meta attribute-with-value class html"><span class="string quoted double html"><span class="meta class-name html">skip-link</span><span class="punctuation definition string end html">&quot;</span></span></span><span class="punctuation definition tag end html">&gt;</span></span>Aller au contenu principal<span class="meta tag inline a html"><span class="punctuation definition tag begin html">&lt;/</span><span class="entity name tag inline a html">a</span><span class="punctuation definition tag end html">&gt;</span></span> </span>&lt;/code&gt;&lt;/pre&gt; <p>La classe n&#x27;est <strong>pas</strong> dans la feuille de style principale (le poids de page n&#x27;augmente pas); c&#x27;est un extrait de 4 lignes que vous composez vous-même ou que vous utilisez via le mixin &lt;code&gt;skip-link()&lt;/code&gt; inclus. Ce site l&#x27;utilise — cliquez sur la page puis appuyez sur Tab pour le voir apparaître en haut à gauche.</p> <hr class="hr-text" data-content="Vérification"> <h2>Vérifier vos propres pages</h2> <p>La bibliothèque fournit un script &lt;code&gt;a11y-test.mjs&lt;/code&gt; sous &lt;code&gt;scripts/&lt;/code&gt; qui exécute <a href="https://github.com/dequelabs/axe-core">axe-core</a> sur chaque URL que vous lui fournissez.</p> <pre>&lt;code class=&quot;language-bash&quot;&gt;<span class="source shell bash"><span class="meta function-call shell"><span class="variable function shell">node</span></span><span class="meta function-call arguments shell"> scripts/a11y-test.mjs https://example.com</span> </span>&lt;/code&gt;&lt;/pre&gt; <p>La CI exécute ce script sur la page vitrine &lt;code&gt;dist/index.html&lt;/code&gt; à chaque push.</p> <p><a href="/fr/journal/">Lire les notes de version v2.0.0 →</a> · <a href="/fr/securite/">Voir la page Sécurité →</a></p> </div> </div> <div class="card-surface text-center security-card"> <img src="/images/logo.svg" alt="Skeletonic Stylus Logo" width="120" height="120" class="mb-lg" /> <h2></h2> <p class="text-muted mx-auto" style="max-width:44rem;"></p> </div> </main> <!-- Top Anchor --> <div class="text-center py-lg"> <a href="#main" class="btn btn-outline-dark" aria-label="Back to the top">Back to the top ↑</a> </div> <!-- Footer --> <footer> <div class="container"> <div class="row gap-lg"> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">About</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/about/index.html">About us</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Legal</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/accessibility/index.html">Accessibility</a></li> <li><a href="/terms/index.html">Terms of use</a></li> <li><a href="/privacy/index.html">Privacy Policy</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Support</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/contact/index.html">Contact Us</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Follow Us</h3> <div class="flex gap-md"> <a href="https://www.youtube.com/@AkandeAI" target="_blank" rel="noopener" aria-label="YouTube (opens in a new tab)"> <img src="https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg" alt="" aria-hidden="true" width="32" height="32" /> </a> <a href="https://twitter.com/AkandeAI" target="_blank" rel="noopener" aria-label="Twitter (opens in a new tab)"> <img src="https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg" alt="" aria-hidden="true" width="32" height="32" /> </a> </div> </div> </div> <div class="text-center pt-lg mt-lg border-top text-muted" style="border-color:var(--border-hairline) !important;"> </div> </div> </footer> <!-- Search Modal Dialog (HIDDEN BY DEFAULT) --> <div id="searchModal" class="search-modal" role="dialog" aria-modal="true" aria-label="Site Search"> <div class="search-backdrop"></div> <div class="search-dialog"> <div class="search-header"> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <input type="search" id="searchInput" class="search-input" placeholder="Search pages, articles, docs..." aria-label="Search query" autocomplete="off"> <button type="button" class="search-close" id="searchClose" aria-label="Close search">✕</button> </div> <div id="searchResults" class="search-results" role="listbox"> <div class="search-empty">Type to search...</div> </div> </div> </div> <script src="/main.286174fa.js" integrity="sha384-vAdtym8cgrxiPtkVu99V1ZYrhILxNlyuq8+xQ1J3uhZkuFeWePdW3rXHN8Mt9t9G" crossorigin="anonymous" defer></script> </body> </html> 

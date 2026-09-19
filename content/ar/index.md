@@ -15,7 +15,7 @@ CSS سهل الوصول بحجم **أقل من 8&nbsp;كيلوبايت مضغو�
 يعتمد على طبقات التسلسل. بدون JavaScript. أضفه إلى أي صفحة مباشرة.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## تشريح Skeletonic

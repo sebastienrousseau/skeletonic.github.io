@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "按标签浏览 Skeletonic Stylus 文档。",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",
