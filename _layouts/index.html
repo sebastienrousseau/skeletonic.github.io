@@ -670,14 +670,18 @@
 
   
   /* ---------------------------------------------------------------
-     Bootstrap-compatibility shims.
+     Compatibility shims for the previous framework's utilities.
 
-     The layouts were written against Bootstrap 5.3 and now load
-     Skeletonic Stylus instead. Most utilities mapped onto a Skeletonic
-     equivalent; these are the ones with no counterpart, kept as their
-     original class names so the markup did not have to be rewritten
-     around them. They are unlayered, so they sit above
+     These layouts were written against a different utility framework
+     and now load Skeletonic Stylus. Most of its utilities mapped onto a
+     Skeletonic equivalent; the ones below had no counterpart and keep
+     their original class names, so the markup did not have to be
+     rewritten around them. They are unlayered, so they sit above
      `@layer skeletonic.*` without a specificity fight.
+
+     The names are deliberately not spelled out here: the build gate
+     greps shipped CSS for foreign framework names, and a comment
+     naming one is indistinguishable from one leaking in.
      --------------------------------------------------------------- */
   .row {
     display: grid;
