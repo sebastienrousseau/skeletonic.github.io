@@ -1,12 +1,14 @@
 {
-  "permalink": "https://skeletonic.io/cs/",
+  "author": "Sebastien Rousseau",
+  "date": "2026-04-08",
+  "description": "Skeletonic Stylus je lehka, modularni knihovna CSS v preprocesoru Stylus — pripravena na WCAG 2.2, s kaskadovymi vrstvami, 8,3 KB gzipped — navrzena pro moderni vyvoj weboveho rozhrani.",
   "keywords": "css, stylus, css framework, pristupne css, wcag 2.2, lehke css, kaskadove vrstvy, navrhovy system",
   "language": "cs",
-  "title": "Skeletonic Stylus — Pristupne CSS, 8,3 KB gzipped",
-  "description": "Skeletonic Stylus je lehka, modularni knihovna CSS v preprocesoru Stylus — pripravena na WCAG 2.2, s kaskadovymi vrstvami, 8,3 KB gzipped — navrzena pro moderni vyvoj weboveho rozhrani.",
-  "author": "Sebastien Rousseau",
-  "name": "Skeletonic Stylus",
-  "theme_color": "hsl(210, 100%, 42%)",
   "layout": "index",
-  "date": "2026-04-08"
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/cs/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Skeletonic Stylus — Pristupne CSS, 8,3 KB gzipped",
+  "word_count": 196
 }

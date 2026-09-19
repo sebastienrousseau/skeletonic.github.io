@@ -1,11 +1,13 @@
 {
-  "theme_color": "hsl(210, 100%, 42%)",
-  "language": "id",
-  "description": "Halaman yang Anda minta tidak ada di skeletonic.io.",
-  "name": "Skeletonic Stylus",
-  "layout": "page",
   "author": "Sebastien Rousseau",
+  "description": "Halaman yang Anda minta tidak ada di skeletonic.io.",
+  "keywords": "404, tidak ditemukan",
+  "language": "id",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
   "permalink": "https://skeletonic.io/id/404/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
   "title": "Halaman tidak ditemukan",
-  "keywords": "404, tidak ditemukan"
+  "word_count": 70
 }

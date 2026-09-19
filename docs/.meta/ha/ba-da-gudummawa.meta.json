@@ -1,12 +1,14 @@
 {
-  "name": "Skeletonic Stylus",
-  "date": "2026-04-08",
   "author": "Sebastien Rousseau",
-  "keywords": "ba da gudummawa, buɗaɗɗen tushe, buƙatar jawo, matsala, al'adu",
-  "layout": "page",
+  "date": "2026-04-08",
   "description": "Yadda ake shigar da matsaloli, ba da shawarar canje-canje, da aika buƙatun jawo zuwa Skeletonic Stylus.",
+  "keywords": "ba da gudummawa, buɗaɗɗen tushe, buƙatar jawo, matsala, al'adu",
   "language": "ha",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/ha/ba-da-gudummawa/",
+  "reading_time": 1,
   "theme_color": "hsl(210, 100%, 42%)",
   "title": "Ba da gudummawa",
-  "permalink": "https://skeletonic.io/ha/ba-da-gudummawa/"
+  "word_count": 284
 }

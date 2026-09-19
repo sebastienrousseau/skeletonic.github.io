@@ -1,12 +1,14 @@
 {
   "author": "Sebastien Rousseau",
-  "name": "Skeletonic Stylus",
-  "keywords": "godiya",
   "date": "2026-04-08",
-  "layout": "thanks",
-  "permalink": "https://skeletonic.io/ha/godiya/",
   "description": "An aika saƙon ku cikin nasara.",
-  "title": "Godiya!",
+  "keywords": "godiya",
   "language": "ha",
-  "theme_color": "hsl(210, 100%, 42%)"
+  "layout": "thanks",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/ha/godiya/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Godiya!",
+  "word_count": 44
 }

@@ -1,12 +1,14 @@
 {
-  "title": "Kontakt",
-  "permalink": "https://skeletonic.io/pl/kontakt/",
-  "name": "Skeletonic Stylus",
-  "language": "pl",
-  "keywords": "kontakt, wsparcie, opinie, skeletonic",
+  "author": "Sebastien Rousseau",
   "date": "2026-04-08",
-  "theme_color": "hsl(210, 100%, 42%)",
-  "layout": "contact",
   "description": "Skontaktuj sie w sprawie Skeletonic Stylus — zgloszenia bledow, pomysly na funkcje, partnerstwo lub ogolne opinie.",
-  "author": "Sebastien Rousseau"
+  "keywords": "kontakt, wsparcie, opinie, skeletonic",
+  "language": "pl",
+  "layout": "contact",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/pl/kontakt/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Kontakt",
+  "word_count": 45
 }

@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "skeletonic.io ko le de nẹtiwọọki. Oju-iwe ti o beere ko ti wa ni kaṣi sibẹsibẹ.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

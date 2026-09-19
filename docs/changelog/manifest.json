@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Release notes for Skeletonic Stylus, with v2.0.0 in full.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

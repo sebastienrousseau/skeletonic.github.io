@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Mga tuntunin na namamahala sa iyong paggamit ng skeletonic.io at ng Skeletonic Stylus library.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

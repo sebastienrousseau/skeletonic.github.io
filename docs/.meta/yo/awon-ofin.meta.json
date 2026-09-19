@@ -1,12 +1,14 @@
 {
-  "theme_color": "hsl(210, 100%, 42%)",
-  "language": "yo",
-  "permalink": "https://skeletonic.io/yo/awon-ofin/",
-  "layout": "page",
+  "author": "Sebastien Rousseau",
+  "date": "2026-04-08",
   "description": "Awọn ofin ti o ṣakoso lilo rẹ ti skeletonic.io ati ile-ikawe Skeletonic Stylus.",
   "keywords": "awọn ofin lilo, iwe-aṣẹ, mit, apache 2",
-  "date": "2026-04-08",
+  "language": "yo",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/yo/awon-ofin/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
   "title": "Awọn ofin lilo",
-  "author": "Sebastien Rousseau",
-  "name": "Skeletonic Stylus"
+  "word_count": 231
 }

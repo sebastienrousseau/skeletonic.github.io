@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Зв'яжіться з нами щодо Skeletonic Stylus — звіти про помилки, ідеї функцій, партнерство або загальний зворотний зв'язок.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

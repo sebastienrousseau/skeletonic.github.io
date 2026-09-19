@@ -1,12 +1,14 @@
 {
-  "description": "Awọn palẹti awọ Material, Tachyons ati aabo wẹẹbu ti a fi ranṣẹ ninu Skeletonic Stylus v2.0.0.",
-  "language": "yo",
-  "date": "2026-04-08",
-  "theme_color": "hsl(210, 100%, 42%)",
-  "keywords": "palẹti css, material, tachyons, websafe, awọn ami apẹrẹ",
-  "permalink": "https://skeletonic.io/yo/awon-paleti/",
   "author": "Sebastien Rousseau",
-  "title": "Awọn Palẹti",
+  "date": "2026-04-08",
+  "description": "Awọn palẹti awọ Material, Tachyons ati aabo wẹẹbu ti a fi ranṣẹ ninu Skeletonic Stylus v2.0.0.",
+  "keywords": "palẹti css, material, tachyons, websafe, awọn ami apẹrẹ",
+  "language": "yo",
   "layout": "page",
-  "name": "Skeletonic Stylus"
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/yo/awon-paleti/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Awọn Palẹti",
+  "word_count": 397
 }

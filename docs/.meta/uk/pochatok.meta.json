@@ -1,12 +1,14 @@
 {
-  "theme_color": "hsl(210, 100%, 42%)",
-  "date": "2026-04-08",
-  "name": "Skeletonic Stylus",
-  "title": "Початок роботи зі Skeletonic Stylus",
-  "layout": "page",
-  "language": "uk",
   "author": "Sebastien Rousseau",
-  "permalink": "https://skeletonic.io/uk/pochatok/",
+  "date": "2026-04-08",
   "description": "Встановіть Skeletonic Stylus через npm або CDN, імпортуйте його у ваш Stylus-проєкт та перевизначте змінні за лічені секунди.",
-  "keywords": "встановити skeletonic, налаштування stylus, css cdn, початок роботи"
+  "keywords": "встановити skeletonic, налаштування stylus, css cdn, початок роботи",
+  "language": "uk",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/uk/pochatok/",
+  "reading_time": 4,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Початок роботи зі Skeletonic Stylus",
+  "word_count": 979
 }

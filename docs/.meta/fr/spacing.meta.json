@@ -1,12 +1,14 @@
 {
   "author": "Sebastien Rousseau",
-  "layout": "page",
-  "title": "Système d'espacement — propriétés logiques et échelles fluides",
+  "date": "2026-05-02",
   "description": "Skeletonic's spacing scale uses five t-shirt-sized steps (xs / sm / md / lg / xl) derived from the golden ratio. Padding and margin utilities map to one ladder.",
+  "keywords": "css spacing scale, golden ratio, padding utility, margin utility, layout system",
+  "language": "fr",
+  "layout": "page",
   "name": "Skeletonic Stylus",
   "permalink": "https://skeletonic.io/fr/spacing/",
-  "date": "2026-05-02",
+  "reading_time": 1,
   "theme_color": "oklch(0.55 0.2 250)",
-  "language": "fr",
-  "keywords": "css spacing scale, golden ratio, padding utility, margin utility, layout system"
+  "title": "Système d'espacement — propriétés logiques et échelles fluides",
+  "word_count": 376
 }

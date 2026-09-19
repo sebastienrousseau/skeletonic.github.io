@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Bayanan da skeletonic.io ke tattarawa, dalilin da yasa, da yadda ake ficewa.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Paano sinisiguro ng Skeletonic Stylus v2.0.0 ang build pipeline nito, nilalagdaan ang mga release, at nagpapadala ng SBO",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

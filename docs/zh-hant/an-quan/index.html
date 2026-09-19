@@ -1,102 +1,16 @@
-&lt;div lang=&quot;en&quot;&gt;&lt;h2&gt;效能&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;壓縮後 38.8 KB · gzip 後 7.7 KB · brotli 後 6.7 KB&lt;/strong&gt;（完整核心樣式表）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;零 JavaScript&lt;/strong&gt; — 純 Stylus → 純 CSS，零執行時間成本。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;級聯層架構&lt;/strong&gt; — 覆寫無需 &lt;code&gt;!important&lt;/code&gt; 即可生效。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;size-limit&lt;/code&gt; 預算&lt;/strong&gt; 在 CI 每次提交時強制執行。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;效能是一項安全控制。每少傳送一個位元組，就少了一個需要審計、簽署和驗證的位元組。&lt;/p&gt;
-&lt;h2&gt;供應鏈摘要&lt;/h2&gt;
-&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table&quot;&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;控制措施&lt;/th&gt;
-&lt;th&gt;v2.0.0 狀態&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;CycloneDX SBOM&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;每次發行時生成，提交至 &lt;code&gt;dist/sbom.json&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;npm 來源驗證&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;已啟用（&lt;code&gt;--provenance --access public&lt;/code&gt;）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;簽署的 git 標籤&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;由維護者金鑰 SSH 簽署&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;鎖定的 Dependabot&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;每週更新，自動審核&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;大小預算&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;size-limit&lt;/code&gt; 8 KB gzip 上限，回歸時 CI 失敗&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;Lint&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;每次推送時執行 &lt;code&gt;stylelint&lt;/code&gt; + 無障礙斷言&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;CodeQL&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;已啟用，涵蓋 &lt;code&gt;javascript&lt;/code&gt; 和設定檔&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;CVE-2023-44270&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;已修補&lt;/strong&gt;，透過 &lt;code&gt;pnpm.overrides&lt;/code&gt; 清除 &lt;code&gt;postcss@7&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;&lt;/div&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;SBOM&quot;&gt;
-&lt;h2&gt;CycloneDX SBOM&lt;/h2&gt;
-&lt;p&gt;每個發佈的壓縮檔均包含一份 CycloneDX SBOM，位於 &lt;code&gt;dist/sbom.json&lt;/code&gt;。您可以使用以下命令驗證新安裝的套件：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#8fa1b3;&quot;&gt;pnpm&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; add @sebastienrousseau/skeletonic-stylus@2.0.0
-&lt;/span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;jq &lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;.metadata.component.version&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&#39; \
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;  node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
-&lt;/span&gt;&lt;span style=&quot;color:#7d8a96;&quot;&gt;# → &quot;2.0.0&quot;
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;SBOM 在發佈工作流程中由 &lt;code&gt;cyclonedx-npm&lt;/code&gt; 生成。&lt;/p&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;來源驗證&quot;&gt;
-&lt;h2&gt;npm 來源驗證&lt;/h2&gt;
-&lt;p&gt;發佈的產物使用 &lt;a href=&quot;https://docs.npmjs.com/generating-provenance-statements&quot;&gt;npm 套件來源驗證&lt;/a&gt; 進行簽署。&lt;/p&gt;
-&lt;p&gt;安裝後可使用以下命令驗證：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#8fa1b3;&quot;&gt;npm&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; view @sebastienrousseau/skeletonic-stylus@2.0.0&lt;/span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --json &lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;| \
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;jq &lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;.dist.&quot;npm-signature&quot;&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&#39;
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;簽署的證明將壓縮檔追溯至產生它的確切 GitHub Actions 執行。&lt;/p&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;CVE&quot;&gt;
-&lt;h2&gt;已知 CVE 與修補&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVE&lt;/th&gt;
-&lt;th&gt;嚴重程度&lt;/th&gt;
-&lt;th&gt;狀態&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;CVE-2023-44270&lt;/strong&gt;（postcss 換行解析）&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;中等&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;已修補&lt;/strong&gt;，v2.0.0 透過 &lt;code&gt;pnpm.overrides&lt;/code&gt; 將 &lt;code&gt;postcss&lt;/code&gt; 升級至 ≥ 8.4.31&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Snyk 安全通報資料庫和 GitHub Security Advisories 動態受到持續監控；安全修補以&lt;strong&gt;修訂版本&lt;/strong&gt;形式發佈。&lt;/p&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;報告&quot;&gt;
-&lt;h2&gt;報告漏洞&lt;/h2&gt;
-&lt;p&gt;請&lt;strong&gt;不要&lt;/strong&gt;為安全報告開啟公開的 GitHub issue。請改用以下私密通道：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/sebastienrousseau/skeletonic-stylus/security/advisories/new&quot;&gt;github.com/sebastienrousseau/skeletonic-stylus/security/advisories/new&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;報告在 &lt;strong&gt;72 小時&lt;/strong&gt;內得到確認，中等問題在 &lt;strong&gt;14 天&lt;/strong&gt;內修復，嚴重問題在 &lt;strong&gt;48 小時&lt;/strong&gt;內修復。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/zh-hant/&quot;&gt;返回首頁 →&lt;/a&gt; · &lt;a href=&quot;/zh-hant/geng-xin-ri-zhi/&quot;&gt;閱讀更新日誌 →&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
+<!DOCTYPE html> <html lang="zh-hant" data-theme-mode="system"> <head> <meta charset="" /> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> <meta itemprop="datePublished" content="" id="date"> <meta itemprop="dateModified" content="" id="last-modified"> <title>安全與供應鏈</title> &lt;meta name=&quot;author&quot; content=&quot;Sebastien Rousseau&quot;&gt; &lt;meta name=&quot;description&quot; content=&quot;Skeletonic Stylus v2.0.0 如何保護其建置管線、簽署發行版本並提供 SBOM。&quot;&gt; &lt;meta name=&quot;keywords&quot; content=&quot;css 安全, sbom, cyclonedx, npm provenance, openssf scorecard, 供應鏈&quot;&gt; <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net unpkg.com; connect-src 'self' https://cdn.jsdelivr.net; img-src 'self' data: https: https://cloudcdn.pro cloudcdn.pro; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; media-src 'self' https://cloudcdn.pro;" /> <link rel="alternate" href="" hreflang="" /> <link rel="preload" as="image" href="/images/banner.svg">  <link rel="icon" type="image/svg+xml" href="/images/logo.svg" /> <link rel="icon" type="image/x-icon" href="" sizes="16x16 32x32" /> <link rel="apple-touch-icon" href="https://cloudcdn.pro/cmn/v1/icons/192x192.png" sizes="192x192" /> <link rel="manifest" href="/manifest.json" /> <link rel="alternate" type="application/rss+xml" href="/rss.xml" /> <link rel="stylesheet" href="/css/skeletonic.min.css" /> <link rel="stylesheet" href="/css/skeletonic-ui.min.css" />   <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="https://skeletonic.com/atom.xml"/> <link rel="alternate" type="application/feed+json" title="JSON Feed" href="https://skeletonic.com/feed.json"/> <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"> <meta name="description" content="安全與供應鏈 效能 壓縮後 38.8 KB · gzip 後 7.7 KB · brotli 後 6.7 KB （完整核心樣式表）。 零 JavaScript — 純 Stylus → 純">
+<meta property="og:title" content="安全與供應鏈">
+<meta property="og:description" content="安全與供應鏈 效能 壓縮後 38.8 KB · gzip 後 7.7 KB · brotli 後 6.7 KB （完整核心樣式表）。 零 JavaScript — 純 Stylus → 純">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/images/logo.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_Hant">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="安全與供應鏈">
+<meta name="twitter:description" content="安全與供應鏈 效能 壓縮後 38.8 KB · gzip 後 7.7 KB · brotli 後 6.7 KB （完整核心樣式表）。 零 JavaScript — 純 Stylus → 純">
+<meta name="twitter:image" content="/images/logo.svg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","description":"安全與供應鏈 效能 壓縮後 38.8 KB · gzip 後 7.7 KB · brotli 後 6.7 KB （完整核心樣式表）。 零 JavaScript — 純 Stylus → 純","image":{"@type":"ImageObject","url":"/images/logo.svg"},"inLanguage":"zh-Hant","name":"安全與供應鏈","url":"https://skeletonic.com/zh-hant/an-quan/index.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://skeletonic.com/","name":"Home","position":1},{"@type":"ListItem","item":"https://skeletonic.com/zh-hant","name":"zh hant","position":2},{"@type":"ListItem","item":"https://skeletonic.com/zh-hant/an-quan","name":"an quan","position":3}]}</script>
+<link rel="canonical" href="https://skeletonic.com/zh-hant/an-quan/"><link rel="stylesheet" href="/_csp/ebe6818d204529ae.css" integrity="sha384-5iIPsjuQLskIAz5jCLu5uux5h3jXZyYukObSN+uNdo64DQozNIDnJAIepaPFcVvr" crossorigin="anonymous"><link rel="stylesheet" href="/_csp/f2f5dc5a9bceaafc.css" integrity="sha384-BGvLinJ7hGuTBmAehfeznUMsDR8XvK2N0F+7fXns8xuZyCHKcPnVNfJ6v50IEgxF" crossorigin="anonymous"><link rel="sbom" type="application/vnd.cyclonedx+json" href="/sbom.cdx.json">
+</head> <body> <!-- Responsive Navbar --> <nav class="navbar" aria-label="Main Navigation"> <div class="navbar-container"> <div class="navbar-header"> <a class="navbar-brand" href="/"> <img src="/images/logo.svg" alt="" aria-hidden="true" width="32" height="32" class="d-inline-block" /> <span class="navbar-brand-text">Skeletonic Stylus</span> </a> <!-- Mobile actions (Search + Theme + Toggle) --> <div class="navbar-actions flex d-lg-none"> <button type="button" class="btn search-trigger" id="searchTriggerMobile" aria-label="Search"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> </button> <div class="theme-switcher" role="radiogroup" aria-label="Theme mode"> <button type="button" class="theme-btn" data-theme-mode="light" aria-label="Light mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> </button> <button type="button" class="theme-btn" data-theme-mode="dark" aria-label="Dark mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </button> <button type="button" class="theme-btn active" data-theme-mode="system" aria-label="System mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> </button> </div> <button type="button" class="navbar-toggle" id="navbarToggle" aria-expanded="false" aria-controls="navbarMenu" aria-label="Toggle navigation menu"> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg> </button> </div> </div> <!-- Links menu --> <div class="navbar-menu" id="navbarMenu"> <ul class="nav-list"> <li class="nav-item"><a class="nav-link" href="/about/index.html">About</a></li> <li class="nav-item nav-item-cta"><a class="btn btn-dark ms-lg-2" href="/contact/index.html">Get in touch</a></li> </ul> </div> <!-- Desktop actions --> <div class="navbar-actions d-none d-lg-flex"> <button type="button" class="btn search-trigger" id="searchTrigger" aria-label="Search"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <span>Search</span> <kbd class="search-kbd">⌘K</kbd> </button> <div class="theme-switcher" role="radiogroup" aria-label="Theme mode"> <button type="button" class="theme-btn" data-theme-mode="light" aria-label="Light mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> </button> <button type="button" class="theme-btn" data-theme-mode="dark" aria-label="Dark mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </button> <button type="button" class="theme-btn active" data-theme-mode="system" aria-label="System mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> </button> </div> </div> </div> </nav> <!-- Main Content --> <main id="main" class="content-wrapper" aria-label="Main content"> <header class="page-header text-center mb-lg"><h1 class="display-5 bold text-headline mb-md">安全與供應鏈</h1></header> <div class="callout-surface text-center"> <p class="mb-0 fs-5 fw-normal"></p> </div> <div class="card-surface"> <div lang="en"><h2>效能</h2> <ul> <li><strong>壓縮後 38.8 KB · gzip 後 7.7 KB · brotli 後 6.7 KB</strong>（完整核心樣式表）。</li> <li><strong>零 JavaScript</strong> — 純 Stylus → 純 CSS，零執行時間成本。</li> <li><strong>級聯層架構</strong> — 覆寫無需 &lt;code&gt;!important&lt;/code&gt; 即可生效。</li> <li><strong>&lt;code&gt;size-limit&lt;/code&gt; 預算</strong> 在 CI 每次提交時強制執行。</li> </ul> <p>效能是一項安全控制。每少傳送一個位元組，就少了一個需要審計、簽署和驗證的位元組。</p> <h2>供應鏈摘要</h2> <div class="table-responsive"><table class="table"> <thead> <tr> <th>控制措施</th> <th>v2.0.0 狀態</th> </tr> </thead> <tbody> <tr> <td class="text-left"><strong>CycloneDX SBOM</strong></td> <td class="text-left">每次發行時生成，提交至 &lt;code&gt;dist/sbom.json&lt;/code&gt;</td> </tr> <tr> <td class="text-left"><strong>npm 來源驗證</strong></td> <td class="text-left">已啟用（&lt;code&gt;--provenance --access public&lt;/code&gt;）</td> </tr> <tr> <td class="text-left"><strong>簽署的 git 標籤</strong></td> <td class="text-left">由維護者金鑰 SSH 簽署</td> </tr> <tr> <td class="text-left"><strong>鎖定的 Dependabot</strong></td> <td class="text-left">每週更新，自動審核</td> </tr> <tr> <td class="text-left"><strong>大小預算</strong></td> <td class="text-left">&lt;code&gt;size-limit&lt;/code&gt; 8 KB gzip 上限，回歸時 CI 失敗</td> </tr> <tr> <td class="text-left"><strong>Lint</strong></td> <td class="text-left">每次推送時執行 &lt;code&gt;stylelint&lt;/code&gt; + 無障礙斷言</td> </tr> <tr> <td class="text-left"><strong>CodeQL</strong></td> <td class="text-left">已啟用，涵蓋 &lt;code&gt;javascript&lt;/code&gt; 和設定檔</td> </tr> <tr> <td class="text-left"><strong>CVE-2023-44270</strong></td> <td class="text-left"><strong>已修補</strong>，透過 &lt;code&gt;pnpm.overrides&lt;/code&gt; 清除 &lt;code&gt;postcss@7&lt;/code&gt;</td> </tr> </tbody> </table></div> <hr class="hr-text" data-content="SBOM"> <h2>CycloneDX SBOM</h2> <p>每個發佈的壓縮檔均包含一份 CycloneDX SBOM，位於 &lt;code&gt;dist/sbom.json&lt;/code&gt;。您可以使用以下命令驗證新安裝的套件：</p> <pre>&lt;code class=&quot;language-bash&quot;&gt;<span class="source shell bash"><span class="meta function-call shell"><span class="variable function shell">pnpm</span></span><span class="meta function-call arguments shell"> add @sebastienrousseau/skeletonic-stylus@3.0.0</span> <span class="meta function-call shell"><span class="variable function shell">jq</span></span><span class="meta function-call arguments shell"> <span class="string quoted single shell"><span class="punctuation definition string begin shell">&#39;</span>.metadata.component.version<span class="punctuation definition string end shell">&#39;</span></span> <span class="punctuation separator continuation line shell">\ </span> node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json</span> <span class="comment line number-sign shell"><span class="punctuation definition comment begin shell">#</span></span><span class="comment line number-sign shell"> → &quot;2.0.0&quot;</span><span class="comment line number-sign shell"> </span></span>&lt;/code&gt;&lt;/pre&gt; <p>SBOM 在發佈工作流程中由 &lt;code&gt;cyclonedx-npm&lt;/code&gt; 生成。</p> <hr class="hr-text" data-content="來源驗證"> <h2>npm 來源驗證</h2> <p>發佈的產物使用 <a href="https://docs.npmjs.com/generating-provenance-statements">npm 套件來源驗證</a> 進行簽署。</p> <p>安裝後可使用以下命令驗證：</p> <pre>&lt;code class=&quot;language-bash&quot;&gt;<span class="source shell bash"><span class="meta function-call shell"><span class="variable function shell">npm</span></span><span class="meta function-call arguments shell"> view @sebastienrousseau/skeletonic-stylus@3.0.0<span class="variable parameter option shell"><span class="punctuation definition parameter shell"> --</span>json</span></span> <span class="keyword operator logical pipe shell">|</span> <span class="punctuation separator continuation line shell">\ </span> <span class="meta function-call shell"><span class="variable function shell">jq</span></span><span class="meta function-call arguments shell"> <span class="string quoted single shell"><span class="punctuation definition string begin shell">&#39;</span>.dist.&quot;npm-signature&quot;<span class="punctuation definition string end shell">&#39;</span></span></span> </span>&lt;/code&gt;&lt;/pre&gt; <p>簽署的證明將壓縮檔追溯至產生它的確切 GitHub Actions 執行。</p> <hr class="hr-text" data-content="CVE"> <h2>已知 CVE 與修補</h2> <div class="table-responsive"><table class="table"> <thead> <tr> <th>CVE</th> <th>嚴重程度</th> <th>狀態</th> </tr> </thead> <tbody> <tr> <td class="text-left"><strong>CVE-2023-44270</strong>（postcss 換行解析）</td> <td class="text-left">中等</td> <td class="text-left"><strong>已修補</strong>，v2.0.0 透過 &lt;code&gt;pnpm.overrides&lt;/code&gt; 將 &lt;code&gt;postcss&lt;/code&gt; 升級至 ≥ 8.4.31</td> </tr> </tbody> </table></div> <p>Snyk 安全通報資料庫和 GitHub Security Advisories 動態受到持續監控；安全修補以<strong>修訂版本</strong>形式發佈。</p> <hr class="hr-text" data-content="報告"> <h2>報告漏洞</h2> <p>請<strong>不要</strong>為安全報告開啟公開的 GitHub issue。請改用以下私密通道：</p> <blockquote> <p><a href="https://github.com/sebastienrousseau/skeletonic-stylus/security/advisories/new">github.com/sebastienrousseau/skeletonic-stylus/security/advisories/new</a></p> </blockquote> <p>報告在 <strong>72 小時</strong>內得到確認，中等問題在 <strong>14 天</strong>內修復，嚴重問題在 <strong>48 小時</strong>內修復。</p> <p><a href="/zh-hant/">返回首頁 →</a> · <a href="/zh-hant/geng-xin-ri-zhi/">閱讀更新日誌 →</a></p> </div> </div> <div class="card-surface text-center security-card"> <img src="/images/logo.svg" alt="Skeletonic Stylus Logo" width="120" height="120" class="mb-lg" /> <h2></h2> <p class="text-muted mx-auto" style="max-width:44rem;"></p> </div> </main> <!-- Top Anchor --> <div class="text-center py-lg"> <a href="#main" class="btn btn-outline-dark" aria-label="Back to the top">Back to the top ↑</a> </div> <!-- Footer --> <footer> <div class="container"> <div class="row gap-lg"> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">About</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/about/index.html">About us</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Legal</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/accessibility/index.html">Accessibility</a></li> <li><a href="/terms/index.html">Terms of use</a></li> <li><a href="/privacy/index.html">Privacy Policy</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Support</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/contact/index.html">Contact Us</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Follow Us</h3> <div class="flex gap-md"> <a href="https://www.youtube.com/@AkandeAI" target="_blank" rel="noopener" aria-label="YouTube (opens in a new tab)"> <img src="https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg" alt="" aria-hidden="true" width="32" height="32" /> </a> <a href="https://twitter.com/AkandeAI" target="_blank" rel="noopener" aria-label="Twitter (opens in a new tab)"> <img src="https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg" alt="" aria-hidden="true" width="32" height="32" /> </a> </div> </div> </div> <div class="text-center pt-lg mt-lg border-top text-muted" style="border-color:var(--border-hairline) !important;"> </div> </div> </footer> <!-- Search Modal Dialog (HIDDEN BY DEFAULT) --> <div id="searchModal" class="search-modal" role="dialog" aria-modal="true" aria-label="Site Search"> <div class="search-backdrop"></div> <div class="search-dialog"> <div class="search-header"> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <input type="search" id="searchInput" class="search-input" placeholder="Search pages, articles, docs..." aria-label="Search query" autocomplete="off"> <button type="button" class="search-close" id="searchClose" aria-label="Close search">✕</button> </div> <div id="searchResults" class="search-results" role="listbox"> <div class="search-empty">Type to search...</div> </div> </div> </div> <script src="/main.4eed22b6.js" integrity="sha384-swFRL9Viw6ocGhEc9aRyQfNrGLTQJCqW3aiOlVT1W8WSRhSTwXAA92O7vbfv/2lz" crossorigin="anonymous" defer></script> </body> </html> 

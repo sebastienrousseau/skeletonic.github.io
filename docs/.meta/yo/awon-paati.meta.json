@@ -1,12 +1,14 @@
 {
-  "permalink": "https://skeletonic.io/yo/awon-paati/",
-  "date": "2026-04-08",
   "author": "Sebastien Rousseau",
-  "layout": "page",
+  "date": "2026-04-08",
+  "description": "Awọn apẹẹrẹ HTML laaye ti gbogbo paati Skeletonic Stylus, ti a ṣe akojọpọ, ti a fi idi mulẹ, ti a si ṣe pẹlu iwe-aṣa kanna ti a n ṣafihan.",
   "keywords": "awọn paati skeletonic, awọn bọtini, awọn kaadi, awọn fọọmu, awọn itaniji, awọn aami, akọle, navbar, hamburger css nikan",
   "language": "yo",
-  "description": "Awọn apẹẹrẹ HTML laaye ti gbogbo paati Skeletonic Stylus, ti a ṣe akojọpọ, ti a fi idi mulẹ, ti a si ṣe pẹlu iwe-aṣa kanna ti a n ṣafihan.",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/yo/awon-paati/",
+  "reading_time": 7,
   "theme_color": "hsl(210, 100%, 42%)",
   "title": "Awọn Paati",
-  "name": "Skeletonic Stylus"
+  "word_count": 1434
 }

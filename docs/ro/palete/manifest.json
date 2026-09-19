@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Paletele de culori Material, Tachyons și web-safe livrate cu Skeletonic Stylus v2.0.0.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

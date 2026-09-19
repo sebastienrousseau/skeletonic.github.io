@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "צרו קשר לגבי Skeletonic Stylus — דיווחי באגים, רעיונות לתכונות, שיתופי פעולה או משוב כללי.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

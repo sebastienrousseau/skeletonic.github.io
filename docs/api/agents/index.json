@@ -1,0 +1,21 @@
+{
+  "api": "ssg-agent-api",
+  "counts": {
+    "posts": 616,
+    "topics": 0
+  },
+  "links": {
+    "index": "https://skeletonic.com/api/agents/index.json",
+    "person": "https://skeletonic.com/api/agents/person.json",
+    "posts": "https://skeletonic.com/api/agents/posts.json",
+    "topics": "https://skeletonic.com/api/agents/topics.json"
+  },
+  "site": {
+    "description": "Modern, accessible, zero-JS frontend UI components built on Stylus and clean semantic HTML.",
+    "language": "en-GB",
+    "name": "Skeletonic Stylus",
+    "title": "Skeletonic Stylus | Lightweight, Modular CSS UI Framework",
+    "url": "https://skeletonic.com"
+  },
+  "version": "0.0.63"
+}

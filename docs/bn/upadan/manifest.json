@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Skeletonic Stylus-এর প্রতিটি উপাদানের লাইভ HTML উদাহরণ, গোষ্ঠীবদ্ধ, অ্যাংকরড এবং যে স্টাইলশিট ডেমো করা হচ্ছে সেটি দিয়েই",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

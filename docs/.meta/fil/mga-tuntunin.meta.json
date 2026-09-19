@@ -1,12 +1,14 @@
 {
-  "theme_color": "hsl(210, 100%, 42%)",
-  "language": "fil",
-  "name": "Skeletonic Stylus",
-  "title": "Mga Tuntunin ng Paggamit",
-  "keywords": "mga tuntunin ng paggamit, lisensya, mit, apache 2",
-  "layout": "page",
-  "date": "2026-04-08",
-  "permalink": "https://skeletonic.io/fil/mga-tuntunin/",
   "author": "Sebastien Rousseau",
-  "description": "Mga tuntunin na namamahala sa iyong paggamit ng skeletonic.io at ng Skeletonic Stylus library."
+  "date": "2026-04-08",
+  "description": "Mga tuntunin na namamahala sa iyong paggamit ng skeletonic.io at ng Skeletonic Stylus library.",
+  "keywords": "mga tuntunin ng paggamit, lisensya, mit, apache 2",
+  "language": "fil",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/fil/mga-tuntunin/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Mga Tuntunin ng Paggamit",
+  "word_count": 208
 }

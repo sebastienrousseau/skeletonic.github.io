@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Poznamky k vydanim Skeletonic Stylus, s kompletnim popisem v2.0.0.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

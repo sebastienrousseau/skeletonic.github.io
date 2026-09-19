@@ -1,12 +1,14 @@
 {
-  "description": "Bincika takardun Skeletonic Stylus ta hanyar alama.",
-  "title": "Alamomi",
+  "author": "Sebastien Rousseau",
   "date": "2026-04-08",
+  "description": "Bincika takardun Skeletonic Stylus ta hanyar alama.",
+  "keywords": "skeletonic, alamomi, fihirisa, tsarin rarrabawa",
   "language": "ha",
+  "layout": "page",
   "name": "Skeletonic Stylus",
   "permalink": "https://skeletonic.io/ha/tags/",
+  "reading_time": 1,
   "theme_color": "hsl(210, 100%, 42%)",
-  "keywords": "skeletonic, alamomi, fihirisa, tsarin rarrabawa",
-  "author": "Sebastien Rousseau",
-  "layout": "page"
+  "title": "Alamomi",
+  "word_count": 4
 }

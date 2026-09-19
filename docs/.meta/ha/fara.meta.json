@@ -1,12 +1,14 @@
 {
-  "theme_color": "hsl(210, 100%, 42%)",
-  "description": "Shigar da Skeletonic Stylus daga npm ko CDN, shigo da shi cikin gindin Stylus ɗin ku, kuma soke masu canji a cikin daƙiƙu.",
-  "title": "Fara da Skeletonic Stylus",
-  "layout": "page",
-  "date": "2026-04-08",
-  "permalink": "https://skeletonic.io/ha/fara/",
   "author": "Sebastien Rousseau",
-  "name": "Skeletonic Stylus",
+  "date": "2026-04-08",
+  "description": "Shigar da Skeletonic Stylus daga npm ko CDN, shigo da shi cikin gindin Stylus ɗin ku, kuma soke masu canji a cikin daƙiƙu.",
+  "keywords": "shigar da skeletonic, saita stylus, css cdn, fara",
   "language": "ha",
-  "keywords": "shigar da skeletonic, saita stylus, css cdn, fara"
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/ha/fara/",
+  "reading_time": 5,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Fara da Skeletonic Stylus",
+  "word_count": 1171
 }

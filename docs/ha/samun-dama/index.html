@@ -1,133 +1,16 @@
-&lt;div lang=&quot;en&quot;&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Translation note (2026-04-30).&lt;/strong&gt; v2.0.0 adds RTL support and a refreshed
-2026 framework comparison. The English source is the canonical reference
-while these translations catch up. See &lt;a href=&quot;https://skeletonic.io/about/&quot;&gt;https://skeletonic.io/about/&lt;/a&gt; ·
-&lt;a href=&quot;https://skeletonic.io/components/&quot;&gt;https://skeletonic.io/components/&lt;/a&gt; · &lt;a href=&quot;https://skeletonic.io/benchmarks/&quot;&gt;https://skeletonic.io/benchmarks/&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Skeletonic Stylus v2.0.0 yana aika daidaiton WCAG 2.2 a matsayin halayen tsoho, ba a matsayin jigo na zaɓi ba.&lt;/strong&gt; Wannan shafin yana rubuta abin da aka gina a ciki da mixins ɗin da za ku iya zaɓa don ƙarin sarrafawa.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;Daga cikin akwatin&quot;&gt;
-&lt;h2&gt;Abin da kuke samu kyauta&lt;/h2&gt;
-&lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table&quot;&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;WCAG 2.2 SC&lt;/th&gt;
-&lt;th&gt;Abin da v2.0.0 ke yi&lt;/th&gt;
-&lt;th&gt;Yadda ake tabbatarwa&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.3 Bambanci (Mafi ƙaranci) — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;An duhunta &lt;code&gt;--cl-primary&lt;/code&gt; da &lt;code&gt;--cl-secondary&lt;/code&gt; zuwa ≥ 4.5:1 akan fari&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;DevTools → mai binciken bambanci&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.11 Bambancin da ba rubutu ba — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Iyakokin sifofi, maballin, alamomi duk ≥ 3:1&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Iri ɗaya&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.4.7 Ganin mayar da hankali — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Kowane abun da ake iya mayar da hankali yana da zoben &lt;code&gt;:focus-visible&lt;/code&gt; (rawaya a kan bango mai duhu, shuɗi a kan haske)&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Matsa &lt;code&gt;Tab&lt;/code&gt; a kan kowanne shafi&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.4.11 Ba a ɓoye mayar da hankali ba — AA (sabon a 2.2)&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Kanun shafi mai manne yana da ƙarancin tsayi + scroll-margin na mayar da hankali&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Matsa &lt;code&gt;Tab&lt;/code&gt; bayan kanun shafin da ya manne&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.5.8 Girman Manufa — AA (sabon a 2.2)&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Maballin / hanyoyi: ≥ 24×24 CSS px yankin bugu&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;DevTools box model&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.12 Tazarar Rubutu — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Duk abubuwa suna mutunta soke na line-height / letter-spacing na mai amfani&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Soke a cikin DevTools&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;2.3.3 Motsin rai daga Hulɗa — AAA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;An nannaɗe duk azuzuwan motsin rai a cikin &lt;code&gt;@media (prefers-reduced-motion: no-preference)&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Rage motsi a matakin OS&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;1.4.10 Sake kwararowa — AA&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Tsarin yana aiki a 320 px ba tare da gungura a kwance ba&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;DevTools kunkuntar viewport&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;strong&gt;Yanayin dare&lt;/strong&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;prefers-color-scheme: dark&lt;/code&gt; yana sauya alamomi ta atomatik&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Kunna yanayin dare na OS&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;&lt;/div&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;Mixins&quot;&gt;
-&lt;h2&gt;Stylus mixins da za ku iya zaɓa&lt;/h2&gt;
-&lt;p&gt;Idan kuna tattarawa daga tushe, waɗannan mixins suna samuwa a cikin &lt;code&gt;src/stylus/utilities/mixins.styl&lt;/code&gt;:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Mixin&lt;/th&gt;
-&lt;th&gt;Amfani&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;focus-ring()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Zoben mayar da hankali mai bambancin da ke mutunta &lt;code&gt;:focus-visible&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;visually-hidden()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Rubutu na screen-reader kawai da ke ci gaba da iya mayar da hankali&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;skip-link()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Maƙala da ke bayyana a kan mayar da hankali&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;reduced-motion()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Yana nannaɗe kowanne tubali a cikin &lt;code&gt;prefers-reduced-motion: no-preference&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;forced-colors()&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Daidaitawa don Yanayin Bambancin Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;text-left&quot;&gt;&lt;code&gt;target-size(24px)&lt;/code&gt;&lt;/td&gt;
-&lt;td class=&quot;text-left&quot;&gt;Yana ƙara padding ga kowanne abun da ake dannawa zuwa mafi ƙarancin manufar taɓawa&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Misali:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-stylus&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#c0c5ce;&quot;&gt;// Sanya zoben mayar da hankali mai ƙarfi a kan maɓalli na musamman
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;.my-button
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    focus-ring()
-&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    target-size(28px)
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;Hanyar tsallake&quot;&gt;
-&lt;h2&gt;Taimako na skip-link&lt;/h2&gt;
-&lt;p&gt;Saka wannan &lt;strong&gt;abu na farko a cikin &lt;code&gt;&lt;body&gt;&lt;/code&gt;&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&lt;&lt;/span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a &lt;/span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;href&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&quot;&lt;/span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;#main-content&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&quot; &lt;/span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;=&quot;&lt;/span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;skip-link&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&quot;&gt;Tsallaka zuwa babban abun ciki&lt;/&lt;/span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&gt;
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Ajin &lt;strong&gt;ba&lt;/strong&gt; ya cikin stylesheet na tushe ba (don haka nauyin shafin bai ƙaru ba); ɓangare ne na layukan 4 da kuke haɗa da kanku ko amfani da &lt;code&gt;skip-link()&lt;/code&gt; mixin da ke cikin sa. Wannan gidan yanar gizon yana amfani da shi — mayar da hankali ga shafin kuma matsa Tab don ganin sa a saman-hagu.&lt;/p&gt;
-&lt;hr class=&quot;hr-text&quot; data-content=&quot;Tabbatarwa&quot;&gt;
-&lt;h2&gt;Tabbatar da shafukan ku&lt;/h2&gt;
-&lt;p&gt;Dakin karatu yana aika rubutun &lt;code&gt;a11y-test.mjs&lt;/code&gt; a ƙarƙashin &lt;code&gt;scripts/&lt;/code&gt; wanda ke gudanar da &lt;a href=&quot;https://github.com/dequelabs/axe-core&quot;&gt;axe-core&lt;/a&gt; akan kowane URL da kuka ba shi.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;pre style=&quot;background-color:#0d1117;&quot;&gt;
-&lt;span style=&quot;color:#8fa1b3;&quot;&gt;node&lt;/span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; scripts/a11y-test.mjs https://example.com
-&lt;/span&gt;&lt;/pre&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;CI yana gudanar da wannan rubutun akan shafin nunin &lt;code&gt;dist/index.html&lt;/code&gt; a kowane turawa.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/ha/tarihin-canje-canje/&quot;&gt;Karanta game da sakin v2.0.0 →&lt;/a&gt; ·
-&lt;a href=&quot;/ha/tsaro/&quot;&gt;Duba shafin tsaro →&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
+<!DOCTYPE html> <html lang="ha" data-theme-mode="system"> <head> <meta charset="" /> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> <meta itemprop="datePublished" content="" id="date"> <meta itemprop="dateModified" content="" id="last-modified"> <title>Samun Dama — WCAG 2.2 a v2.0.0</title> &lt;meta name=&quot;author&quot; content=&quot;Sebastien Rousseau&quot;&gt; &lt;meta name=&quot;description&quot; content=&quot;Abin da v2.0.0 ke aikawa daga cikin akwatin don daidaiton WCAG 2.2 — zoben mayar da hankali, bambanci, hanyoyin tsallake, motsi, da yanayin dare.&quot;&gt; &lt;meta name=&quot;keywords&quot; content=&quot;wcag 2.2, samun dama, focus visible, skip link, prefers reduced motion, bambanci&quot;&gt; <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net unpkg.com; connect-src 'self' https://cdn.jsdelivr.net; img-src 'self' data: https: https://cloudcdn.pro cloudcdn.pro; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; media-src 'self' https://cloudcdn.pro;" /> <link rel="alternate" href="" hreflang="" /> <link rel="preload" as="image" href="/images/banner.svg">  <link rel="icon" type="image/svg+xml" href="/images/logo.svg" /> <link rel="icon" type="image/x-icon" href="" sizes="16x16 32x32" /> <link rel="apple-touch-icon" href="https://cloudcdn.pro/cmn/v1/icons/192x192.png" sizes="192x192" /> <link rel="manifest" href="/manifest.json" /> <link rel="alternate" type="application/rss+xml" href="/rss.xml" /> <link rel="stylesheet" href="/css/skeletonic.min.css" /> <link rel="stylesheet" href="/css/skeletonic-ui.min.css" />   <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="https://skeletonic.com/atom.xml"/> <link rel="alternate" type="application/feed+json" title="JSON Feed" href="https://skeletonic.com/feed.json"/> <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"> <meta name="description" content="Samun Dama — WCAG 2.2 a v2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is the">
+<meta property="og:title" content="Samun Dama — WCAG 2.2 a v2.0.0">
+<meta property="og:description" content="Samun Dama — WCAG 2.2 a v2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is the">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/images/logo.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ha">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Samun Dama — WCAG 2.2 a v2.0.0">
+<meta name="twitter:description" content="Samun Dama — WCAG 2.2 a v2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is the">
+<meta name="twitter:image" content="/images/logo.svg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","description":"Samun Dama — WCAG 2.2 a v2.0.0 Translation note (2026-04-30). v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is the","image":{"@type":"ImageObject","url":"/images/logo.svg"},"inLanguage":"ha","name":"Samun Dama — WCAG 2.2 a v2.0.0","url":"https://skeletonic.com/ha/samun-dama/index.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://skeletonic.com/","name":"Home","position":1},{"@type":"ListItem","item":"https://skeletonic.com/ha","name":"ha","position":2},{"@type":"ListItem","item":"https://skeletonic.com/ha/samun-dama","name":"samun dama","position":3}]}</script>
+<link rel="canonical" href="https://skeletonic.com/ha/samun-dama/"><link rel="stylesheet" href="/_csp/ebe6818d204529ae.css" integrity="sha384-5iIPsjuQLskIAz5jCLu5uux5h3jXZyYukObSN+uNdo64DQozNIDnJAIepaPFcVvr" crossorigin="anonymous"><link rel="stylesheet" href="/_csp/f2f5dc5a9bceaafc.css" integrity="sha384-BGvLinJ7hGuTBmAehfeznUMsDR8XvK2N0F+7fXns8xuZyCHKcPnVNfJ6v50IEgxF" crossorigin="anonymous"><link rel="sbom" type="application/vnd.cyclonedx+json" href="/sbom.cdx.json">
+</head> <body> <!-- Responsive Navbar --> <nav class="navbar" aria-label="Main Navigation"> <div class="navbar-container"> <div class="navbar-header"> <a class="navbar-brand" href="/"> <img src="/images/logo.svg" alt="" aria-hidden="true" width="32" height="32" class="d-inline-block" /> <span class="navbar-brand-text">Skeletonic Stylus</span> </a> <!-- Mobile actions (Search + Theme + Toggle) --> <div class="navbar-actions flex d-lg-none"> <button type="button" class="btn search-trigger" id="searchTriggerMobile" aria-label="Search"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> </button> <div class="theme-switcher" role="radiogroup" aria-label="Theme mode"> <button type="button" class="theme-btn" data-theme-mode="light" aria-label="Light mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> </button> <button type="button" class="theme-btn" data-theme-mode="dark" aria-label="Dark mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </button> <button type="button" class="theme-btn active" data-theme-mode="system" aria-label="System mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> </button> </div> <button type="button" class="navbar-toggle" id="navbarToggle" aria-expanded="false" aria-controls="navbarMenu" aria-label="Toggle navigation menu"> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg> </button> </div> </div> <!-- Links menu --> <div class="navbar-menu" id="navbarMenu"> <ul class="nav-list"> <li class="nav-item"><a class="nav-link" href="/about/index.html">About</a></li> <li class="nav-item nav-item-cta"><a class="btn btn-dark ms-lg-2" href="/contact/index.html">Get in touch</a></li> </ul> </div> <!-- Desktop actions --> <div class="navbar-actions d-none d-lg-flex"> <button type="button" class="btn search-trigger" id="searchTrigger" aria-label="Search"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <span>Search</span> <kbd class="search-kbd">⌘K</kbd> </button> <div class="theme-switcher" role="radiogroup" aria-label="Theme mode"> <button type="button" class="theme-btn" data-theme-mode="light" aria-label="Light mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> </button> <button type="button" class="theme-btn" data-theme-mode="dark" aria-label="Dark mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </button> <button type="button" class="theme-btn active" data-theme-mode="system" aria-label="System mode"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> </button> </div> </div> </div> </nav> <!-- Main Content --> <main id="main" class="content-wrapper" aria-label="Main content"> <header class="page-header text-center mb-lg"><h1 class="display-5 bold text-headline mb-md">Samun Dama — WCAG 2.2 a v2.0.0</h1></header> <div class="callout-surface text-center"> <p class="mb-0 fs-5 fw-normal"></p> </div> <div class="card-surface"> <div lang="en"><blockquote> <p><strong>Translation note (2026-04-30).</strong> v2.0.0 adds RTL support and a refreshed 2026 framework comparison. The English source is the canonical reference while these translations catch up. See <a href="https://skeletonic.io/about/">https://skeletonic.io/about/</a> · <a href="https://skeletonic.io/components/">https://skeletonic.io/components/</a> · <a href="https://skeletonic.io/benchmarks/">https://skeletonic.io/benchmarks/</a>.</p> </blockquote> <blockquote> <p><strong>Skeletonic Stylus v2.0.0 yana aika daidaiton WCAG 2.2 a matsayin halayen tsoho, ba a matsayin jigo na zaɓi ba.</strong> Wannan shafin yana rubuta abin da aka gina a ciki da mixins ɗin da za ku iya zaɓa don ƙarin sarrafawa.</p> </blockquote> <hr class="hr-text" data-content="Daga cikin akwatin"> <h2>Abin da kuke samu kyauta</h2> <div class="table-responsive"><table class="table"> <thead> <tr> <th>WCAG 2.2 SC</th> <th>Abin da v2.0.0 ke yi</th> <th>Yadda ake tabbatarwa</th> </tr> </thead> <tbody> <tr> <td class="text-left"><strong>1.4.3 Bambanci (Mafi ƙaranci) — AA</strong></td> <td class="text-left">An duhunta &lt;code&gt;--cl-primary&lt;/code&gt; da &lt;code&gt;--cl-secondary&lt;/code&gt; zuwa ≥ 4.5:1 akan fari</td> <td class="text-left">DevTools → mai binciken bambanci</td> </tr> <tr> <td class="text-left"><strong>1.4.11 Bambancin da ba rubutu ba — AA</strong></td> <td class="text-left">Iyakokin sifofi, maballin, alamomi duk ≥ 3:1</td> <td class="text-left">Iri ɗaya</td> </tr> <tr> <td class="text-left"><strong>2.4.7 Ganin mayar da hankali — AA</strong></td> <td class="text-left">Kowane abun da ake iya mayar da hankali yana da zoben &lt;code&gt;:focus-visible&lt;/code&gt; (rawaya a kan bango mai duhu, shuɗi a kan haske)</td> <td class="text-left">Matsa &lt;code&gt;Tab&lt;/code&gt; a kan kowanne shafi</td> </tr> <tr> <td class="text-left"><strong>2.4.11 Ba a ɓoye mayar da hankali ba — AA (sabon a 2.2)</strong></td> <td class="text-left">Kanun shafi mai manne yana da ƙarancin tsayi + scroll-margin na mayar da hankali</td> <td class="text-left">Matsa &lt;code&gt;Tab&lt;/code&gt; bayan kanun shafin da ya manne</td> </tr> <tr> <td class="text-left"><strong>2.5.8 Girman Manufa — AA (sabon a 2.2)</strong></td> <td class="text-left">Maballin / hanyoyi: ≥ 24×24 CSS px yankin bugu</td> <td class="text-left">DevTools box model</td> </tr> <tr> <td class="text-left"><strong>1.4.12 Tazarar Rubutu — AA</strong></td> <td class="text-left">Duk abubuwa suna mutunta soke na line-height / letter-spacing na mai amfani</td> <td class="text-left">Soke a cikin DevTools</td> </tr> <tr> <td class="text-left"><strong>2.3.3 Motsin rai daga Hulɗa — AAA</strong></td> <td class="text-left">An nannaɗe duk azuzuwan motsin rai a cikin &lt;code&gt;@media (prefers-reduced-motion: no-preference)&lt;/code&gt;</td> <td class="text-left">Rage motsi a matakin OS</td> </tr> <tr> <td class="text-left"><strong>1.4.10 Sake kwararowa — AA</strong></td> <td class="text-left">Tsarin yana aiki a 320 px ba tare da gungura a kwance ba</td> <td class="text-left">DevTools kunkuntar viewport</td> </tr> <tr> <td class="text-left"><strong>Yanayin dare</strong></td> <td class="text-left">&lt;code&gt;prefers-color-scheme: dark&lt;/code&gt; yana sauya alamomi ta atomatik</td> <td class="text-left">Kunna yanayin dare na OS</td> </tr> </tbody> </table></div> <hr class="hr-text" data-content="Mixins"> <h2>Stylus mixins da za ku iya zaɓa</h2> <p>Idan kuna tattarawa daga tushe, waɗannan mixins suna samuwa a cikin &lt;code&gt;src/stylus/utilities/mixins.styl&lt;/code&gt;:</p> <div class="table-responsive"><table class="table"> <thead> <tr> <th>Mixin</th> <th>Amfani</th> </tr> </thead> <tbody> <tr> <td class="text-left">&lt;code&gt;focus-ring()&lt;/code&gt;</td> <td class="text-left">Zoben mayar da hankali mai bambancin da ke mutunta &lt;code&gt;:focus-visible&lt;/code&gt;</td> </tr> <tr> <td class="text-left">&lt;code&gt;visually-hidden()&lt;/code&gt;</td> <td class="text-left">Rubutu na screen-reader kawai da ke ci gaba da iya mayar da hankali</td> </tr> <tr> <td class="text-left">&lt;code&gt;skip-link()&lt;/code&gt;</td> <td class="text-left">Maƙala da ke bayyana a kan mayar da hankali</td> </tr> <tr> <td class="text-left">&lt;code&gt;reduced-motion()&lt;/code&gt;</td> <td class="text-left">Yana nannaɗe kowanne tubali a cikin &lt;code&gt;prefers-reduced-motion: no-preference&lt;/code&gt;</td> </tr> <tr> <td class="text-left">&lt;code&gt;forced-colors()&lt;/code&gt;</td> <td class="text-left">Daidaitawa don Yanayin Bambancin Windows</td> </tr> <tr> <td class="text-left">&lt;code&gt;target-size(24px)&lt;/code&gt;</td> <td class="text-left">Yana ƙara padding ga kowanne abun da ake dannawa zuwa mafi ƙarancin manufar taɓawa</td> </tr> </tbody> </table></div> <p>Misali:</p> <pre>&lt;code class=&quot;language-stylus&quot;&gt;<span class="text plain">// Sanya zoben mayar da hankali mai ƙarfi a kan maɓalli na musamman .my-button focus-ring() target-size(28px) </span>&lt;/code&gt;&lt;/pre&gt; <hr class="hr-text" data-content="Hanyar tsallake"> <h2>Taimako na skip-link</h2> <p>Saka wannan <strong>abu na farko a cikin &lt;code&gt;&lt;body&gt;&lt;/code&gt;</strong>:</p> <pre>&lt;code class=&quot;language-html&quot;&gt;<span class="text html basic"><span class="meta tag inline a html"><span class="punctuation definition tag begin html">&lt;</span><span class="entity name tag inline a html">a</span> <span class="meta attribute-with-value html"><span class="entity other attribute-name html">href</span><span class="punctuation separator key-value html">=</span></span><span class="meta attribute-with-value html"><span class="string quoted double html"><span class="punctuation definition string begin html">&quot;</span>#main-content<span class="punctuation definition string end html">&quot;</span></span></span> <span class="meta attribute-with-value class html"><span class="entity other attribute-name class html">class</span><span class="punctuation separator key-value html">=</span></span><span class="meta attribute-with-value class html"><span class="string quoted double html"><span class="punctuation definition string begin html">&quot;</span></span></span><span class="meta attribute-with-value class html"><span class="string quoted double html"><span class="meta class-name html">skip-link</span><span class="punctuation definition string end html">&quot;</span></span></span><span class="punctuation definition tag end html">&gt;</span></span>Tsallaka zuwa babban abun ciki<span class="meta tag inline a html"><span class="punctuation definition tag begin html">&lt;/</span><span class="entity name tag inline a html">a</span><span class="punctuation definition tag end html">&gt;</span></span> </span>&lt;/code&gt;&lt;/pre&gt; <p>Ajin <strong>ba</strong> ya cikin stylesheet na tushe ba (don haka nauyin shafin bai ƙaru ba); ɓangare ne na layukan 4 da kuke haɗa da kanku ko amfani da &lt;code&gt;skip-link()&lt;/code&gt; mixin da ke cikin sa. Wannan gidan yanar gizon yana amfani da shi — mayar da hankali ga shafin kuma matsa Tab don ganin sa a saman-hagu.</p> <hr class="hr-text" data-content="Tabbatarwa"> <h2>Tabbatar da shafukan ku</h2> <p>Dakin karatu yana aika rubutun &lt;code&gt;a11y-test.mjs&lt;/code&gt; a ƙarƙashin &lt;code&gt;scripts/&lt;/code&gt; wanda ke gudanar da <a href="https://github.com/dequelabs/axe-core">axe-core</a> akan kowane URL da kuka ba shi.</p> <pre>&lt;code class=&quot;language-bash&quot;&gt;<span class="source shell bash"><span class="meta function-call shell"><span class="variable function shell">node</span></span><span class="meta function-call arguments shell"> scripts/a11y-test.mjs https://example.com</span> </span>&lt;/code&gt;&lt;/pre&gt; <p>CI yana gudanar da wannan rubutun akan shafin nunin &lt;code&gt;dist/index.html&lt;/code&gt; a kowane turawa.</p> <p><a href="/ha/tarihin-canje-canje/">Karanta game da sakin v2.0.0 →</a> · <a href="/ha/tsaro/">Duba shafin tsaro →</a></p> </div> </div> <div class="card-surface text-center security-card"> <img src="/images/logo.svg" alt="Skeletonic Stylus Logo" width="120" height="120" class="mb-lg" /> <h2></h2> <p class="text-muted mx-auto" style="max-width:44rem;"></p> </div> </main> <!-- Top Anchor --> <div class="text-center py-lg"> <a href="#main" class="btn btn-outline-dark" aria-label="Back to the top">Back to the top ↑</a> </div> <!-- Footer --> <footer> <div class="container"> <div class="row gap-lg"> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">About</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/about/index.html">About us</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Legal</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/accessibility/index.html">Accessibility</a></li> <li><a href="/terms/index.html">Terms of use</a></li> <li><a href="/privacy/index.html">Privacy Policy</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Support</h3> <ul class="list-unstyled flex flex-column gap-sm"> <li><a href="/contact/index.html">Contact Us</a></li> </ul> </div> <div class="col-lg-3 col-md-6"> <h3 class="h5 bold mb-md">Follow Us</h3> <div class="flex gap-md"> <a href="https://www.youtube.com/@AkandeAI" target="_blank" rel="noopener" aria-label="YouTube (opens in a new tab)"> <img src="https://cloudcdn.pro/common/images/buttons/youtube-speech-bubble-21668.svg" alt="" aria-hidden="true" width="32" height="32" /> </a> <a href="https://twitter.com/AkandeAI" target="_blank" rel="noopener" aria-label="Twitter (opens in a new tab)"> <img src="https://cloudcdn.pro/common/images/buttons/x-speech-bubble-blue-logo-21670.svg" alt="" aria-hidden="true" width="32" height="32" /> </a> </div> </div> </div> <div class="text-center pt-lg mt-lg border-top text-muted" style="border-color:var(--border-hairline) !important;"> </div> </div> </footer> <!-- Search Modal Dialog (HIDDEN BY DEFAULT) --> <div id="searchModal" class="search-modal" role="dialog" aria-modal="true" aria-label="Site Search"> <div class="search-backdrop"></div> <div class="search-dialog"> <div class="search-header"> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> <input type="search" id="searchInput" class="search-input" placeholder="Search pages, articles, docs..." aria-label="Search query" autocomplete="off"> <button type="button" class="search-close" id="searchClose" aria-label="Close search">✕</button> </div> <div id="searchResults" class="search-results" role="listbox"> <div class="search-empty">Type to search...</div> </div> </div> </div> <script src="/main.4eed22b6.js" integrity="sha384-swFRL9Viw6ocGhEc9aRyQfNrGLTQJCqW3aiOlVT1W8WSRhSTwXAA92O7vbfv/2lz" crossorigin="anonymous" defer></script> </body> </html> 

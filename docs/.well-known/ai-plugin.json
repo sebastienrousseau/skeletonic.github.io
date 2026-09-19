@@ -1,0 +1,18 @@
+{
+  "api": {
+    "is_user_authenticated": false,
+    "type": "openapi",
+    "url": "https://skeletonic.com/openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "support@skeletonic.com",
+  "description_for_human": "Modern, accessible, zero-JS frontend UI components built on Stylus and clean semantic HTML.",
+  "description_for_model": "Modern, accessible, zero-JS frontend UI components built on Stylus and clean semantic HTML.",
+  "legal_info_url": "https://skeletonic.com/legal",
+  "logo_url": "https://skeletonic.com/favicon.ico",
+  "name_for_human": "Skeletonic Stylus | Lightweight, Modular CSS UI Framework",
+  "name_for_model": "skeletonic_stylus",
+  "schema_version": "v1"
+}

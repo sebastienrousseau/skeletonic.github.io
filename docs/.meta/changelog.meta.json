@@ -1,10 +1,12 @@
 {
-  "keywords": "skeletonic changelog, release notes, v2.0.0, oklch, css grid, container queries, view transitions, semver",
-  "theme_color": "hsl(210, 100%, 42%)",
-  "description": "Release notes for Skeletonic Stylus, with v2.0.0 in full.",
-  "permalink": "https://skeletonic.io/changelog/",
-  "name": "Skeletonic Stylus",
-  "layout": "page",
   "author": "Sebastien Rousseau",
-  "title": "Changelog"
+  "description": "Release notes for Skeletonic Stylus, with v2.0.0 in full.",
+  "keywords": "skeletonic changelog, release notes, v2.0.0, oklch, css grid, container queries, view transitions, semver",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/changelog/",
+  "reading_time": 4,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Changelog",
+  "word_count": 989
 }
