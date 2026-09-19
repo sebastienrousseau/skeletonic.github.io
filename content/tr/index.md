@@ -15,7 +15,7 @@ keywords: "css, stylus, css framework, erisilebilir css, wcag 2.2, hafif css, ca
 Cascade-layered. Sifir JavaScript. Herhangi bir sayfaya ekleyin.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Skeletonic'in Anatomisi

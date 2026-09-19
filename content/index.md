@@ -96,7 +96,7 @@ No surprises in production.
 
 ```html
 <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+      href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
 ```
 
 That's the whole install.

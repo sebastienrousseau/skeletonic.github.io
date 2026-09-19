@@ -41,7 +41,7 @@ Bawat na-publish na tarball ay may kasamang CycloneDX SBOM sa `dist/sbom.json`.
 Maaari mong i-verify ang isang bagong na-install na package gamit ang:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -59,7 +59,7 @@ Ang na-publish na artefact ay nilalagdaan gamit ang
 Maaari mo itong i-verify pagkatapos ng pag-install gamit ang:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

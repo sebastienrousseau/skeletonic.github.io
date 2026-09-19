@@ -30,13 +30,13 @@ Maaari mong i-install ang Skeletonic Stylus sa pamamagitan ng **pnpm**, **npm** 
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### Mula sa isang CDN
@@ -47,13 +47,13 @@ Kung kailangan mo lang ang compiled CSS, i-drop ang isa sa mga ito sa iyong `<he
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -63,8 +63,8 @@ Para sa pinakamataas na integridad, kopyahin ang **SRI hash** mula sa v2.0.0 rel
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Oo | Oo |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Oo | Hindi |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Oo | Oo |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Oo | Hindi |
 
 ### I-download ang GitHub release
 
@@ -144,7 +144,7 @@ Isang simpleng "gumana ba?" na pagsusuri:
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Gumagana na.</h1>
@@ -160,7 +160,7 @@ Kung ang heading ay naka-size nang fluid at ang button ay may asul na pill shape
 Sa loob ng package ay makikita mo ang bawat source file, ang compiled at minified na CSS bundle, source map, at isang buong Stylus tree na nakaayos ayon sa kategorya:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -198,7 +198,7 @@ Independiyente ang bawat module — i-pull in lang ang mga bundle na kailangan m
 ## Mga madalas itanong
 
 **Paano ko i-install ang Skeletonic Stylus?**
-Patakbuhin ang `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. O i-load ang compiled CSS nang diretso mula sa isang CDN — hindi kailangan ng build step.
+Patakbuhin ang `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. O i-load ang compiled CSS nang diretso mula sa isang CDN — hindi kailangan ng build step.
 
 **Kailangan ba nito ang JavaScript?**
 Hindi. Ang core stylesheet ay purong CSS, na walang runtime cost. Gumagana ang mga component nang walang kahit isang linya ng JS.
@@ -222,7 +222,7 @@ Dual-licensed sa ilalim ng MIT at Apache 2.0 — piliin ang kailangan ng iyong p
       "name": "Paano ko i-install ang Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Patakbuhin ang pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. O i-load ang compiled CSS nang diretso mula sa isang CDN — hindi kailangan ng build step."
+        "text": "Patakbuhin ang pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. O i-load ang compiled CSS nang diretso mula sa isang CDN — hindi kailangan ng build step."
       }
     },
     {

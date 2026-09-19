@@ -15,7 +15,7 @@ keywords: "css, stylus, css フレームワーク, アクセシブル css, wcag 
 カスケードレイヤー採用。JavaScript 不要。どのページにもすぐに導入できます。
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Skeletonic の構成

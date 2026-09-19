@@ -36,13 +36,13 @@ arquivos de distribuicao localmente, se preferir.
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### Via CDN
@@ -53,13 +53,13 @@ Se voce precisa apenas do CSS compilado, adicione uma destas linhas ao seu `<hea
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ v2.0.0 e adicione um atributo `integrity="sha384-…"`.
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Sim | Sim |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Sim | Nao |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Sim | Sim |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Sim | Nao |
 
 ### Baixar o release do GitHub
 
@@ -154,7 +154,7 @@ Um teste minimo de "funcionou?":
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Funcionou.</h1>
@@ -173,7 +173,7 @@ compilados e minificados, source maps e uma arvore Stylus completa
 organizada por categoria:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -212,7 +212,7 @@ manter seu payload CSS o menor possivel.
 ## Perguntas frequentes
 
 **Como instalo o Skeletonic Stylus?**
-Execute `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Ou carregue
+Execute `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Ou carregue
 o CSS compilado diretamente de um CDN — sem necessidade de etapa de build.
 
 **Ele requer JavaScript?**
@@ -243,7 +243,7 @@ seu projeto. Gratuito para uso comercial e pessoal.
       "name": "Como instalo o Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Execute pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Ou carregue o CSS compilado diretamente de um CDN — sem necessidade de etapa de build."
+        "text": "Execute pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Ou carregue o CSS compilado diretamente de um CDN — sem necessidade de etapa de build."
       }
     },
     {

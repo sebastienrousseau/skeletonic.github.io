@@ -42,7 +42,7 @@ Chaque tarball publié inclut un SBOM CycloneDX à `dist/sbom.json`.
 Vérification d'un paquet fraîchement installé :
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ L'artefact publié est signé via la
 Vérification après installation :
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

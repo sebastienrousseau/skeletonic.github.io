@@ -30,13 +30,13 @@ Anda dapat menginstal Skeletonic Stylus melalui **pnpm**, **npm**, atau **yarn**
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### Dari CDN
@@ -47,13 +47,13 @@ Jika Anda hanya membutuhkan CSS yang sudah dikompilasi, masukkan salah satu ini 
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -63,8 +63,8 @@ Untuk integritas maksimum, salin **hash SRI** dari catatan rilis v2.0.0 dan tamb
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Ya | Ya |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Ya | Tidak |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Ya | Ya |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Ya | Tidak |
 
 ### Unduh rilis GitHub
 
@@ -142,7 +142,7 @@ Pemeriksaan minimal "apakah berhasil?":
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Berhasil.</h1>
@@ -158,7 +158,7 @@ Jika heading berukuran fleksibel dan tombol berbentuk pil biru, Anda sudah seles
 Di dalam paket Anda akan menemukan setiap file sumber, bundle CSS yang dikompilasi dan diminifikasi, source map, dan pohon Stylus lengkap yang diatur berdasarkan kategori:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -196,7 +196,7 @@ Setiap modul berdiri sendiri — ambil hanya bundle yang Anda butuhkan untuk men
 ## Pertanyaan yang sering diajukan
 
 **Bagaimana cara menginstal Skeletonic Stylus?**
-Jalankan `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Atau muat CSS yang sudah dikompilasi langsung dari CDN — tidak perlu langkah build.
+Jalankan `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Atau muat CSS yang sudah dikompilasi langsung dari CDN — tidak perlu langkah build.
 
 **Apakah memerlukan JavaScript?**
 Tidak. Stylesheet inti adalah CSS murni, tanpa biaya runtime. Komponen bekerja tanpa satu baris pun JS.
@@ -220,7 +220,7 @@ Berlisensi ganda di bawah MIT dan Apache 2.0 — pilih yang sesuai kebutuhan pro
       "name": "Bagaimana cara menginstal Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Jalankan pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Atau muat CSS yang sudah dikompilasi langsung dari CDN — tidak perlu langkah build."
+        "text": "Jalankan pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Atau muat CSS yang sudah dikompilasi langsung dari CDN — tidak perlu langkah build."
       }
     },
     {

@@ -41,7 +41,7 @@ keywords: "أمان css, sbom, cyclonedx, مصدر npm, openssf scorecard, سل�
 يمكنك التحقق من حزمة مثبّتة حديثًا بـ:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -59,7 +59,7 @@ jq '.metadata.component.version' \
 يمكنك التحقق منها بعد التثبيت بـ:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

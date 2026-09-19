@@ -36,13 +36,13 @@ lokalne.
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### Z CDN
@@ -53,13 +53,13 @@ Pokud potrebujete pouze zkompilovane CSS, vlozte jeden z techto odkazu do `<head
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ a pridejte atribut `integrity="sha384-…"`.
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Ano | Ano |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Ano | Ne |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Ano | Ano |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Ano | Ne |
 
 ### Stahnete vydani z GitHubu
 
@@ -154,7 +154,7 @@ Minimalni kontrola „fungovalo to?":
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Funguje to.</h1>
@@ -173,7 +173,7 @@ CSS svazky, source mapy a kompletni strom Stylus organizovany podle
 kategorii:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -212,7 +212,7 @@ aby vase CSS zustavalo co nejmensí.
 ## Casto kladene dotazy
 
 **Jak nainstaluji Skeletonic Stylus?**
-Spustte `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Nebo nactete
+Spustte `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Nebo nactete
 zkompilovane CSS primo z CDN — zadny build krok neni potreba.
 
 **Vyzaduje JavaScript?**
@@ -241,7 +241,7 @@ potrebuje. Zdarma pro komercni i osobni pouziti.
       "name": "Jak nainstaluji Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Spustte pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Nebo nactete zkompilovane CSS primo z CDN — zadny build krok neni potreba."
+        "text": "Spustte pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Nebo nactete zkompilovane CSS primo z CDN — zadny build krok neni potreba."
       }
     },
     {

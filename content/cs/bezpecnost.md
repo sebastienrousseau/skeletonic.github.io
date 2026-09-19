@@ -42,7 +42,7 @@ Kazdy publikovany tarball obsahuje CycloneDX SBOM v `dist/sbom.json`.
 Cerstve nainstalovan balicek muzete overit pomoci:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ Publikovany artefakt je podepsan pomoci
 Po instalaci jej muzete overit pomoci:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

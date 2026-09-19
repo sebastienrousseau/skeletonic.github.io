@@ -15,7 +15,7 @@ CSS ที่เข้าถึงได้ใน **ขนาดไม่ถึ�
 Cascade-layered ไม่มี JavaScript ใส่ในหน้าเว็บใดก็ได้
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## โครงสร้างของ Skeletonic

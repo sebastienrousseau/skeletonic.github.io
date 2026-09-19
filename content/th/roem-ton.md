@@ -35,13 +35,13 @@ JavaScript framework ไม่ต้อง build step หากใช้ CDN
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### จาก CDN
@@ -53,13 +53,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | ใช่ | ใช่ |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | ใช่ | ไม่ |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | ใช่ | ใช่ |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | ใช่ | ไม่ |
 
 ### ดาวน์โหลด GitHub release
 
@@ -153,7 +153,7 @@ Skeletonic เปิดเผย design tokens เป็น **CSS custom propert
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>ใช้งานได้แล้ว</h1>
@@ -170,7 +170,7 @@ Skeletonic เปิดเผย design tokens เป็น **CSS custom propert
 minify แล้ว source maps และโครงสร้าง Stylus ที่จัดหมวดหมู่ตามประเภท:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -209,7 +209,7 @@ minify แล้ว source maps และโครงสร้าง Stylus ท�
 ## คำถามที่พบบ่อย
 
 **จะติดตั้ง Skeletonic Stylus ได้อย่างไร?**
-รัน `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0` หรือโหลด
+รัน `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0` หรือโหลด
 CSS ที่คอมไพล์แล้วจาก CDN ได้เลย — ไม่ต้อง build step
 
 **ต้องใช้ JavaScript หรือไม่?**
@@ -238,7 +238,7 @@ CSS ที่คอมไพล์แล้วจาก CDN ได้เลย �
       "name": "จะติดตั้ง Skeletonic Stylus ได้อย่างไร?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "รัน pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0 หรือโหลด CSS ที่คอมไพล์แล้วจาก CDN ได้เลย — ไม่ต้อง build step"
+        "text": "รัน pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0 หรือโหลด CSS ที่คอมไพล์แล้วจาก CDN ได้เลย — ไม่ต้อง build step"
       }
     },
     {

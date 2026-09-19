@@ -36,13 +36,13 @@ dosyalarini yerel olarak da barindirebilirsiniz.
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### CDN'den
@@ -53,13 +53,13 @@ Yalnizca derlenmmis CSS'e ihtiyaciniz varsa, bunlardan birini `<head>` icerisine
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ kopyalayin ve bir `integrity="sha384-..."` ozeligi ekleyin.
 
 | CDN | URL | HTTPS | Kombo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Evet | Evet |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Evet | Hayir |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Evet | Evet |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Evet | Hayir |
 
 ### GitHub surumunu indirin
 
@@ -155,7 +155,7 @@ Minimal bir "calisiyor mu?" kontrolu:
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Calisiyor.</h1>
@@ -174,7 +174,7 @@ paketlerini, kaynak haritalarini ve kategorilere gore duzenlenmis tam
 bir Stylus agacini bulacaksiniz:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -213,7 +213,7 @@ icin yalnizca ihtiyaciniz olan paketleri dahil edin.
 ## Sikca sorulan sorular
 
 **Skeletonic Stylus'u nasil kurabilirim?**
-`pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0` komutunu calistirin.
+`pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0` komutunu calistirin.
 Veya derlenmis CSS'i dogrudan CDN'den yukleyin — derleme adimi gerekmez.
 
 **JavaScript gerektirir mi?**
@@ -243,7 +243,7 @@ ve kisisel kullanim icin ucretsiz.
       "name": "Skeletonic Stylus nasil kurulur?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0 komutunu calistirin. Veya derlenmis CSS'i dogrudan bir CDN'den yukleyin — derleme adimi gerekmez."
+        "text": "pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0 komutunu calistirin. Veya derlenmis CSS'i dogrudan bir CDN'den yukleyin — derleme adimi gerekmez."
       }
     },
     {

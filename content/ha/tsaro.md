@@ -40,7 +40,7 @@ Aiki ikon tsaro ne. Kowane byte da ba a aika shi ba ɗaya ne da ba za a duba shi
 Kowanne tarball da aka buga ya haɗa da CycloneDX SBOM a `dist/sbom.json`. Kuna iya tabbatar da fakiti da aka sabo shigar da:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -57,7 +57,7 @@ An sanya hannu a kan kayan da aka buga ta amfani da [tabbacin fakitin npm](https
 Kuna iya tabbatar da shi bayan shigarwa da:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

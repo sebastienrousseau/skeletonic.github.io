@@ -15,7 +15,7 @@ CSS mai saukin amfani a cikin **ƙasa da 8&nbsp;KB gzipped**. Shirye-shiryen WCA
 Tsari na cascade-layered. Babu JavaScript. Saka shi a kowace shafi.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Jikin Skeletonic

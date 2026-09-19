@@ -36,13 +36,13 @@ pinpin ni agbegbe ti o ba fẹ.
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### Lati CDN
@@ -53,13 +53,13 @@ Ti o ba nilo CSS ti a ṣajọ nikan, fi ọkan ninu iwọnyi sinu `<head>` rẹ
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ v2.0.0 ki o fi ẹya `integrity="sha384-…"` kun.
 
 | CDN | URL | HTTPS | Apapọ |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Bẹẹni | Bẹẹni |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Bẹẹni | Rara |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Bẹẹni | Bẹẹni |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Bẹẹni | Rara |
 
 ### Gba itusilẹ GitHub
 
@@ -153,7 +153,7 @@ Ayẹwo "ṣe o ṣiṣẹ?" ti o kere julọ:
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>O n ṣiṣẹ.</h1>
@@ -172,7 +172,7 @@ Ninu package naa iwọ yoo ri gbogbo faili orisun, awọn akopọ CSS ti a
 nipasẹ ẹka:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -211,7 +211,7 @@ aṣẹ CSS rẹ kere bi o ti ṣee.
 ## Awọn ibeere ti a ma n beere nigbagbogbo
 
 **Bawo ni MO ṣe le fi Skeletonic Stylus sori ẹrọ?**
-Ṣiṣẹ `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Tabi gba
+Ṣiṣẹ `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Tabi gba
 CSS ti a ṣajọ taara lati CDN — ko si igbesẹ ikọ ti a beere.
 
 **Ṣe o nilo JavaScript?**
@@ -241,7 +241,7 @@ iṣẹ-akanṣe rẹ nilo. Ọfẹ fun lilo iṣowo ati ti ara ẹni.
       "name": "Bawo ni MO ṣe le fi Skeletonic Stylus sori ẹrọ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ṣiṣẹ pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Tabi gba CSS ti a ṣajọ taara lati CDN — ko si igbesẹ ikọ ti a beere."
+        "text": "Ṣiṣẹ pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Tabi gba CSS ti a ṣajọ taara lati CDN — ko si igbesẹ ikọ ti a beere."
       }
     },
     {

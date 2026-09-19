@@ -36,13 +36,13 @@ gzip עבור גיליון הסגנונות הליבתי), היא משתלבת �
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### מ-CDN
@@ -53,13 +53,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | כן | כן |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | כן | לא |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | כן | כן |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | כן | לא |
 
 ### הורדת שחרור GitHub
 
@@ -154,7 +154,7 @@ Skeletonic חושפת את טוקני העיצוב שלה כ-**משתני CSS** 
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>זה עובד.</h1>
@@ -171,7 +171,7 @@ Skeletonic חושפת את טוקני העיצוב שלה כ-**משתני CSS** 
 מפות מקור, ועץ Stylus מלא מאורגן לפי קטגוריה:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -210,7 +210,7 @@ Skeletonic חושפת את טוקני העיצוב שלה כ-**משתני CSS** 
 ## שאלות נפוצות
 
 **כיצד מתקינים את Skeletonic Stylus?**
-הריצו `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. או
+הריצו `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. או
 טענו את ה-CSS המהודר ישירות מ-CDN — ללא צורך בשלב בנייה.
 
 **האם נדרש JavaScript?**
@@ -239,7 +239,7 @@ brotli עבור גיליון הסגנונות הליבתי המלא. תקרת 8&
       "name": "כיצד מתקינים את Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "הריצו pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. או טענו את ה-CSS המהודר ישירות מ-CDN — ללא צורך בשלב בנייה."
+        "text": "הריצו pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. או טענו את ה-CSS המהודר ישירות מ-CDN — ללא צורך בשלב בנייה."
       }
     },
     {

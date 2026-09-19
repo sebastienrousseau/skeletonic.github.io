@@ -30,13 +30,13 @@ keywords: "安装 skeletonic, stylus 配置, css cdn, 快速入门"
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### 通过 CDN 加载
@@ -47,13 +47,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -63,8 +63,8 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 
 | CDN | URL | HTTPS | 组合加载 |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | 是 | 是 |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | 是 | 否 |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | 是 | 是 |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | 是 | 否 |
 
 ### 下载 GitHub 发布包
 
@@ -140,7 +140,7 @@ Skeletonic 以 **CSS 自定义属性**的形式暴露设计令牌，你无需重
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>安装成功。</h1>
@@ -156,7 +156,7 @@ Skeletonic 以 **CSS 自定义属性**的形式暴露设计令牌，你无需重
 在安装包中，你可以找到所有源文件、编译和压缩后的 CSS 包、Source Map，以及按类别组织的完整 Stylus 目录树：
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -194,7 +194,7 @@ Skeletonic 以 **CSS 自定义属性**的形式暴露设计令牌，你无需重
 ## 常见问题
 
 **如何安装 Skeletonic Stylus？**
-运行 `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`。或直接从 CDN 加载编译后的 CSS——无需构建步骤。
+运行 `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`。或直接从 CDN 加载编译后的 CSS——无需构建步骤。
 
 **需要 JavaScript 吗？**
 不需要。核心样式表是纯 CSS，运行时零开销。所有组件无需任何一行 JS 即可运行。
@@ -218,7 +218,7 @@ Skeletonic 以 **CSS 自定义属性**的形式暴露设计令牌，你无需重
       "name": "如何安装 Skeletonic Stylus？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "运行 pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0。或直接从 CDN 加载编译后的 CSS——无需构建步骤。"
+        "text": "运行 pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0。或直接从 CDN 加载编译后的 CSS——无需构建步骤。"
       }
     },
     {

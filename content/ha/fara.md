@@ -30,13 +30,13 @@ Kuna iya shigar da Skeletonic Stylus ta hanyar **pnpm**, **npm** ko **yarn**, ko
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### Daga CDN
@@ -47,13 +47,13 @@ Idan kuna buƙatar CSS da aka tattara kawai, saka ɗaya daga cikin waɗannan a c
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -63,8 +63,8 @@ Don mafi girman amincin kai, kwafa **SRI hash** daga bayanan sakin v2.0.0 kuma �
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Eh | Eh |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Eh | A'a |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Eh | Eh |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Eh | A'a |
 
 ### Zazzage sakin GitHub
 
@@ -142,7 +142,7 @@ Mafi ƙarancin binciken "shin ya yi aiki?":
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Ya yi aiki.</h1>
@@ -158,7 +158,7 @@ Idan kanun yana da girma mai sassaucin ra'ayi kuma maɓallin yana da siffar kore
 A cikin fakitin za ku sami kowanne fayil na tushe, fakitin CSS da aka tattara da ƙaranta, taswirorin tushe, da bishiyar Stylus cikakkiya da aka tsara ta nau'i:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -196,7 +196,7 @@ Kowanne module yana da kansa — jawo fakitin da kuke buƙata kawai don rage nau
 ## Tambayoyin da ake yawan yi
 
 **Ta yaya zan shigar da Skeletonic Stylus?**
-Gudanar da `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Ko loda CSS da aka tattara kai tsaye daga CDN — babu buƙatar matakin gini.
+Gudanar da `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Ko loda CSS da aka tattara kai tsaye daga CDN — babu buƙatar matakin gini.
 
 **Shin yana buƙatar JavaScript?**
 A'a. Stylesheet na tushe CSS ce tsantsa, babu kuɗin lokacin aiki. Abubuwan hadi suna aiki ba tare da layi guda na JS ba.
@@ -220,7 +220,7 @@ An ba da lasisin biyu a ƙarƙashin MIT da Apache 2.0 — zaɓi wanda aikin ku k
       "name": "Ta yaya zan shigar da Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gudanar da pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Ko loda CSS da aka tattara kai tsaye daga CDN — babu buƙatar matakin gini."
+        "text": "Gudanar da pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Ko loda CSS da aka tattara kai tsaye daga CDN — babu buƙatar matakin gini."
       }
     },
     {

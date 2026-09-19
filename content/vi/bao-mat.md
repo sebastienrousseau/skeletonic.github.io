@@ -42,7 +42,7 @@ Moi tarball xuat ban deu bao gom CycloneDX SBOM tai `dist/sbom.json`.
 Ban co the xac minh goi vua cai dat voi:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ San pham xuat ban duoc ky bang
 Ban co the xac minh sau khi cai dat voi:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

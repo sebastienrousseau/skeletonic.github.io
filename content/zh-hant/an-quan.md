@@ -40,7 +40,7 @@ keywords: "css 安全, sbom, cyclonedx, npm provenance, openssf scorecard, 供�
 每個發佈的壓縮檔均包含一份 CycloneDX SBOM，位於 `dist/sbom.json`。您可以使用以下命令驗證新安裝的套件：
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -57,7 +57,7 @@ SBOM 在發佈工作流程中由 `cyclonedx-npm` 生成。
 安裝後可使用以下命令驗證：
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

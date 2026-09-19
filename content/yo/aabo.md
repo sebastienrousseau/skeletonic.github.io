@@ -42,7 +42,7 @@ Gbogbo tarball ti a tẹ jade pẹlu CycloneDX SBOM ni `dist/sbom.json`.
 O le ṣayẹwo package ti a fi sori ẹrọ tuntun pẹlu:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ Ohun elo ti a tẹ jade ni a fọwọsi nipa lilo
 O le ṣe idaniloju rẹ lẹhin ifisori ẹrọ pẹlu:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

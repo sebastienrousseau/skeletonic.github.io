@@ -30,13 +30,13 @@ keywords: "安裝 skeletonic, stylus 設定, css cdn, 快速入門"
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### 透過 CDN
@@ -47,13 +47,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -63,8 +63,8 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 
 | CDN | 網址 | HTTPS | 合併 |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | 是 | 是 |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | 是 | 否 |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | 是 | 是 |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | 是 | 否 |
 
 ### 下載 GitHub 版本
 
@@ -140,7 +140,7 @@ Skeletonic 將設計 token 以 **CSS 自訂屬性**形式公開，因此您無�
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>成功了。</h1>
@@ -156,7 +156,7 @@ Skeletonic 將設計 token 以 **CSS 自訂屬性**形式公開，因此您無�
 套件內包含所有原始檔案、編譯與壓縮後的 CSS 套件、source maps，以及依類別組織的完整 Stylus 目錄樹：
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -194,7 +194,7 @@ Skeletonic 將設計 token 以 **CSS 自訂屬性**形式公開，因此您無�
 ## 常見問題
 
 **如何安裝 Skeletonic Stylus？**
-執行 `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`。或直接從 CDN 載入編譯後的 CSS——無需建置步驟。
+執行 `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`。或直接從 CDN 載入編譯後的 CSS——無需建置步驟。
 
 **需要 JavaScript 嗎？**
 不需要。核心樣式表是純 CSS，零執行時間成本。組件無需任何一行 JS 即可運作。
@@ -218,7 +218,7 @@ Skeletonic 將設計 token 以 **CSS 自訂屬性**形式公開，因此您無�
       "name": "如何安裝 Skeletonic Stylus？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "執行 pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0。或直接從 CDN 載入編譯後的 CSS——無需建置步驟。"
+        "text": "執行 pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0。或直接從 CDN 載入編譯後的 CSS——無需建置步驟。"
       }
     },
     {

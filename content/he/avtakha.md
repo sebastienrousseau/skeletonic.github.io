@@ -42,7 +42,7 @@ keywords: "אבטחת css, sbom, cyclonedx, מקוריות npm, openssf scorecar
 תוכלו לאמת חבילה שהותקנה זה עתה עם:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ jq '.metadata.component.version' \
 תוכלו לאמת זאת לאחר ההתקנה עם:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 
