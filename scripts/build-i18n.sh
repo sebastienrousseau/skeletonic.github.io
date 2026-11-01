@@ -139,6 +139,7 @@ if [ "$BUILD_EN" -eq 1 ]; then
   for f in CNAME robots.txt manifest.webmanifest sw.js; do
     [ -f "static/$f" ] && cp "static/$f" "docs/$f"
   done
+  [ -f "static/images/favicon.ico" ] && cp "static/images/favicon.ico" "docs/favicon.ico" 
 
   # Strip Shokunin v0.0.34's bogus integrity attributes from <link>
   # tags in rendered HTML. The SSG's `assets::sha256_hex` is actually
@@ -411,6 +412,11 @@ echo ">>> Patching every locale's HTML…"
 # Strip Shokunin's bogus FNV-1a-as-SHA-256 integrity attrs.
 find docs -type f -name '*.html' -print0 \
   | xargs -0 perl -i -pe 's/ integrity="sha256-[0-9a-f]{32}"//g; s/ crossorigin="anonymous"(?=>)//g'
+
+# Ensure cross-origin CloudCDN images carry crossorigin="anonymous" so CORP: same-site is satisfied via CORS.
+find docs -type f -name '*.html' -print0 \
+  | xargs -0 perl -i -pe 's{(<img\s+src="https://cloudcdn\.pro/[^"]+")(?!\s+crossorigin)}{$1 crossorigin="anonymous"}g'
+[ -f "static/images/favicon.ico" ] && cp "static/images/favicon.ico" "docs/favicon.ico"
 
 # Re-quote and darken syntect's inline pre background.
 find docs -type f -name '*.html' -print0 \
