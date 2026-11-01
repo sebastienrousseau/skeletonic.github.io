@@ -3,7 +3,7 @@ title: "Schlagwörter"
 name: "Skeletonic Stylus"
 description: "Skeletonic-Stylus-Dokumentation nach Schlagwort durchsuchen."
 layout: page
-permalink: https://skeletonic.io/de/tags/
+permalink: https://skeletonic.com/de/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: de

@@ -1,9 +1,9 @@
 ---
 title: "Kullanim kosullari"
 name: "Skeletonic Stylus"
-description: "skeletonic.io ve Skeletonic Stylus kutuphanesini kullaniminizi duzenleyen kosullar."
+description: "skeletonic.com ve Skeletonic Stylus kutuphanesini kullaniminizi duzenleyen kosullar."
 layout: page
-permalink: https://skeletonic.io/tr/kosullar/
+permalink: https://skeletonic.com/tr/kosullar/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr
@@ -27,7 +27,7 @@ garantileri dahil ancak bunlarla sinirli olmaksizin, acik veya zimni.
 
 ## 2. Bu web sitesi
 
-`skeletonic.io` icerigi (metin, ornekler, ekran goruntuleri, duzenler)
+`skeletonic.com` icerigi (metin, ornekler, ekran goruntuleri, duzenler)
 Telif Hakki © 2021 - 2026 Skeletonic CSS, tum haklari saklidir ve
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) kapsaminda
 lisanslanmistir — kaynagi belirtmeniz kosuluyla alinti yapabilir,

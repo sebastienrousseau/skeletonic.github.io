@@ -3,7 +3,7 @@ title: "الأمان وسلسلة التوريد"
 name: "Skeletonic Stylus"
 description: "كيف يؤمّن Skeletonic Stylus الإصدار 2.0.0 خط أنابيب البناء، ويوقّع الإصدارات، ويشحن قائمة مواد البرمجيات."
 layout: page
-permalink: https://skeletonic.io/ar/al-aman/
+permalink: https://skeletonic.com/ar/al-aman/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar

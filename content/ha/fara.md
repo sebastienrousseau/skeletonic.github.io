@@ -3,7 +3,7 @@ title: "Fara da Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Shigar da Skeletonic Stylus daga npm ko CDN, shigo da shi cikin gindin Stylus ɗin ku, kuma soke masu canji a cikin daƙiƙu."
 layout: page
-permalink: https://skeletonic.io/ha/fara/
+permalink: https://skeletonic.com/ha/fara/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha
@@ -13,8 +13,8 @@ keywords: "shigar da skeletonic, saita stylus, css cdn, fara"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Gabatarwa
 

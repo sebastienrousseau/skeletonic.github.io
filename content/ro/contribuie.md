@@ -3,7 +3,7 @@ title: "Contribuie"
 name: "Skeletonic Stylus"
 description: "Cum să raportezi probleme, să propui modificări și să trimiți pull request-uri către Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/ro/contribuie/
+permalink: https://skeletonic.com/ro/contribuie/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro

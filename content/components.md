@@ -3,7 +3,7 @@ title: "Components"
 name: "Skeletonic Stylus"
 description: "Live HTML examples of every Skeletonic Stylus component, grouped, anchored, and rendered with the very stylesheet being demoed."
 layout: page
-permalink: https://skeletonic.io/components/
+permalink: https://skeletonic.com/components/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -857,27 +857,27 @@ Responsive image containers, thumbnails, and circular avatar profiles.
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "numberOfItems": 21,
   "itemListElement": [
-    { "@type": "ListItem", "position": 1,  "name": "Buttons",                  "url": "https://skeletonic.io/components/#buttons" },
-    { "@type": "ListItem", "position": 2,  "name": "Button shapes",            "url": "https://skeletonic.io/components/#button-shapes" },
-    { "@type": "ListItem", "position": 3,  "name": "Button groups",            "url": "https://skeletonic.io/components/#button-groups" },
-    { "@type": "ListItem", "position": 4,  "name": "Badges",                   "url": "https://skeletonic.io/components/#badges" },
-    { "@type": "ListItem", "position": 5,  "name": "Switches & Toggles",       "url": "https://skeletonic.io/components/#toggles" },
-    { "@type": "ListItem", "position": 6,  "name": "Alerts",                   "url": "https://skeletonic.io/components/#alerts" },
-    { "@type": "ListItem", "position": 7,  "name": "Loaders & Spinners",       "url": "https://skeletonic.io/components/#loaders" },
-    { "@type": "ListItem", "position": 8,  "name": "Tooltips",                 "url": "https://skeletonic.io/components/#tooltips" },
-    { "@type": "ListItem", "position": 9,  "name": "Code blocks",              "url": "https://skeletonic.io/components/#code-blocks" },
-    { "@type": "ListItem", "position": 10, "name": "Cards",                    "url": "https://skeletonic.io/components/#cards" },
-    { "@type": "ListItem", "position": 11, "name": "Accordions",               "url": "https://skeletonic.io/components/#accordions" },
-    { "@type": "ListItem", "position": 12, "name": "Modals & Dialogs",         "url": "https://skeletonic.io/components/#modals" },
-    { "@type": "ListItem", "position": 13, "name": "Dropdowns",                "url": "https://skeletonic.io/components/#dropdowns" },
-    { "@type": "ListItem", "position": 14, "name": "Tables",                   "url": "https://skeletonic.io/components/#tables" },
-    { "@type": "ListItem", "position": 15, "name": "Form fields",              "url": "https://skeletonic.io/components/#form-fields" },
-    { "@type": "ListItem", "position": 16, "name": "Status inputs",            "url": "https://skeletonic.io/components/#status-inputs" },
-    { "@type": "ListItem", "position": 17, "name": "Fieldsets",                "url": "https://skeletonic.io/components/#fieldsets" },
-    { "@type": "ListItem", "position": 18, "name": "Lists",                    "url": "https://skeletonic.io/components/#lists" },
-    { "@type": "ListItem", "position": 19, "name": "Dividers",                 "url": "https://skeletonic.io/components/#dividers" },
-    { "@type": "ListItem", "position": 20, "name": "Avatars & Images",         "url": "https://skeletonic.io/components/#avatars" },
-    { "@type": "ListItem", "position": 21, "name": "Link hover effects",       "url": "https://skeletonic.io/components/#link-effects" }
+    { "@type": "ListItem", "position": 1,  "name": "Buttons",                  "url": "https://skeletonic.com/components/#buttons" },
+    { "@type": "ListItem", "position": 2,  "name": "Button shapes",            "url": "https://skeletonic.com/components/#button-shapes" },
+    { "@type": "ListItem", "position": 3,  "name": "Button groups",            "url": "https://skeletonic.com/components/#button-groups" },
+    { "@type": "ListItem", "position": 4,  "name": "Badges",                   "url": "https://skeletonic.com/components/#badges" },
+    { "@type": "ListItem", "position": 5,  "name": "Switches & Toggles",       "url": "https://skeletonic.com/components/#toggles" },
+    { "@type": "ListItem", "position": 6,  "name": "Alerts",                   "url": "https://skeletonic.com/components/#alerts" },
+    { "@type": "ListItem", "position": 7,  "name": "Loaders & Spinners",       "url": "https://skeletonic.com/components/#loaders" },
+    { "@type": "ListItem", "position": 8,  "name": "Tooltips",                 "url": "https://skeletonic.com/components/#tooltips" },
+    { "@type": "ListItem", "position": 9,  "name": "Code blocks",              "url": "https://skeletonic.com/components/#code-blocks" },
+    { "@type": "ListItem", "position": 10, "name": "Cards",                    "url": "https://skeletonic.com/components/#cards" },
+    { "@type": "ListItem", "position": 11, "name": "Accordions",               "url": "https://skeletonic.com/components/#accordions" },
+    { "@type": "ListItem", "position": 12, "name": "Modals & Dialogs",         "url": "https://skeletonic.com/components/#modals" },
+    { "@type": "ListItem", "position": 13, "name": "Dropdowns",                "url": "https://skeletonic.com/components/#dropdowns" },
+    { "@type": "ListItem", "position": 14, "name": "Tables",                   "url": "https://skeletonic.com/components/#tables" },
+    { "@type": "ListItem", "position": 15, "name": "Form fields",              "url": "https://skeletonic.com/components/#form-fields" },
+    { "@type": "ListItem", "position": 16, "name": "Status inputs",            "url": "https://skeletonic.com/components/#status-inputs" },
+    { "@type": "ListItem", "position": 17, "name": "Fieldsets",                "url": "https://skeletonic.com/components/#fieldsets" },
+    { "@type": "ListItem", "position": 18, "name": "Lists",                    "url": "https://skeletonic.com/components/#lists" },
+    { "@type": "ListItem", "position": 19, "name": "Dividers",                 "url": "https://skeletonic.com/components/#dividers" },
+    { "@type": "ListItem", "position": 20, "name": "Avatars & Images",         "url": "https://skeletonic.com/components/#avatars" },
+    { "@type": "ListItem", "position": 21, "name": "Link hover effects",       "url": "https://skeletonic.com/components/#link-effects" }
   ]
 }
 </script>

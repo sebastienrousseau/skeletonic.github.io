@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Cach Skeletonic Stylus v2.0.0 bao mat pipeline build, ky ban phat hanh va cung cap SBOM."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/bao-mat/
+permalink: https://skeletonic.com/vi/bao-mat/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

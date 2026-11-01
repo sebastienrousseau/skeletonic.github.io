@@ -1,9 +1,9 @@
 ---
 title: "Confidentialité"
 name: "Skeletonic Stylus"
-description: "Quelles données skeletonic.io collecte, pourquoi et comment les refuser."
+description: "Quelles données skeletonic.com collecte, pourquoi et comment les refuser."
 layout: page
-permalink: https://skeletonic.io/fr/confidentialite/
+permalink: https://skeletonic.com/fr/confidentialite/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fr
@@ -13,7 +13,7 @@ keywords: "confidentialité, rgpd, cookies, pas de suivi"
 
 ## En bref
 
-> **skeletonic.io ne dépose aucun cookie de suivi et n'exécute aucune
+> **skeletonic.com ne dépose aucun cookie de suivi et n'exécute aucune
 > balise analytique tierce.** Le site est un ensemble statique de
 > fichiers HTML, CSS et un unique fichier de service worker. Aucune
 > requête n'est journalisée au-delà des journaux d'accès standard de

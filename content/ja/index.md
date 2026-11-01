@@ -3,7 +3,7 @@ title: "Skeletonic Stylus — アクセシブルなCSS、gzip圧縮で約7.7 KB"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus は軽量でモジュール式の Stylus CSS ライブラリです。WCAG 2.2 対応、カスケードレイヤー採用、gzip圧縮で約7.7 KB — モダンな Web UI 開発を効率化するために設計されています。"
 layout: index
-permalink: https://skeletonic.io/ja/
+permalink: https://skeletonic.com/ja/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja

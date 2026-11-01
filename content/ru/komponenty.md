@@ -3,7 +3,7 @@ title: "Компоненты"
 name: "Skeletonic Stylus"
 description: "Живые HTML-примеры каждого компонента Skeletonic Stylus — сгруппированные, с якорями, отрисованные тем же файлом стилей, который демонстрируется."
 layout: page
-permalink: https://skeletonic.io/ru/komponenty/
+permalink: https://skeletonic.com/ru/komponenty/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru
@@ -13,8 +13,8 @@ keywords: "компоненты skeletonic, кнопки, карточки, фо
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Каждый пример ниже **отрисован тем же файлом стилей, который демонстрируется**. Без препроцессора. Без JavaScript. Без дополнительных зависимостей. Скопируйте любой фрагмент в чистый HTML-файл — и он работает.
 
@@ -378,43 +378,43 @@ keywords: "компоненты skeletonic, кнопки, карточки, фо
       "@type": "ListItem",
       "position": 1,
       "name": "Кнопки",
-      "url": "https://skeletonic.io/ru/komponenty/#buttons"
+      "url": "https://skeletonic.com/ru/komponenty/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Бейджи",
-      "url": "https://skeletonic.io/ru/komponenty/#badges"
+      "url": "https://skeletonic.com/ru/komponenty/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Уведомления",
-      "url": "https://skeletonic.io/ru/komponenty/#alerts"
+      "url": "https://skeletonic.com/ru/komponenty/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Карточки",
-      "url": "https://skeletonic.io/ru/komponenty/#cards"
+      "url": "https://skeletonic.com/ru/komponenty/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Поля форм",
-      "url": "https://skeletonic.io/ru/komponenty/#form-fields"
+      "url": "https://skeletonic.com/ru/komponenty/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Сетка",
-      "url": "https://skeletonic.io/ru/komponenty/#grid"
+      "url": "https://skeletonic.com/ru/komponenty/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Заголовок и навигация-гамбургер",
-      "url": "https://skeletonic.io/ru/komponenty/#header"
+      "url": "https://skeletonic.com/ru/komponenty/#header"
     }
   ]
 }

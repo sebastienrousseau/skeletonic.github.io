@@ -3,7 +3,7 @@ title: "Палитры"
 name: "Skeletonic Stylus"
 description: "Цветовые палитры Material, Tachyons и Web-safe, входящие в Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/ru/palitry/
+permalink: https://skeletonic.com/ru/palitry/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru

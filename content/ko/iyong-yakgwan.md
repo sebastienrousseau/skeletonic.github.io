@@ -1,9 +1,9 @@
 ---
 title: "이용약관"
 name: "Skeletonic Stylus"
-description: "skeletonic.io 및 Skeletonic Stylus 라이브러리의 사용을 규율하는 약관입니다."
+description: "skeletonic.com 및 Skeletonic Stylus 라이브러리의 사용을 규율하는 약관입니다."
 layout: page
-permalink: https://skeletonic.io/ko/iyong-yakgwan/
+permalink: https://skeletonic.com/ko/iyong-yakgwan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko
@@ -19,7 +19,7 @@ keywords: "이용약관, 라이선스, mit, apache 2"
 
 ## 2. 이 웹사이트
 
-`skeletonic.io`의 콘텐츠(텍스트, 예제, 스크린샷, 레이아웃)는 Copyright © 2021 - 2026 Skeletonic CSS이며 모든 권리가 보유되어 있고, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)에 따라 라이선스됩니다. 출처를 밝히면 인용, 번역 또는 리믹스가 가능합니다.
+`skeletonic.com`의 콘텐츠(텍스트, 예제, 스크린샷, 레이아웃)는 Copyright © 2021 - 2026 Skeletonic CSS이며 모든 권리가 보유되어 있고, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)에 따라 라이선스됩니다. 출처를 밝히면 인용, 번역 또는 리믹스가 가능합니다.
 
 ## 3. 상표
 

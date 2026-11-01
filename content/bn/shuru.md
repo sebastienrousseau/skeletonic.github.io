@@ -3,7 +3,7 @@ title: "Skeletonic Stylus দিয়ে শুরু করুন"
 name: "Skeletonic Stylus"
 description: "npm বা CDN থেকে Skeletonic Stylus ইনস্টল করুন, আপনার Stylus বিল্ডে আমদানি করুন এবং সেকেন্ডে ভেরিয়েবল ওভাররাইড করুন।"
 layout: page
-permalink: https://skeletonic.io/bn/shuru/
+permalink: https://skeletonic.com/bn/shuru/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn
@@ -13,8 +13,8 @@ keywords: "install skeletonic, stylus setup, css cdn, শুরু করুন"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## ভূমিকা
 

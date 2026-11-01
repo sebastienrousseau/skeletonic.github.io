@@ -3,7 +3,7 @@ title: "Componente"
 name: "Skeletonic Stylus"
 description: "Exemple HTML live pentru fiecare componentă Skeletonic Stylus, grupate, ancorate și randate cu stylesheet-ul demonstrat."
 layout: page
-permalink: https://skeletonic.io/ro/componente/
+permalink: https://skeletonic.com/ro/componente/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro
@@ -13,8 +13,8 @@ keywords: "componente skeletonic, butoane, carduri, formulare, alerte, badge-uri
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Fiecare exemplu de mai jos este **randat cu stylesheet-ul demonstrat**.
 Fără preprocesor. Fără JavaScript. Fără dependențe suplimentare. Copiază
@@ -386,43 +386,43 @@ JavaScript.** Copiază fragmentul de mai jos într-o pagină HTML nouă care
       "@type": "ListItem",
       "position": 1,
       "name": "Butoane",
-      "url": "https://skeletonic.io/ro/componente/#buttons"
+      "url": "https://skeletonic.com/ro/componente/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Badge-uri",
-      "url": "https://skeletonic.io/ro/componente/#badges"
+      "url": "https://skeletonic.com/ro/componente/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Alerte",
-      "url": "https://skeletonic.io/ro/componente/#alerts"
+      "url": "https://skeletonic.com/ro/componente/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Carduri",
-      "url": "https://skeletonic.io/ro/componente/#cards"
+      "url": "https://skeletonic.com/ro/componente/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Câmpuri de formular",
-      "url": "https://skeletonic.io/ro/componente/#form-fields"
+      "url": "https://skeletonic.com/ro/componente/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Grid",
-      "url": "https://skeletonic.io/ro/componente/#grid"
+      "url": "https://skeletonic.com/ro/componente/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Header și navigare hamburger",
-      "url": "https://skeletonic.io/ro/componente/#header"
+      "url": "https://skeletonic.com/ro/componente/#header"
     }
   ]
 }

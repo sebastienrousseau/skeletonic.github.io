@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Kan si wa nipa Skeletonic Stylus — awọn ijabọ aṣiṣe, awọn ero ẹya, awọn ajọṣepọ, tabi esi gbogbogbo."
 language: yo
 layout: contact
-permalink: https://skeletonic.io/yo/kan-si-wa/
+permalink: https://skeletonic.com/yo/kan-si-wa/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

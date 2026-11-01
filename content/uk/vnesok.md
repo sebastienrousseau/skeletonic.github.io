@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Як створювати issue, пропонувати зміни та надсилати pull request до Skeletonic Stylus."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/vnesok/
+permalink: https://skeletonic.com/uk/vnesok/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

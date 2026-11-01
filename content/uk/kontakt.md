@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Зв'яжіться з нами щодо Skeletonic Stylus — звіти про помилки, ідеї функцій, партнерство або загальний зворотний зв'язок."
 layout: contact
 language: uk
-permalink: https://skeletonic.io/uk/kontakt/
+permalink: https://skeletonic.com/uk/kontakt/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

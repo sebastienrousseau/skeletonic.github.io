@@ -1,9 +1,9 @@
 ---
 title: "Sharuɗɗan amfani"
 name: "Skeletonic Stylus"
-description: "Sharuɗɗan da ke sarrafa amfanin ku da skeletonic.io da dakin karatu na Skeletonic Stylus."
+description: "Sharuɗɗan da ke sarrafa amfanin ku da skeletonic.com da dakin karatu na Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/ha/sharudda/
+permalink: https://skeletonic.com/ha/sharudda/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha
@@ -19,7 +19,7 @@ An ba da dakin karatu **"KAMAR YADDA YAKE", ba tare da garanti na kowane iri ba*
 
 ## 2. Wannan gidan yanar gizon
 
-Abubuwan da ke cikin `skeletonic.io` (rubutu, misalai, hotunan allo, tsarin shafi) Haƙƙin mallaka ne © 2021 - 2026 Skeletonic CSS, an tanada duk haƙƙoƙi, kuma an ba da lasisin a ƙarƙashin [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — kuna iya kawo magana, fassara, ko sake haɗa shi muddin kun yaba wa tushen.
+Abubuwan da ke cikin `skeletonic.com` (rubutu, misalai, hotunan allo, tsarin shafi) Haƙƙin mallaka ne © 2021 - 2026 Skeletonic CSS, an tanada duk haƙƙoƙi, kuma an ba da lasisin a ƙarƙashin [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — kuna iya kawo magana, fassara, ko sake haɗa shi muddin kun yaba wa tushen.
 
 ## 3. Alamomin kasuwanci
 

@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Tin nhan cua ban da duoc gui thanh cong."
 layout: thanks
 language: vi
-permalink: https://skeletonic.io/vi/cam-on/
+permalink: https://skeletonic.com/vi/cam-on/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

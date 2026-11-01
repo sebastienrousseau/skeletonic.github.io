@@ -3,7 +3,7 @@ title: "パレット"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 に付属する Material、Tachyons、ウェブセーフのカラーパレット。"
 layout: page
-permalink: https://skeletonic.io/ja/paretto/
+permalink: https://skeletonic.com/ja/paretto/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja

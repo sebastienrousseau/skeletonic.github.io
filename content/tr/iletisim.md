@@ -3,7 +3,7 @@ title: "Iletisim"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus hakkinda iletisime gecin — hata raporlari, ozellik fikirleri, is birlikleri veya genel geri bildirim."
 layout: contact
-permalink: https://skeletonic.io/tr/iletisim/
+permalink: https://skeletonic.com/tr/iletisim/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr

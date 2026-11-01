@@ -3,7 +3,7 @@ title: "উপাদান"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus-এর প্রতিটি উপাদানের লাইভ HTML উদাহরণ, গোষ্ঠীবদ্ধ, অ্যাংকরড এবং যে স্টাইলশিট ডেমো করা হচ্ছে সেটি দিয়েই রেন্ডারড।"
 layout: page
-permalink: https://skeletonic.io/bn/upadan/
+permalink: https://skeletonic.com/bn/upadan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn
@@ -13,8 +13,8 @@ keywords: "skeletonic উপাদান, বাটন, কার্ড, ফর�
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 নিচের প্রতিটি উদাহরণ **যে স্টাইলশিট ডেমো করা হচ্ছে সেটি দিয়েই
 রেন্ডার করা**। কোনো প্রিপ্রসেসর নেই। কোনো জাভাস্ক্রিপ্ট নেই। কোনো
@@ -391,43 +391,43 @@ collapse, expand এবং ফোকাস ট্র্যাপ করবে।
       "@type": "ListItem",
       "position": 1,
       "name": "বাটন",
-      "url": "https://skeletonic.io/bn/upadan/#buttons"
+      "url": "https://skeletonic.com/bn/upadan/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "ব্যাজ",
-      "url": "https://skeletonic.io/bn/upadan/#badges"
+      "url": "https://skeletonic.com/bn/upadan/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "অ্যালার্ট",
-      "url": "https://skeletonic.io/bn/upadan/#alerts"
+      "url": "https://skeletonic.com/bn/upadan/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "কার্ড",
-      "url": "https://skeletonic.io/bn/upadan/#cards"
+      "url": "https://skeletonic.com/bn/upadan/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "ফর্ম ফিল্ড",
-      "url": "https://skeletonic.io/bn/upadan/#form-fields"
+      "url": "https://skeletonic.com/bn/upadan/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "গ্রিড",
-      "url": "https://skeletonic.io/bn/upadan/#grid"
+      "url": "https://skeletonic.com/bn/upadan/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "হেডার ও হ্যামবার্গার নেভ",
-      "url": "https://skeletonic.io/bn/upadan/#header"
+      "url": "https://skeletonic.com/bn/upadan/#header"
     }
   ]
 }

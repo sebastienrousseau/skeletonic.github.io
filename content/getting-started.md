@@ -3,7 +3,7 @@ title: "Getting started with Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Install Skeletonic Stylus from npm or a CDN, import it into your Stylus build, and override variables in seconds."
 layout: page
-permalink: https://skeletonic.io/getting-started/
+permalink: https://skeletonic.com/getting-started/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "oklch(0.55 0.2 250)"

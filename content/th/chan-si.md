@@ -3,7 +3,7 @@ title: "ชุดสี"
 name: "Skeletonic Stylus"
 description: "ชุดสี Material, Tachyons และ Web-safe ที่มาพร้อมกับ Skeletonic Stylus v2.0.0"
 layout: page
-permalink: https://skeletonic.io/th/chan-si/
+permalink: https://skeletonic.com/th/chan-si/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th

@@ -3,7 +3,7 @@ title: "Kontribusi"
 name: "Skeletonic Stylus"
 description: "Cara mengajukan isu, mengusulkan perubahan, dan mengirimkan pull request ke Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/id/kontribusi/
+permalink: https://skeletonic.com/id/kontribusi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: id

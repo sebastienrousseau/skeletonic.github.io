@@ -3,7 +3,7 @@ title: "Animace — Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Volitelny modul animaci dodavany se Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake a dalsi, vse za prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/cs/animace/
+permalink: https://skeletonic.com/cs/animace/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs

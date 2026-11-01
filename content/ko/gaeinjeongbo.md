@@ -1,9 +1,9 @@
 ---
 title: "개인정보 보호"
 name: "Skeletonic Stylus"
-description: "skeletonic.io가 수집하는 데이터, 그 이유, 그리고 거부하는 방법입니다."
+description: "skeletonic.com가 수집하는 데이터, 그 이유, 그리고 거부하는 방법입니다."
 layout: page
-permalink: https://skeletonic.io/ko/gaeinjeongbo/
+permalink: https://skeletonic.com/ko/gaeinjeongbo/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko
@@ -13,7 +13,7 @@ keywords: "개인정보, gdpr, 쿠키, 추적 없음"
 
 ## 요약
 
-> **skeletonic.io는 추적 쿠키를 설정하지 않으며 서드파티 분석 태그를 실행하지 않습니다.** 이 사이트는 HTML, CSS 및 단일 서비스 워커 파일로 구성된 정적 사이트입니다. 사용자의 요청은 표준 GitHub Pages 접속 로그 외에 기록되지 않습니다.
+> **skeletonic.com는 추적 쿠키를 설정하지 않으며 서드파티 분석 태그를 실행하지 않습니다.** 이 사이트는 HTML, CSS 및 단일 서비스 워커 파일로 구성된 정적 사이트입니다. 사용자의 요청은 표준 GitHub Pages 접속 로그 외에 기록되지 않습니다.
 
 <hr class="hr-text" data-content="세부 사항">
 

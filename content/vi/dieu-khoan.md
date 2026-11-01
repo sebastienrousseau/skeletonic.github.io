@@ -1,10 +1,10 @@
 ---
 title: "Dieu khoan su dung"
 name: "Skeletonic Stylus"
-description: "Dieu khoan dieu chinh viec su dung skeletonic.io va thu vien Skeletonic Stylus."
+description: "Dieu khoan dieu chinh viec su dung skeletonic.com va thu vien Skeletonic Stylus."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/dieu-khoan/
+permalink: https://skeletonic.com/vi/dieu-khoan/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -27,7 +27,7 @@ khong vi pham.
 
 ## 2. Trang web nay
 
-Noi dung cua `skeletonic.io` (van ban, vi du, anh chup man hinh, bo cuc)
+Noi dung cua `skeletonic.com` (van ban, vi du, anh chup man hinh, bo cuc)
 la Ban quyen © 2021 - 2026 Skeletonic CSS, bao luu moi quyen, va duoc cap phep theo
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — ban co the
 trich dan, dich hoac phoi lai mien la ghi nguon.

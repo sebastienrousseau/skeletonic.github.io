@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus 每個組件的即時 HTML 範例，分組、錨定，並使用展示中的樣式表進行渲染。"
 language: zh-hant
 layout: page
-permalink: https://skeletonic.io/zh-hant/zu-jian/
+permalink: https://skeletonic.com/zh-hant/zu-jian/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "skeletonic 組件, 按鈕, 卡片, 表單, 提示框, 徽章, 頁首,
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 以下每個範例均使用**正在展示的樣式表**進行渲染。無需預處理器、無需 JavaScript、無額外依賴。將任何片段複製到空白 HTML 檔案中即可運作。
 
@@ -354,43 +354,43 @@ keywords: "skeletonic 組件, 按鈕, 卡片, 表單, 提示框, 徽章, 頁首,
       "@type": "ListItem",
       "position": 1,
       "name": "按鈕",
-      "url": "https://skeletonic.io/zh-hant/zu-jian/#buttons"
+      "url": "https://skeletonic.com/zh-hant/zu-jian/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "徽章",
-      "url": "https://skeletonic.io/zh-hant/zu-jian/#badges"
+      "url": "https://skeletonic.com/zh-hant/zu-jian/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "提示框",
-      "url": "https://skeletonic.io/zh-hant/zu-jian/#alerts"
+      "url": "https://skeletonic.com/zh-hant/zu-jian/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "卡片",
-      "url": "https://skeletonic.io/zh-hant/zu-jian/#cards"
+      "url": "https://skeletonic.com/zh-hant/zu-jian/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "表單欄位",
-      "url": "https://skeletonic.io/zh-hant/zu-jian/#form-fields"
+      "url": "https://skeletonic.com/zh-hant/zu-jian/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "格線",
-      "url": "https://skeletonic.io/zh-hant/zu-jian/#grid"
+      "url": "https://skeletonic.com/zh-hant/zu-jian/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "頁首與漢堡導覽",
-      "url": "https://skeletonic.io/zh-hant/zu-jian/#header"
+      "url": "https://skeletonic.com/zh-hant/zu-jian/#header"
     }
   ]
 }

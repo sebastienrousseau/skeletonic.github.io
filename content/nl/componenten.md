@@ -3,7 +3,7 @@ title: "Componenten"
 name: "Skeletonic Stylus"
 description: "Live HTML-voorbeelden van elke Skeletonic Stylus-component, gegroepeerd, verankerd en weergegeven met hetzelfde stylesheet dat wordt gedemonstreerd."
 layout: page
-permalink: https://skeletonic.io/nl/componenten/
+permalink: https://skeletonic.com/nl/componenten/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl
@@ -13,8 +13,8 @@ keywords: "skeletonic componenten, knoppen, kaarten, formulieren, meldingen, bad
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Elk voorbeeld hieronder wordt **weergegeven met hetzelfde stylesheet dat
 wordt gedemonstreerd**. Geen preprocessor. Geen JavaScript. Geen extra
@@ -391,43 +391,43 @@ en vangt focus correct op uit zichzelf.
       "@type": "ListItem",
       "position": 1,
       "name": "Knoppen",
-      "url": "https://skeletonic.io/nl/componenten/#buttons"
+      "url": "https://skeletonic.com/nl/componenten/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Badges",
-      "url": "https://skeletonic.io/nl/componenten/#badges"
+      "url": "https://skeletonic.com/nl/componenten/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Meldingen",
-      "url": "https://skeletonic.io/nl/componenten/#alerts"
+      "url": "https://skeletonic.com/nl/componenten/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Kaarten",
-      "url": "https://skeletonic.io/nl/componenten/#cards"
+      "url": "https://skeletonic.com/nl/componenten/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Formuliervelden",
-      "url": "https://skeletonic.io/nl/componenten/#form-fields"
+      "url": "https://skeletonic.com/nl/componenten/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Grid",
-      "url": "https://skeletonic.io/nl/componenten/#grid"
+      "url": "https://skeletonic.com/nl/componenten/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Header & hamburgernavigatie",
-      "url": "https://skeletonic.io/nl/componenten/#header"
+      "url": "https://skeletonic.com/nl/componenten/#header"
     }
   ]
 }

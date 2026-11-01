@@ -3,7 +3,7 @@ title: "Komponenten — Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Live-HTML-Beispiele aller Skeletonic-Stylus-Komponenten — gruppiert, verankert und mit genau dem Stylesheet gerendert, das hier vorgestellt wird."
 layout: page
-permalink: https://skeletonic.io/de/komponenten/
+permalink: https://skeletonic.com/de/komponenten/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "skeletonic komponenten, schaltflaechen, karten, formulare, hinweise, 
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Jedes Beispiel auf dieser Seite wird **mit genau dem Stylesheet gerendert,
 das hier vorgestellt wird**. Kein Praeprozessor. Kein JavaScript. Keine
@@ -397,43 +397,43 @@ Menue klappt sich korrekt ein, aus und haelt den Fokus selbststaendig.
       "@type": "ListItem",
       "position": 1,
       "name": "Schaltflaechen",
-      "url": "https://skeletonic.io/de/komponenten/#buttons"
+      "url": "https://skeletonic.com/de/komponenten/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Badges",
-      "url": "https://skeletonic.io/de/komponenten/#badges"
+      "url": "https://skeletonic.com/de/komponenten/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Hinweise",
-      "url": "https://skeletonic.io/de/komponenten/#alerts"
+      "url": "https://skeletonic.com/de/komponenten/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Karten",
-      "url": "https://skeletonic.io/de/komponenten/#cards"
+      "url": "https://skeletonic.com/de/komponenten/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Formularfelder",
-      "url": "https://skeletonic.io/de/komponenten/#form-fields"
+      "url": "https://skeletonic.com/de/komponenten/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Raster",
-      "url": "https://skeletonic.io/de/komponenten/#grid"
+      "url": "https://skeletonic.com/de/komponenten/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Kopfzeile & Hamburger-Navigation",
-      "url": "https://skeletonic.io/de/komponenten/#header"
+      "url": "https://skeletonic.com/de/komponenten/#header"
     }
   ]
 }

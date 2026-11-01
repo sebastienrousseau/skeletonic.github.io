@@ -3,7 +3,7 @@ title: "Tentang Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus adalah pustaka CSS Stylus sumber terbuka untuk penataan UI yang aksesibel, cepat, dan modular."
 layout: page
-permalink: https://skeletonic.io/id/tentang/
+permalink: https://skeletonic.com/id/tentang/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: id
@@ -13,8 +13,8 @@ keywords: "skeletonic, tentang, stylus, css framework, filosofi"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 <dl class="stat-strip" aria-label="Project facts">
   <div><dt>Version</dt><dd>2.0.0</dd></div>

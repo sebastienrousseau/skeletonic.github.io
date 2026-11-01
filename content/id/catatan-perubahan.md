@@ -3,7 +3,7 @@ title: "Catatan Perubahan"
 name: "Skeletonic Stylus"
 description: "Catatan rilis untuk Skeletonic Stylus, dengan v2.0.0 secara lengkap."
 layout: page
-permalink: https://skeletonic.io/id/catatan-perubahan/
+permalink: https://skeletonic.com/id/catatan-perubahan/
 author: Sebastien Rousseau
 language: id
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "catatan perubahan skeletonic, catatan rilis, v2.0.0, semver"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (terkini)
 

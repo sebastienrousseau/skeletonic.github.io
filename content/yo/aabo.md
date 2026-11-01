@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Bawo ni Skeletonic Stylus v2.0.0 ṣe ni aabo fun opo ikọ rẹ, fọwọsi awọn itusilẹ, ati fi SBOM ranṣẹ."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/aabo/
+permalink: https://skeletonic.com/yo/aabo/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

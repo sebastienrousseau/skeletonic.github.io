@@ -3,7 +3,7 @@ title: "Samun Dama — WCAG 2.2 a v2.0.0"
 name: "Skeletonic Stylus"
 description: "Abin da v2.0.0 ke aikawa daga cikin akwatin don daidaiton WCAG 2.2 — zoben mayar da hankali, bambanci, hanyoyin tsallake, motsi, da yanayin dare."
 layout: page
-permalink: https://skeletonic.io/ha/samun-dama/
+permalink: https://skeletonic.com/ha/samun-dama/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, samun dama, focus visible, skip link, prefers reduced motio
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 yana aika daidaiton WCAG 2.2 a matsayin halayen tsoho, ba a matsayin jigo na zaɓi ba.** Wannan shafin yana rubuta abin da aka gina a ciki da mixins ɗin da za ku iya zaɓa don ƙarin sarrafawa.
 

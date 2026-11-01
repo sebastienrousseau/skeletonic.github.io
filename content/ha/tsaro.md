@@ -3,7 +3,7 @@ title: "Tsaro &amp; sarkar samarwa"
 name: "Skeletonic Stylus"
 description: "Yadda Skeletonic Stylus v2.0.0 ke tabbatar da bututun ginin sa, sanya hannu a kan sakinsa, kuma aika SBOM."
 layout: page
-permalink: https://skeletonic.io/ha/tsaro/
+permalink: https://skeletonic.com/ha/tsaro/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha

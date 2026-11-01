@@ -3,7 +3,7 @@ title: "Keamanan &amp; rantai pasokan"
 name: "Skeletonic Stylus"
 description: "Bagaimana Skeletonic Stylus v2.0.0 mengamankan pipeline build-nya, menandatangani rilis, dan menyertakan SBOM."
 layout: page
-permalink: https://skeletonic.io/id/keamanan/
+permalink: https://skeletonic.com/id/keamanan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: id

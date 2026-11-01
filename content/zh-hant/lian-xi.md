@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "就 Skeletonic Stylus 與我們聯繫——錯誤報告、功能建議、合作或一般回饋。"
 language: zh-hant
 layout: contact
-permalink: https://skeletonic.io/zh-hant/lian-xi/
+permalink: https://skeletonic.com/zh-hant/lian-xi/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

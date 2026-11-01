@@ -1,9 +1,9 @@
 ---
 title: "আপনি অফলাইনে আছেন"
 name: "Skeletonic Stylus"
-description: "skeletonic.io নেটওয়ার্কে পৌঁছাতে পারেনি। আপনি যে পেজটি অনুরোধ করেছেন সেটি এখনও ক্যাশ হয়নি।"
+description: "skeletonic.com নেটওয়ার্কে পৌঁছাতে পারেনি। আপনি যে পেজটি অনুরোধ করেছেন সেটি এখনও ক্যাশ হয়নি।"
 layout: page
-permalink: https://skeletonic.io/bn/offline/
+permalink: https://skeletonic.com/bn/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn

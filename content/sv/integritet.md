@@ -1,9 +1,9 @@
 ---
 title: "Integritet"
 name: "Skeletonic Stylus"
-description: "Vilka data skeletonic.io samlar in, varfor, och hur du valjer bort det."
+description: "Vilka data skeletonic.com samlar in, varfor, och hur du valjer bort det."
 layout: page
-permalink: https://skeletonic.io/sv/integritet/
+permalink: https://skeletonic.com/sv/integritet/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv
@@ -13,7 +13,7 @@ keywords: "integritet, gdpr, kakor, ingen sparning"
 
 ## Kortfattat
 
-> **skeletonic.io satter inga sparningskakor och kor ingen
+> **skeletonic.com satter inga sparningskakor och kor ingen
 > tredjepartsanalystagg.** Webbplatsen ar en statisk uppsattning av HTML, CSS
 > och en enda service worker-fil. Ingen forfragan du gor loggas utover
 > GitHub Pages standardaccessloggar.

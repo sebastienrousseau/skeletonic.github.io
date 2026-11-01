@@ -3,7 +3,7 @@ title: "Участие в разработке"
 name: "Skeletonic Stylus"
 description: "Как создавать issue, предлагать изменения и отправлять pull request в Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/ru/vklad/
+permalink: https://skeletonic.com/ru/vklad/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru

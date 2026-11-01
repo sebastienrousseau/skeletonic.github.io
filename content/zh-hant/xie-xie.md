@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "您的訊息已成功發送。"
 language: zh-hant
 layout: thanks
-permalink: https://skeletonic.io/zh-hant/xie-xie/
+permalink: https://skeletonic.com/zh-hant/xie-xie/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

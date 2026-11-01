@@ -1,9 +1,9 @@
 ---
 title: "オフラインです"
 name: "Skeletonic Stylus"
-description: "skeletonic.io はネットワークに接続できませんでした。リクエストされたページはまだキャッシュされていません。"
+description: "skeletonic.com はネットワークに接続できませんでした。リクエストされたページはまだキャッシュされていません。"
 layout: page
-permalink: https://skeletonic.io/ja/offline/
+permalink: https://skeletonic.com/ja/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja

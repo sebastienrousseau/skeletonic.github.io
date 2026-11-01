@@ -1,9 +1,9 @@
 ---
 title: "Pagkapribado"
 name: "Skeletonic Stylus"
-description: "Anong data ang kinokolekta ng skeletonic.io, bakit, at paano mag-opt out."
+description: "Anong data ang kinokolekta ng skeletonic.com, bakit, at paano mag-opt out."
 layout: page
-permalink: https://skeletonic.io/fil/pagkapribado/
+permalink: https://skeletonic.com/fil/pagkapribado/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fil
@@ -13,7 +13,7 @@ keywords: "pagkapribado, gdpr, cookie, walang tracking"
 
 ## TL;DR
 
-> **Ang skeletonic.io ay hindi naglalagay ng tracking cookie at hindi nagpapatakbo ng
+> **Ang skeletonic.com ay hindi naglalagay ng tracking cookie at hindi nagpapatakbo ng
 > third-party na analytics tag.** Ang site ay isang static na set ng HTML, CSS,
 > at isang solong service-worker file. Walang kahilingan na ginagawa mo ang nata-talaga
 > maliban sa karaniwang GitHub Pages access log.

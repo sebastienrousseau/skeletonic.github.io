@@ -1,9 +1,9 @@
 ---
 title: "Jestes offline"
 name: "Skeletonic Stylus"
-description: "skeletonic.io nie moze nawiazac polaczenia z siecia. Strona, ktorej szukasz, nie zostala jeszcze zapisana w pamieci podrecznej."
+description: "skeletonic.com nie moze nawiazac polaczenia z siecia. Strona, ktorej szukasz, nie zostala jeszcze zapisana w pamieci podrecznej."
 layout: page
-permalink: https://skeletonic.io/pl/offline/
+permalink: https://skeletonic.com/pl/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pl

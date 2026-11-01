@@ -3,7 +3,7 @@ title: "Gracias!"
 name: "Skeletonic Stylus"
 description: "Tu mensaje fue enviado correctamente."
 layout: thanks
-permalink: https://skeletonic.io/es/gracias/
+permalink: https://skeletonic.com/es/gracias/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: es

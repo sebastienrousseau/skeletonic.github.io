@@ -3,7 +3,7 @@ title: "ありがとうございます！"
 name: "Skeletonic Stylus"
 description: "メッセージが正常に送信されました。"
 layout: thanks
-permalink: https://skeletonic.io/ja/arigatou/
+permalink: https://skeletonic.com/ja/arigatou/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja

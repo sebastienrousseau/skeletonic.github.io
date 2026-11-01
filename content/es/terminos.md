@@ -1,9 +1,9 @@
 ---
 title: "Terminos de uso"
 name: "Skeletonic Stylus"
-description: "Terminos que rigen el uso de skeletonic.io y la biblioteca Skeletonic Stylus."
+description: "Terminos que rigen el uso de skeletonic.com y la biblioteca Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/es/terminos/
+permalink: https://skeletonic.com/es/terminos/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: es
@@ -26,7 +26,7 @@ comerciabilidad, adecuacion para un proposito particular y no infraccion.
 
 ## 2. Este sitio web
 
-El contenido de `skeletonic.io` (texto, ejemplos, capturas de pantalla,
+El contenido de `skeletonic.com` (texto, ejemplos, capturas de pantalla,
 layouts) es Copyright © 2021 - 2026 Skeletonic CSS, todos los derechos reservados,
 y esta bajo licencia
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — puedes

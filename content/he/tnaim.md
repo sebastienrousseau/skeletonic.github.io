@@ -1,9 +1,9 @@
 ---
 title: "תנאי שימוש"
 name: "Skeletonic Stylus"
-description: "תנאים המסדירים את השימוש שלכם ב-skeletonic.io ובספריית Skeletonic Stylus."
+description: "תנאים המסדירים את השימוש שלכם ב-skeletonic.com ובספריית Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/he/tnaim/
+permalink: https://skeletonic.com/he/tnaim/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he
@@ -25,7 +25,7 @@ keywords: "תנאי שימוש, רישיון, mit, apache 2"
 
 ## 2. אתר זה
 
-תוכן `skeletonic.io` (טקסט, דוגמאות, צילומי מסך, פריסות) הוא
+תוכן `skeletonic.com` (טקסט, דוגמאות, צילומי מסך, פריסות) הוא
 זכויות יוצרים Copyright &copy; 2021 - 2026 Skeletonic CSS, כל הזכויות שמורות, ומורשה
 תחת [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) —
 ניתן לצטט, לתרגם או לעבד אותו בתנאי שתזכו את המקור.

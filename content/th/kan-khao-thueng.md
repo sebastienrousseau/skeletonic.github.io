@@ -3,7 +3,7 @@ title: "การเข้าถึง — WCAG 2.2 ใน v2.0.0"
 name: "Skeletonic Stylus"
 description: "สิ่งที่ v2.0.0 มาพร้อมสำหรับการรองรับ WCAG 2.2 — วงแหวนโฟกัส คอนทราสต์ ลิงก์ข้าม การเคลื่อนไหว และโหมดมืด"
 layout: page
-permalink: https://skeletonic.io/th/kan-khao-thueng/
+permalink: https://skeletonic.com/th/kan-khao-thueng/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, การเข้าถึง, focus visible, ลิงก
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 มาพร้อมการรองรับ WCAG 2.2 เป็นพฤติกรรม
 > เริ่มต้น ไม่ใช่ธีมเสริม** หน้านี้อธิบายสิ่งที่รวมอยู่แล้วและ

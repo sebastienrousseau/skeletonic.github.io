@@ -1,10 +1,10 @@
 ---
 title: "隐私政策"
 name: "Skeletonic Stylus"
-description: "skeletonic.io 收集哪些数据、原因以及如何退出。"
+description: "skeletonic.com 收集哪些数据、原因以及如何退出。"
 language: zh-hans
 layout: page
-permalink: https://skeletonic.io/zh-hans/yin-si/
+permalink: https://skeletonic.com/zh-hans/yin-si/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,7 +13,7 @@ keywords: "隐私, gdpr, cookies, 无追踪"
 
 ## 概要
 
-> **skeletonic.io 不设置追踪 cookies，也不运行任何第三方分析标签。** 本站是一组静态 HTML、CSS 和一个 Service Worker 文件。你发出的任何请求均不会被记录，仅有标准的 GitHub Pages 访问日志。
+> **skeletonic.com 不设置追踪 cookies，也不运行任何第三方分析标签。** 本站是一组静态 HTML、CSS 和一个 Service Worker 文件。你发出的任何请求均不会被记录，仅有标准的 GitHub Pages 访问日志。
 
 <hr class="hr-text" data-content="详情">
 

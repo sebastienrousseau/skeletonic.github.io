@@ -1,10 +1,10 @@
 ---
 title: "Awọn ofin lilo"
 name: "Skeletonic Stylus"
-description: "Awọn ofin ti o ṣakoso lilo rẹ ti skeletonic.io ati ile-ikawe Skeletonic Stylus."
+description: "Awọn ofin ti o ṣakoso lilo rẹ ti skeletonic.com ati ile-ikawe Skeletonic Stylus."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/awon-ofin/
+permalink: https://skeletonic.com/yo/awon-ofin/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -26,7 +26,7 @@ oniduro ti ọja, ibamu fun idi kan pato, ati aisi irufin.
 
 ## 2. Aaye ayelujara yii
 
-Akoonu `skeletonic.io` (ọrọ, awọn apẹẹrẹ, awọn aworan iboju, awọn eto)
+Akoonu `skeletonic.com` (ọrọ, awọn apẹẹrẹ, awọn aworan iboju, awọn eto)
 jẹ Ẹtọ Ẹda © 2021 - 2026 Skeletonic CSS, gbogbo ẹtọ ni a pamọ, ti a
 si fun ni iwe-aṣẹ labẹ
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — o le ṣe

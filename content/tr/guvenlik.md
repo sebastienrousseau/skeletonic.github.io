@@ -3,7 +3,7 @@ title: "Guvenlik ve tedarik zinciri"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0'nin derleme hattini nasil guvence altina aldigi, surumleri nasil imzaladigi ve SBOM nasil gonderdigi."
 layout: page
-permalink: https://skeletonic.io/tr/guvenlik/
+permalink: https://skeletonic.com/tr/guvenlik/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr

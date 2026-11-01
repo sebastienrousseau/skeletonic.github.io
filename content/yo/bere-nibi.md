@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Fi Skeletonic Stylus sori ẹrọ lati npm tabi CDN, mu u wọle sinu ikọ Stylus rẹ, ki o si ṣe atunṣe awọn oniyipada ni iṣẹju-aaya."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/bere-nibi/
+permalink: https://skeletonic.com/yo/bere-nibi/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "fi skeletonic sori ẹrọ, iṣeto stylus, css cdn, bẹrẹ nibi"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Ifihan
 

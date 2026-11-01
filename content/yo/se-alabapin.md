@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Bawo ni o ṣe le fi awọn ọran silẹ, dabaa awọn iyipada, ati fi awọn ibeere fa silẹ si Skeletonic Stylus."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/se-alabapin/
+permalink: https://skeletonic.com/yo/se-alabapin/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

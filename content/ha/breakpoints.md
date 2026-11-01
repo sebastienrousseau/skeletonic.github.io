@@ -4,7 +4,7 @@ title: "Breakpoints — Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Skeletonic doesn't ship the usual xs/sm/md/lg ladder. The container width adapts continuously through 38 min-width media queries from 220 px to 7680 px."
 layout: page
-permalink: https://skeletonic.io/ha/breakpoints/
+permalink: https://skeletonic.com/ha/breakpoints/
 date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

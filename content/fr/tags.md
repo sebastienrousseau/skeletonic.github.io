@@ -3,7 +3,7 @@ title: "Étiquettes"
 name: "Skeletonic Stylus"
 description: "Parcourir la documentation de Skeletonic Stylus par étiquette."
 layout: page
-permalink: https://skeletonic.io/fr/tags/
+permalink: https://skeletonic.com/fr/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fr

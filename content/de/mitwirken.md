@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Issues melden, Aenderungen vorschlagen und Pull Requests fuer Skeletonic Stylus einreichen."
 layout: page
 language: de
-permalink: https://skeletonic.io/de/mitwirken/
+permalink: https://skeletonic.com/de/mitwirken/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

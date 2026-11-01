@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 隨附的 Material、Tachyons 與 Web 安全色板。"
 language: zh-hant
 layout: page
-permalink: https://skeletonic.io/zh-hant/se-ban/
+permalink: https://skeletonic.com/zh-hant/se-ban/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

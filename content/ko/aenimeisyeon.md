@@ -3,7 +3,7 @@ title: "애니메이션"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0에 포함된 선택적 애니메이션 모듈 — bounce, pulse, fade, zoom, shake 등, 모두 prefers-reduced-motion 기반으로 제어됩니다."
 layout: page
-permalink: https://skeletonic.io/ko/aenimeisyeon/
+permalink: https://skeletonic.com/ko/aenimeisyeon/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko

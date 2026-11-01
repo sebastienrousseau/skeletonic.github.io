@@ -4,7 +4,7 @@ title: "Tokens — Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Every CSS custom property exposed by Skeletonic Stylus v2.0.0 — colours, headings, line heights, golden-ratio constants, focus ring, link colours."
 layout: page
-permalink: https://skeletonic.io/ha/tokens/
+permalink: https://skeletonic.com/ha/tokens/
 date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

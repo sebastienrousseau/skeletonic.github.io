@@ -3,7 +3,7 @@ title: "เริ่มต้นใช้งาน Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "ติดตั้ง Skeletonic Stylus จาก npm หรือ CDN นำเข้าสู่ Stylus build และแก้ไขตัวแปรได้ในไม่กี่วินาที"
 layout: page
-permalink: https://skeletonic.io/th/roem-ton/
+permalink: https://skeletonic.com/th/roem-ton/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th
@@ -13,8 +13,8 @@ keywords: "ติดตั้ง skeletonic, ตั้งค่า stylus, css c
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## บทนำ
 

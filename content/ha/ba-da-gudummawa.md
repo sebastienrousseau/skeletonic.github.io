@@ -3,7 +3,7 @@ title: "Ba da gudummawa"
 name: "Skeletonic Stylus"
 description: "Yadda ake shigar da matsaloli, ba da shawarar canje-canje, da aika buƙatun jawo zuwa Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/ha/ba-da-gudummawa/
+permalink: https://skeletonic.com/ha/ba-da-gudummawa/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha

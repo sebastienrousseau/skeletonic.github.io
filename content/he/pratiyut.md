@@ -1,9 +1,9 @@
 ---
 title: "פרטיות"
 name: "Skeletonic Stylus"
-description: "אילו נתונים skeletonic.io אוספת, מדוע, וכיצד לבטל הסכמה."
+description: "אילו נתונים skeletonic.com אוספת, מדוע, וכיצד לבטל הסכמה."
 layout: page
-permalink: https://skeletonic.io/he/pratiyut/
+permalink: https://skeletonic.com/he/pratiyut/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he
@@ -13,7 +13,7 @@ keywords: "פרטיות, gdpr, עוגיות, ללא מעקב"
 
 ## בקיצור
 
-> **skeletonic.io אינה מגדירה עוגיות מעקב ואינה מפעילה תג
+> **skeletonic.com אינה מגדירה עוגיות מעקב ואינה מפעילה תג
 > אנליטיקה של צד שלישי.** האתר הוא סט סטטי של HTML, CSS וקובץ
 > service-worker יחיד. שום בקשה שאתם מבצעים לא נרשמת מעבר ליומני
 > הגישה הסטנדרטיים של GitHub Pages.

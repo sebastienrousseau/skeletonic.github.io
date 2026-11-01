@@ -3,7 +3,7 @@ title: "Primeiros passos com o Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Instale o Skeletonic Stylus via npm ou CDN, importe no seu build Stylus e sobrescreva variaveis em segundos."
 layout: page
-permalink: https://skeletonic.io/pt-br/primeiros-passos/
+permalink: https://skeletonic.com/pt-br/primeiros-passos/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pt-br
@@ -13,8 +13,8 @@ keywords: "instalar skeletonic, configurar stylus, css cdn, primeiros passos"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Introducao
 

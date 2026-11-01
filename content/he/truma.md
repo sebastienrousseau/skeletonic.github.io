@@ -3,7 +3,7 @@ title: "תרומה"
 name: "Skeletonic Stylus"
 description: "כיצד לדווח על בעיות, להציע שינויים ולהגיש Pull Requests ל-Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/he/truma/
+permalink: https://skeletonic.com/he/truma/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he

@@ -3,7 +3,7 @@ title: "إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0"
 name: "Skeletonic Stylus"
 description: "ما يشحنه الإصدار 2.0.0 مباشرة للتوافق مع WCAG 2.2 — حلقات التركيز، التباين، روابط التخطي، الحركة، والوضع الداكن."
 layout: page
-permalink: https://skeletonic.io/ar/imkaniyyat-al-wusul/
+permalink: https://skeletonic.com/ar/imkaniyyat-al-wusul/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, إمكانية الوصول, focus visible, رابط الت
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **يشحن Skeletonic Stylus الإصدار 2.0.0 التوافق مع WCAG 2.2 كسلوك
 > افتراضي، وليس كمظهر اختياري.** هذه الصفحة توثّق ما هو مدمج

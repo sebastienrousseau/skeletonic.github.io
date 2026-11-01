@@ -3,7 +3,7 @@ title: "Jak zacit se Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Nainstalujte Skeletonic Stylus z npm nebo CDN, importujte do sve Stylus pipeline a prepiste promenne behem par sekund."
 layout: page
-permalink: https://skeletonic.io/cs/zacatek/
+permalink: https://skeletonic.com/cs/zacatek/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs
@@ -13,8 +13,8 @@ keywords: "instalace skeletonic, nastaveni stylus, css cdn, jak zacit"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Uvod
 

@@ -3,7 +3,7 @@ title: "Skeletonic Stylus — Pristupne CSS, 8,3 KB gzipped"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus je lehka, modularni knihovna CSS v preprocesoru Stylus — pripravena na WCAG 2.2, s kaskadovymi vrstvami, 8,3 KB gzipped — navrzena pro moderni vyvoj weboveho rozhrani."
 layout: index
-permalink: https://skeletonic.io/cs/
+permalink: https://skeletonic.com/cs/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs

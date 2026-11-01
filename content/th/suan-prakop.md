@@ -3,7 +3,7 @@ title: "ส่วนประกอบ"
 name: "Skeletonic Stylus"
 description: "ตัวอย่าง HTML แบบสดของทุกส่วนประกอบ Skeletonic Stylus จัดกลุ่ม เชื่อมลิงก์แท็ก และเรนเดอร์ด้วยสไตล์ชีตเดียวกันที่กำลังสาธิต"
 layout: page
-permalink: https://skeletonic.io/th/suan-prakop/
+permalink: https://skeletonic.com/th/suan-prakop/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th
@@ -13,8 +13,8 @@ keywords: "ส่วนประกอบ skeletonic, ปุ่ม, การ์
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ทุกตัวอย่างด้านล่าง **เรนเดอร์ด้วยสไตล์ชีตเดียวกันที่กำลังสาธิต**
 ไม่มี preprocessor ไม่มี JavaScript ไม่มี dependencies เพิ่ม คัดลอก
@@ -386,43 +386,43 @@ parent `.row` จัดช่องว่างและ wrap อัตโนม
       "@type": "ListItem",
       "position": 1,
       "name": "ปุ่ม",
-      "url": "https://skeletonic.io/th/suan-prakop/#buttons"
+      "url": "https://skeletonic.com/th/suan-prakop/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "ป้ายกำกับ",
-      "url": "https://skeletonic.io/th/suan-prakop/#badges"
+      "url": "https://skeletonic.com/th/suan-prakop/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "แจ้งเตือน",
-      "url": "https://skeletonic.io/th/suan-prakop/#alerts"
+      "url": "https://skeletonic.com/th/suan-prakop/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "การ์ด",
-      "url": "https://skeletonic.io/th/suan-prakop/#cards"
+      "url": "https://skeletonic.com/th/suan-prakop/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "ฟิลด์ฟอร์ม",
-      "url": "https://skeletonic.io/th/suan-prakop/#form-fields"
+      "url": "https://skeletonic.com/th/suan-prakop/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "กริด",
-      "url": "https://skeletonic.io/th/suan-prakop/#grid"
+      "url": "https://skeletonic.com/th/suan-prakop/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "ส่วนหัวและแฮมเบอร์เกอร์เมนู",
-      "url": "https://skeletonic.io/th/suan-prakop/#header"
+      "url": "https://skeletonic.com/th/suan-prakop/#header"
     }
   ]
 }

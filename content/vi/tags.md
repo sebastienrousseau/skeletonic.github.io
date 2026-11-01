@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Duyet tai lieu Skeletonic Stylus theo the gan."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/tags/
+permalink: https://skeletonic.com/vi/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

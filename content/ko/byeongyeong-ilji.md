@@ -3,7 +3,7 @@ title: "변경 이력"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus의 릴리스 노트, v2.0.0 전체 내용 포함."
 layout: page
-permalink: https://skeletonic.io/ko/byeongyeong-ilji/
+permalink: https://skeletonic.com/ko/byeongyeong-ilji/
 author: Sebastien Rousseau
 language: ko
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "skeletonic 변경 이력, 릴리스 노트, v2.0.0, 시맨틱 버전"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (현재)
 

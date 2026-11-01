@@ -1,10 +1,10 @@
 ---
 title: "使用條款"
 name: "Skeletonic Stylus"
-description: "管轄您使用 skeletonic.io 和 Skeletonic Stylus 函式庫的條款。"
+description: "管轄您使用 skeletonic.com 和 Skeletonic Stylus 函式庫的條款。"
 language: zh-hant
 layout: page
-permalink: https://skeletonic.io/zh-hant/tiao-kuan/
+permalink: https://skeletonic.com/zh-hant/tiao-kuan/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -19,7 +19,7 @@ keywords: "使用條款, 授權, mit, apache 2"
 
 ## 2. 本網站
 
-`skeletonic.io` 的內容（文字、範例、截圖、版面）版權所有 © 2021 - 2026 Skeletonic CSS，保留所有權利，並以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授權——您可以引用、翻譯或改編，但須註明出處。
+`skeletonic.com` 的內容（文字、範例、截圖、版面）版權所有 © 2021 - 2026 Skeletonic CSS，保留所有權利，並以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授權——您可以引用、翻譯或改編，但須註明出處。
 
 ## 3. 商標
 

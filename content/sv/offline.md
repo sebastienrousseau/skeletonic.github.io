@@ -1,9 +1,9 @@
 ---
 title: "Du ar offline"
 name: "Skeletonic Stylus"
-description: "skeletonic.io kunde inte na natverket. Sidan du begarde har inte cachelagrats annu."
+description: "skeletonic.com kunde inte na natverket. Sidan du begarde har inte cachelagrats annu."
 layout: page
-permalink: https://skeletonic.io/sv/offline/
+permalink: https://skeletonic.com/sv/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv

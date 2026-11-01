@@ -3,7 +3,7 @@ title: "Palettes"
 name: "Skeletonic Stylus"
 description: "Material, Tachyons and web-safe colour palettes shipped inside Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/palettes/
+permalink: https://skeletonic.com/palettes/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

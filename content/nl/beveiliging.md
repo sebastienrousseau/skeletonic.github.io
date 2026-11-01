@@ -3,7 +3,7 @@ title: "Beveiliging &amp; toeleveringsketen"
 name: "Skeletonic Stylus"
 description: "Hoe Skeletonic Stylus v2.0.0 zijn buildpipeline beveiligt, releases ondertekent en een SBOM levert."
 layout: page
-permalink: https://skeletonic.io/nl/beveiliging/
+permalink: https://skeletonic.com/nl/beveiliging/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl

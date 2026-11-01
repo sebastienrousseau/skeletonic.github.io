@@ -1,9 +1,9 @@
 ---
 title: "Gizlilik"
 name: "Skeletonic Stylus"
-description: "skeletonic.io'nun hangi verileri topladigi, neden topladigi ve nasil vazgecebileceginiz."
+description: "skeletonic.com'nun hangi verileri topladigi, neden topladigi ve nasil vazgecebileceginiz."
 layout: page
-permalink: https://skeletonic.io/tr/gizlilik/
+permalink: https://skeletonic.com/tr/gizlilik/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr
@@ -13,7 +13,7 @@ keywords: "gizlilik, gdpr, cerezler, izleme yok"
 
 ## Ozet
 
-> **skeletonic.io izleme cerezi koymaz ve ucuncu taraf analiz etiketi
+> **skeletonic.com izleme cerezi koymaz ve ucuncu taraf analiz etiketi
 > calistirmaz.** Site; HTML, CSS ve tek bir service-worker dosyasindan
 > olusan statik bir settir. Yaptiginiz hicbir istek standart GitHub
 > Pages erisim gunluklerinin otesinde kaydedilmez.

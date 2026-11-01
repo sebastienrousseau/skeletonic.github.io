@@ -3,7 +3,7 @@ title: "Журнал изменений"
 name: "Skeletonic Stylus"
 description: "Заметки о релизах Skeletonic Stylus с полным описанием v2.0.0."
 layout: page
-permalink: https://skeletonic.io/ru/zhurnal-izmeneniy/
+permalink: https://skeletonic.com/ru/zhurnal-izmeneniy/
 author: Sebastien Rousseau
 language: ru
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "skeletonic журнал изменений, заметки о рел�
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (текущая)
 

@@ -1,9 +1,9 @@
 ---
 title: "Anda sedang offline"
 name: "Skeletonic Stylus"
-description: "skeletonic.io tidak dapat terhubung ke jaringan. Halaman yang Anda minta belum di-cache."
+description: "skeletonic.com tidak dapat terhubung ke jaringan. Halaman yang Anda minta belum di-cache."
 layout: page
-permalink: https://skeletonic.io/id/offline/
+permalink: https://skeletonic.com/id/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: id

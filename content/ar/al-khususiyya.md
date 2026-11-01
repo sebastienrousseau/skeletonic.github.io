@@ -1,9 +1,9 @@
 ---
 title: "الخصوصية"
 name: "Skeletonic Stylus"
-description: "ما البيانات التي يجمعها skeletonic.io، ولماذا، وكيفية إلغاء الاشتراك."
+description: "ما البيانات التي يجمعها skeletonic.com، ولماذا، وكيفية إلغاء الاشتراك."
 layout: page
-permalink: https://skeletonic.io/ar/al-khususiyya/
+permalink: https://skeletonic.com/ar/al-khususiyya/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar
@@ -13,7 +13,7 @@ keywords: "الخصوصية, gdpr, ملفات تعريف الارتباط, بد�
 
 ## باختصار
 
-> **لا يضع skeletonic.io ملفات تعريف ارتباط للتتبع ولا يشغّل وسم
+> **لا يضع skeletonic.com ملفات تعريف ارتباط للتتبع ولا يشغّل وسم
 > تحليلات من طرف ثالث.** الموقع عبارة عن مجموعة ثابتة من HTML وCSS
 > وملف service worker واحد. لا يتم تسجيل أي طلب تقدّمه بخلاف سجلات
 > وصول GitHub Pages القياسية.

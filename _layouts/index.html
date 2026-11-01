@@ -891,26 +891,12 @@
     </div>
   </nav>
 
-  <!-- Hero Banner -->
-  <header class="hero-banner-container">
-    <img src="/images/banner.svg" alt="{{banner_alt}}" class="hero-banner-img" loading="eager" />
-  </header>
-
   <!-- Main Content -->
   <main id="main" class="content-wrapper" aria-label="Main content">
   <header class="page-header text-center mb-lg"><h1 class="display-5 bold text-headline mb-md">{{title}}</h1></header>
-    <div class="callout-surface text-center">
-      <p class="mb-0 fs-5 fw-normal">{{subtitle}}</p>
-    </div>
 
     <div class="card-surface">
       {{content}}
-    </div>
-
-    <div class="card-surface text-center security-card">
-      <img src="/images/logo.svg" alt="{{name}} Logo" width="120" height="120" class="mb-lg" />
-      <h2>{{security_name}}</h2>
-      <p class="text-muted mx-auto" style="max-width:44rem;">{{security_description}}</p>
     </div>
   </main>
 
@@ -927,6 +913,7 @@
           <h3 class="h5 bold mb-md">About</h3>
           <ul class="list-unstyled flex flex-column gap-sm">
             <li><a href="/about/index.html">About us</a></li>
+            <li><a href="/made-with-ssg/index.html">Made with SSG</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6">
@@ -956,7 +943,7 @@
         </div>
       </div>
       <div class="text-center pt-lg mt-lg border-top text-muted" style="border-color:var(--border-hairline) !important;">
-        {{copyright}}
+        © 2026 <a href="https://sebastienrousseau.com/" rel="author">Sebastien Rousseau</a>. All rights reserved.
       </div>
     </div>
   </footer>

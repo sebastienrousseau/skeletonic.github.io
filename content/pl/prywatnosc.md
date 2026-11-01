@@ -1,9 +1,9 @@
 ---
 title: "Prywatnosc"
 name: "Skeletonic Stylus"
-description: "Jakie dane zbiera skeletonic.io, dlaczego i jak sie wypisac."
+description: "Jakie dane zbiera skeletonic.com, dlaczego i jak sie wypisac."
 layout: page
-permalink: https://skeletonic.io/pl/prywatnosc/
+permalink: https://skeletonic.com/pl/prywatnosc/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pl
@@ -13,7 +13,7 @@ keywords: "prywatnosc, rodo, ciasteczka, brak sledzenia"
 
 ## Podsumowanie
 
-> **skeletonic.io nie ustawia ciasteczek sledzacych i nie uruchamia tagów
+> **skeletonic.com nie ustawia ciasteczek sledzacych i nie uruchamia tagów
 > analitycznych stron trzecich.** Strona to statyczny zestaw HTML, CSS
 > i pojedynczego pliku service worker. Zadne Twoje zapytanie nie jest
 > rejestrowane poza standardowymi logami dostepu GitHub Pages.

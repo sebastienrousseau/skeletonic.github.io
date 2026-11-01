@@ -1,9 +1,9 @@
 ---
 title: "Ochrana soukromi — Skeletonic Stylus"
 name: "Skeletonic Stylus"
-description: "Jake udaje skeletonic.io shromazduje, proc a jak se odhlasit."
+description: "Jake udaje skeletonic.com shromazduje, proc a jak se odhlasit."
 layout: page
-permalink: https://skeletonic.io/cs/soukromi/
+permalink: https://skeletonic.com/cs/soukromi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs
@@ -13,7 +13,7 @@ keywords: "soukromi, gdpr, cookies, bez sledovani"
 
 ## Ve zkratce
 
-> **skeletonic.io nenastavuje sledovaci cookies a nespousti analyticky
+> **skeletonic.com nenastavuje sledovaci cookies a nespousti analyticky
 > tag treti strany.** Web je staticka sada HTML, CSS a jedineho souboru
 > service worker. Zadny pozadavek, ktery odeslede, neni zaznamenavan
 > nad ramec standardnich pristupovych logu GitHub Pages.

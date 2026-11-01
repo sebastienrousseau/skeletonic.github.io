@@ -3,7 +3,7 @@ title: "Paletter"
 name: "Skeletonic Stylus"
 description: "Material-, Tachyons- och webbsakra fargpaletter som levereras med Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/sv/paletter/
+permalink: https://skeletonic.com/sv/paletter/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv

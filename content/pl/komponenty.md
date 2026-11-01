@@ -3,7 +3,7 @@ title: "Komponenty"
 name: "Skeletonic Stylus"
 description: "Przyklady HTML na zywo kazdego komponentu Skeletonic Stylus, pogrupowane, zakotwiczone i renderowane z tym samym arkuszem stylow."
 layout: page
-permalink: https://skeletonic.io/pl/komponenty/
+permalink: https://skeletonic.com/pl/komponenty/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pl
@@ -13,8 +13,8 @@ keywords: "komponenty skeletonic, przyciski, karty, formularze, alerty, odznaki,
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Kazdy przyklad ponizej jest **renderowany z tym samym arkuszem stylow, ktory jest prezentowany**. Bez preprocesora. Bez JavaScript. Bez dodatkowych zaleznosci. Skopiuj dowolny fragment do nowego pliku HTML i zadziala.
 
@@ -375,43 +375,43 @@ Kompletny naglowek oparty wylacznie na CSS z responsywnym przyciskiem hamburger.
       "@type": "ListItem",
       "position": 1,
       "name": "Przyciski",
-      "url": "https://skeletonic.io/pl/komponenty/#buttons"
+      "url": "https://skeletonic.com/pl/komponenty/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Odznaki",
-      "url": "https://skeletonic.io/pl/komponenty/#badges"
+      "url": "https://skeletonic.com/pl/komponenty/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Alerty",
-      "url": "https://skeletonic.io/pl/komponenty/#alerts"
+      "url": "https://skeletonic.com/pl/komponenty/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Karty",
-      "url": "https://skeletonic.io/pl/komponenty/#cards"
+      "url": "https://skeletonic.com/pl/komponenty/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Pola formularzy",
-      "url": "https://skeletonic.io/pl/komponenty/#form-fields"
+      "url": "https://skeletonic.com/pl/komponenty/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Siatka",
-      "url": "https://skeletonic.io/pl/komponenty/#grid"
+      "url": "https://skeletonic.com/pl/komponenty/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Naglowek i nawigacja hamburger",
-      "url": "https://skeletonic.io/pl/komponenty/#header"
+      "url": "https://skeletonic.com/pl/komponenty/#header"
     }
   ]
 }

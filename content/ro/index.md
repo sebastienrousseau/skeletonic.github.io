@@ -3,7 +3,7 @@ title: "Skeletonic Stylus — CSS accesibil, 8,3 KB gzipped"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus este o bibliotecă CSS Stylus ușoară și modulară — compatibilă WCAG 2.2, cu cascade layers, 8,3 KB gzipped — concepută pentru dezvoltarea modernă a interfețelor web."
 layout: index
-permalink: https://skeletonic.io/ro/
+permalink: https://skeletonic.com/ro/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro

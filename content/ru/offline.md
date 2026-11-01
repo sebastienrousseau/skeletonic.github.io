@@ -1,9 +1,9 @@
 ---
 title: "Вы не в сети"
 name: "Skeletonic Stylus"
-description: "skeletonic.io не может подключиться к сети. Запрошенная страница ещё не была закеширована."
+description: "skeletonic.com не может подключиться к сети. Запрошенная страница ещё не была закеширована."
 layout: page
-permalink: https://skeletonic.io/ru/offline/
+permalink: https://skeletonic.com/ru/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru

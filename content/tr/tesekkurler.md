@@ -3,7 +3,7 @@ title: "Tesekkurler!"
 name: "Skeletonic Stylus"
 description: "Mesajiniz basariyla gonderildi."
 layout: thanks
-permalink: https://skeletonic.io/tr/tesekkurler/
+permalink: https://skeletonic.com/tr/tesekkurler/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr

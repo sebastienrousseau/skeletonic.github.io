@@ -1,10 +1,10 @@
 ---
 title: "您目前離線"
 name: "Skeletonic Stylus"
-description: "skeletonic.io 無法連線至網路。您請求的頁面尚未被快取。"
+description: "skeletonic.com 無法連線至網路。您請求的頁面尚未被快取。"
 language: zh-hant
 layout: page
-permalink: https://skeletonic.io/zh-hant/offline/
+permalink: https://skeletonic.com/zh-hant/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

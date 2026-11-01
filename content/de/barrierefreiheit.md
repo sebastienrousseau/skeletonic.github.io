@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Was v2.0.0 standardmäßig für WCAG-2.2-Konformität mitbringt — Fokusringe, Kontrast, Skip-Links, Bewegung und Dunkelmodus."
 layout: page
 language: de
-permalink: https://skeletonic.io/de/barrierefreiheit/
+permalink: https://skeletonic.com/de/barrierefreiheit/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, accessibility, focus visible, skip link, prefers reduced mo
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 liefert WCAG-2.2-Konformität als
 > Standardverhalten — nicht als optionales Theme.** Diese Seite

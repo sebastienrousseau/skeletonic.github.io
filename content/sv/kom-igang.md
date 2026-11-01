@@ -3,7 +3,7 @@ title: "Kom igang med Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Installera Skeletonic Stylus fran npm eller ett CDN, importera det i din Stylus-build och overskriv variabler pa sekunder."
 layout: page
-permalink: https://skeletonic.io/sv/kom-igang/
+permalink: https://skeletonic.com/sv/kom-igang/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv
@@ -13,8 +13,8 @@ keywords: "installera skeletonic, stylus installation, css cdn, kom igang"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Introduktion
 

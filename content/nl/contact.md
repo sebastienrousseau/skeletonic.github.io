@@ -3,7 +3,7 @@ title: "Contact"
 name: "Skeletonic Stylus"
 description: "Neem contact op over Skeletonic Stylus — bugrapporten, functie-ideeën, samenwerkingen of algemene feedback."
 layout: contact
-permalink: https://skeletonic.io/nl/contact/
+permalink: https://skeletonic.com/nl/contact/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl

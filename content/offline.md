@@ -1,9 +1,9 @@
 ---
 title: "You're offline"
 name: "Skeletonic Stylus"
-description: "skeletonic.io could not reach the network. The page you requested has not been cached yet."
+description: "skeletonic.com could not reach the network. The page you requested has not been cached yet."
 layout: page
-permalink: https://skeletonic.io/offline/
+permalink: https://skeletonic.com/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

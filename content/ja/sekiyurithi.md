@@ -3,7 +3,7 @@ title: "セキュリティとサプライチェーン"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 がビルドパイプラインをどのように保護し、リリースに署名し、SBOM を提供するかについて。"
 layout: page
-permalink: https://skeletonic.io/ja/sekiyurithi/
+permalink: https://skeletonic.com/ja/sekiyurithi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja

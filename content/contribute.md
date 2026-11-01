@@ -3,7 +3,7 @@ title: "Contribute"
 name: "Skeletonic Stylus"
 description: "How to file issues, propose changes, and submit pull requests to Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/contribute/
+permalink: https://skeletonic.com/contribute/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

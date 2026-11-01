@@ -3,7 +3,7 @@ title: "アニメーション"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 に付属するオプションのアニメーションモジュール — バウンス、パルス、フェード、ズーム、シェイクなど、すべて prefers-reduced-motion で制御。"
 layout: page
-permalink: https://skeletonic.io/ja/animeshon/
+permalink: https://skeletonic.com/ja/animeshon/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja

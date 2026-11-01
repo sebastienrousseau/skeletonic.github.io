@@ -1,9 +1,9 @@
 ---
 title: "आप ऑफ़लाइन हैं"
 name: "Skeletonic Stylus"
-description: "skeletonic.io नेटवर्क तक नहीं पहुँच सका। आपने जो पेज अनुरोध किया वह अभी कैश नहीं हुआ है।"
+description: "skeletonic.com नेटवर्क तक नहीं पहुँच सका। आपने जो पेज अनुरोध किया वह अभी कैश नहीं हुआ है।"
 layout: page
-permalink: https://skeletonic.io/hi/offline/
+permalink: https://skeletonic.com/hi/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi

@@ -3,7 +3,7 @@ title: "Paletten"
 name: "Skeletonic Stylus"
 description: "Material-, Tachyons- en webveilige kleurenpaletten geleverd in Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/nl/paletten/
+permalink: https://skeletonic.com/nl/paletten/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl

@@ -1,9 +1,9 @@
 ---
 title: "Termeni de utilizare"
 name: "Skeletonic Stylus"
-description: "Termenii care guvernează utilizarea skeletonic.io și a bibliotecii Skeletonic Stylus."
+description: "Termenii care guvernează utilizarea skeletonic.com și a bibliotecii Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/ro/termeni/
+permalink: https://skeletonic.com/ro/termeni/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro
@@ -26,7 +26,7 @@ comercializare, adecvare la un anumit scop și neîncălcare a drepturilor.
 
 ## 2. Acest website
 
-Conținutul `skeletonic.io` (text, exemple, capturi de ecran, layout-uri)
+Conținutul `skeletonic.com` (text, exemple, capturi de ecran, layout-uri)
 este Copyright © 2021 - 2026 Skeletonic CSS, toate drepturile rezervate, și licențiat sub
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — poți cita,
 traduce sau remixa cu condiția să menționezi sursa.

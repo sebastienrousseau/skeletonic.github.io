@@ -3,7 +3,7 @@ title: "Design tokens — runtime CSS custom properties"
 name: "Skeletonic Stylus"
 description: "Every CSS custom property exposed by Skeletonic Stylus v2.0.0 — colours, headings, line heights, golden-ratio constants, focus ring, link colours."
 layout: page
-permalink: https://skeletonic.io/tokens/
+permalink: https://skeletonic.com/tokens/
 date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

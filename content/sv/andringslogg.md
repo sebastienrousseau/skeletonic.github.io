@@ -3,7 +3,7 @@ title: "Andringslogg"
 name: "Skeletonic Stylus"
 description: "Releaseanteckningar for Skeletonic Stylus, med v2.0.0 i sin helhet."
 layout: page
-permalink: https://skeletonic.io/sv/andringslogg/
+permalink: https://skeletonic.com/sv/andringslogg/
 author: Sebastien Rousseau
 language: sv
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "skeletonic andringslogg, releaseanteckningar, v2.0.0, semver"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (aktuell)
 

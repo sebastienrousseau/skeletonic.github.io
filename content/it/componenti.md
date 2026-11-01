@@ -3,7 +3,7 @@ title: "Componenti"
 name: "Skeletonic Stylus"
 description: "Esempi HTML dal vivo di ogni componente Skeletonic Stylus, raggruppati, ancorati e renderizzati con lo stesso foglio di stile in dimostrazione."
 layout: page
-permalink: https://skeletonic.io/it/componenti/
+permalink: https://skeletonic.com/it/componenti/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: it
@@ -13,8 +13,8 @@ keywords: "componenti skeletonic, pulsanti, card, form, alert, badge, header, na
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Ogni esempio qui sotto e **renderizzato con lo stesso foglio di stile in dimostrazione**. Nessun preprocessore. Nessun JavaScript. Nessuna dipendenza aggiuntiva. Copia qualsiasi snippet in un file HTML vuoto e funziona.
 
@@ -377,43 +377,43 @@ Un header completo solo CSS con toggle hamburger responsive. **Zero JavaScript.*
       "@type": "ListItem",
       "position": 1,
       "name": "Pulsanti",
-      "url": "https://skeletonic.io/it/componenti/#buttons"
+      "url": "https://skeletonic.com/it/componenti/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Badge",
-      "url": "https://skeletonic.io/it/componenti/#badges"
+      "url": "https://skeletonic.com/it/componenti/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Alert",
-      "url": "https://skeletonic.io/it/componenti/#alerts"
+      "url": "https://skeletonic.com/it/componenti/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Card",
-      "url": "https://skeletonic.io/it/componenti/#cards"
+      "url": "https://skeletonic.com/it/componenti/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Campi del form",
-      "url": "https://skeletonic.io/it/componenti/#form-fields"
+      "url": "https://skeletonic.com/it/componenti/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Griglia",
-      "url": "https://skeletonic.io/it/componenti/#grid"
+      "url": "https://skeletonic.com/it/componenti/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Header e hamburger nav",
-      "url": "https://skeletonic.io/it/componenti/#header"
+      "url": "https://skeletonic.com/it/componenti/#header"
     }
   ]
 }

@@ -3,7 +3,7 @@ title: "Toegankelijkheid — WCAG 2.2 in v2.0.0"
 name: "Skeletonic Stylus"
 description: "Wat v2.0.0 standaard levert voor WCAG 2.2-conformiteit — focusringen, contrast, skip-links, beweging en donkere modus."
 layout: page
-permalink: https://skeletonic.io/nl/toegankelijkheid/
+permalink: https://skeletonic.com/nl/toegankelijkheid/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, toegankelijkheid, focus visible, skip link, prefers reduced
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 levert WCAG 2.2-conformiteit als standaard
 > gedrag, niet als een optioneel thema.** Deze pagina documenteert wat er

@@ -3,7 +3,7 @@ title: "Skeletonic Stylus — অ্যাক্সেসিবল CSS, ~৭.৫
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus একটি হালকা, মডুলার Stylus CSS লাইব্রেরি — WCAG 2.2 সমর্থিত, cascade-layered, ~৭.৫ KB gzipped — আধুনিক ওয়েব UI ডেভেলপমেন্টকে সহজতর করতে ডিজাইন করা হয়েছে।"
 layout: index
-permalink: https://skeletonic.io/bn/
+permalink: https://skeletonic.com/bn/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn

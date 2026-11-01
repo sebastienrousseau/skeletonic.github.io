@@ -3,7 +3,7 @@ title: "নিরাপত্তা ও সাপ্লাই চেইন"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 কীভাবে তার বিল্ড পাইপলাইন সুরক্ষিত করে, রিলিজ স্বাক্ষর করে এবং SBOM শিপ করে।"
 layout: page
-permalink: https://skeletonic.io/bn/nirapotta/
+permalink: https://skeletonic.com/bn/nirapotta/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn

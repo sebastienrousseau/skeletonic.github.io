@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 附带的可选动画模块——弹跳、脉冲、淡入、缩放、抖动等，均受 prefers-reduced-motion 控制。"
 language: zh-hans
 layout: page
-permalink: https://skeletonic.io/zh-hans/dong-hua/
+permalink: https://skeletonic.com/zh-hans/dong-hua/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

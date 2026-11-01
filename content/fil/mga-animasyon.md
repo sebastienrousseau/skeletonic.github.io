@@ -3,7 +3,7 @@ title: "Mga Animasyon"
 name: "Skeletonic Stylus"
 description: "Opsyonal na module ng animasyon na kasama sa Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake, at iba pa, lahat sa likod ng prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/fil/mga-animasyon/
+permalink: https://skeletonic.com/fil/mga-animasyon/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fil

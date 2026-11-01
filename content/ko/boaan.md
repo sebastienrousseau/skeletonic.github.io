@@ -3,7 +3,7 @@ title: "보안 &amp; 공급망"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0이 빌드 파이프라인을 보호하고, 릴리스에 서명하며, SBOM을 제공하는 방법입니다."
 layout: page
-permalink: https://skeletonic.io/ko/boaan/
+permalink: https://skeletonic.com/ko/boaan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko

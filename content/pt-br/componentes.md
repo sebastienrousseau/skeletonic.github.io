@@ -3,7 +3,7 @@ title: "Componentes"
 name: "Skeletonic Stylus"
 description: "Exemplos HTML ao vivo de cada componente do Skeletonic Stylus, agrupados, ancorados e renderizados com a propria folha de estilos demonstrada."
 layout: page
-permalink: https://skeletonic.io/pt-br/componentes/
+permalink: https://skeletonic.com/pt-br/componentes/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pt-br
@@ -13,8 +13,8 @@ keywords: "componentes skeletonic, botoes, cards, formularios, alertas, badges, 
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Cada exemplo abaixo e **renderizado com a propria folha de estilos
 demonstrada**. Sem preprocessador. Sem JavaScript. Sem dependencias
@@ -392,43 +392,43 @@ foco corretamente por conta propria.
       "@type": "ListItem",
       "position": 1,
       "name": "Botoes",
-      "url": "https://skeletonic.io/pt-br/componentes/#buttons"
+      "url": "https://skeletonic.com/pt-br/componentes/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Badges",
-      "url": "https://skeletonic.io/pt-br/componentes/#badges"
+      "url": "https://skeletonic.com/pt-br/componentes/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Alertas",
-      "url": "https://skeletonic.io/pt-br/componentes/#alerts"
+      "url": "https://skeletonic.com/pt-br/componentes/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Cards",
-      "url": "https://skeletonic.io/pt-br/componentes/#cards"
+      "url": "https://skeletonic.com/pt-br/componentes/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Campos de formulario",
-      "url": "https://skeletonic.io/pt-br/componentes/#form-fields"
+      "url": "https://skeletonic.com/pt-br/componentes/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Grid",
-      "url": "https://skeletonic.io/pt-br/componentes/#grid"
+      "url": "https://skeletonic.com/pt-br/componentes/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Header & navegacao hamburger",
-      "url": "https://skeletonic.io/pt-br/componentes/#header"
+      "url": "https://skeletonic.com/pt-br/componentes/#header"
     }
   ]
 }

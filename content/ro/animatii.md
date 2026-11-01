@@ -3,7 +3,7 @@ title: "Animații"
 name: "Skeletonic Stylus"
 description: "Modulul opțional de animații livrat cu Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake și altele, toate condiționate de prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/ro/animatii/
+permalink: https://skeletonic.com/ro/animatii/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro

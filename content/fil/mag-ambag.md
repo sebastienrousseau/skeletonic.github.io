@@ -3,7 +3,7 @@ title: "Mag-ambag"
 name: "Skeletonic Stylus"
 description: "Paano mag-file ng mga isyu, magmungkahi ng mga pagbabago, at magsumite ng pull request sa Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/fil/mag-ambag/
+permalink: https://skeletonic.com/fil/mag-ambag/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fil

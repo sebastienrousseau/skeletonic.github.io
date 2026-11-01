@@ -3,7 +3,7 @@ title: "Contact"
 name: "Skeletonic Stylus"
 description: "Ia legătura cu noi despre Skeletonic Stylus — rapoarte de erori, idei de funcționalități, parteneriate sau feedback general."
 layout: contact
-permalink: https://skeletonic.io/ro/contact/
+permalink: https://skeletonic.com/ro/contact/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro

@@ -3,7 +3,7 @@ title: "Skeletonic Stylus के साथ शुरुआत"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus को npm या CDN से इंस्टॉल करें, अपने Stylus बिल्ड में इम्पोर्ट करें, और सेकंडों में वेरिएबल ओवरराइड करें।"
 layout: page
-permalink: https://skeletonic.io/hi/shuruat/
+permalink: https://skeletonic.com/hi/shuruat/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi
@@ -13,8 +13,8 @@ keywords: "skeletonic इंस्टॉल, stylus सेटअप, css cdn, �
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## परिचय
 

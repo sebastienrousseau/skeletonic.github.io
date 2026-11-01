@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus 是一個輕量級、模組化的 Stylus CSS 函式庫——符合 WCAG 2.2 標準、採用級聯層架構、gzip 後約 7.7 KB——旨在簡化現代 Web UI 開發。"
 language: zh-hant
 layout: index
-permalink: https://skeletonic.io/zh-hant/
+permalink: https://skeletonic.com/zh-hant/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

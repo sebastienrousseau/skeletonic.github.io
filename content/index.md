@@ -3,7 +3,7 @@ title: "Skeletonic Stylus 2.0 — Modern CSS, 7.7 KB gzip"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus 2.0 — OKLCH colours, native @layer, CSS Grid, container queries, view transitions. Class-based, JS-free, WCAG 2.2 AA, 7.7 KB gzip / 6.7 KB brotli."
 layout: index
-permalink: https://skeletonic.io/
+permalink: https://skeletonic.com/
 date: 2026-05-01
 author: Sebastien Rousseau
 theme_color: "oklch(0.55 0.2 250)"

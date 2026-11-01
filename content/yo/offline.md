@@ -1,10 +1,10 @@
 ---
 title: "O wa ni alaisiasopọ"
 name: "Skeletonic Stylus"
-description: "skeletonic.io ko le de nẹtiwọọki. Oju-iwe ti o beere ko ti wa ni kaṣi sibẹsibẹ."
+description: "skeletonic.com ko le de nẹtiwọọki. Oju-iwe ti o beere ko ti wa ni kaṣi sibẹsibẹ."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/offline/
+permalink: https://skeletonic.com/yo/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

@@ -4,7 +4,7 @@ title: "框架大小基准测试 — 真实测量，而非营销宣传"
 name: "Skeletonic Stylus"
 description: "Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands."
 layout: page
-permalink: https://skeletonic.io/zh-hans/benchmarks/
+permalink: https://skeletonic.com/zh-hans/benchmarks/
 date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

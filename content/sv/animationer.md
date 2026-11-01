@@ -3,7 +3,7 @@ title: "Animationer"
 name: "Skeletonic Stylus"
 description: "Valfri animationsmodul som levereras med Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake och fler, alla bakom prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/sv/animationer/
+permalink: https://skeletonic.com/sv/animationer/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv

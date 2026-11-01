@@ -3,7 +3,7 @@ title: "Erisilebilirlik — v2.0.0'de WCAG 2.2"
 name: "Skeletonic Stylus"
 description: "v2.0.0'nin WCAG 2.2 uyumlulugu icin kutudan ne gonderdigini — odak halkalari, kontrast, atlama baglantilari, hareket ve karanlik mod."
 layout: page
-permalink: https://skeletonic.io/tr/erisilebilirlik/
+permalink: https://skeletonic.com/tr/erisilebilirlik/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, erisilebilirlik, focus visible, atlama baglantisi, prefers 
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0, WCAG 2.2 uyumlulugunu istege bagli bir
 > tema olarak degil, varsayilan davranis olarak sunar.** Bu sayfa neyin

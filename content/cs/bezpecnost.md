@@ -3,7 +3,7 @@ title: "Bezpecnost a dodavatelsky retezec"
 name: "Skeletonic Stylus"
 description: "Jak Skeletonic Stylus v2.0.0 zabezpecuje svou build pipeline, podepisuje vydani a dodava SBOM."
 layout: page
-permalink: https://skeletonic.io/cs/bezpecnost/
+permalink: https://skeletonic.com/cs/bezpecnost/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs

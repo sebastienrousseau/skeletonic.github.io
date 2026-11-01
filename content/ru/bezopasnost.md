@@ -3,7 +3,7 @@ title: "Безопасность и цепочка поставок"
 name: "Skeletonic Stylus"
 description: "Как Skeletonic Stylus v2.0.0 защищает конвейер сборки, подписывает релизы и поставляет SBOM."
 layout: page
-permalink: https://skeletonic.io/ru/bezopasnost/
+permalink: https://skeletonic.com/ru/bezopasnost/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru

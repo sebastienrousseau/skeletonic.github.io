@@ -3,7 +3,7 @@ title: "যোগাযোগ"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus সম্পর্কে যোগাযোগ করুন — বাগ রিপোর্ট, ফিচার ধারণা, পার্টনারশিপ বা সাধারণ মতামত।"
 layout: contact
-permalink: https://skeletonic.io/bn/jogajog/
+permalink: https://skeletonic.com/bn/jogajog/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn

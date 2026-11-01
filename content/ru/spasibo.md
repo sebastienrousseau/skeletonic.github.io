@@ -3,7 +3,7 @@ title: "Спасибо!"
 name: "Skeletonic Stylus"
 description: "Ваше сообщение успешно отправлено."
 layout: thanks
-permalink: https://skeletonic.io/ru/spasibo/
+permalink: https://skeletonic.com/ru/spasibo/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru

@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Що постачається із коробки у v2.0.0 для відповідності WCAG 2.2 — кільця фокусу, контраст, skip-посилання, рух та темний режим."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/dostupnist/
+permalink: https://skeletonic.com/uk/dostupnist/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, доступність, focus visible, skip link, prefers r
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 постачає відповідність WCAG 2.2 як
 > поведінку за замовчуванням, а не як опціональну тему.** Ця сторінка

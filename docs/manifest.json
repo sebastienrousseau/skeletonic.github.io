@@ -1,11 +1,23 @@
 {
   "background_color": "#ffffff",
-  "description": "Skeletonic Stylus 2.0 — OKLCH colours, native @layer, CSS Grid, container queries, view transitions. Class-based, JS-free, WCAG 2.2 AA, 7.7 KB gzip / 6.7 KB brotli.",
+  "description": "Skeletonic Stylus 2.0 \u2014 OKLCH colours, native @layer, CSS Grid, container queries, view transitions. Class-based, JS-free, WCAG 2.2 AA, 7.7 KB gzip / 6.7 KB brotli.",
   "display": "standalone",
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",
-  "short_name": null,
+  "short_name": "Skeletonic",
   "start_url": ".",
-  "theme_color": null
+  "theme_color": null,
+  "icons": [
+    {
+      "src": "/images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "https://cloudcdn.pro/cmn/v1/icons/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
 }

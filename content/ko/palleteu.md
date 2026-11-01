@@ -3,7 +3,7 @@ title: "팔레트"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0에 포함된 Material, Tachyons 및 웹 안전 색상 팔레트입니다."
 layout: page
-permalink: https://skeletonic.io/ko/palleteu/
+permalink: https://skeletonic.com/ko/palleteu/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko

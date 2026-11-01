@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Як Skeletonic Stylus v2.0.0 захищає свій конвеєр збірки, підписує релізи та постачає SBOM."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/bezpeka/
+permalink: https://skeletonic.com/uk/bezpeka/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

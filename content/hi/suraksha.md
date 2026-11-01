@@ -3,7 +3,7 @@ title: "सुरक्षा और आपूर्ति श्रृंखल
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 अपनी बिल्ड पाइपलाइन को कैसे सुरक्षित करती है, रिलीज़ साइन करती है, और SBOM शिप करती है।"
 layout: page
-permalink: https://skeletonic.io/hi/suraksha/
+permalink: https://skeletonic.com/hi/suraksha/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi

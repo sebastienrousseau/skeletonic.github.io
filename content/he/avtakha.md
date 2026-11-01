@@ -3,7 +3,7 @@ title: "אבטחה ושרשרת אספקה"
 name: "Skeletonic Stylus"
 description: "כיצד Skeletonic Stylus v2.0.0 מאבטחת את צינור הבנייה שלה, חותמת שחרורים ושולחת SBOM."
 layout: page
-permalink: https://skeletonic.io/he/avtakha/
+permalink: https://skeletonic.com/he/avtakha/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he

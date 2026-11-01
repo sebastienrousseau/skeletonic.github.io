@@ -3,7 +3,7 @@ title: "התחלת עבודה עם Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "התקינו את Skeletonic Stylus מ-npm או CDN, ייבאו אותה לצינור Stylus שלכם, ודרסו משתנים תוך שניות."
 layout: page
-permalink: https://skeletonic.io/he/hatkhala/
+permalink: https://skeletonic.com/he/hatkhala/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he
@@ -13,8 +13,8 @@ keywords: "התקנת skeletonic, הגדרת stylus, css cdn, התחלה"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## מבוא
 

@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "v2.0.0 开箱即用的 WCAG 2.2 合规能力——焦点环、对比度、跳转链接、动效控制和深色模式。"
 language: zh-hans
 layout: page
-permalink: https://skeletonic.io/zh-hans/wu-zhang-ai/
+permalink: https://skeletonic.com/zh-hans/wu-zhang-ai/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, 无障碍, focus visible, 跳转链接, prefers reduced mot
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 将 WCAG 2.2 合规作为默认行为，而非可选主题。** 本页说明了内置功能以及可选启用的混入。
 

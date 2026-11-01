@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Vi du HTML truc tiep cua moi thanh phan Skeletonic Stylus, duoc nhom lai, neo va hien thi voi chinh stylesheet dang duoc gioi thieu."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/thanh-phan/
+permalink: https://skeletonic.com/vi/thanh-phan/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "thanh phan skeletonic, nut bam, the, bieu mau, canh bao, huy hieu, he
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Moi vi du ben duoi duoc **hien thi voi chinh stylesheet dang duoc
 gioi thieu**. Khong preprocessor. Khong JavaScript. Khong phu thuoc bo
@@ -388,43 +388,43 @@ cach.
       "@type": "ListItem",
       "position": 1,
       "name": "Nut bam",
-      "url": "https://skeletonic.io/vi/thanh-phan/#buttons"
+      "url": "https://skeletonic.com/vi/thanh-phan/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Huy hieu",
-      "url": "https://skeletonic.io/vi/thanh-phan/#badges"
+      "url": "https://skeletonic.com/vi/thanh-phan/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Canh bao",
-      "url": "https://skeletonic.io/vi/thanh-phan/#alerts"
+      "url": "https://skeletonic.com/vi/thanh-phan/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "The",
-      "url": "https://skeletonic.io/vi/thanh-phan/#cards"
+      "url": "https://skeletonic.com/vi/thanh-phan/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Truong bieu mau",
-      "url": "https://skeletonic.io/vi/thanh-phan/#form-fields"
+      "url": "https://skeletonic.com/vi/thanh-phan/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Luoi",
-      "url": "https://skeletonic.io/vi/thanh-phan/#grid"
+      "url": "https://skeletonic.com/vi/thanh-phan/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Header va menu hamburger",
-      "url": "https://skeletonic.io/vi/thanh-phan/#header"
+      "url": "https://skeletonic.com/vi/thanh-phan/#header"
     }
   ]
 }

@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "通过 npm 或 CDN 安装 Skeletonic Stylus，将其导入到你的 Stylus 构建中，秒级覆盖变量。"
 language: zh-hans
 layout: page
-permalink: https://skeletonic.io/zh-hans/kuai-su-ru-men/
+permalink: https://skeletonic.com/zh-hans/kuai-su-ru-men/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "安装 skeletonic, stylus 配置, css cdn, 快速入门"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## 简介
 

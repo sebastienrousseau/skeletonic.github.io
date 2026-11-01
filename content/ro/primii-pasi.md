@@ -3,7 +3,7 @@ title: "Primii pași cu Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Instalează Skeletonic Stylus din npm sau CDN, importă-l în pipeline-ul tău Stylus și suprascrie variabilele în câteva secunde."
 layout: page
-permalink: https://skeletonic.io/ro/primii-pasi/
+permalink: https://skeletonic.com/ro/primii-pasi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro
@@ -13,8 +13,8 @@ keywords: "instalare skeletonic, configurare stylus, css cdn, primii pași"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Introducere
 

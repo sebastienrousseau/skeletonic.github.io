@@ -3,7 +3,7 @@ title: "Paletler — Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 ile gelen Material, Tachyons ve web-safe renk paletleri."
 layout: page
-permalink: https://skeletonic.io/tr/paletler/
+permalink: https://skeletonic.com/tr/paletler/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr

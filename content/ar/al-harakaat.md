@@ -3,7 +3,7 @@ title: "الحركات"
 name: "Skeletonic Stylus"
 description: "وحدة الحركات الاختيارية المُشحونة مع Skeletonic Stylus الإصدار 2.0.0 — ارتداد، نبض، تلاشٍ، تكبير، اهتزاز وغيرها، جميعها خلف prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/ar/al-harakaat/
+permalink: https://skeletonic.com/ar/al-harakaat/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar

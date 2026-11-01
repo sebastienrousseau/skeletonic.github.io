@@ -3,7 +3,7 @@ title: "Etiketler"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus dokumantasyonunu etikete gore gezin."
 layout: page
-permalink: https://skeletonic.io/tr/tags/
+permalink: https://skeletonic.com/tr/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr

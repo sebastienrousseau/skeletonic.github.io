@@ -3,7 +3,7 @@ title: "Contato"
 name: "Skeletonic Stylus"
 description: "Entre em contato sobre o Skeletonic Stylus — relatorios de bugs, ideias de funcionalidades, parcerias ou feedback geral."
 layout: contact
-permalink: https://skeletonic.io/pt-br/contato/
+permalink: https://skeletonic.com/pt-br/contato/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pt-br

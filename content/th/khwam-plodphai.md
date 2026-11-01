@@ -3,7 +3,7 @@ title: "ความปลอดภัยและ supply chain"
 name: "Skeletonic Stylus"
 description: "วิธีที่ Skeletonic Stylus v2.0.0 รักษาความปลอดภัย build pipeline ลงนามรีลีส และจัดส่ง SBOM"
 layout: page
-permalink: https://skeletonic.io/th/khwam-plodphai/
+permalink: https://skeletonic.com/th/khwam-plodphai/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th

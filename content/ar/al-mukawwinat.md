@@ -3,7 +3,7 @@ title: "المكوّنات"
 name: "Skeletonic Stylus"
 description: "أمثلة HTML حية لكل مكوّن في Skeletonic Stylus، مجمّعة ومثبّتة ومعروضة بورقة الأنماط نفسها التي يتم عرضها."
 layout: page
-permalink: https://skeletonic.io/ar/al-mukawwinat/
+permalink: https://skeletonic.com/ar/al-mukawwinat/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar
@@ -13,8 +13,8 @@ keywords: "مكوّنات skeletonic, أزرار, بطاقات, نماذج, تن
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 كل مثال أدناه **معروض بورقة الأنماط نفسها التي يتم عرضها**. بدون
 معالج أولي. بدون JavaScript. بدون تبعيات إضافية. انسخ أي مقتطف
@@ -387,43 +387,43 @@ keywords: "مكوّنات skeletonic, أزرار, بطاقات, نماذج, تن
       "@type": "ListItem",
       "position": 1,
       "name": "الأزرار",
-      "url": "https://skeletonic.io/ar/al-mukawwinat/#buttons"
+      "url": "https://skeletonic.com/ar/al-mukawwinat/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "الشارات",
-      "url": "https://skeletonic.io/ar/al-mukawwinat/#badges"
+      "url": "https://skeletonic.com/ar/al-mukawwinat/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "التنبيهات",
-      "url": "https://skeletonic.io/ar/al-mukawwinat/#alerts"
+      "url": "https://skeletonic.com/ar/al-mukawwinat/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "البطاقات",
-      "url": "https://skeletonic.io/ar/al-mukawwinat/#cards"
+      "url": "https://skeletonic.com/ar/al-mukawwinat/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "حقول النموذج",
-      "url": "https://skeletonic.io/ar/al-mukawwinat/#form-fields"
+      "url": "https://skeletonic.com/ar/al-mukawwinat/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "الشبكة",
-      "url": "https://skeletonic.io/ar/al-mukawwinat/#grid"
+      "url": "https://skeletonic.com/ar/al-mukawwinat/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "الترويسة وقائمة hamburger",
-      "url": "https://skeletonic.io/ar/al-mukawwinat/#header"
+      "url": "https://skeletonic.com/ar/al-mukawwinat/#header"
     }
   ]
 }

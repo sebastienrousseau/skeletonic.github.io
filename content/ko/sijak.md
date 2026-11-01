@@ -3,7 +3,7 @@ title: "Skeletonic Stylus 시작하기"
 name: "Skeletonic Stylus"
 description: "npm 또는 CDN에서 Skeletonic Stylus를 설치하고 Stylus 빌드에 가져온 후 몇 초 만에 변수를 재정의하는 방법을 안내합니다."
 layout: page
-permalink: https://skeletonic.io/ko/sijak/
+permalink: https://skeletonic.com/ko/sijak/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko
@@ -13,8 +13,8 @@ keywords: "skeletonic 설치, stylus 설정, css cdn, 시작하기"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## 소개
 

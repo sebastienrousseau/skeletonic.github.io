@@ -3,7 +3,7 @@ title: "Kontakt"
 name: "Skeletonic Stylus"
 description: "Kom i kontakt angaende Skeletonic Stylus — felrapporter, funktionsforslag, partnerskap eller allman aterkoppling."
 layout: contact
-permalink: https://skeletonic.io/sv/kontakt/
+permalink: https://skeletonic.com/sv/kontakt/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv

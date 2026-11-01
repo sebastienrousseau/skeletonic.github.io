@@ -3,7 +3,7 @@ title: "Securitate &amp; lanț de aprovizionare"
 name: "Skeletonic Stylus"
 description: "Cum Skeletonic Stylus v2.0.0 securizează pipeline-ul de build, semnează lansările și livrează un SBOM."
 layout: page
-permalink: https://skeletonic.io/ro/securitate/
+permalink: https://skeletonic.com/ro/securitate/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro

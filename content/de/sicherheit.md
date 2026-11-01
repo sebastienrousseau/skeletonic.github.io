@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "So sichert Skeletonic Stylus v2.0.0 seine Build-Pipeline, signiert Releases und liefert ein SBOM."
 layout: page
 language: de
-permalink: https://skeletonic.io/de/sicherheit/
+permalink: https://skeletonic.com/de/sicherheit/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

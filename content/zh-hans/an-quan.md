@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 如何保护其构建管线、签署发布包，以及提供 SBOM。"
 language: zh-hans
 layout: page
-permalink: https://skeletonic.io/zh-hans/an-quan/
+permalink: https://skeletonic.com/zh-hans/an-quan/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

@@ -1,9 +1,9 @@
 ---
 title: "Ketentuan penggunaan"
 name: "Skeletonic Stylus"
-description: "Ketentuan yang mengatur penggunaan Anda atas skeletonic.io dan pustaka Skeletonic Stylus."
+description: "Ketentuan yang mengatur penggunaan Anda atas skeletonic.com dan pustaka Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/id/ketentuan/
+permalink: https://skeletonic.com/id/ketentuan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: id
@@ -22,7 +22,7 @@ Pustaka ini disediakan **"SEBAGAIMANA ADANYA", tanpa jaminan apa pun**, baik ter
 
 ## 2. Situs web ini
 
-Konten `skeletonic.io` (teks, contoh, tangkapan layar, tata letak) adalah Hak Cipta © 2021 - 2026 Skeletonic CSS, semua hak dilindungi, dan dilisensikan di bawah
+Konten `skeletonic.com` (teks, contoh, tangkapan layar, tata letak) adalah Hak Cipta © 2021 - 2026 Skeletonic CSS, semua hak dilindungi, dan dilisensikan di bawah
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Anda boleh mengutip, menerjemahkan, atau meremiks dengan syarat mencantumkan sumber.
 
 ## 3. Merek dagang

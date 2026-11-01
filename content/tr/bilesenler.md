@@ -3,7 +3,7 @@ title: "Bilesenler — Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus'un tum bilesenlerinin canli HTML ornekleri — gruplanmis, baglantili ve gosterilen stil sayfasiyla render edilmis."
 layout: page
-permalink: https://skeletonic.io/tr/bilesenler/
+permalink: https://skeletonic.com/tr/bilesenler/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr
@@ -13,8 +13,8 @@ keywords: "skeletonic bilesenler, butonlar, kartlar, formlar, uyarilar, rozetler
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Asagidaki her ornek **gosterilen stil sayfasiyla render edilmistir**.
 On islemci yok. JavaScript yok. Ekstra bagimlilik yok. Herhangi bir
@@ -398,43 +398,43 @@ dogru sekilde acilir, kapanir ve odagi yakalar.
       "@type": "ListItem",
       "position": 1,
       "name": "Butonlar",
-      "url": "https://skeletonic.io/tr/bilesenler/#buttons"
+      "url": "https://skeletonic.com/tr/bilesenler/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Rozetler",
-      "url": "https://skeletonic.io/tr/bilesenler/#badges"
+      "url": "https://skeletonic.com/tr/bilesenler/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Uyarilar",
-      "url": "https://skeletonic.io/tr/bilesenler/#alerts"
+      "url": "https://skeletonic.com/tr/bilesenler/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Kartlar",
-      "url": "https://skeletonic.io/tr/bilesenler/#cards"
+      "url": "https://skeletonic.com/tr/bilesenler/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Form alanlari",
-      "url": "https://skeletonic.io/tr/bilesenler/#form-fields"
+      "url": "https://skeletonic.com/tr/bilesenler/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Izgara",
-      "url": "https://skeletonic.io/tr/bilesenler/#grid"
+      "url": "https://skeletonic.com/tr/bilesenler/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Baslik ve hamburger navigasyon",
-      "url": "https://skeletonic.io/tr/bilesenler/#header"
+      "url": "https://skeletonic.com/tr/bilesenler/#header"
     }
   ]
 }

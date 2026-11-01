@@ -3,7 +3,7 @@ title: "Componentes"
 name: "Skeletonic Stylus"
 description: "Ejemplos HTML en vivo de cada componente de Skeletonic Stylus, agrupados, anclados y renderizados con la misma hoja de estilos que se demuestra."
 layout: page
-permalink: https://skeletonic.io/es/componentes/
+permalink: https://skeletonic.com/es/componentes/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: es
@@ -13,8 +13,8 @@ keywords: "componentes skeletonic, botones, tarjetas, formularios, alertas, insi
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Cada ejemplo a continuacion se **renderiza con la misma hoja de estilos que
 se demuestra**. Sin preprocesador. Sin JavaScript. Sin dependencias
@@ -393,43 +393,43 @@ y gestiona el foco correctamente por si solo.
       "@type": "ListItem",
       "position": 1,
       "name": "Botones",
-      "url": "https://skeletonic.io/es/componentes/#buttons"
+      "url": "https://skeletonic.com/es/componentes/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Insignias",
-      "url": "https://skeletonic.io/es/componentes/#badges"
+      "url": "https://skeletonic.com/es/componentes/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Alertas",
-      "url": "https://skeletonic.io/es/componentes/#alerts"
+      "url": "https://skeletonic.com/es/componentes/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Tarjetas",
-      "url": "https://skeletonic.io/es/componentes/#cards"
+      "url": "https://skeletonic.com/es/componentes/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Campos de formulario",
-      "url": "https://skeletonic.io/es/componentes/#form-fields"
+      "url": "https://skeletonic.com/es/componentes/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Cuadricula",
-      "url": "https://skeletonic.io/es/componentes/#grid"
+      "url": "https://skeletonic.com/es/componentes/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Encabezado y nav hamburguesa",
-      "url": "https://skeletonic.io/es/componentes/#header"
+      "url": "https://skeletonic.com/es/componentes/#header"
     }
   ]
 }

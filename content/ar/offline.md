@@ -1,9 +1,9 @@
 ---
 title: "أنت غير متصل"
 name: "Skeletonic Stylus"
-description: "لم يتمكن skeletonic.io من الوصول إلى الشبكة. الصفحة التي طلبتها لم يتم تخزينها مؤقتًا بعد."
+description: "لم يتمكن skeletonic.com من الوصول إلى الشبكة. الصفحة التي طلبتها لم يتم تخزينها مؤقتًا بعد."
 layout: page
-permalink: https://skeletonic.io/ar/offline/
+permalink: https://skeletonic.com/ar/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar

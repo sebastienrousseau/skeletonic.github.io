@@ -3,7 +3,7 @@ title: "Animations"
 name: "Skeletonic Stylus"
 description: "Optional animations module shipped with Skeletonic Stylus v2.0.0 — 45 keyframes across 9 families, all behind prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/animations/
+permalink: https://skeletonic.com/animations/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

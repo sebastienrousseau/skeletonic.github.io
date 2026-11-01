@@ -3,7 +3,7 @@ title: "Bezpieczenstwo &amp; lancuch dostaw"
 name: "Skeletonic Stylus"
 description: "Jak Skeletonic Stylus v2.0.0 zabezpiecza swoj pipeline budowania, podpisuje wydania i dostarcza SBOM."
 layout: page
-permalink: https://skeletonic.io/pl/bezpieczenstwo/
+permalink: https://skeletonic.com/pl/bezpieczenstwo/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pl

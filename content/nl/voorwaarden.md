@@ -1,9 +1,9 @@
 ---
 title: "Gebruiksvoorwaarden"
 name: "Skeletonic Stylus"
-description: "Voorwaarden voor het gebruik van skeletonic.io en de Skeletonic Stylus-bibliotheek."
+description: "Voorwaarden voor het gebruik van skeletonic.com en de Skeletonic Stylus-bibliotheek."
 layout: page
-permalink: https://skeletonic.io/nl/voorwaarden/
+permalink: https://skeletonic.com/nl/voorwaarden/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl
@@ -26,7 +26,7 @@ verkoopbaarheid, geschiktheid voor een bepaald doel en niet-inbreuk.
 
 ## 2. Deze website
 
-De inhoud van `skeletonic.io` (tekst, voorbeelden, screenshots, layouts)
+De inhoud van `skeletonic.com` (tekst, voorbeelden, screenshots, layouts)
 is Copyright © 2021 - 2026 Skeletonic CSS, alle rechten voorbehouden, en gelicentieerd onder
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — je mag
 citeren, vertalen of remixen mits je de bron vermeldt.

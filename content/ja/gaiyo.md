@@ -3,7 +3,7 @@ title: "Skeletonic Stylus について"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus は、アクセシブルで高速、モジュール式の UI スタイリングのためのオープンソース Stylus CSS ライブラリです。"
 layout: page
-permalink: https://skeletonic.io/ja/gaiyo/
+permalink: https://skeletonic.com/ja/gaiyo/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja
@@ -13,8 +13,8 @@ keywords: "skeletonic, 概要, stylus, css フレームワーク, 理念"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 <dl class="stat-strip" aria-label="Project facts">
   <div><dt>Version</dt><dd>2.0.0</dd></div>

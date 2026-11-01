@@ -3,7 +3,7 @@ title: "Aan de slag met Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Installeer Skeletonic Stylus via npm of een CDN, importeer het in je Stylus-build en overschrijf variabelen in seconden."
 layout: page
-permalink: https://skeletonic.io/nl/aan-de-slag/
+permalink: https://skeletonic.com/nl/aan-de-slag/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl
@@ -13,8 +13,8 @@ keywords: "skeletonic installeren, stylus setup, css cdn, aan de slag"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Introductie
 

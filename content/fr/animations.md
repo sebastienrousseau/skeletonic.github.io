@@ -3,7 +3,7 @@ title: "Animations"
 name: "Skeletonic Stylus"
 description: "Module d'animations optionnel livré avec Skeletonic Stylus v2.0.0 — rebond, pulsation, fondu, zoom, secousse et autres, tous protégés par prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/fr/animations/
+permalink: https://skeletonic.com/fr/animations/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fr

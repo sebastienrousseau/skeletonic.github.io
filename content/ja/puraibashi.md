@@ -1,9 +1,9 @@
 ---
 title: "プライバシー"
 name: "Skeletonic Stylus"
-description: "skeletonic.io が収集するデータ、その理由、およびオプトアウトの方法。"
+description: "skeletonic.com が収集するデータ、その理由、およびオプトアウトの方法。"
 layout: page
-permalink: https://skeletonic.io/ja/puraibashi/
+permalink: https://skeletonic.com/ja/puraibashi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja
@@ -13,7 +13,7 @@ keywords: "プライバシー, gdpr, cookie, トラッキングなし"
 
 ## 要約
 
-> **skeletonic.io はトラッキング Cookie を設定せず、サードパーティの分析タグも実行しません。** このサイトは HTML、CSS、および単一のサービスワーカーファイルの静的セットです。あなたのリクエストは、標準的な GitHub Pages アクセスログ以外には記録されません。
+> **skeletonic.com はトラッキング Cookie を設定せず、サードパーティの分析タグも実行しません。** このサイトは HTML、CSS、および単一のサービスワーカーファイルの静的セットです。あなたのリクエストは、標準的な GitHub Pages アクセスログ以外には記録されません。
 
 <hr class="hr-text" data-content="詳細">
 

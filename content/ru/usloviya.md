@@ -1,9 +1,9 @@
 ---
 title: "Условия использования"
 name: "Skeletonic Stylus"
-description: "Условия, регулирующие использование skeletonic.io и библиотеки Skeletonic Stylus."
+description: "Условия, регулирующие использование skeletonic.com и библиотеки Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/ru/usloviya/
+permalink: https://skeletonic.com/ru/usloviya/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru
@@ -21,7 +21,7 @@ keywords: "условия использования, лицензия, mit, apa
 
 ## 2. Этот веб-сайт
 
-Содержание `skeletonic.io` (текст, примеры, скриншоты, макеты)
+Содержание `skeletonic.com` (текст, примеры, скриншоты, макеты)
 защищено авторским правом © 2021 - 2026 Skeletonic CSS, все права защищены, и лицензировано по
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — вы можете цитировать, переводить или перерабатывать его при условии указания источника.
 

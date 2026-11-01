@@ -1,9 +1,9 @@
 ---
 title: "Hors ligne"
 name: "Skeletonic Stylus"
-description: "skeletonic.io n'a pas pu se connecter au réseau. La page demandée n'a pas encore été mise en cache."
+description: "skeletonic.com n'a pas pu se connecter au réseau. La page demandée n'a pas encore été mise en cache."
 layout: page
-permalink: https://skeletonic.io/fr/hors-ligne/
+permalink: https://skeletonic.com/fr/hors-ligne/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fr

@@ -3,7 +3,7 @@ title: "संपर्क"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus के बारे में संपर्क करें — बग रिपोर्ट, फ़ीचर आइडिया, साझेदारी, या सामान्य फ़ीडबैक।"
 layout: contact
-permalink: https://skeletonic.io/hi/sampark/
+permalink: https://skeletonic.com/hi/sampark/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi

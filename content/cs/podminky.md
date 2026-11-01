@@ -1,9 +1,9 @@
 ---
 title: "Podminky pouziti — Skeletonic Stylus"
 name: "Skeletonic Stylus"
-description: "Podminky upravujici pouzivani skeletonic.io a knihovny Skeletonic Stylus."
+description: "Podminky upravujici pouzivani skeletonic.com a knihovny Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/cs/podminky/
+permalink: https://skeletonic.com/cs/podminky/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs
@@ -26,7 +26,7 @@ obchodovatelnosti, vhodnosti pro konkretni ucel a neporuseni prav.
 
 ## 2. Tento web
 
-Obsah `skeletonic.io` (text, priklady, snimky obrazovky, rozvrzeni)
+Obsah `skeletonic.com` (text, priklady, snimky obrazovky, rozvrzeni)
 je Copyright © 2021 - 2026 Skeletonic CSS, vsechna prava vyhrazena, a licencovan pod
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — muzete
 citovat, prekladat nebo remixovat za predpokladu uvedeni zdroje.

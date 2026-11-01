@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Lien he ve Skeletonic Stylus — bao cao loi, y tuong tinh nang, hop tac, hoac phan hoi chung."
 layout: contact
 language: vi
-permalink: https://skeletonic.io/vi/lien-he/
+permalink: https://skeletonic.com/vi/lien-he/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

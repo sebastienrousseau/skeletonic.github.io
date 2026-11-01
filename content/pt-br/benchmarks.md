@@ -4,7 +4,7 @@ title: "Benchmarks de tamanho de framework — medidos, não comercializados"
 name: "Skeletonic Stylus"
 description: "Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands."
 layout: page
-permalink: https://skeletonic.io/pt-br/benchmarks/
+permalink: https://skeletonic.com/pt-br/benchmarks/
 date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

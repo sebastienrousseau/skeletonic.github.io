@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Кольорові палітри Material, Tachyons та Web-safe, що постачаються зі Skeletonic Stylus v2.0.0."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/palitry/
+permalink: https://skeletonic.com/uk/palitry/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

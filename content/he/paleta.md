@@ -3,7 +3,7 @@ title: "פלטות"
 name: "Skeletonic Stylus"
 description: "פלטות צבעים של Material, Tachyons ו-web-safe הנשלחות עם Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/he/paleta/
+permalink: https://skeletonic.com/he/paleta/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he

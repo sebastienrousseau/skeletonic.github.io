@@ -3,7 +3,7 @@ title: "Начало работы с Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Установите Skeletonic Stylus из npm или CDN, подключите к вашей Stylus-сборке и переопределите переменные за секунды."
 layout: page
-permalink: https://skeletonic.io/ru/nachalo/
+permalink: https://skeletonic.com/ru/nachalo/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru
@@ -13,8 +13,8 @@ keywords: "установка skeletonic, настройка stylus, css cdn, н
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Введение
 

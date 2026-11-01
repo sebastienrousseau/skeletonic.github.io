@@ -3,7 +3,7 @@ title: "Mulțumim!"
 name: "Skeletonic Stylus"
 description: "Mesajul tău a fost trimis cu succes."
 layout: thanks
-permalink: https://skeletonic.io/ro/multumim/
+permalink: https://skeletonic.com/ro/multumim/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro

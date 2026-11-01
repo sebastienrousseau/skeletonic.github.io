@@ -3,7 +3,7 @@ title: "रंग पट्टी"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 में शिप Material, Tachyons और web-safe रंग पैलेट।"
 layout: page
-permalink: https://skeletonic.io/hi/rang-patti/
+permalink: https://skeletonic.com/hi/rang-patti/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi

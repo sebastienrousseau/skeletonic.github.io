@@ -3,7 +3,7 @@ title: "Contribuer"
 name: "Skeletonic Stylus"
 description: "Comment signaler un problème, proposer des modifications et soumettre des demandes de fusion pour Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/fr/contribuer/
+permalink: https://skeletonic.com/fr/contribuer/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fr

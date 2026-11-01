@@ -3,7 +3,7 @@ title: "Seguridad y cadena de suministro"
 name: "Skeletonic Stylus"
 description: "Como Skeletonic Stylus v2.0.0 asegura su pipeline de compilacion, firma las releases y distribuye un SBOM."
 layout: page
-permalink: https://skeletonic.io/es/seguridad/
+permalink: https://skeletonic.com/es/seguridad/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: es

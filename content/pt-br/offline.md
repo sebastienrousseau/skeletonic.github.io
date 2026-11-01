@@ -1,9 +1,9 @@
 ---
 title: "Voce esta offline"
 name: "Skeletonic Stylus"
-description: "O skeletonic.io nao conseguiu acessar a rede. A pagina solicitada ainda nao foi armazenada em cache."
+description: "O skeletonic.com nao conseguiu acessar a rede. A pagina solicitada ainda nao foi armazenada em cache."
 layout: page
-permalink: https://skeletonic.io/pt-br/offline/
+permalink: https://skeletonic.com/pt-br/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pt-br

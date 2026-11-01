@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus jẹ ile-ikawe CSS Stylus ti o fẹẹrẹfẹ, ti o ni awọn modulu — ti o setan fun WCAG 2.2, ti a fi cascade-layer ṣe, 7.7 KB gzipped — ti a ṣe lati mu idagbasoke UI wẹẹbu ode-oni rọrun."
 language: yo
 layout: index
-permalink: https://skeletonic.io/yo/
+permalink: https://skeletonic.com/yo/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

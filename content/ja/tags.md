@@ -3,7 +3,7 @@ title: "タグ"
 name: "Skeletonic Stylus"
 description: "タグで Skeletonic Stylus ドキュメントを閲覧できます。"
 layout: page
-permalink: https://skeletonic.io/ja/tags/
+permalink: https://skeletonic.com/ja/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja

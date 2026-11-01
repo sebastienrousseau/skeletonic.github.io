@@ -3,7 +3,7 @@ title: "Palet"
 name: "Skeletonic Stylus"
 description: "Palet warna Material, Tachyons, dan web-safe yang disertakan dalam Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/id/palet/
+permalink: https://skeletonic.com/id/palet/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: id

@@ -3,7 +3,7 @@ title: "घटक"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus के हर घटक के लाइव HTML उदाहरण, समूहीकृत, एंकर्ड, और उसी स्टाइलशीट से रेंडर जिसका डेमो दिया जा रहा है।"
 layout: page
-permalink: https://skeletonic.io/hi/ghatak/
+permalink: https://skeletonic.com/hi/ghatak/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi
@@ -13,8 +13,8 @@ keywords: "skeletonic घटक, बटन, कार्ड, फ़ॉर्म,
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 नीचे दिया गया हर उदाहरण **उसी स्टाइलशीट से रेंडर** हो रहा है जिसका
 डेमो दिया जा रहा है। कोई प्रीप्रोसेसर नहीं। कोई JavaScript नहीं। कोई
@@ -391,43 +391,43 @@ collapse, expand और focus trap करता है।
       "@type": "ListItem",
       "position": 1,
       "name": "बटन",
-      "url": "https://skeletonic.io/hi/ghatak/#buttons"
+      "url": "https://skeletonic.com/hi/ghatak/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "बैज",
-      "url": "https://skeletonic.io/hi/ghatak/#badges"
+      "url": "https://skeletonic.com/hi/ghatak/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "अलर्ट",
-      "url": "https://skeletonic.io/hi/ghatak/#alerts"
+      "url": "https://skeletonic.com/hi/ghatak/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "कार्ड",
-      "url": "https://skeletonic.io/hi/ghatak/#cards"
+      "url": "https://skeletonic.com/hi/ghatak/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "फ़ॉर्म फ़ील्ड",
-      "url": "https://skeletonic.io/hi/ghatak/#form-fields"
+      "url": "https://skeletonic.com/hi/ghatak/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "ग्रिड",
-      "url": "https://skeletonic.io/hi/ghatak/#grid"
+      "url": "https://skeletonic.com/hi/ghatak/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "हेडर और हैमबर्गर नेव",
-      "url": "https://skeletonic.io/hi/ghatak/#header"
+      "url": "https://skeletonic.com/hi/ghatak/#header"
     }
   ]
 }

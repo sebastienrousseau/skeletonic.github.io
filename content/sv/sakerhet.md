@@ -3,7 +3,7 @@ title: "Sakerhet &amp; leveranskedja"
 name: "Skeletonic Stylus"
 description: "Hur Skeletonic Stylus v2.0.0 sakrar sin byggpipeline, signerar releaser och levererar en SBOM."
 layout: page
-permalink: https://skeletonic.io/sv/sakerhet/
+permalink: https://skeletonic.com/sv/sakerhet/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv

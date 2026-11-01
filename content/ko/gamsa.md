@@ -3,7 +3,7 @@ title: "감사합니다!"
 name: "Skeletonic Stylus"
 description: "메시지가 성공적으로 전송되었습니다."
 layout: thanks
-permalink: https://skeletonic.io/ko/gamsa/
+permalink: https://skeletonic.com/ko/gamsa/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko

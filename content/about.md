@@ -3,7 +3,7 @@ title: "About Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus is an open-source Stylus CSS library for accessible, fast, modular UI styling."
 layout: page
-permalink: https://skeletonic.io/about/
+permalink: https://skeletonic.com/about/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

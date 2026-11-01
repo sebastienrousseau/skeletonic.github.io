@@ -3,7 +3,7 @@ title: "Etichete"
 name: "Skeletonic Stylus"
 description: "Navighează documentația Skeletonic Stylus după etichetă."
 layout: page
-permalink: https://skeletonic.io/ro/tags/
+permalink: https://skeletonic.com/ro/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro

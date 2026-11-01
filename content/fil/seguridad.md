@@ -3,7 +3,7 @@ title: "Seguridad &amp; supply chain"
 name: "Skeletonic Stylus"
 description: "Paano sinisiguro ng Skeletonic Stylus v2.0.0 ang build pipeline nito, nilalagdaan ang mga release, at nagpapadala ng SBOM."
 layout: page
-permalink: https://skeletonic.io/fil/seguridad/
+permalink: https://skeletonic.com/fil/seguridad/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fil

@@ -1,9 +1,9 @@
 ---
 title: "Privasi"
 name: "Skeletonic Stylus"
-description: "Data apa yang dikumpulkan skeletonic.io, mengapa, dan cara memilih keluar."
+description: "Data apa yang dikumpulkan skeletonic.com, mengapa, dan cara memilih keluar."
 layout: page
-permalink: https://skeletonic.io/id/privasi/
+permalink: https://skeletonic.com/id/privasi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: id
@@ -13,7 +13,7 @@ keywords: "privasi, gdpr, cookie, tanpa pelacakan"
 
 ## Ringkasan
 
-> **skeletonic.io tidak memasang cookie pelacakan dan tidak menjalankan tag analitik pihak ketiga.** Situs ini adalah kumpulan statis HTML, CSS, dan satu file service worker. Tidak ada permintaan yang Anda buat yang dicatat selain log akses standar GitHub Pages.
+> **skeletonic.com tidak memasang cookie pelacakan dan tidak menjalankan tag analitik pihak ketiga.** Situs ini adalah kumpulan statis HTML, CSS, dan satu file service worker. Tidak ada permintaan yang Anda buat yang dicatat selain log akses standar GitHub Pages.
 
 <hr class="hr-text" data-content="Detail">
 

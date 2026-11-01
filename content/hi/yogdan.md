@@ -3,7 +3,7 @@ title: "योगदान करें"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus में मुद्दे दर्ज करने, बदलाव प्रस्तावित करने और पुल रिक्वेस्ट सबमिट करने का तरीक़ा।"
 layout: page
-permalink: https://skeletonic.io/hi/yogdan/
+permalink: https://skeletonic.com/hi/yogdan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi

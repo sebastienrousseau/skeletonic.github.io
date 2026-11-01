@@ -3,7 +3,7 @@ title: "Composants"
 name: "Skeletonic Stylus"
 description: "Exemples HTML interactifs de chaque composant Skeletonic Stylus, regroupés, ancrés et rendus avec la feuille de style elle-même."
 layout: page
-permalink: https://skeletonic.io/fr/composants/
+permalink: https://skeletonic.com/fr/composants/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fr
@@ -13,8 +13,8 @@ keywords: "composants skeletonic, boutons, cartes, formulaires, alertes, badges,
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Chaque exemple ci-dessous est **rendu avec la feuille de style
 elle-même**. Aucun préprocesseur. Aucun JavaScript. Aucune dépendance
@@ -401,43 +401,43 @@ réduit, s'ouvre et gère le focus correctement tout seul.
       "@type": "ListItem",
       "position": 1,
       "name": "Boutons",
-      "url": "https://skeletonic.io/fr/composants/#buttons"
+      "url": "https://skeletonic.com/fr/composants/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Badges",
-      "url": "https://skeletonic.io/fr/composants/#badges"
+      "url": "https://skeletonic.com/fr/composants/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Alertes",
-      "url": "https://skeletonic.io/fr/composants/#alerts"
+      "url": "https://skeletonic.com/fr/composants/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Cartes",
-      "url": "https://skeletonic.io/fr/composants/#cards"
+      "url": "https://skeletonic.com/fr/composants/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Champs de formulaire",
-      "url": "https://skeletonic.io/fr/composants/#form-fields"
+      "url": "https://skeletonic.com/fr/composants/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Grille",
-      "url": "https://skeletonic.io/fr/composants/#grid"
+      "url": "https://skeletonic.com/fr/composants/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "En-tête et navigation hamburger",
-      "url": "https://skeletonic.io/fr/composants/#header"
+      "url": "https://skeletonic.com/fr/composants/#header"
     }
   ]
 }

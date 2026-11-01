@@ -1,9 +1,9 @@
 ---
 title: "Jste offline"
 name: "Skeletonic Stylus"
-description: "skeletonic.io se nemuze pripojit k siti. Stranka, kterou jste pozadovali, jeste nebyla ulozena do cache."
+description: "skeletonic.com se nemuze pripojit k siti. Stranka, kterou jste pozadovali, jeste nebyla ulozena do cache."
 layout: page
-permalink: https://skeletonic.io/cs/offline/
+permalink: https://skeletonic.com/cs/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs
