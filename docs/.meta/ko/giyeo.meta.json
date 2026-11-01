@@ -1,12 +1,14 @@
 {
-  "layout": "page",
-  "keywords": "기여, 오픈소스, 풀 리퀘스트, 이슈, 규칙",
   "author": "Sebastien Rousseau",
-  "language": "ko",
-  "permalink": "https://skeletonic.io/ko/giyeo/",
-  "name": "Skeletonic Stylus",
   "date": "2026-04-08",
+  "description": "Skeletonic Stylus에 이슈를 제출하고, 변경을 제안하며, 풀 리퀘스트를 제출하는 방법입니다.",
+  "keywords": "기여, 오픈소스, 풀 리퀘스트, 이슈, 규칙",
+  "language": "ko",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/ko/giyeo/",
+  "reading_time": 1,
   "theme_color": "hsl(210, 100%, 42%)",
   "title": "기여하기",
-  "description": "Skeletonic Stylus에 이슈를 제출하고, 변경을 제안하며, 풀 리퀘스트를 제출하는 방법입니다."
+  "word_count": 212
 }

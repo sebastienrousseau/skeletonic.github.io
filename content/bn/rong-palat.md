@@ -3,7 +3,7 @@ title: "রঙ প্যালেট"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0-এর সাথে শিপ করা Material, Tachyons এবং web-safe রঙ প্যালেট।"
 layout: page
-permalink: https://skeletonic.io/bn/rong-palat/
+permalink: https://skeletonic.com/bn/rong-palat/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn

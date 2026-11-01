@@ -3,11 +3,12 @@ title: "Contact"
 name: "Skeletonic Stylus"
 description: "Get in touch about Skeletonic Stylus — bug reports, feature ideas, partnerships, or general feedback."
 layout: contact
-permalink: https://skeletonic.io/contact/
+permalink: https://skeletonic.com/contact/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "contact, support, feedback, skeletonic"
+language: en-GB
 ---
 
 The fastest way to get in touch is the form below — it goes straight to

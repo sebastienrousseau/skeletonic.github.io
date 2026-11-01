@@ -3,7 +3,7 @@ title: "רכיבים"
 name: "Skeletonic Stylus"
 description: "דוגמאות HTML חיות לכל רכיב ב-Skeletonic Stylus, מקובצות, מעוגנות ומוצגות עם גיליון הסגנונות עצמו."
 layout: page
-permalink: https://skeletonic.io/he/rekhivim/
+permalink: https://skeletonic.com/he/rekhivim/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he
@@ -13,8 +13,8 @@ keywords: "רכיבי skeletonic, כפתורים, כרטיסים, טפסים, ה
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 כל דוגמה למטה **מוצגת עם גיליון הסגנונות עצמו**. ללא מעבד מקדים.
 ללא JavaScript. ללא תלויות נוספות. העתיקו כל קטע קוד לקובץ HTML
@@ -388,43 +388,43 @@ JavaScript.** העתיקו את הקטע למטה לדף HTML ריק שכבר ט
       "@type": "ListItem",
       "position": 1,
       "name": "כפתורים",
-      "url": "https://skeletonic.io/he/rekhivim/#buttons"
+      "url": "https://skeletonic.com/he/rekhivim/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "תגיות",
-      "url": "https://skeletonic.io/he/rekhivim/#badges"
+      "url": "https://skeletonic.com/he/rekhivim/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "התראות",
-      "url": "https://skeletonic.io/he/rekhivim/#alerts"
+      "url": "https://skeletonic.com/he/rekhivim/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "כרטיסים",
-      "url": "https://skeletonic.io/he/rekhivim/#cards"
+      "url": "https://skeletonic.com/he/rekhivim/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "שדות טופס",
-      "url": "https://skeletonic.io/he/rekhivim/#form-fields"
+      "url": "https://skeletonic.com/he/rekhivim/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "רשת",
-      "url": "https://skeletonic.io/he/rekhivim/#grid"
+      "url": "https://skeletonic.com/he/rekhivim/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "כותרת וניווט hamburger",
-      "url": "https://skeletonic.io/he/rekhivim/#header"
+      "url": "https://skeletonic.com/he/rekhivim/#header"
     }
   ]
 }

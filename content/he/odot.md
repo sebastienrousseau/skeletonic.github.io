@@ -3,7 +3,7 @@ title: "אודות Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus היא ספריית CSS קוד פתוח מבוססת Stylus לעיצוב ממשקים נגיש, מהיר ומודולרי."
 layout: page
-permalink: https://skeletonic.io/he/odot/
+permalink: https://skeletonic.com/he/odot/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he
@@ -13,8 +13,8 @@ keywords: "skeletonic, אודות, stylus, css framework, פילוסופיה"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 <dl class="stat-strip" aria-label="Project facts">
   <div><dt>Version</dt><dd>2.0.0</dd></div>

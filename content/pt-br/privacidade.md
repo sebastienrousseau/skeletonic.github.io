@@ -1,9 +1,9 @@
 ---
 title: "Privacidade"
 name: "Skeletonic Stylus"
-description: "Quais dados o skeletonic.io coleta, por que, e como desativar."
+description: "Quais dados o skeletonic.com coleta, por que, e como desativar."
 layout: page
-permalink: https://skeletonic.io/pt-br/privacidade/
+permalink: https://skeletonic.com/pt-br/privacidade/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pt-br
@@ -13,7 +13,7 @@ keywords: "privacidade, gdpr, cookies, sem rastreamento"
 
 ## Resumo
 
-> **skeletonic.io nao define cookies de rastreamento e nao executa
+> **skeletonic.com nao define cookies de rastreamento e nao executa
 > nenhuma tag de analytics de terceiros.** O site e um conjunto estatico
 > de HTML, CSS e um unico arquivo de service worker. Nenhuma requisicao
 > sua e registrada alem dos logs de acesso padrao do GitHub Pages.

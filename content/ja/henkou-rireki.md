@@ -3,7 +3,7 @@ title: "変更履歴"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus のリリースノート。v2.0.0 の詳細を掲載しています。"
 layout: page
-permalink: https://skeletonic.io/ja/henkou-rireki/
+permalink: https://skeletonic.com/ja/henkou-rireki/
 author: Sebastien Rousseau
 language: ja
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "skeletonic 変更履歴, リリースノート, v2.0.0, semver"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (現行)
 

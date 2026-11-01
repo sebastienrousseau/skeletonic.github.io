@@ -1,10 +1,10 @@
 ---
 title: "你当前处于离线状态"
 name: "Skeletonic Stylus"
-description: "skeletonic.io 无法连接到网络。你请求的页面尚未被缓存。"
+description: "skeletonic.com 无法连接到网络。你请求的页面尚未被缓存。"
 language: zh-hans
 layout: page
-permalink: https://skeletonic.io/zh-hans/offline/
+permalink: https://skeletonic.com/zh-hans/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

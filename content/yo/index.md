@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus jẹ ile-ikawe CSS Stylus ti o fẹẹrẹfẹ, ti o ni awọn modulu — ti o setan fun WCAG 2.2, ti a fi cascade-layer ṣe, 7.7 KB gzipped — ti a ṣe lati mu idagbasoke UI wẹẹbu ode-oni rọrun."
 language: yo
 layout: index
-permalink: https://skeletonic.io/yo/
+permalink: https://skeletonic.com/yo/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -15,7 +15,7 @@ CSS ti a le wọle si ni **labẹ 8&nbsp;KB gzipped**. Ti setan fun WCAG&nbsp;2.
 Ti a fi cascade-layer ṣe. JavaScript kankan ko si. Fi si ojulowo eyikeyi.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Ẹya ara Skeletonic

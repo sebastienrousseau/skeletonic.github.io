@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Опціональний модуль анімацій Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake та інші, всі за перевіркою prefers-reduced-motion."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/animatsii/
+permalink: https://skeletonic.com/uk/animatsii/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

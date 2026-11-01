@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus 是一個開源的 Stylus CSS 函式庫，用於無障礙、快速、模組化的 UI 樣式設計。"
 language: zh-hant
 layout: page
-permalink: https://skeletonic.io/zh-hant/guan-yu/
+permalink: https://skeletonic.com/zh-hant/guan-yu/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "skeletonic, 關於, stylus, css 框架, 設計理念"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 <dl class="stat-strip" aria-label="Project facts">
   <div><dt>Version</dt><dd>2.0.0</dd></div>

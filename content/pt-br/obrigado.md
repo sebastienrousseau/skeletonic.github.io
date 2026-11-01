@@ -3,7 +3,7 @@ title: "Obrigado!"
 name: "Skeletonic Stylus"
 description: "Sua mensagem foi enviada com sucesso."
 layout: thanks
-permalink: https://skeletonic.io/pt-br/obrigado/
+permalink: https://skeletonic.com/pt-br/obrigado/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pt-br

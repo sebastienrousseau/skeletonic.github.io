@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "就 Skeletonic Stylus 的 Bug 报告、功能建议、合作或一般反馈与我们取得联系。",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

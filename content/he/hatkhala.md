@@ -3,7 +3,7 @@ title: "התחלת עבודה עם Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "התקינו את Skeletonic Stylus מ-npm או CDN, ייבאו אותה לצינור Stylus שלכם, ודרסו משתנים תוך שניות."
 layout: page
-permalink: https://skeletonic.io/he/hatkhala/
+permalink: https://skeletonic.com/he/hatkhala/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he
@@ -13,8 +13,8 @@ keywords: "התקנת skeletonic, הגדרת stylus, css cdn, התחלה"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## מבוא
 
@@ -36,13 +36,13 @@ gzip עבור גיליון הסגנונות הליבתי), היא משתלבת �
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### מ-CDN
@@ -53,13 +53,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | כן | כן |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | כן | לא |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | כן | כן |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | כן | לא |
 
 ### הורדת שחרור GitHub
 
@@ -154,7 +154,7 @@ Skeletonic חושפת את טוקני העיצוב שלה כ-**משתני CSS** 
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>זה עובד.</h1>
@@ -171,7 +171,7 @@ Skeletonic חושפת את טוקני העיצוב שלה כ-**משתני CSS** 
 מפות מקור, ועץ Stylus מלא מאורגן לפי קטגוריה:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -210,7 +210,7 @@ Skeletonic חושפת את טוקני העיצוב שלה כ-**משתני CSS** 
 ## שאלות נפוצות
 
 **כיצד מתקינים את Skeletonic Stylus?**
-הריצו `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. או
+הריצו `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. או
 טענו את ה-CSS המהודר ישירות מ-CDN — ללא צורך בשלב בנייה.
 
 **האם נדרש JavaScript?**
@@ -239,7 +239,7 @@ brotli עבור גיליון הסגנונות הליבתי המלא. תקרת 8&
       "name": "כיצד מתקינים את Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "הריצו pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. או טענו את ה-CSS המהודר ישירות מ-CDN — ללא צורך בשלב בנייה."
+        "text": "הריצו pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. או טענו את ה-CSS המהודר ישירות מ-CDN — ללא צורך בשלב בנייה."
       }
     },
     {

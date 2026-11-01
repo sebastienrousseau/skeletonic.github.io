@@ -3,7 +3,7 @@ title: "Makipag-ugnayan"
 name: "Skeletonic Stylus"
 description: "Makipag-ugnayan tungkol sa Skeletonic Stylus — mga ulat ng bug, ideya para sa tampok, pakikipagtulungan, o pangkalahatang feedback."
 layout: contact
-permalink: https://skeletonic.io/fil/makipag-ugnayan/
+permalink: https://skeletonic.com/fil/makipag-ugnayan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fil

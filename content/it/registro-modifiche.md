@@ -3,7 +3,7 @@ title: "Registro modifiche"
 name: "Skeletonic Stylus"
 description: "Note di rilascio per Skeletonic Stylus, con la v2.0.0 completa."
 layout: page
-permalink: https://skeletonic.io/it/registro-modifiche/
+permalink: https://skeletonic.com/it/registro-modifiche/
 author: Sebastien Rousseau
 language: it
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "registro modifiche skeletonic, note di rilascio, v2.0.0, semver"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (attuale)
 

@@ -1,10 +1,10 @@
 ---
 title: "Quyen rieng tu"
 name: "Skeletonic Stylus"
-description: "Du lieu ma skeletonic.io thu thap, ly do va cach tu choi."
+description: "Du lieu ma skeletonic.com thu thap, ly do va cach tu choi."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/quyen-rieng-tu/
+permalink: https://skeletonic.com/vi/quyen-rieng-tu/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,7 +13,7 @@ keywords: "quyen rieng tu, gdpr, cookie, khong theo doi"
 
 ## Tom tat
 
-> **skeletonic.io khong dat cookie theo doi va khong chay the phan tich
+> **skeletonic.com khong dat cookie theo doi va khong chay the phan tich
 > cua ben thu ba.** Trang web la tap hop tinh cac tap HTML, CSS va mot
 > tap service-worker duy nhat. Khong yeu cau nao cua ban duoc ghi lai
 > ngoai nhat ky truy cap GitHub Pages tieu chuan.

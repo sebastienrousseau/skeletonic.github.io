@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Bawo ni Skeletonic Stylus v2.0.0 ṣe ni aabo fun opo ikọ rẹ, fọwọsi awọn itusilẹ, ati fi SBOM ranṣẹ."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/aabo/
+permalink: https://skeletonic.com/yo/aabo/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -42,7 +42,7 @@ Gbogbo tarball ti a tẹ jade pẹlu CycloneDX SBOM ni `dist/sbom.json`.
 O le ṣayẹwo package ti a fi sori ẹrọ tuntun pẹlu:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ Ohun elo ti a tẹ jade ni a fọwọsi nipa lilo
 O le ṣe idaniloju rẹ lẹhin ifisori ẹrọ pẹlu:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

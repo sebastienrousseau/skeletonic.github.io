@@ -1,9 +1,9 @@
 ---
 title: "Je bent offline"
 name: "Skeletonic Stylus"
-description: "skeletonic.io kon het netwerk niet bereiken. De pagina die je hebt opgevraagd is nog niet gecached."
+description: "skeletonic.com kon het netwerk niet bereiken. De pagina die je hebt opgevraagd is nog niet gecached."
 layout: page
-permalink: https://skeletonic.io/nl/offline/
+permalink: https://skeletonic.com/nl/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl

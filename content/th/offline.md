@@ -1,9 +1,9 @@
 ---
 title: "คุณออฟไลน์อยู่"
 name: "Skeletonic Stylus"
-description: "skeletonic.io ไม่สามารถเข้าถึงเครือข่ายได้ หน้าที่คุณร้องขอยังไม่ได้ถูกแคช"
+description: "skeletonic.com ไม่สามารถเข้าถึงเครือข่ายได้ หน้าที่คุณร้องขอยังไม่ได้ถูกแคช"
 layout: page
-permalink: https://skeletonic.io/th/offline/
+permalink: https://skeletonic.com/th/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th

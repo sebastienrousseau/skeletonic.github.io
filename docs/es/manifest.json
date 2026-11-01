@@ -1,7 +1,15 @@
 {
   "background_color": "#ffffff",
-  "description": "Skeletonic Stylus es una biblioteca CSS Stylus ligera y modular — compatible con WCAG 2.2, organizada en capas de...",
+  "description": "Skeletonic Stylus es una biblioteca CSS Stylus ligera y modular — compatible con WCAG 2.2, organizada en capas de cascad",
   "display": "standalone",
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

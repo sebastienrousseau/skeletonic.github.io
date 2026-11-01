@@ -1,9 +1,9 @@
 ---
 title: "Ești offline"
 name: "Skeletonic Stylus"
-description: "skeletonic.io nu poate accesa rețeaua. Pagina solicitată nu a fost încă memorată în cache."
+description: "skeletonic.com nu poate accesa rețeaua. Pagina solicitată nu a fost încă memorată în cache."
 layout: page
-permalink: https://skeletonic.io/ro/offline/
+permalink: https://skeletonic.com/ro/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro

@@ -3,7 +3,7 @@ title: "기여하기"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus에 이슈를 제출하고, 변경을 제안하며, 풀 리퀘스트를 제출하는 방법입니다."
 layout: page
-permalink: https://skeletonic.io/ko/giyeo/
+permalink: https://skeletonic.com/ko/giyeo/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko

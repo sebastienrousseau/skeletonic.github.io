@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Ifiranṣẹ rẹ ti dé ni aṣeyọri."
 language: yo
 layout: thanks
-permalink: https://skeletonic.io/yo/o-se/
+permalink: https://skeletonic.com/yo/o-se/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

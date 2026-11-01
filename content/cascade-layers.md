@@ -3,11 +3,12 @@ title: "Cascade layers — overrides without specificity wars"
 name: "Skeletonic Stylus"
 description: "Skeletonic ships inside @layer skeletonic so any CSS you write outside that layer wins, regardless of selector specificity. No more !important, no more order tricks."
 layout: page
-permalink: https://skeletonic.io/cascade-layers/
+permalink: https://skeletonic.com/cascade-layers/
 date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css cascade layers, @layer, css specificity, !important, override css, framework override"
+language: en-GB
 ---
 
 Every rule shipped by Skeletonic is wrapped in a single CSS

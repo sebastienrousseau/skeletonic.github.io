@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Awọn akiyesi itusilẹ fun Skeletonic Stylus, pẹlu v2.0.0 ni kikun."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/iwe-iyipada/
+permalink: https://skeletonic.com/yo/iwe-iyipada/
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "iwe iyipada skeletonic, awọn akiyesi itusilẹ, v2.0.0, semver"
@@ -12,8 +12,8 @@ keywords: "iwe iyipada skeletonic, awọn akiyesi itusilẹ, v2.0.0, semver"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (lọwọlọwọ)
 

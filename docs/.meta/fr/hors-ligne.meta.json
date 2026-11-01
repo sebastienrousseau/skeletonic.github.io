@@ -1,12 +1,14 @@
 {
-  "name": "Skeletonic Stylus",
-  "language": "fr",
   "author": "Sebastien Rousseau",
   "date": "2026-04-08",
-  "keywords": "hors ligne, service worker, pwa",
-  "title": "Hors ligne",
   "description": "skeletonic.io n'a pas pu se connecter au réseau. La page demandée n'a pas encore été mise en cache.",
+  "keywords": "hors ligne, service worker, pwa",
+  "language": "fr",
   "layout": "page",
+  "name": "Skeletonic Stylus",
   "permalink": "https://skeletonic.io/fr/hors-ligne/",
-  "theme_color": "hsl(210, 100%, 42%)"
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Hors ligne",
+  "word_count": 58
 }

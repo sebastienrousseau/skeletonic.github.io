@@ -3,7 +3,7 @@ title: "Launuka"
 name: "Skeletonic Stylus"
 description: "Tsarin launuka na Material, Tachyons da web-safe da Skeletonic Stylus v2.0.0 ke aikawa."
 layout: page
-permalink: https://skeletonic.io/ha/launuka/
+permalink: https://skeletonic.com/ha/launuka/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha

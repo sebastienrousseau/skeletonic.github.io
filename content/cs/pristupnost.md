@@ -3,7 +3,7 @@ title: "Pristupnost — WCAG 2.2 ve v2.0.0"
 name: "Skeletonic Stylus"
 description: "Co v2.0.0 dodava hned po instalaci pro soulad s WCAG 2.2 — ohraniceni fokusu, kontrast, skip linky, pohyb a tmavy rezim."
 layout: page
-permalink: https://skeletonic.io/cs/pristupnost/
+permalink: https://skeletonic.com/cs/pristupnost/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, pristupnost, focus visible, skip link, prefers reduced moti
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 dodava soulad s WCAG 2.2 jako vychozi
 > chovani, ne jako volitelne tema.** Tato stranka dokumentuje, co je

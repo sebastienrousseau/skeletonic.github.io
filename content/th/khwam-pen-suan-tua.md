@@ -1,9 +1,9 @@
 ---
 title: "ความเป็นส่วนตัว"
 name: "Skeletonic Stylus"
-description: "ข้อมูลที่ skeletonic.io เก็บรวบรวม เหตุผล และวิธียกเลิก"
+description: "ข้อมูลที่ skeletonic.com เก็บรวบรวม เหตุผล และวิธียกเลิก"
 layout: page
-permalink: https://skeletonic.io/th/khwam-pen-suan-tua/
+permalink: https://skeletonic.com/th/khwam-pen-suan-tua/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th
@@ -13,7 +13,7 @@ keywords: "ความเป็นส่วนตัว, gdpr, คุกกี�
 
 ## สรุปสั้น ๆ
 
-> **skeletonic.io ไม่ตั้งค่าคุกกี้ติดตามและไม่รันแท็กวิเคราะห์ของ
+> **skeletonic.com ไม่ตั้งค่าคุกกี้ติดตามและไม่รันแท็กวิเคราะห์ของ
 > บุคคลที่สาม** เว็บไซต์เป็นชุด HTML, CSS และไฟล์ service worker
 > แบบ static เพียงไฟล์เดียว ไม่มีคำขอใดของคุณที่ถูกบันทึก
 > นอกเหนือจาก access logs มาตรฐานของ GitHub Pages

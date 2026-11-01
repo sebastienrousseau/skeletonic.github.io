@@ -3,7 +3,7 @@ title: "コントリビューション"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus への Issue の報告、変更の提案、プルリクエストの提出方法。"
 layout: page
-permalink: https://skeletonic.io/ja/kouken/
+permalink: https://skeletonic.com/ja/kouken/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja

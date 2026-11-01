@@ -3,11 +3,12 @@ title: "Components"
 name: "Skeletonic Stylus"
 description: "Live HTML examples of every Skeletonic Stylus component, grouped, anchored, and rendered with the very stylesheet being demoed."
 layout: page
-permalink: https://skeletonic.io/components/
+permalink: https://skeletonic.com/components/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "skeletonic components, buttons, cards, forms, alerts, badges, header, navbar, css only hamburger"
+language: en-GB
 ---
 
 Every example below is **rendered with the very stylesheet being
@@ -66,8 +67,8 @@ Outline variants:
 
 > **Accessibility note.** Every `.button` variant ships with a
 > `:focus-visible` ring and a **24×24&nbsp;px minimum hit area**
-> (WCAG&nbsp;2.2 SC&nbsp;2.5.8). Use `<button type="button">` for
-> in-page actions and `<a href>` only for navigation.
+> (WCAG&nbsp;2.2 SC&nbsp;2.5.8). Use `&lt;button type="button"&gt;` for
+> in-page actions and `&lt;a href&gt;` only for navigation.
 
 <h3 id="button-shapes">Button shapes</h3>
 
@@ -211,9 +212,9 @@ the page.
 
 <h3 id="code-blocks">Code blocks</h3>
 
-`<code>`, `<kbd>`, `<pre>`, and `<samp>` get monospace styling and a
+`&lt;code&gt;`, `&lt;kbd&gt;`, `&lt;pre&gt;`, and `&lt;samp&gt;` get monospace styling and a
 thick inline-start accent stripe (which flips automatically under
-`<html dir="rtl">` thanks to logical properties). Status modifiers
+`&lt;html dir="rtl"&gt;` thanks to logical properties). Status modifiers
 match the alert palette so callouts and code samples can speak the
 same colour language.
 
@@ -233,7 +234,7 @@ same colour language.
 <p><code class="info">use --gr-h1 to override the heading scale</code></p>
 </section>
 
-To render a keyboard shortcut, use `<kbd>`:
+To render a keyboard shortcut, use `&lt;kbd&gt;`:
 
 ```html
 Press <kbd>Ctrl</kbd>+<kbd>K</kbd> to focus the search.
@@ -244,7 +245,7 @@ Press <kbd>Ctrl</kbd>+<kbd>K</kbd> to focus the search.
 </section>
 
 > **RTL note.** Code blocks intentionally retain `direction: ltr` even
-> on `<html dir="rtl">` pages — code is conventionally left-to-right.
+> on `&lt;html dir="rtl"&gt;` pages — code is conventionally left-to-right.
 > What flips is the inline-start accent stripe, so the visual anchor
 > stays on the *reading-start* edge of the block.
 
@@ -304,14 +305,14 @@ A bordered, padded container for a single coherent unit. Pair with the
 </section>
 
 > **Accessibility note.** Wrap each card in a semantic landmark
-> (`<article>`, `<section>`) and start its content with a heading
-> (`<h3>`). Screen-reader users can then traverse the card list as
+> (`&lt;article&gt;`, `&lt;section&gt;`) and start its content with a heading
+> (`&lt;h3&gt;`). Screen-reader users can then traverse the card list as
 > first-class navigable regions.
 
 <h3 id="tables">Tables</h3>
 
-Plain `<table>` elements get bordered cells and a contrast-flipped
-`<thead>` automatically — no class soup needed.
+Plain `&lt;table&gt;` elements get bordered cells and a contrast-flipped
+`&lt;thead&gt;` automatically — no class soup needed.
 
 ```html
 <table>
@@ -339,8 +340,8 @@ Plain `<table>` elements get bordered cells and a contrast-flipped
 </table>
 </section>
 
-> **Accessibility note.** Always use `<thead>` and `<th>` for header
-> cells (not `<td>` styled to look like a header) — assistive tech
+> **Accessibility note.** Always use `&lt;thead&gt;` and `&lt;th&gt;` for header
+> cells (not `&lt;td&gt;` styled to look like a header) — assistive tech
 > announces the column header before each cell so users can navigate
 > the data grid.
 
@@ -386,14 +387,14 @@ consistently with the rest of the design system.
 </section>
 
 > **Accessibility note.** Every input must have a programmatically
-> associated `<label for="…">`. Group related controls inside a
-> `<fieldset>` with a `<legend>`. Mark required fields with
+> associated `&lt;label for="…"&gt;`. Group related controls inside a
+> `&lt;fieldset&gt;` with a `&lt;legend&gt;`. Mark required fields with
 > `required` (and a visible asterisk in the label text).
 
 <h3 id="status-inputs">Status inputs</h3>
 
 Tint a single input to communicate validation state without rebuilding
-the form. The status modifier classes pair with any `<input type="">`
+the form. The status modifier classes pair with any `&lt;input type=""&gt;`
 that already has element styling.
 
 ```html
@@ -420,7 +421,7 @@ that already has element styling.
 
 <h3 id="fieldsets">Fieldsets</h3>
 
-`<fieldset>` groups related controls; `<legend>` names the group. Both
+`&lt;fieldset&gt;` groups related controls; `&lt;legend&gt;` names the group. Both
 inherit Skeletonic's spacing and border tokens automatically.
 
 ```html
@@ -459,7 +460,7 @@ Plain HTML, lifted to typographic standard via the cascade.
 
 <h3 id="lists">Lists</h3>
 
-Three bullet styles ship as modifiers on `<ul>` — `square`, `circle`,
+Three bullet styles ship as modifiers on `&lt;ul&gt;` — `square`, `circle`,
 `disc`. Plus the default unstyled list-reset.
 
 ```html
@@ -498,7 +499,7 @@ Three bullet styles ship as modifiers on `<ul>` — `square`, `circle`,
 
 <h3 id="dividers">Dividers</h3>
 
-Ten visual variants of `<hr>` — solid, dashed, dotted, doubled,
+Ten visual variants of `&lt;hr&gt;` — solid, dashed, dotted, doubled,
 rounded, blurred, small, vertical, plus a centred-icon and a centred
 text-on-rule used throughout this site for the section separators
 above.
@@ -537,9 +538,9 @@ above.
 <hr class="hr-text" data-content="Section title">
 </section>
 
-> **Note.** `<hr>` is a semantic, paragraph-level *thematic break*.
-> Don't use it for purely decorative spacing — use a `<div>` or CSS
-> `margin` instead. Assistive tech announces every `<hr>` as a section
+> **Note.** `&lt;hr&gt;` is a semantic, paragraph-level *thematic break*.
+> Don't use it for purely decorative spacing — use a `&lt;div&gt;` or CSS
+> `margin` instead. Assistive tech announces every `&lt;hr&gt;` as a section
 > change.
 
 <h3 id="link-effects">Link hover effects</h3>
@@ -642,8 +643,8 @@ gap; `.grid-cols-N` (1–12) generates the column tracks; `.col-span-N`
 > the source, not the paint.
 
 > **Migrating from v1.x.** The `.flex-N` / `.row` flexbox grid is
-> gone. Replace `<div class="row"><div class="flex-6">…` with
-> `<div class="grid grid-cols-2"><div>…`. The new system is shorter,
+> gone. Replace `&lt;div class="row"&gt;&lt;div class="flex-6"&gt;…` with
+> `&lt;div class="grid grid-cols-2"&gt;&lt;div&gt;…`. The new system is shorter,
 > uses native CSS Grid, and avoids margin-collapse quirks.
 
 <h3 id="header">Header &amp; hamburger nav</h3>
@@ -654,7 +655,7 @@ already loads `skeletonic.min.css` and the menu collapses, expands,
 and traps focus correctly on its own.
 
 ```html
-<style>
+&lt;style&gt;
   /* Demo uses light-dark() so it adapts to colour-scheme. */
   .sk-header{position:relative;display:flex;align-items:center;gap:1rem;padding:.75rem 1rem;border:1px solid var(--c-border);border-radius:.5rem;background:light-dark(#fff,#1a1a1a);color:light-dark(#1a1a1a,#f5f5f5);}
   .sk-header .sk-brand{font-weight:600;color:light-dark(#0a0a0a,#f5f5f5) !important;text-decoration:none;}
@@ -671,7 +672,7 @@ and traps focus correctly on its own.
     .sk-header .sk-menu li:last-child a{border-bottom:0;}
     .sk-header .sk-toggle:checked ~ .sk-menu{display:flex;}
   }
-</style>
+&lt;/style&gt;
 <header class="sk-header">
   <a class="sk-brand" href="#">Brand</a>
   <input class="sk-toggle" id="sk-nav-toggle" type="checkbox" aria-label="Toggle navigation">
@@ -686,24 +687,6 @@ and traps focus correctly on its own.
 ```
 
 <section aria-labelledby="header">
-<style>
-  /* Demo uses light-dark() so it adapts to colour-scheme. */
-  .sk-header{position:relative;display:flex;align-items:center;gap:1rem;padding:.75rem 1rem;border:1px solid var(--c-border);border-radius:.5rem;background:light-dark(#fff,#1a1a1a);color:light-dark(#1a1a1a,#f5f5f5);}
-  .sk-header .sk-brand{font-weight:600;color:light-dark(#0a0a0a,#f5f5f5) !important;text-decoration:none;}
-  .sk-header .sk-toggle{position:absolute;left:-9999px;}
-  .sk-header .sk-burger{display:none;margin-left:auto;cursor:pointer;padding:.625rem .75rem;border:1px solid var(--c-border);border-radius:.375rem;font-size:1.125rem;line-height:1;min-width:2.75rem;min-height:2.75rem;color:inherit;background:transparent;}
-  .sk-header .sk-burger:focus-within,.sk-header .sk-toggle:focus-visible+.sk-burger{outline:2px solid hsl(210,100%,42%);outline-offset:2px;}
-  .sk-header .sk-menu{list-style:none;display:flex;gap:.25rem;margin:0 0 0 auto;padding:0;}
-  .sk-header .sk-menu a{display:inline-flex;align-items:center;min-height:2.75rem;padding:.5rem .875rem;border-radius:.375rem;color:light-dark(#1a1a1a,#f5f5f5) !important;text-decoration:none;}
-  .sk-header .sk-menu a:hover{background:light-dark(#f4f4f5,#262629);}
-  @media (max-width:640px){
-    .sk-header .sk-burger{display:inline-flex;align-items:center;justify-content:center;}
-    .sk-header .sk-menu{display:none;flex-direction:column;gap:0;position:absolute;top:calc(100% + .25rem);left:0;right:0;background:light-dark(#fff,#1a1a1a);border:1px solid var(--c-border);border-radius:.5rem;padding:.375rem;box-shadow:0 4px 24px rgba(0,0,0,.18);z-index:10;}
-    .sk-header .sk-menu a{padding:.75rem 1rem;border-bottom:1px solid var(--c-border);}
-    .sk-header .sk-menu li:last-child a{border-bottom:0;}
-    .sk-header .sk-toggle:checked ~ .sk-menu{display:flex;}
-  }
-</style>
 <header class="sk-header">
   <a class="sk-brand" href="#">Brand</a>
   <input class="sk-toggle" id="sk-nav-toggle" type="checkbox" aria-label="Toggle navigation">
@@ -719,7 +702,7 @@ and traps focus correctly on its own.
 
 > **Accessibility note.** The hidden checkbox stays in the tab order
 > so keyboard users can open the menu with `Space` or `Enter`. The
-> `<label>` carries `aria-hidden` because the checkbox itself is the
+> `&lt;label&gt;` carries `aria-hidden` because the checkbox itself is the
 > accessible name source. Resize the window below 640&nbsp;px to see
 > the burger toggle take over.
 
@@ -727,7 +710,7 @@ and traps focus correctly on its own.
 
 <h2 id="accordions">Accordions</h2>
 
-Zero-JavaScript collapsible disclosure containers leveraging the HTML5 `<details>` and `<summary>` elements with native `@interpolate-size` smooth height transitions.
+Zero-JavaScript collapsible disclosure containers leveraging the HTML5 `&lt;details&gt;` and `&lt;summary&gt;` elements with native `@interpolate-size` smooth height transitions.
 
 ```html
 <details class="accordion">
@@ -747,11 +730,11 @@ Zero-JavaScript collapsible disclosure containers leveraging the HTML5 `<details
 </details>
 </section>
 
-> **Accessibility note.** Native `<details>` elements inherently communicate state (`aria-expanded`) to screen readers and offer full keyboard control (`Space` / `Enter` toggle) without needing custom JavaScript event handlers.
+> **Accessibility note.** Native `&lt;details&gt;` elements inherently communicate state (`aria-expanded`) to screen readers and offer full keyboard control (`Space` / `Enter` toggle) without needing custom JavaScript event handlers.
 
 <h3 id="modals">Modals &amp; Dialogs</h3>
 
-Accessible overlay windows utilizing the native HTML `<dialog>` element, discrete view transitions, and custom backdrop blurs.
+Accessible overlay windows utilizing the native HTML `&lt;dialog&gt;` element, discrete view transitions, and custom backdrop blurs.
 
 ```html
 <dialog class="modal" id="demoModal">
@@ -821,16 +804,16 @@ Zero-JavaScript informational tooltips leveraging the HTML Popover API with auto
 Hardware-accelerated CSS spinners for visual status feedback during async processing.
 
 ```html
-<span class="loader loader-sm" aria-label="Loading small"></span>
-<span class="loader" aria-label="Loading default"></span>
-<span class="loader loader-lg" aria-label="Loading large"></span>
+<span class="loader loader-sm" role="status" aria-label="Loading small"></span>
+<span class="loader" role="status" aria-label="Loading default"></span>
+<span class="loader loader-lg" role="status" aria-label="Loading large"></span>
 ```
 
 <section aria-labelledby="loaders">
 <p style="display:flex; align-items:center; gap:1.5rem;">
-  <span class="loader loader-sm" aria-label="Loading small"></span>
-  <span class="loader" aria-label="Loading default"></span>
-  <span class="loader loader-lg" aria-label="Loading large"></span>
+  <span class="loader loader-sm" role="status" aria-label="Loading small"></span>
+  <span class="loader" role="status" aria-label="Loading default"></span>
+  <span class="loader loader-lg" role="status" aria-label="Loading large"></span>
 </p>
 </section>
 
@@ -874,27 +857,27 @@ Responsive image containers, thumbnails, and circular avatar profiles.
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "numberOfItems": 21,
   "itemListElement": [
-    { "@type": "ListItem", "position": 1,  "name": "Buttons",                  "url": "https://skeletonic.io/components/#buttons" },
-    { "@type": "ListItem", "position": 2,  "name": "Button shapes",            "url": "https://skeletonic.io/components/#button-shapes" },
-    { "@type": "ListItem", "position": 3,  "name": "Button groups",            "url": "https://skeletonic.io/components/#button-groups" },
-    { "@type": "ListItem", "position": 4,  "name": "Badges",                   "url": "https://skeletonic.io/components/#badges" },
-    { "@type": "ListItem", "position": 5,  "name": "Switches & Toggles",       "url": "https://skeletonic.io/components/#toggles" },
-    { "@type": "ListItem", "position": 6,  "name": "Alerts",                   "url": "https://skeletonic.io/components/#alerts" },
-    { "@type": "ListItem", "position": 7,  "name": "Loaders & Spinners",       "url": "https://skeletonic.io/components/#loaders" },
-    { "@type": "ListItem", "position": 8,  "name": "Tooltips",                 "url": "https://skeletonic.io/components/#tooltips" },
-    { "@type": "ListItem", "position": 9,  "name": "Code blocks",              "url": "https://skeletonic.io/components/#code-blocks" },
-    { "@type": "ListItem", "position": 10, "name": "Cards",                    "url": "https://skeletonic.io/components/#cards" },
-    { "@type": "ListItem", "position": 11, "name": "Accordions",               "url": "https://skeletonic.io/components/#accordions" },
-    { "@type": "ListItem", "position": 12, "name": "Modals & Dialogs",         "url": "https://skeletonic.io/components/#modals" },
-    { "@type": "ListItem", "position": 13, "name": "Dropdowns",                "url": "https://skeletonic.io/components/#dropdowns" },
-    { "@type": "ListItem", "position": 14, "name": "Tables",                   "url": "https://skeletonic.io/components/#tables" },
-    { "@type": "ListItem", "position": 15, "name": "Form fields",              "url": "https://skeletonic.io/components/#form-fields" },
-    { "@type": "ListItem", "position": 16, "name": "Status inputs",            "url": "https://skeletonic.io/components/#status-inputs" },
-    { "@type": "ListItem", "position": 17, "name": "Fieldsets",                "url": "https://skeletonic.io/components/#fieldsets" },
-    { "@type": "ListItem", "position": 18, "name": "Lists",                    "url": "https://skeletonic.io/components/#lists" },
-    { "@type": "ListItem", "position": 19, "name": "Dividers",                 "url": "https://skeletonic.io/components/#dividers" },
-    { "@type": "ListItem", "position": 20, "name": "Avatars & Images",         "url": "https://skeletonic.io/components/#avatars" },
-    { "@type": "ListItem", "position": 21, "name": "Link hover effects",       "url": "https://skeletonic.io/components/#link-effects" }
+    { "@type": "ListItem", "position": 1,  "name": "Buttons",                  "url": "https://skeletonic.com/components/#buttons" },
+    { "@type": "ListItem", "position": 2,  "name": "Button shapes",            "url": "https://skeletonic.com/components/#button-shapes" },
+    { "@type": "ListItem", "position": 3,  "name": "Button groups",            "url": "https://skeletonic.com/components/#button-groups" },
+    { "@type": "ListItem", "position": 4,  "name": "Badges",                   "url": "https://skeletonic.com/components/#badges" },
+    { "@type": "ListItem", "position": 5,  "name": "Switches & Toggles",       "url": "https://skeletonic.com/components/#toggles" },
+    { "@type": "ListItem", "position": 6,  "name": "Alerts",                   "url": "https://skeletonic.com/components/#alerts" },
+    { "@type": "ListItem", "position": 7,  "name": "Loaders & Spinners",       "url": "https://skeletonic.com/components/#loaders" },
+    { "@type": "ListItem", "position": 8,  "name": "Tooltips",                 "url": "https://skeletonic.com/components/#tooltips" },
+    { "@type": "ListItem", "position": 9,  "name": "Code blocks",              "url": "https://skeletonic.com/components/#code-blocks" },
+    { "@type": "ListItem", "position": 10, "name": "Cards",                    "url": "https://skeletonic.com/components/#cards" },
+    { "@type": "ListItem", "position": 11, "name": "Accordions",               "url": "https://skeletonic.com/components/#accordions" },
+    { "@type": "ListItem", "position": 12, "name": "Modals & Dialogs",         "url": "https://skeletonic.com/components/#modals" },
+    { "@type": "ListItem", "position": 13, "name": "Dropdowns",                "url": "https://skeletonic.com/components/#dropdowns" },
+    { "@type": "ListItem", "position": 14, "name": "Tables",                   "url": "https://skeletonic.com/components/#tables" },
+    { "@type": "ListItem", "position": 15, "name": "Form fields",              "url": "https://skeletonic.com/components/#form-fields" },
+    { "@type": "ListItem", "position": 16, "name": "Status inputs",            "url": "https://skeletonic.com/components/#status-inputs" },
+    { "@type": "ListItem", "position": 17, "name": "Fieldsets",                "url": "https://skeletonic.com/components/#fieldsets" },
+    { "@type": "ListItem", "position": 18, "name": "Lists",                    "url": "https://skeletonic.com/components/#lists" },
+    { "@type": "ListItem", "position": 19, "name": "Dividers",                 "url": "https://skeletonic.com/components/#dividers" },
+    { "@type": "ListItem", "position": 20, "name": "Avatars & Images",         "url": "https://skeletonic.com/components/#avatars" },
+    { "@type": "ListItem", "position": 21, "name": "Link hover effects",       "url": "https://skeletonic.com/components/#link-effects" }
   ]
 }
 </script>

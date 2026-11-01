@@ -3,7 +3,7 @@ title: "תודה!"
 name: "Skeletonic Stylus"
 description: "ההודעה שלכם נשלחה בהצלחה."
 layout: thanks
-permalink: https://skeletonic.io/he/toda/
+permalink: https://skeletonic.com/he/toda/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he

@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Abin da v2.0.0 ke aikawa daga cikin akwatin don daidaiton WCAG 2.2 — zoben mayar da hankali, bambanci, hanyoyin tsallake",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

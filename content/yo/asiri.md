@@ -1,10 +1,10 @@
 ---
 title: "Asiri"
 name: "Skeletonic Stylus"
-description: "Data wo ni skeletonic.io gba, idi rẹ, ati bawo ni o ṣe le yọ ararẹ kuro."
+description: "Data wo ni skeletonic.com gba, idi rẹ, ati bawo ni o ṣe le yọ ararẹ kuro."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/asiri/
+permalink: https://skeletonic.com/yo/asiri/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,7 +13,7 @@ keywords: "asiri, gdpr, awọn kuki, ko si ilepa"
 
 ## Ni ṣoki
 
-> **skeletonic.io ko ṣeto awọn kuki ilepa ati pe ko ṣiṣẹ ami itẹle
+> **skeletonic.com ko ṣeto awọn kuki ilepa ati pe ko ṣiṣẹ ami itẹle
 > ẹnikẹta.** Aaye yii jẹ eto HTML, CSS, ati faili service-worker kan
 > ti o duro ṣinṣin. Ko si ibeere ti o ṣe ti a kọ silẹ ju awọn akọọlẹ
 > wiwọle GitHub Pages lọ.

@@ -3,7 +3,7 @@ title: "Degisiklik Gunlugu"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus surum notlari, v2.0.0 tamamiyla dahil."
 layout: page
-permalink: https://skeletonic.io/tr/degisiklik-gunlugu/
+permalink: https://skeletonic.com/tr/degisiklik-gunlugu/
 author: Sebastien Rousseau
 language: tr
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "skeletonic degisiklik gunlugu, surum notlari, v2.0.0, semver"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (guncel)
 

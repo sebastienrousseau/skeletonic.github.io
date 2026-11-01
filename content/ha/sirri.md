@@ -1,9 +1,9 @@
 ---
 title: "Sirri"
 name: "Skeletonic Stylus"
-description: "Bayanan da skeletonic.io ke tattarawa, dalilin da yasa, da yadda ake ficewa."
+description: "Bayanan da skeletonic.com ke tattarawa, dalilin da yasa, da yadda ake ficewa."
 layout: page
-permalink: https://skeletonic.io/ha/sirri/
+permalink: https://skeletonic.com/ha/sirri/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha
@@ -13,7 +13,7 @@ keywords: "sirri, gdpr, cookies, babu bin diddigi"
 
 ## A taƙaice
 
-> **skeletonic.io ba ta saita cookies na bin diddigi kuma ba ta gudanar da alamar bincike ta wasu ba.** Gidan yanar gizon tarin fayilolin HTML, CSS, da fayil guda na service-worker ne. Babu buƙatar da kuke yi da aka rubuta ban da bayanan shiga na GitHub Pages na yau da kullun.
+> **skeletonic.com ba ta saita cookies na bin diddigi kuma ba ta gudanar da alamar bincike ta wasu ba.** Gidan yanar gizon tarin fayilolin HTML, CSS, da fayil guda na service-worker ne. Babu buƙatar da kuke yi da aka rubuta ban da bayanan shiga na GitHub Pages na yau da kullun.
 
 <hr class="hr-text" data-content="Cikakkun bayanai">
 

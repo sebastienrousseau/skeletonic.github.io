@@ -3,7 +3,7 @@ title: "접근성 — v2.0.0의 WCAG 2.2"
 name: "Skeletonic Stylus"
 description: "v2.0.0이 WCAG 2.2 준수를 위해 기본 제공하는 기능 — 포커스 링, 대비, 스킵 링크, 모션 및 다크 모드."
 layout: page
-permalink: https://skeletonic.io/ko/jeobgeun-seong/
+permalink: https://skeletonic.com/ko/jeobgeun-seong/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, 접근성, focus visible, 스킵 링크, prefers reduced mo
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0은 WCAG 2.2 준수를 선택적 테마가 아닌 기본 동작으로 제공합니다.** 이 페이지에서는 기본 제공 기능과 더 세밀한 제어를 위해 선택할 수 있는 믹스인을 설명합니다.
 

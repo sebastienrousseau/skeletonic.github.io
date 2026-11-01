@@ -3,7 +3,7 @@ title: "Animasi"
 name: "Skeletonic Stylus"
 description: "Modul animasi opsional yang disertakan dengan Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake, dan lainnya, semuanya di belakang prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/id/animasi/
+permalink: https://skeletonic.com/id/animasi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: id

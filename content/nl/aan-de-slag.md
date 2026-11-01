@@ -3,7 +3,7 @@ title: "Aan de slag met Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Installeer Skeletonic Stylus via npm of een CDN, importeer het in je Stylus-build en overschrijf variabelen in seconden."
 layout: page
-permalink: https://skeletonic.io/nl/aan-de-slag/
+permalink: https://skeletonic.com/nl/aan-de-slag/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl
@@ -13,8 +13,8 @@ keywords: "skeletonic installeren, stylus setup, css cdn, aan de slag"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Introductie
 
@@ -36,13 +36,13 @@ lokaal hosten als je dat liever hebt.
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### Via een CDN
@@ -53,13 +53,13 @@ Als je alleen de gecompileerde CSS nodig hebt, voeg een van deze toe aan je `<he
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ en voeg je een `integrity="sha384-…"` attribuut toe.
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Ja | Ja |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Ja | Nee |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Ja | Ja |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Ja | Nee |
 
 ### Download de GitHub-release
 
@@ -154,7 +154,7 @@ Een minimale "werkt het?"-controle:
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Het werkt.</h1>
@@ -173,7 +173,7 @@ geminificeerde CSS-bundels, source maps en een volledige Stylus-boom
 georganiseerd per categorie:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -212,7 +212,7 @@ hebt om je CSS-payload zo klein mogelijk te houden.
 ## Veelgestelde vragen
 
 **Hoe installeer ik Skeletonic Stylus?**
-Voer `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0` uit. Of laad
+Voer `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0` uit. Of laad
 de gecompileerde CSS rechtstreeks vanaf een CDN — geen buildstap vereist.
 
 **Vereist het JavaScript?**
@@ -241,7 +241,7 @@ project past. Gratis voor commercieel en persoonlijk gebruik.
       "name": "Hoe installeer ik Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Voer pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0 uit. Of laad de gecompileerde CSS rechtstreeks vanaf een CDN — geen buildstap vereist."
+        "text": "Voer pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0 uit. Of laad de gecompileerde CSS rechtstreeks vanaf een CDN — geen buildstap vereist."
       }
     },
     {

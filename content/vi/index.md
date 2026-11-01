@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus la thu vien CSS Stylus nhe, mo-dun, san sang WCAG 2.2, phan tang cascade, 8,3 KB gzip — duoc thiet ke de toi uu hoa phat trien giao dien web hien dai."
 layout: index
 language: vi
-permalink: https://skeletonic.io/vi/
+permalink: https://skeletonic.com/vi/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -15,7 +15,7 @@ CSS tro nang trong **duoi 8&nbsp;KB gzip**. San sang WCAG&nbsp;2.2.
 Phan tang cascade. Khong JavaScript. Them vao bat ky trang nao.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Giai phau Skeletonic

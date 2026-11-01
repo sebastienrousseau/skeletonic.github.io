@@ -3,7 +3,7 @@ title: "Accessibilité — WCAG 2.2 dans la v2.0.0"
 name: "Skeletonic Stylus"
 description: "Ce que la v2.0.0 propose nativement pour la conformité WCAG 2.2 — anneaux de focus, contraste, liens d'évitement, mouvement et mode sombre."
 layout: page
-permalink: https://skeletonic.io/fr/accessibilite/
+permalink: https://skeletonic.com/fr/accessibilite/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fr
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, accessibilité, focus visible, lien d'évitement, prefers r
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 livre la conformité WCAG 2.2 comme
 > comportement par défaut, pas en tant que thème optionnel.** Cette page
@@ -73,7 +73,7 @@ Placez ceci **en tout premier dans `<body>`** :
 ```
 
 La classe n'est **pas** dans la feuille de style principale (le poids
-de page n'augmente pas) ; c'est un extrait de 4 lignes que vous
+de page n'augmente pas); c'est un extrait de 4 lignes que vous
 composez vous-même ou que vous utilisez via le mixin `skip-link()`
 inclus. Ce site l'utilise — cliquez sur la page puis appuyez sur Tab
 pour le voir apparaître en haut à gauche.

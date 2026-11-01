@@ -3,7 +3,7 @@ title: "Skeletonic Stylus — Доступный CSS, 8,3 КБ в gzip"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus — это легковесная модульная CSS-библиотека на Stylus. Соответствует WCAG 2.2, использует каскадные слои, 8,3 КБ в gzip — создана для современной веб-разработки."
 layout: index
-permalink: https://skeletonic.io/ru/
+permalink: https://skeletonic.com/ru/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru
@@ -15,7 +15,7 @@ keywords: "css, stylus, css фреймворк, доступный css, wcag 2.2
 Каскадные слои. Без JavaScript. Подключите к любой странице.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Анатомия Skeletonic

@@ -1,9 +1,9 @@
 ---
 title: "Cevrimdisiniz"
 name: "Skeletonic Stylus"
-description: "skeletonic.io aga ulasamadi. Istediginiz sayfa henuz onbellege alinmamis."
+description: "skeletonic.com aga ulasamadi. Istediginiz sayfa henuz onbellege alinmamis."
 layout: page
-permalink: https://skeletonic.io/tr/offline/
+permalink: https://skeletonic.com/tr/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr

@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Як Skeletonic Stylus v2.0.0 захищає свій конвеєр збірки, підписує релізи та постачає SBOM."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/bezpeka/
+permalink: https://skeletonic.com/uk/bezpeka/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -42,7 +42,7 @@ keywords: "css безпека, sbom, cyclonedx, npm provenance, openssf scorecar
 Ви можете перевірити щойно встановлений пакет за допомогою:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -61,7 +61,7 @@ SBOM генерується за допомогою `cyclonedx-npm` під ча�
 Ви можете перевірити це після встановлення:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

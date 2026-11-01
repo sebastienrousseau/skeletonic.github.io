@@ -3,7 +3,7 @@ title: "Prispejte — Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Jak nahlasite problemy, navrhnout zmeny a odeslat pull requesty do Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/cs/prispet/
+permalink: https://skeletonic.com/cs/prispet/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs

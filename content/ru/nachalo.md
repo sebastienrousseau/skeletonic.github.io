@@ -3,7 +3,7 @@ title: "Начало работы с Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Установите Skeletonic Stylus из npm или CDN, подключите к вашей Stylus-сборке и переопределите переменные за секунды."
 layout: page
-permalink: https://skeletonic.io/ru/nachalo/
+permalink: https://skeletonic.com/ru/nachalo/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru
@@ -13,8 +13,8 @@ keywords: "установка skeletonic, настройка stylus, css cdn, н
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Введение
 
@@ -30,13 +30,13 @@ keywords: "установка skeletonic, настройка stylus, css cdn, н
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### Через CDN
@@ -47,13 +47,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -63,8 +63,8 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Да | Да |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Да | Нет |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Да | Да |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Да | Нет |
 
 ### Загрузка релиза с GitHub
 
@@ -143,7 +143,7 @@ Skeletonic предоставляет свои дизайн-токены как 
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Работает.</h1>
@@ -159,7 +159,7 @@ Skeletonic предоставляет свои дизайн-токены как 
 Внутри пакета вы найдёте все исходные файлы, скомпилированные и минифицированные CSS-сборки, карты исходников и полное дерево Stylus, организованное по категориям:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -197,7 +197,7 @@ Skeletonic предоставляет свои дизайн-токены как 
 ## Часто задаваемые вопросы
 
 **Как установить Skeletonic Stylus?**
-Выполните `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Или загрузите скомпилированный CSS прямо с CDN — этап сборки не требуется.
+Выполните `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Или загрузите скомпилированный CSS прямо с CDN — этап сборки не требуется.
 
 **Требуется ли JavaScript?**
 Нет. Основной файл стилей — чистый CSS, без затрат времени выполнения. Компоненты работают без единой строки JS.
@@ -221,7 +221,7 @@ Skeletonic предоставляет свои дизайн-токены как 
       "name": "Как установить Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Выполните pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Или загрузите скомпилированный CSS прямо с CDN — этап сборки не требуется."
+        "text": "Выполните pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Или загрузите скомпилированный CSS прямо с CDN — этап сборки не требуется."
       }
     },
     {

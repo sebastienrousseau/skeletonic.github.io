@@ -3,7 +3,7 @@ title: "Paletas"
 name: "Skeletonic Stylus"
 description: "Paletas de colores Material, Tachyons y web-safe incluidas en Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/es/paletas/
+permalink: https://skeletonic.com/es/paletas/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: es

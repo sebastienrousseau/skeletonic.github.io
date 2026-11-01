@@ -3,7 +3,7 @@ title: "Skeletonic Stylus — CSS سهل الوصول، بحجم ~7.5 كيلوب
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus هي مكتبة CSS خفيفة ومعيارية مبنية بـ Stylus — متوافقة مع WCAG 2.2، تعتمد على طبقات التسلسل، بحجم ~7.5 كيلوبايت مضغوط — مصممة لتبسيط تطوير واجهات الويب الحديثة."
 layout: index
-permalink: https://skeletonic.io/ar/
+permalink: https://skeletonic.com/ar/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar
@@ -15,7 +15,7 @@ CSS سهل الوصول بحجم **أقل من 8&nbsp;كيلوبايت مضغو�
 يعتمد على طبقات التسلسل. بدون JavaScript. أضفه إلى أي صفحة مباشرة.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## تشريح Skeletonic

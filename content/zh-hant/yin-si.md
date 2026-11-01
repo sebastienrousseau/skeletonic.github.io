@@ -1,10 +1,10 @@
 ---
 title: "隱私"
 name: "Skeletonic Stylus"
-description: "skeletonic.io 收集哪些資料、為何收集以及如何退出。"
+description: "skeletonic.com 收集哪些資料、為何收集以及如何退出。"
 language: zh-hant
 layout: page
-permalink: https://skeletonic.io/zh-hant/yin-si/
+permalink: https://skeletonic.com/zh-hant/yin-si/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,7 +13,7 @@ keywords: "隱私, gdpr, cookies, 無追蹤"
 
 ## 摘要
 
-> **skeletonic.io 不設定追蹤 Cookie，也不執行任何第三方分析標籤。** 本站是一組靜態的 HTML、CSS 和單一 service worker 檔案。除標準的 GitHub Pages 存取日誌外，您的任何請求均不會被記錄。
+> **skeletonic.com 不設定追蹤 Cookie，也不執行任何第三方分析標籤。** 本站是一組靜態的 HTML、CSS 和單一 service worker 檔案。除標準的 GitHub Pages 存取日誌外，您的任何請求均不會被記錄。
 
 <hr class="hr-text" data-content="詳情">
 

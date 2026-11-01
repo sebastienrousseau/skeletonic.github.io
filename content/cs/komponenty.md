@@ -3,7 +3,7 @@ title: "Komponenty — Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Zive HTML priklady vsech komponent Skeletonic Stylus — seskupene, ukotvene a vykreslovane presne tim stylesheetem, ktery je zde prezentovan."
 layout: page
-permalink: https://skeletonic.io/cs/komponenty/
+permalink: https://skeletonic.com/cs/komponenty/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs
@@ -13,8 +13,8 @@ keywords: "skeletonic komponenty, tlacitka, karty, formulare, upozorneni, stitky
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Kazdy priklad nize je **vykreslovany presne tim stylesheetem, ktery je
 zde prezentovan**. Zadny preprocesor. Zadny JavaScript. Zadne dalsi
@@ -393,43 +393,43 @@ a spravuje fokus samo.
       "@type": "ListItem",
       "position": 1,
       "name": "Tlacitka",
-      "url": "https://skeletonic.io/cs/komponenty/#buttons"
+      "url": "https://skeletonic.com/cs/komponenty/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Stitky",
-      "url": "https://skeletonic.io/cs/komponenty/#badges"
+      "url": "https://skeletonic.com/cs/komponenty/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Upozorneni",
-      "url": "https://skeletonic.io/cs/komponenty/#alerts"
+      "url": "https://skeletonic.com/cs/komponenty/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Karty",
-      "url": "https://skeletonic.io/cs/komponenty/#cards"
+      "url": "https://skeletonic.com/cs/komponenty/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Formularova pole",
-      "url": "https://skeletonic.io/cs/komponenty/#form-fields"
+      "url": "https://skeletonic.com/cs/komponenty/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Mrizka",
-      "url": "https://skeletonic.io/cs/komponenty/#grid"
+      "url": "https://skeletonic.com/cs/komponenty/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Zahlavi a hamburger navigace",
-      "url": "https://skeletonic.io/cs/komponenty/#header"
+      "url": "https://skeletonic.com/cs/komponenty/#header"
     }
   ]
 }

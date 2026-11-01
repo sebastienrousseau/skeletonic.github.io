@@ -3,7 +3,7 @@ title: "Skeletonic Stylus — CSS ที่เข้าถึงได้ ขน
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus เป็นไลบรารี Stylus CSS ที่เบาและเป็นโมดูล — รองรับ WCAG 2.2, ใช้ Cascade Layers, ขนาด 7.7 KB gzipped — ออกแบบมาเพื่อการพัฒนา UI เว็บสมัยใหม่"
 layout: index
-permalink: https://skeletonic.io/th/
+permalink: https://skeletonic.com/th/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th
@@ -15,7 +15,7 @@ CSS ที่เข้าถึงได้ใน **ขนาดไม่ถึ�
 Cascade-layered ไม่มี JavaScript ใส่ในหน้าเว็บใดก็ได้
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## โครงสร้างของ Skeletonic

@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "如何提交問題、提議變更以及向 Skeletonic Stylus 提交拉取請求。"
 language: zh-hant
 layout: page
-permalink: https://skeletonic.io/zh-hant/gong-xian/
+permalink: https://skeletonic.com/zh-hant/gong-xian/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

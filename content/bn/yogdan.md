@@ -3,7 +3,7 @@ title: "অবদান"
 name: "Skeletonic Stylus"
 description: "কীভাবে ইস্যু ফাইল করবেন, পরিবর্তন প্রস্তাব করবেন এবং Skeletonic Stylus-এ পুল রিকোয়েস্ট জমা দেবেন।"
 layout: page
-permalink: https://skeletonic.io/bn/yogdan/
+permalink: https://skeletonic.com/bn/yogdan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn

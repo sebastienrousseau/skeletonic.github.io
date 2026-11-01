@@ -1,9 +1,9 @@
 ---
 title: "গোপনীয়তা"
 name: "Skeletonic Stylus"
-description: "skeletonic.io কী ডেটা সংগ্রহ করে, কেন এবং কীভাবে অপ্ট আউট করবেন।"
+description: "skeletonic.com কী ডেটা সংগ্রহ করে, কেন এবং কীভাবে অপ্ট আউট করবেন।"
 layout: page
-permalink: https://skeletonic.io/bn/goponioyota/
+permalink: https://skeletonic.com/bn/goponioyota/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn
@@ -13,7 +13,7 @@ keywords: "গোপনীয়তা, gdpr, কুকি, ট্র্যা�
 
 ## সারসংক্ষেপ
 
-> **skeletonic.io ট্র্যাকিং কুকি সেট করে না এবং কোনো তৃতীয়-পক্ষের
+> **skeletonic.com ট্র্যাকিং কুকি সেট করে না এবং কোনো তৃতীয়-পক্ষের
 > অ্যানালিটিক্স ট্যাগ চালায় না।** সাইটটি HTML, CSS এবং একটি
 > service-worker ফাইলের একটি স্ট্যাটিক সেট। আপনার করা কোনো অনুরোধ
 > স্ট্যান্ডার্ড GitHub Pages অ্যাক্সেস লগের বাইরে লগ করা হয় না।

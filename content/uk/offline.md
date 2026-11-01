@@ -1,10 +1,10 @@
 ---
 title: "Ви офлайн"
 name: "Skeletonic Stylus"
-description: "skeletonic.io не може з'єднатися з мережею. Запитана сторінка ще не була закешована."
+description: "skeletonic.com не може з'єднатися з мережею. Запитана сторінка ще не була закешована."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/offline/
+permalink: https://skeletonic.com/uk/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

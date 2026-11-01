@@ -3,7 +3,7 @@ title: "มีส่วนร่วม"
 name: "Skeletonic Stylus"
 description: "วิธีแจ้งปัญหา เสนอการเปลี่ยนแปลง และส่ง pull request ไปยัง Skeletonic Stylus"
 layout: page
-permalink: https://skeletonic.io/th/mi-suan-ruam/
+permalink: https://skeletonic.com/th/mi-suan-ruam/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th

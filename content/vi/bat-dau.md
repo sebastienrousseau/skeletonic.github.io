@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Cai dat Skeletonic Stylus tu npm hoac CDN, nhap vao pipeline Stylus cua ban va ghi de cac bien trong vai giay."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/bat-dau/
+permalink: https://skeletonic.com/vi/bat-dau/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "cai dat skeletonic, thiet lap stylus, css cdn, bat dau"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Gioi thieu
 
@@ -36,13 +36,13 @@ neu muon.
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### Tu CDN
@@ -53,13 +53,13 @@ Neu ban chi can CSS da bien dich, them mot trong nhung dong nay vao `<head>`:
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ v2.0.0 va them thuoc tinh `integrity="sha384-…"`.
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Co | Co |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Co | Khong |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Co | Co |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Co | Khong |
 
 ### Tai tu ban phat hanh GitHub
 
@@ -153,7 +153,7 @@ Kiem tra nhanh "da hoat dong chua?":
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Da hoat dong.</h1>
@@ -171,7 +171,7 @@ Ben trong goi ban se tim thay moi tap nguon, cac goi CSS da bien dich
 va nen, source map, va mot cay Stylus day du duoc to chuc theo danh muc:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -210,7 +210,7 @@ nho nhat co the.
 ## Cau hoi thuong gap
 
 **Lam the nao de cai dat Skeletonic Stylus?**
-Chay `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Hoac tai
+Chay `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Hoac tai
 CSS da bien dich truc tiep tu CDN — khong can buoc build.
 
 **No co yeu cau JavaScript khong?**
@@ -239,7 +239,7 @@ cua ban. Mien phi cho ca muc dich thuong mai va ca nhan.
       "name": "Lam the nao de cai dat Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Chay pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Hoac tai CSS da bien dich truc tiep tu CDN — khong can buoc build."
+        "text": "Chay pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Hoac tai CSS da bien dich truc tiep tu CDN — khong can buoc build."
       }
     },
     {

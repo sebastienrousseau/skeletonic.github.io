@@ -1,11 +1,13 @@
 {
   "author": "Sebastien Rousseau",
-  "title": "Ba a sami shafin ba",
-  "name": "Skeletonic Stylus",
-  "keywords": "404, ba a samu ba",
-  "layout": "page",
-  "theme_color": "hsl(210, 100%, 42%)",
-  "permalink": "https://skeletonic.io/ha/404/",
   "description": "Shafin da kuka nema bai wanzu a skeletonic.io ba.",
-  "language": "ha"
+  "keywords": "404, ba a samu ba",
+  "language": "ha",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/ha/404/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Ba a sami shafin ba",
+  "word_count": 86
 }

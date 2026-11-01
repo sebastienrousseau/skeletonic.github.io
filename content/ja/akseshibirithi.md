@@ -3,7 +3,7 @@ title: "アクセシビリティ — v2.0.0 における WCAG 2.2"
 name: "Skeletonic Stylus"
 description: "v2.0.0 が WCAG 2.2 準拠のために標準で提供するもの — フォーカスリング、コントラスト、スキップリンク、モーション、ダークモード。"
 layout: page
-permalink: https://skeletonic.io/ja/akseshibirithi/
+permalink: https://skeletonic.com/ja/akseshibirithi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, アクセシビリティ, focus visible, スキップリン
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 は、WCAG 2.2 準拠をオプションテーマとしてではなく、デフォルトの動作として提供します。** このページでは、組み込み済みの機能と、より細かい制御のためにオプトインできるミックスインについて説明します。
 

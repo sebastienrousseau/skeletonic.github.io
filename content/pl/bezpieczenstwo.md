@@ -3,7 +3,7 @@ title: "Bezpieczenstwo &amp; lancuch dostaw"
 name: "Skeletonic Stylus"
 description: "Jak Skeletonic Stylus v2.0.0 zabezpiecza swoj pipeline budowania, podpisuje wydania i dostarcza SBOM."
 layout: page
-permalink: https://skeletonic.io/pl/bezpieczenstwo/
+permalink: https://skeletonic.com/pl/bezpieczenstwo/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pl
@@ -40,7 +40,7 @@ Wydajnosc to kontrola bezpieczenstwa. Kazdy niedostarczony bajt to o jeden bajt 
 Kazdy opublikowany tarball zawiera CycloneDX SBOM w `dist/sbom.json`. Mozesz zweryfikowac swiezo zainstalowana paczke za pomoca:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -58,7 +58,7 @@ Opublikowany artefakt jest podpisany za pomoca
 Mozesz go zweryfikowac po instalacji za pomoca:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

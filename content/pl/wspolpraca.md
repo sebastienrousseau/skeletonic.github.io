@@ -3,7 +3,7 @@ title: "Wspolpraca"
 name: "Skeletonic Stylus"
 description: "Jak zglaszac problemy, proponowac zmiany i przesylac pull requesty do Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/pl/wspolpraca/
+permalink: https://skeletonic.com/pl/wspolpraca/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pl

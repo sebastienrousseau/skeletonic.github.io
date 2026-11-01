@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "skeletonic.io और Skeletonic Stylus लाइब्रेरी के उपयोग को नियंत्रित करने वाली शर्तें।",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

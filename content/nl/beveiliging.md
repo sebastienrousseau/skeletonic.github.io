@@ -3,7 +3,7 @@ title: "Beveiliging &amp; toeleveringsketen"
 name: "Skeletonic Stylus"
 description: "Hoe Skeletonic Stylus v2.0.0 zijn buildpipeline beveiligt, releases ondertekent en een SBOM levert."
 layout: page
-permalink: https://skeletonic.io/nl/beveiliging/
+permalink: https://skeletonic.com/nl/beveiliging/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl
@@ -42,7 +42,7 @@ Elk gepubliceerd tarball bevat een CycloneDX SBOM op `dist/sbom.json`.
 Je kunt een vers geïnstalleerd pakket verifiëren met:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ Het gepubliceerde artefact wordt ondertekend met behulp van
 Je kunt het na installatie verifiëren met:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

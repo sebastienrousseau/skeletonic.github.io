@@ -3,7 +3,7 @@ title: "구성 요소"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus의 모든 구성 요소에 대한 라이브 HTML 예제. 그룹화, 앵커 처리되어 있으며 데모 대상 스타일시트로 직접 렌더링됩니다."
 layout: page
-permalink: https://skeletonic.io/ko/kuseong-yoso/
+permalink: https://skeletonic.com/ko/kuseong-yoso/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko
@@ -13,8 +13,8 @@ keywords: "skeletonic 구성 요소, 버튼, 카드, 폼, 알림, 뱃지, 헤더
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 아래의 모든 예제는 **데모 대상인 스타일시트 자체로 렌더링됩니다**. 전처리기 없음. JavaScript 없음. 추가 종속성 없음. 어떤 코드 조각이든 새 HTML 파일에 복사하면 바로 작동합니다.
 
@@ -354,43 +354,43 @@ Flexbox 기반의 반응형 `flex-N` 그리드(1 → 12열)입니다. `.row` 부
       "@type": "ListItem",
       "position": 1,
       "name": "버튼",
-      "url": "https://skeletonic.io/ko/kuseong-yoso/#buttons"
+      "url": "https://skeletonic.com/ko/kuseong-yoso/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "뱃지",
-      "url": "https://skeletonic.io/ko/kuseong-yoso/#badges"
+      "url": "https://skeletonic.com/ko/kuseong-yoso/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "알림",
-      "url": "https://skeletonic.io/ko/kuseong-yoso/#alerts"
+      "url": "https://skeletonic.com/ko/kuseong-yoso/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "카드",
-      "url": "https://skeletonic.io/ko/kuseong-yoso/#cards"
+      "url": "https://skeletonic.com/ko/kuseong-yoso/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "폼 필드",
-      "url": "https://skeletonic.io/ko/kuseong-yoso/#form-fields"
+      "url": "https://skeletonic.com/ko/kuseong-yoso/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "그리드",
-      "url": "https://skeletonic.io/ko/kuseong-yoso/#grid"
+      "url": "https://skeletonic.com/ko/kuseong-yoso/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "헤더 & 햄버거 네비게이션",
-      "url": "https://skeletonic.io/ko/kuseong-yoso/#header"
+      "url": "https://skeletonic.com/ko/kuseong-yoso/#header"
     }
   ]
 }

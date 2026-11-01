@@ -3,7 +3,7 @@ title: "Kontak"
 name: "Skeletonic Stylus"
 description: "Hubungi kami tentang Skeletonic Stylus — laporan bug, ide fitur, kemitraan, atau umpan balik umum."
 layout: contact
-permalink: https://skeletonic.io/id/kontak/
+permalink: https://skeletonic.com/id/kontak/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: id

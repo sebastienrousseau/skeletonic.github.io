@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Cach Skeletonic Stylus v2.0.0 bao mat pipeline build, ky ban phat hanh va cung cap SBOM."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/bao-mat/
+permalink: https://skeletonic.com/vi/bao-mat/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -42,7 +42,7 @@ Moi tarball xuat ban deu bao gom CycloneDX SBOM tai `dist/sbom.json`.
 Ban co the xac minh goi vua cai dat voi:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ San pham xuat ban duoc ky bang
 Ban co the xac minh sau khi cai dat voi:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

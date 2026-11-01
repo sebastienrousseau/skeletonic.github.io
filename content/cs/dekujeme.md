@@ -3,7 +3,7 @@ title: "Dekujeme!"
 name: "Skeletonic Stylus"
 description: "Vase zprava byla uspesne odeslana."
 layout: thanks
-permalink: https://skeletonic.io/cs/dekujeme/
+permalink: https://skeletonic.com/cs/dekujeme/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs

@@ -3,7 +3,7 @@ title: "Alamomi"
 name: "Skeletonic Stylus"
 description: "Bincika takardun Skeletonic Stylus ta hanyar alama."
 layout: page
-permalink: https://skeletonic.io/ha/tags/
+permalink: https://skeletonic.com/ha/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha

@@ -3,7 +3,7 @@ title: "コンポーネント"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus の全コンポーネントのライブ HTML サンプル。グループ化、アンカー付き、デモ対象のスタイルシートでレンダリングされています。"
 layout: page
-permalink: https://skeletonic.io/ja/konponentsu/
+permalink: https://skeletonic.com/ja/konponentsu/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja
@@ -13,8 +13,8 @@ keywords: "skeletonic コンポーネント, ボタン, カード, フォーム,
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 以下のすべてのサンプルは、**デモ対象のスタイルシートそのもの** でレンダリングされています。プリプロセッサ不要。JavaScript 不要。追加の依存関係不要。どのスニペットも新しい HTML ファイルにコピーするだけで動作します。
 
@@ -354,43 +354,43 @@ flexbox ベースのレスポンシブ `flex-N` グリッド（1 → 12カラム
       "@type": "ListItem",
       "position": 1,
       "name": "ボタン",
-      "url": "https://skeletonic.io/ja/konponentsu/#buttons"
+      "url": "https://skeletonic.com/ja/konponentsu/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "バッジ",
-      "url": "https://skeletonic.io/ja/konponentsu/#badges"
+      "url": "https://skeletonic.com/ja/konponentsu/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "アラート",
-      "url": "https://skeletonic.io/ja/konponentsu/#alerts"
+      "url": "https://skeletonic.com/ja/konponentsu/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "カード",
-      "url": "https://skeletonic.io/ja/konponentsu/#cards"
+      "url": "https://skeletonic.com/ja/konponentsu/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "フォームフィールド",
-      "url": "https://skeletonic.io/ja/konponentsu/#form-fields"
+      "url": "https://skeletonic.com/ja/konponentsu/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "グリッド",
-      "url": "https://skeletonic.io/ja/konponentsu/#grid"
+      "url": "https://skeletonic.com/ja/konponentsu/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "ヘッダーとハンバーガーナビ",
-      "url": "https://skeletonic.io/ja/konponentsu/#header"
+      "url": "https://skeletonic.com/ja/konponentsu/#header"
     }
   ]
 }

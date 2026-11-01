@@ -3,7 +3,7 @@ title: "Безопасность и цепочка поставок"
 name: "Skeletonic Stylus"
 description: "Как Skeletonic Stylus v2.0.0 защищает конвейер сборки, подписывает релизы и поставляет SBOM."
 layout: page
-permalink: https://skeletonic.io/ru/bezopasnost/
+permalink: https://skeletonic.com/ru/bezopasnost/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru
@@ -40,7 +40,7 @@ keywords: "css безопасность, sbom, cyclonedx, npm провенанс
 Каждый опубликованный архив включает CycloneDX SBOM в `dist/sbom.json`. Вы можете проверить свежеустановленный пакет:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -58,7 +58,7 @@ SBOM генерируется с помощью `cyclonedx-npm` в процес�
 Вы можете проверить его после установки:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

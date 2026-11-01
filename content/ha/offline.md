@@ -1,9 +1,9 @@
 ---
 title: "Ba ku da haɗin yanar gizo"
 name: "Skeletonic Stylus"
-description: "skeletonic.io ba ta iya isa ga cibiyar sadarwa ba. Ba a adana shafin da kuka nema ba tukuna."
+description: "skeletonic.com ba ta iya isa ga cibiyar sadarwa ba. Ba a adana shafin da kuka nema ba tukuna."
 layout: page
-permalink: https://skeletonic.io/ha/offline/
+permalink: https://skeletonic.com/ha/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha

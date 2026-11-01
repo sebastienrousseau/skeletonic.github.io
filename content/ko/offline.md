@@ -1,9 +1,9 @@
 ---
 title: "오프라인 상태입니다"
 name: "Skeletonic Stylus"
-description: "skeletonic.io가 네트워크에 접근할 수 없습니다. 요청하신 페이지가 아직 캐시되지 않았습니다."
+description: "skeletonic.com가 네트워크에 접근할 수 없습니다. 요청하신 페이지가 아직 캐시되지 않았습니다."
 layout: page
-permalink: https://skeletonic.io/ko/offline/
+permalink: https://skeletonic.com/ko/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko

@@ -3,7 +3,7 @@ title: "Sakerhet &amp; leveranskedja"
 name: "Skeletonic Stylus"
 description: "Hur Skeletonic Stylus v2.0.0 sakrar sin byggpipeline, signerar releaser och levererar en SBOM."
 layout: page
-permalink: https://skeletonic.io/sv/sakerhet/
+permalink: https://skeletonic.com/sv/sakerhet/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv
@@ -42,7 +42,7 @@ Varje publicerad tarball inkluderar en CycloneDX SBOM pa `dist/sbom.json`.
 Du kan verifiera ett nyinstallerat paket med:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ Den publicerade artefakten ar signerad med
 Du kan verifiera den efter installation med:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

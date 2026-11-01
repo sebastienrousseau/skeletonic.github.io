@@ -3,7 +3,7 @@ title: "Godiya!"
 name: "Skeletonic Stylus"
 description: "An aika saƙon ku cikin nasara."
 layout: thanks
-permalink: https://skeletonic.io/ha/godiya/
+permalink: https://skeletonic.com/ha/godiya/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha

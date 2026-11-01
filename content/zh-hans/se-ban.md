@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 内置的 Material、Tachyons 和 Web 安全配色方案。"
 language: zh-hans
 layout: page
-permalink: https://skeletonic.io/zh-hans/se-ban/
+permalink: https://skeletonic.com/zh-hans/se-ban/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

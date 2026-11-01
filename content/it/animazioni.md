@@ -3,7 +3,7 @@ title: "Animazioni"
 name: "Skeletonic Stylus"
 description: "Modulo animazioni opzionale incluso in Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake e altro, il tutto dietro prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/it/animazioni/
+permalink: https://skeletonic.com/it/animazioni/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: it

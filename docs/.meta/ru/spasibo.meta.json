@@ -1,12 +1,14 @@
 {
-  "permalink": "https://skeletonic.io/ru/spasibo/",
   "author": "Sebastien Rousseau",
-  "theme_color": "hsl(210, 100%, 42%)",
-  "title": "Спасибо!",
   "date": "2026-04-08",
-  "name": "Skeletonic Stylus",
+  "description": "Ваше сообщение успешно отправлено.",
   "keywords": "спасибо",
   "language": "ru",
-  "description": "Ваше сообщение успешно отправлено.",
-  "layout": "thanks"
+  "layout": "thanks",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/ru/spasibo/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Спасибо!",
+  "word_count": 36
 }

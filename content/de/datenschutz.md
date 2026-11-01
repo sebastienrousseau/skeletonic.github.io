@@ -1,10 +1,10 @@
 ---
 title: "Datenschutz"
 name: "Skeletonic Stylus"
-description: "Welche Daten skeletonic.io erhebt, warum, und wie sich die Erhebung deaktivieren laesst."
+description: "Welche Daten skeletonic.com erhebt, warum, und wie sich die Erhebung deaktivieren laesst."
 layout: page
 language: de
-permalink: https://skeletonic.io/de/datenschutz/
+permalink: https://skeletonic.com/de/datenschutz/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,7 +13,7 @@ keywords: "datenschutz, dsgvo, cookies, kein tracking"
 
 ## Zusammenfassung
 
-> **skeletonic.io setzt keine Tracking-Cookies und verwendet keine
+> **skeletonic.com setzt keine Tracking-Cookies und verwendet keine
 > Analyse-Tags von Drittanbietern.** Die Website besteht aus statischem HTML,
 > CSS und einer einzelnen Service-Worker-Datei. Keine Anfrage wird ueber die
 > standardmaessigen GitHub-Pages-Zugriffsprotokolle hinaus protokolliert.

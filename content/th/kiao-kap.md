@@ -3,7 +3,7 @@ title: "เกี่ยวกับ Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus เป็นไลบรารี Stylus CSS แบบโอเพนซอร์ส สำหรับการจัดสไตล์ UI ที่เข้าถึงได้ รวดเร็ว และเป็นโมดูล"
 layout: page
-permalink: https://skeletonic.io/th/kiao-kap/
+permalink: https://skeletonic.com/th/kiao-kap/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th
@@ -13,8 +13,8 @@ keywords: "skeletonic, เกี่ยวกับ, stylus, css framework, ป�
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 <dl class="stat-strip" aria-label="Project facts">
   <div><dt>Version</dt><dd>2.0.0</dd></div>

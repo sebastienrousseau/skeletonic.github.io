@@ -1,12 +1,14 @@
 {
-  "theme_color": "hsl(210, 100%, 42%)",
-  "date": "2026-04-08",
-  "permalink": "https://skeletonic.io/yo/bere-nibi/",
-  "layout": "page",
-  "title": "Bẹrẹ pẹlu Skeletonic Stylus",
-  "language": "yo",
-  "name": "Skeletonic Stylus",
-  "description": "Fi Skeletonic Stylus sori ẹrọ lati npm tabi CDN, mu u wọle sinu ikọ Stylus rẹ, ki o si ṣe atunṣe awọn oniyipada ni iṣẹju-aaya.",
   "author": "Sebastien Rousseau",
-  "keywords": "fi skeletonic sori ẹrọ, iṣeto stylus, css cdn, bẹrẹ nibi"
+  "date": "2026-04-08",
+  "description": "Fi Skeletonic Stylus sori ẹrọ lati npm tabi CDN, mu u wọle sinu ikọ Stylus rẹ, ki o si ṣe atunṣe awọn oniyipada ni iṣẹju-aaya.",
+  "keywords": "fi skeletonic sori ẹrọ, iṣeto stylus, css cdn, bẹrẹ nibi",
+  "language": "yo",
+  "layout": "page",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/yo/bere-nibi/",
+  "reading_time": 6,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Bẹrẹ pẹlu Skeletonic Stylus",
+  "word_count": 1208
 }

@@ -1,12 +1,14 @@
 {
-  "permalink": "https://skeletonic.io/bn/dhonnobad/",
-  "language": "bn",
-  "theme_color": "hsl(210, 100%, 42%)",
-  "name": "Skeletonic Stylus",
-  "layout": "thanks",
-  "date": "2026-04-08",
-  "title": "ধন্যবাদ!",
-  "keywords": "ধন্যবাদ",
   "author": "Sebastien Rousseau",
-  "description": "আপনার বার্তা সফলভাবে পাঠানো হয়েছে।"
+  "date": "2026-04-08",
+  "description": "আপনার বার্তা সফলভাবে পাঠানো হয়েছে।",
+  "keywords": "ধন্যবাদ",
+  "language": "bn",
+  "layout": "thanks",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/bn/dhonnobad/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "ধন্যবাদ!",
+  "word_count": 36
 }

@@ -3,7 +3,7 @@ title: "Теги"
 name: "Skeletonic Stylus"
 description: "Просматривайте документацию Skeletonic Stylus по тегам."
 layout: page
-permalink: https://skeletonic.io/ru/tags/
+permalink: https://skeletonic.com/ru/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru

@@ -1,10 +1,10 @@
 ---
 title: "使用条款"
 name: "Skeletonic Stylus"
-description: "关于使用 skeletonic.io 和 Skeletonic Stylus 库的条款。"
+description: "关于使用 skeletonic.com 和 Skeletonic Stylus 库的条款。"
 language: zh-hans
 layout: page
-permalink: https://skeletonic.io/zh-hans/tiao-kuan/
+permalink: https://skeletonic.com/zh-hans/tiao-kuan/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -19,7 +19,7 @@ keywords: "使用条款, 许可证, mit, apache 2"
 
 ## 2. 本网站
 
-`skeletonic.io` 的内容（文字、示例、截图、布局）版权 © 2021 - 2026 Skeletonic CSS，保留所有权利，并采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可——你可以引用、翻译或再创作，但须注明来源。
+`skeletonic.com` 的内容（文字、示例、截图、布局）版权 © 2021 - 2026 Skeletonic CSS，保留所有权利，并采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可——你可以引用、翻译或再创作，但须注明来源。
 
 ## 3. 商标
 

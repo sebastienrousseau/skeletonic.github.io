@@ -1,10 +1,10 @@
 ---
 title: "Ban dang offline"
 name: "Skeletonic Stylus"
-description: "skeletonic.io khong the ket noi mang. Trang ban yeu cau chua duoc luu trong bo nho cache."
+description: "skeletonic.com khong the ket noi mang. Trang ban yeu cau chua duoc luu trong bo nho cache."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/offline/
+permalink: https://skeletonic.com/vi/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

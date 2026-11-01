@@ -4,7 +4,7 @@ title: "Spacing — Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Skeletonic's spacing scale uses five t-shirt-sized steps (xs / sm / md / lg / xl) derived from the golden ratio. Padding and margin utilities map to one ladder."
 layout: page
-permalink: https://skeletonic.io/hi/spacing/
+permalink: https://skeletonic.com/hi/spacing/
 date: 2026-05-02
 author: Sebastien Rousseau
 theme_color: "oklch(0.55 0.2 250)"

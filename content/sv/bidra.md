@@ -3,7 +3,7 @@ title: "Bidra"
 name: "Skeletonic Stylus"
 description: "Hur du rapporterar arenden, foreslar andringar och skickar pull requests till Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/sv/bidra/
+permalink: https://skeletonic.com/sv/bidra/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv

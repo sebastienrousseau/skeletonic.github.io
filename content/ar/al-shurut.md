@@ -1,9 +1,9 @@
 ---
 title: "شروط الاستخدام"
 name: "Skeletonic Stylus"
-description: "الشروط التي تحكم استخدامك لـ skeletonic.io ومكتبة Skeletonic Stylus."
+description: "الشروط التي تحكم استخدامك لـ skeletonic.com ومكتبة Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/ar/al-shurut/
+permalink: https://skeletonic.com/ar/al-shurut/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar
@@ -25,7 +25,7 @@ keywords: "شروط الاستخدام, ترخيص, mit, apache 2"
 
 ## 2. هذا الموقع
 
-محتوى `skeletonic.io` (النصوص والأمثلة ولقطات الشاشة والتخطيطات)
+محتوى `skeletonic.com` (النصوص والأمثلة ولقطات الشاشة والتخطيطات)
 حقوق النشر © 2021 - 2026 Skeletonic CSS، جميع الحقوق محفوظة، ومرخّص تحت
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — يمكنك
 الاقتباس أو الترجمة أو إعادة الخلط بشرط ذكر المصدر.

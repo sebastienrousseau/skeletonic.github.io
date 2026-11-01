@@ -1,7 +1,15 @@
 {
   "background_color": "#ffffff",
-  "description": "Skeletonic Stylus היא ספריית CSS קלת משקל ומודולרית מבוססת Stylus — תואמת WCAG 2.2, מאורגנת בשכבות קסקייד, כ-7.7 KB...",
+  "description": "Skeletonic Stylus היא ספריית CSS קלת משקל ומודולרית מבוססת Stylus — תואמת WCAG 2.2, מאורגנת בשכבות קסקייד, כ-7.7 KB בדחי",
   "display": "standalone",
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

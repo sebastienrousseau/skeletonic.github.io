@@ -1,9 +1,9 @@
 ---
 title: "Sin conexion"
 name: "Skeletonic Stylus"
-description: "skeletonic.io no pudo conectarse a la red. La pagina que solicitaste aun no ha sido almacenada en cache."
+description: "skeletonic.com no pudo conectarse a la red. La pagina que solicitaste aun no ha sido almacenada en cache."
 layout: page
-permalink: https://skeletonic.io/es/offline/
+permalink: https://skeletonic.com/es/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: es

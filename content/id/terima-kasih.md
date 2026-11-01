@@ -3,7 +3,7 @@ title: "Terima kasih!"
 name: "Skeletonic Stylus"
 description: "Pesan Anda berhasil terkirim."
 layout: thanks
-permalink: https://skeletonic.io/id/terima-kasih/
+permalink: https://skeletonic.com/id/terima-kasih/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: id

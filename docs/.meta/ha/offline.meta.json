@@ -1,12 +1,14 @@
 {
+  "author": "Sebastien Rousseau",
   "date": "2026-04-08",
+  "description": "skeletonic.io ba ta iya isa ga cibiyar sadarwa ba. Ba a adana shafin da kuka nema ba tukuna.",
+  "keywords": "offline, service worker, pwa",
   "language": "ha",
   "layout": "page",
-  "author": "Sebastien Rousseau",
-  "permalink": "https://skeletonic.io/ha/offline/",
-  "description": "skeletonic.io ba ta iya isa ga cibiyar sadarwa ba. Ba a adana shafin da kuka nema ba tukuna.",
-  "title": "Ba ku da haɗin yanar gizo",
   "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/ha/offline/",
+  "reading_time": 1,
   "theme_color": "hsl(210, 100%, 42%)",
-  "keywords": "offline, service worker, pwa"
+  "title": "Ba ku da haɗin yanar gizo",
+  "word_count": 66
 }

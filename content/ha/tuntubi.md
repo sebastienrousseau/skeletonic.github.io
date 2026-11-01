@@ -3,7 +3,7 @@ title: "Tuntubi"
 name: "Skeletonic Stylus"
 description: "Tuntuɓe mu game da Skeletonic Stylus — rahotannin kurakurai, ra'ayoyin fasaloli, haɗin gwiwa, ko ra'ayoyin gaba ɗaya."
 layout: contact
-permalink: https://skeletonic.io/ha/tuntubi/
+permalink: https://skeletonic.com/ha/tuntubi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha

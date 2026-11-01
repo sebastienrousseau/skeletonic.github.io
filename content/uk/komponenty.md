@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Живі HTML-приклади кожного компонента Skeletonic Stylus — згруповані, з якорями та відрендерені тією самою таблицею стилів, що демонструється."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/komponenty/
+permalink: https://skeletonic.com/uk/komponenty/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "компоненти skeletonic, кнопки, картки, форм
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Кожен приклад нижче **відрендерений тією самою таблицею стилів, що
 демонструється**. Без препроцесора. Без JavaScript. Без додаткових
@@ -393,43 +393,43 @@ keywords: "компоненти skeletonic, кнопки, картки, форм
       "@type": "ListItem",
       "position": 1,
       "name": "Кнопки",
-      "url": "https://skeletonic.io/uk/komponenty/#buttons"
+      "url": "https://skeletonic.com/uk/komponenty/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Значки",
-      "url": "https://skeletonic.io/uk/komponenty/#badges"
+      "url": "https://skeletonic.com/uk/komponenty/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Сповіщення",
-      "url": "https://skeletonic.io/uk/komponenty/#alerts"
+      "url": "https://skeletonic.com/uk/komponenty/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Картки",
-      "url": "https://skeletonic.io/uk/komponenty/#cards"
+      "url": "https://skeletonic.com/uk/komponenty/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Поля форми",
-      "url": "https://skeletonic.io/uk/komponenty/#form-fields"
+      "url": "https://skeletonic.com/uk/komponenty/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Сітка",
-      "url": "https://skeletonic.io/uk/komponenty/#grid"
+      "url": "https://skeletonic.com/uk/komponenty/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Заголовок та гамбургер-навігація",
-      "url": "https://skeletonic.io/uk/komponenty/#header"
+      "url": "https://skeletonic.com/uk/komponenty/#header"
     }
   ]
 }

@@ -3,13 +3,14 @@ title: "Changelog"
 name: "Skeletonic Stylus"
 description: "Release notes for Skeletonic Stylus, with v2.0.0 in full."
 layout: page
-permalink: https://skeletonic.io/changelog/
+permalink: https://skeletonic.com/changelog/
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "skeletonic changelog, release notes, v2.0.0, oklch, css grid, container queries, view transitions, semver"
+language: en-GB
 ---
 
-## skeletonic.io — 2026-05 site refresh
+## skeletonic.com — 2026-05 site refresh
 
 Documentation site updates that ship alongside library v2.0.0. These
 are not part of the library bundle — they describe what changed on

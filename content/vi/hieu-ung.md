@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Mo-dun hieu ung dong tuy chon cua Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake va nhieu hon, tat ca deu nam sau prefers-reduced-motion."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/hieu-ung/
+permalink: https://skeletonic.com/vi/hieu-ung/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

@@ -3,7 +3,7 @@ title: "Skeletonic Stylus — Dostepny CSS, 8,3 KB gzipped"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus to lekka, modularna biblioteka CSS oparta na Stylus — zgodna z WCAG 2.2, z warstwami kaskadowymi, 8,3 KB gzipped — zaprojektowana do usprawnienia nowoczesnego tworzenia interfejsow webowych."
 layout: index
-permalink: https://skeletonic.io/pl/
+permalink: https://skeletonic.com/pl/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pl
@@ -15,7 +15,7 @@ Dostepny CSS w **ponizej 8&nbsp;KB gzipped**. Zgodny z WCAG&nbsp;2.2.
 Warstwy kaskadowe. Zero JavaScript. Dodaj do dowolnej strony.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Anatomia Skeletonic

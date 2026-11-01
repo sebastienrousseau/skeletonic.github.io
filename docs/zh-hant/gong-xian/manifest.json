@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "如何提交問題、提議變更以及向 Skeletonic Stylus 提交拉取請求。",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

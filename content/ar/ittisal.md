@@ -3,7 +3,7 @@ title: "اتصل بنا"
 name: "Skeletonic Stylus"
 description: "تواصل معنا بشأن Skeletonic Stylus — تقارير الأخطاء، أفكار الميزات، الشراكات، أو الملاحظات العامة."
 layout: contact
-permalink: https://skeletonic.io/ar/ittisal/
+permalink: https://skeletonic.com/ar/ittisal/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar

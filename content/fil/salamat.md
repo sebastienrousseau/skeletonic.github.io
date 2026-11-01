@@ -3,7 +3,7 @@ title: "Salamat!"
 name: "Skeletonic Stylus"
 description: "Matagumpay na naipadala ang iyong mensahe."
 layout: thanks
-permalink: https://skeletonic.io/fil/salamat/
+permalink: https://skeletonic.com/fil/salamat/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fil

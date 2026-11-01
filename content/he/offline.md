@@ -1,9 +1,9 @@
 ---
 title: "אתם במצב לא מקוון"
 name: "Skeletonic Stylus"
-description: "skeletonic.io לא הצליח להגיע לרשת. הדף שביקשתם עדיין לא נשמר במטמון."
+description: "skeletonic.com לא הצליח להגיע לרשת. הדף שביקשתם עדיין לא נשמר במטמון."
 layout: page
-permalink: https://skeletonic.io/he/offline/
+permalink: https://skeletonic.com/he/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he

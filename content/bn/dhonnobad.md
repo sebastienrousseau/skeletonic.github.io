@@ -3,7 +3,7 @@ title: "ধন্যবাদ!"
 name: "Skeletonic Stylus"
 description: "আপনার বার্তা সফলভাবে পাঠানো হয়েছে।"
 layout: thanks
-permalink: https://skeletonic.io/bn/dhonnobad/
+permalink: https://skeletonic.com/bn/dhonnobad/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn

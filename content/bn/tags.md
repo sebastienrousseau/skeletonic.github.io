@@ -3,7 +3,7 @@ title: "ট্যাগ"
 name: "Skeletonic Stylus"
 description: "ট্যাগ অনুসারে Skeletonic Stylus ডকুমেন্টেশন ব্রাউজ করুন।"
 layout: page
-permalink: https://skeletonic.io/bn/tags/
+permalink: https://skeletonic.com/bn/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn

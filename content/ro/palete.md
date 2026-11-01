@@ -3,7 +3,7 @@ title: "Palete"
 name: "Skeletonic Stylus"
 description: "Paletele de culori Material, Tachyons și web-safe livrate cu Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/ro/palete/
+permalink: https://skeletonic.com/ro/palete/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro

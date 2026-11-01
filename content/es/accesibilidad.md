@@ -3,7 +3,7 @@ title: "Accesibilidad — WCAG 2.2 en v2.0.0"
 name: "Skeletonic Stylus"
 description: "Lo que v2.0.0 incluye de serie para la conformidad con WCAG 2.2 — anillos de enfoque, contraste, skip links, movimiento y modo oscuro."
 layout: page
-permalink: https://skeletonic.io/es/accesibilidad/
+permalink: https://skeletonic.com/es/accesibilidad/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: es
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, accesibilidad, focus visible, skip link, prefers reduced mo
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 incluye conformidad con WCAG 2.2 como
 > comportamiento predeterminado, no como un tema opcional.** Esta pagina

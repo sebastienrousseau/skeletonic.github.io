@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Ohun ti v2.0.0 fi ranṣẹ lẹsẹkẹsẹ fun ibamu WCAG 2.2 — awọn oruka idojukọ, iyatọ, awọn ọna asọye, iṣipopada, ati ipo dudu."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/iraye-si/
+permalink: https://skeletonic.com/yo/iraye-si/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, irayẹ-si, focus visible, skip link, prefers reduced motio
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 fi ibamu WCAG 2.2 ranṣẹ bi ihuwasi
 > aiyipada, kii ṣe bi aṣa yan.** Oju-iwe yii ṣe akọsilẹ ohun ti

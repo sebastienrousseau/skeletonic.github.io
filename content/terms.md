@@ -1,13 +1,14 @@
 ---
 title: "Terms of use"
 name: "Skeletonic Stylus"
-description: "Terms governing your use of skeletonic.io and the Skeletonic Stylus library."
+description: "Terms governing your use of skeletonic.com and the Skeletonic Stylus library."
 layout: page
-permalink: https://skeletonic.io/terms/
+permalink: https://skeletonic.com/terms/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "terms of use, license, mit, apache 2"
+language: en-GB
 ---
 
 ## 1. The library
@@ -24,7 +25,7 @@ merchantability, fitness for a particular purpose, and non-infringement.
 
 ## 2. This website
 
-The content of `skeletonic.io` (text, examples, screenshots, layouts)
+The content of `skeletonic.com` (text, examples, screenshots, layouts)
 is Copyright © 2021 - 2026 Skeletonic CSS, all rights reserved, and licensed under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — you may
 quote, translate, or remix it provided you credit the source.

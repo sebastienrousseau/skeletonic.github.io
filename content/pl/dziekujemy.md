@@ -3,7 +3,7 @@ title: "Dziekujemy!"
 name: "Skeletonic Stylus"
 description: "Twoja wiadomosc zostala wyslana pomyslnie."
 layout: thanks
-permalink: https://skeletonic.io/pl/dziekujemy/
+permalink: https://skeletonic.com/pl/dziekujemy/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pl

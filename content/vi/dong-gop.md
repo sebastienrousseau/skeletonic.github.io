@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Cach bao cao van de, de xuat thay doi va gui pull request cho Skeletonic Stylus."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/dong-gop/
+permalink: https://skeletonic.com/vi/dong-gop/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

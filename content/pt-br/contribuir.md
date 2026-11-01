@@ -3,7 +3,7 @@ title: "Contribuir"
 name: "Skeletonic Stylus"
 description: "Como registrar issues, propor mudancas e enviar pull requests para o Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/pt-br/contribuir/
+permalink: https://skeletonic.com/pt-br/contribuir/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pt-br

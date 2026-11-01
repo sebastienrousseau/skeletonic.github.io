@@ -3,7 +3,7 @@ title: "Mga Bahagi"
 name: "Skeletonic Stylus"
 description: "Mga live HTML na halimbawa ng bawat Skeletonic Stylus component, nakagrupong, naka-anchor, at nire-render gamit ang mismong stylesheet na dine-demo."
 layout: page
-permalink: https://skeletonic.io/fil/mga-bahagi/
+permalink: https://skeletonic.com/fil/mga-bahagi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fil
@@ -13,8 +13,8 @@ keywords: "skeletonic component, button, card, form, alert, badge, header, navba
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Bawat halimbawa sa ibaba ay **nire-render gamit ang mismong stylesheet na dine-demo**. Walang preprocessor. Walang JavaScript. Walang dagdag na dependency. Kopyahin ang anumang snippet sa isang bagong HTML file at gagana ito.
 
@@ -385,43 +385,43 @@ at mag-ta-trap ng focus nang tama nang mag-isa.
       "@type": "ListItem",
       "position": 1,
       "name": "Mga Button",
-      "url": "https://skeletonic.io/fil/mga-bahagi/#buttons"
+      "url": "https://skeletonic.com/fil/mga-bahagi/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Mga Badge",
-      "url": "https://skeletonic.io/fil/mga-bahagi/#badges"
+      "url": "https://skeletonic.com/fil/mga-bahagi/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Mga Alert",
-      "url": "https://skeletonic.io/fil/mga-bahagi/#alerts"
+      "url": "https://skeletonic.com/fil/mga-bahagi/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Mga Card",
-      "url": "https://skeletonic.io/fil/mga-bahagi/#cards"
+      "url": "https://skeletonic.com/fil/mga-bahagi/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Mga field ng form",
-      "url": "https://skeletonic.io/fil/mga-bahagi/#form-fields"
+      "url": "https://skeletonic.com/fil/mga-bahagi/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Grid",
-      "url": "https://skeletonic.io/fil/mga-bahagi/#grid"
+      "url": "https://skeletonic.com/fil/mga-bahagi/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Header & hamburger nav",
-      "url": "https://skeletonic.io/fil/mga-bahagi/#header"
+      "url": "https://skeletonic.com/fil/mga-bahagi/#header"
     }
   ]
 }

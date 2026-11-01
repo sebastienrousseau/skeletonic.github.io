@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "skeletonic.io কী ডেটা সংগ্রহ করে, কেন এবং কীভাবে অপ্ট আউট করবেন।",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

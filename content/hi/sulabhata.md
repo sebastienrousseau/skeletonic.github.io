@@ -3,7 +3,7 @@ title: "सुलभता — v2.0.0 में WCAG 2.2"
 name: "Skeletonic Stylus"
 description: "v2.0.0 WCAG 2.2 अनुरूपता के लिए बॉक्स से क्या शिप करती है — फ़ोकस रिंग, कंट्रास्ट, स्किप लिंक, मोशन और डार्क मोड।"
 layout: page
-permalink: https://skeletonic.io/hi/sulabhata/
+permalink: https://skeletonic.com/hi/sulabhata/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, सुलभता, focus visible, skip link, prefers reduc
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 WCAG 2.2 अनुरूपता को डिफ़ॉल्ट व्यवहार
 > के रूप में शिप करती है, वैकल्पिक थीम के रूप में नहीं।** यह पेज

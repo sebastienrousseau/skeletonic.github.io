@@ -3,7 +3,7 @@ title: "Tack!"
 name: "Skeletonic Stylus"
 description: "Ditt meddelande har skickats."
 layout: thanks
-permalink: https://skeletonic.io/sv/tack/
+permalink: https://skeletonic.com/sv/tack/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv

@@ -3,7 +3,7 @@ title: "Tag"
 name: "Skeletonic Stylus"
 description: "Naviga la documentazione di Skeletonic Stylus per tag."
 layout: page
-permalink: https://skeletonic.io/it/tags/
+permalink: https://skeletonic.com/it/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: it

@@ -3,7 +3,7 @@ title: "لوحات الألوان"
 name: "Skeletonic Stylus"
 description: "لوحات ألوان Material وTachyons والألوان الآمنة للويب المُشحونة مع Skeletonic Stylus الإصدار 2.0.0."
 layout: page
-permalink: https://skeletonic.io/ar/al-alwan/
+permalink: https://skeletonic.com/ar/al-alwan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar

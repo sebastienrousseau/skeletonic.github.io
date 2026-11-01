@@ -1,9 +1,9 @@
 ---
 title: "Sei offline"
 name: "Skeletonic Stylus"
-description: "skeletonic.io non riesce a raggiungere la rete. La pagina richiesta non e ancora stata memorizzata nella cache."
+description: "skeletonic.com non riesce a raggiungere la rete. La pagina richiesta non e ancora stata memorizzata nella cache."
 layout: page
-permalink: https://skeletonic.io/it/offline/
+permalink: https://skeletonic.com/it/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: it

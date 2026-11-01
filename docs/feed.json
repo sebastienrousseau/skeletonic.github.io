@@ -1,0 +1,759 @@
+{
+  "feed_url": "https://skeletonic.com/feed.json",
+  "home_page_url": "https://skeletonic.com/",
+  "items": [
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "The page you requested does not exist on skeletonic.io.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/404/",
+      "language": "en-GB",
+      "tags": [],
+      "title": "Page not found",
+      "url": "https://skeletonic.com/404/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus is an open-source Stylus CSS library for accessible, fast, modular UI styling.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/about/",
+      "language": "en-GB",
+      "tags": [],
+      "title": "About Skeletonic Stylus",
+      "url": "https://skeletonic.com/about/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "What v2.0.0 ships out of the box for WCAG 2.2 conformance — focus rings, contrast, skip links, motion, and dark mode.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/accessibility/",
+      "language": "en-GB",
+      "tags": [],
+      "title": "Accessibility — WCAG 2.2 in v2.0.0",
+      "url": "https://skeletonic.com/accessibility/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Optional animations module shipped with Skeletonic Stylus v2.0.0 — 45 keyframes across 9 families, all behind prefers-reduced-motion.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/animations/",
+      "language": "en-GB",
+      "tags": [],
+      "title": "Animations",
+      "url": "https://skeletonic.com/animations/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus هي مكتبة CSS خفيفة ومعيارية مبنية بـ Stylus — متوافقة مع WCAG 2.2، تعتمد على طبقات التسلسل، بحجم ~7.5 كيلوبايت مضغوط — مصممة لتبسيط تطوير واجهات الويب الحديثة.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/",
+      "language": "ar",
+      "tags": [],
+      "title": "Skeletonic Stylus — CSS سهل الوصول، بحجم ~7.5 كيلوبايت مضغوط",
+      "url": "https://skeletonic.com/ar/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "الصفحة التي طلبتها غير موجودة على skeletonic.io.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/404/",
+      "language": "ar",
+      "tags": [],
+      "title": "الصفحة غير موجودة",
+      "url": "https://skeletonic.com/ar/404/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "لوحات ألوان Material وTachyons والألوان الآمنة للويب المُشحونة مع Skeletonic Stylus الإصدار 2.0.0.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/al-alwan/",
+      "language": "ar",
+      "tags": [],
+      "title": "لوحات الألوان",
+      "url": "https://skeletonic.com/ar/al-alwan/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "كيف يؤمّن Skeletonic Stylus الإصدار 2.0.0 خط أنابيب البناء، ويوقّع الإصدارات، ويشحن قائمة مواد البرمجيات.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/al-aman/",
+      "language": "ar",
+      "tags": [],
+      "title": "الأمان وسلسلة التوريد",
+      "url": "https://skeletonic.com/ar/al-aman/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "ثبّت Skeletonic Stylus من npm أو CDN، واستوردها في خط أنابيب Stylus الخاص بك، وعدّل المتغيرات في ثوانٍ.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/al-bidaya/",
+      "language": "ar",
+      "tags": [],
+      "title": "البدء مع Skeletonic Stylus",
+      "url": "https://skeletonic.com/ar/al-bidaya/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "وحدة الحركات الاختيارية المُشحونة مع Skeletonic Stylus الإصدار 2.0.0 — ارتداد، نبض، تلاشٍ، تكبير، اهتزاز وغيرها، جميعها خلف prefers-reduced-motion.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/al-harakaat/",
+      "language": "ar",
+      "tags": [],
+      "title": "الحركات",
+      "url": "https://skeletonic.com/ar/al-harakaat/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "ما البيانات التي يجمعها skeletonic.io، ولماذا، وكيفية إلغاء الاشتراك.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/al-khususiyya/",
+      "language": "ar",
+      "tags": [],
+      "title": "الخصوصية",
+      "url": "https://skeletonic.com/ar/al-khususiyya/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "أمثلة HTML حية لكل مكوّن في Skeletonic Stylus، مجمّعة ومثبّتة ومعروضة بورقة الأنماط نفسها التي يتم عرضها.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/al-mukawwinat/",
+      "language": "ar",
+      "tags": [],
+      "title": "المكوّنات",
+      "url": "https://skeletonic.com/ar/al-mukawwinat/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "كيفية تقديم المشكلات واقتراح التغييرات وإرسال طلبات السحب إلى Skeletonic Stylus.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/al-musahama/",
+      "language": "ar",
+      "tags": [],
+      "title": "المساهمة",
+      "url": "https://skeletonic.com/ar/al-musahama/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "الشروط التي تحكم استخدامك لـ skeletonic.io ومكتبة Skeletonic Stylus.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/al-shurut/",
+      "language": "ar",
+      "tags": [],
+      "title": "شروط الاستخدام",
+      "url": "https://skeletonic.com/ar/al-shurut/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/benchmarks/",
+      "language": "ar",
+      "tags": [],
+      "title": "مقاييس حجم الإطار — مقاسة وليست مسوقة",
+      "url": "https://skeletonic.com/ar/benchmarks/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic doesn't ship the usual xs/sm/md/lg ladder. The container width adapts continuously through 38 min-width media queries from 220 px to 7680 px.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/breakpoints/",
+      "language": "ar",
+      "tags": [],
+      "title": "Breakpoints — Skeletonic Stylus",
+      "url": "https://skeletonic.com/ar/breakpoints/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic ships inside @layer skeletonic so any CSS you write outside that layer wins, regardless of selector specificity. No more !important, no more order tricks.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/cascade-layers/",
+      "language": "ar",
+      "tags": [],
+      "title": "Cascade-layers — Skeletonic Stylus",
+      "url": "https://skeletonic.com/ar/cascade-layers/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus هي مكتبة CSS مفتوحة المصدر مبنية بـ Stylus لتنسيق واجهات مستخدم يسهل الوصول إليها، سريعة ومعيارية.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/hawla/",
+      "language": "ar",
+      "tags": [],
+      "title": "حول Skeletonic Stylus",
+      "url": "https://skeletonic.com/ar/hawla/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "ما يشحنه الإصدار 2.0.0 مباشرة للتوافق مع WCAG 2.2 — حلقات التركيز، التباين، روابط التخطي، الحركة، والوضع الداكن.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/imkaniyyat-al-wusul/",
+      "language": "ar",
+      "tags": [],
+      "title": "إمكانية الوصول — WCAG 2.2 في الإصدار 2.0.0",
+      "url": "https://skeletonic.com/ar/imkaniyyat-al-wusul/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "تواصل معنا بشأن Skeletonic Stylus — تقارير الأخطاء، أفكار الميزات، الشراكات، أو الملاحظات العامة.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/ittisal/",
+      "language": "ar",
+      "tags": [],
+      "title": "اتصل بنا",
+      "url": "https://skeletonic.com/ar/ittisal/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "لم يتمكن skeletonic.io من الوصول إلى الشبكة. الصفحة التي طلبتها لم يتم تخزينها مؤقتًا بعد.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/offline/",
+      "language": "ar",
+      "tags": [],
+      "title": "أنت غير متصل",
+      "url": "https://skeletonic.com/ar/offline/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "تم إرسال رسالتك بنجاح.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/shukran/",
+      "language": "ar",
+      "tags": [],
+      "title": "شكرًا!",
+      "url": "https://skeletonic.com/ar/shukran/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "ملاحظات الإصدار لـ Skeletonic Stylus، مع الإصدار 2.0.0 بالكامل.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/sijil-al-taghyirat/",
+      "language": "ar",
+      "tags": [],
+      "title": "سجل التغييرات",
+      "url": "https://skeletonic.com/ar/sijil-al-taghyirat/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic's spacing scale uses five t-shirt-sized steps (xs / sm / md / lg / xl) derived from the golden ratio. Padding and margin utilities map to one ladder.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/spacing/",
+      "language": "ar",
+      "tags": [],
+      "title": "Spacing — Skeletonic Stylus",
+      "url": "https://skeletonic.com/ar/spacing/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "تصفّح توثيق Skeletonic Stylus حسب الوسم.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/tags/",
+      "language": "ar",
+      "tags": [],
+      "title": "الوسوم",
+      "url": "https://skeletonic.com/ar/tags/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Every CSS custom property exposed by Skeletonic Stylus v2.0.0 — colours, headings, line heights, golden-ratio constants, focus ring, link colours.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/tokens/",
+      "language": "ar",
+      "tags": [],
+      "title": "Tokens — Skeletonic Stylus",
+      "url": "https://skeletonic.com/ar/tokens/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Every utility class in Skeletonic Stylus, with the equivalent HTML attribute form. Layout, flex, text, sizing, visibility, spacing — class or attribute, your choice.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/ar/utilities/",
+      "language": "ar",
+      "tags": [],
+      "title": "Utilities — Skeletonic Stylus",
+      "url": "https://skeletonic.com/ar/utilities/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/benchmarks/",
+      "language": "en-GB",
+      "tags": [],
+      "title": "Framework size benchmarks — measured, not marketed",
+      "url": "https://skeletonic.com/benchmarks/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus একটি হালকা, মডুলার Stylus CSS লাইব্রেরি — WCAG 2.2 সমর্থিত, cascade-layered, ~৭.৫ KB gzipped — আধুনিক ওয়েব UI ডেভেলপমেন্টকে সহজতর করতে ডিজাইন করা হয়েছে।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/",
+      "language": "bn",
+      "tags": [],
+      "title": "Skeletonic Stylus — অ্যাক্সেসিবল CSS, ~৭.৫ KB gzipped",
+      "url": "https://skeletonic.com/bn/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "আপনি যে পেজটি অনুরোধ করেছেন সেটি skeletonic.io-তে বিদ্যমান নেই।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/404/",
+      "language": "bn",
+      "tags": [],
+      "title": "পেজ পাওয়া যায়নি",
+      "url": "https://skeletonic.com/bn/404/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus v2.0.0-এর সাথে শিপ করা ঐচ্ছিক অ্যানিমেশন মডিউল — bounce, pulse, fade, zoom, shake এবং আরও অনেক, সবই prefers-reduced-motion দ্বারা নিয়ন্ত্রিত।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/animations/",
+      "language": "bn",
+      "tags": [],
+      "title": "অ্যানিমেশন — v2.0.0-এ prefers-reduced-motion",
+      "url": "https://skeletonic.com/bn/animations/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Real CDN sizes for Skeletonic Stylus, Pico, Bulma, Bootstrap, Tailwind, Open Props, Beer CSS and Shoelace — gzip -9 and brotli -q 11, with reproduction commands.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/benchmarks/",
+      "language": "bn",
+      "tags": [],
+      "title": "Benchmarks — Skeletonic Stylus",
+      "url": "https://skeletonic.com/bn/benchmarks/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic doesn't ship the usual xs/sm/md/lg ladder. The container width adapts continuously through 38 min-width media queries from 220 px to 7680 px.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/breakpoints/",
+      "language": "bn",
+      "tags": [],
+      "title": "Breakpoints — Skeletonic Stylus",
+      "url": "https://skeletonic.com/bn/breakpoints/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic ships inside @layer skeletonic so any CSS you write outside that layer wins, regardless of selector specificity. No more !important, no more order tricks.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/cascade-layers/",
+      "language": "bn",
+      "tags": [],
+      "title": "Cascade-layers — Skeletonic Stylus",
+      "url": "https://skeletonic.com/bn/cascade-layers/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "আপনার বার্তা সফলভাবে পাঠানো হয়েছে।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/dhonnobad/",
+      "language": "bn",
+      "tags": [],
+      "title": "ধন্যবাদ!",
+      "url": "https://skeletonic.com/bn/dhonnobad/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "skeletonic.io কী ডেটা সংগ্রহ করে, কেন এবং কীভাবে অপ্ট আউট করবেন।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/goponioyota/",
+      "language": "bn",
+      "tags": [],
+      "title": "গোপনীয়তা",
+      "url": "https://skeletonic.com/bn/goponioyota/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus সম্পর্কে যোগাযোগ করুন — বাগ রিপোর্ট, ফিচার ধারণা, পার্টনারশিপ বা সাধারণ মতামত।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/jogajog/",
+      "language": "bn",
+      "tags": [],
+      "title": "যোগাযোগ",
+      "url": "https://skeletonic.com/bn/jogajog/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus v2.0.0 কীভাবে তার বিল্ড পাইপলাইন সুরক্ষিত করে, রিলিজ স্বাক্ষর করে এবং SBOM শিপ করে।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/nirapotta/",
+      "language": "bn",
+      "tags": [],
+      "title": "নিরাপত্তা ও সাপ্লাই চেইন",
+      "url": "https://skeletonic.com/bn/nirapotta/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "skeletonic.io নেটওয়ার্কে পৌঁছাতে পারেনি। আপনি যে পেজটি অনুরোধ করেছেন সেটি এখনও ক্যাশ হয়নি।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/offline/",
+      "language": "bn",
+      "tags": [],
+      "title": "আপনি অফলাইনে আছেন",
+      "url": "https://skeletonic.com/bn/offline/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus-এর রিলিজ নোট, v2.0.0 সম্পূর্ণ বিবরণ সহ।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/poriborton-talika/",
+      "language": "bn",
+      "tags": [],
+      "title": "পরিবর্তন তালিকা",
+      "url": "https://skeletonic.com/bn/poriborton-talika/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "WCAG 2.2 সামঞ্জস্যের জন্য v2.0.0 বাক্সের বাইরে কী শিপ করে — ফোকাস রিং, কনট্রাস্ট, স্কিপ লিংক, মোশন এবং ডার্ক মোড।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/probeshadhikar/",
+      "language": "bn",
+      "tags": [],
+      "title": "প্রবেশাধিকার — v2.0.0-এ WCAG 2.2",
+      "url": "https://skeletonic.com/bn/probeshadhikar/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus v2.0.0-এর সাথে শিপ করা Material, Tachyons এবং web-safe রঙ প্যালেট।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/rong-palat/",
+      "language": "bn",
+      "tags": [],
+      "title": "রঙ প্যালেট",
+      "url": "https://skeletonic.com/bn/rong-palat/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "skeletonic.io এবং Skeletonic Stylus লাইব্রেরির ব্যবহার নিয়ন্ত্রণকারী শর্তাবলি।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/shartaboli/",
+      "language": "bn",
+      "tags": [],
+      "title": "ব্যবহারের শর্তাবলি",
+      "url": "https://skeletonic.com/bn/shartaboli/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "npm বা CDN থেকে Skeletonic Stylus ইনস্টল করুন, আপনার Stylus বিল্ডে আমদানি করুন এবং সেকেন্ডে ভেরিয়েবল ওভাররাইড করুন।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/shuru/",
+      "language": "bn",
+      "tags": [],
+      "title": "Skeletonic Stylus দিয়ে শুরু করুন",
+      "url": "https://skeletonic.com/bn/shuru/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus একটি ওপেন-সোর্স Stylus CSS লাইব্রেরি, অ্যাক্সেসিবল, দ্রুত ও মডুলার UI স্টাইলিংয়ের জন্য।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/somporke/",
+      "language": "bn",
+      "tags": [],
+      "title": "Skeletonic Stylus সম্পর্কে",
+      "url": "https://skeletonic.com/bn/somporke/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic's spacing scale uses five t-shirt-sized steps (xs / sm / md / lg / xl) derived from the golden ratio. Padding and margin utilities map to one ladder.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/spacing/",
+      "language": "bn",
+      "tags": [],
+      "title": "Spacing — Skeletonic Stylus",
+      "url": "https://skeletonic.com/bn/spacing/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "ট্যাগ অনুসারে Skeletonic Stylus ডকুমেন্টেশন ব্রাউজ করুন।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/tags/",
+      "language": "bn",
+      "tags": [],
+      "title": "ট্যাগ",
+      "url": "https://skeletonic.com/bn/tags/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Every CSS custom property exposed by Skeletonic Stylus v2.0.0 — colours, headings, line heights, golden-ratio constants, focus ring, link colours.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/tokens/",
+      "language": "bn",
+      "tags": [],
+      "title": "Tokens — Skeletonic Stylus",
+      "url": "https://skeletonic.com/bn/tokens/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Skeletonic Stylus-এর প্রতিটি উপাদানের লাইভ HTML উদাহরণ, গোষ্ঠীবদ্ধ, অ্যাংকরড এবং যে স্টাইলশিট ডেমো করা হচ্ছে সেটি দিয়েই রেন্ডারড।",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/upadan/",
+      "language": "bn",
+      "tags": [],
+      "title": "উপাদান",
+      "url": "https://skeletonic.com/bn/upadan/"
+    },
+    {
+      "authors": [
+        {
+          "name": "Sebastien Rousseau"
+        }
+      ],
+      "content_html": "Every utility class in Skeletonic Stylus, with the equivalent HTML attribute form. Layout, flex, text, sizing, visibility, spacing — class or attribute, your choice.",
+      "date_modified": "",
+      "date_published": "",
+      "id": "https://skeletonic.com/bn/utilities/",
+      "language": "bn",
+      "tags": [],
+      "title": "Utilities — Skeletonic Stylus",
+      "url": "https://skeletonic.com/bn/utilities/"
+    }
+  ],
+  "language": "en-GB",
+  "title": "Skeletonic Stylus",
+  "version": "https://jsonfeed.org/version/1.1"
+}

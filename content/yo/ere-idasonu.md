@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Modulu ere idasọnu yan ti a fi ranṣẹ pẹlu Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake, ati awọn ọrẹ, gbogbo lẹhin prefers-reduced-motion."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/ere-idasonu/
+permalink: https://skeletonic.com/yo/ere-idasonu/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

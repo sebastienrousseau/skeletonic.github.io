@@ -1,9 +1,9 @@
 ---
 title: "ব্যবহারের শর্তাবলি"
 name: "Skeletonic Stylus"
-description: "skeletonic.io এবং Skeletonic Stylus লাইব্রেরির ব্যবহার নিয়ন্ত্রণকারী শর্তাবলি।"
+description: "skeletonic.com এবং Skeletonic Stylus লাইব্রেরির ব্যবহার নিয়ন্ত্রণকারী শর্তাবলি।"
 layout: page
-permalink: https://skeletonic.io/bn/shartaboli/
+permalink: https://skeletonic.com/bn/shartaboli/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn
@@ -27,7 +27,7 @@ keywords: "ব্যবহারের শর্ত, লাইসেন্স, m
 
 ## ২. এই ওয়েবসাইট
 
-`skeletonic.io`-এর বিষয়বস্তু (টেক্সট, উদাহরণ, স্ক্রিনশট, লেআউট)
+`skeletonic.com`-এর বিষয়বস্তু (টেক্সট, উদাহরণ, স্ক্রিনশট, লেআউট)
 কপিরাইট © 2021 - 2026 Skeletonic CSS, সর্বস্বত্ব সংরক্ষিত, এবং
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)-এর অধীনে
 লাইসেন্সপ্রাপ্ত — আপনি উৎস উল্লেখ করে এটি উদ্ধৃত, অনুবাদ বা

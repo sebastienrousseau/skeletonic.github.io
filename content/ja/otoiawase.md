@@ -3,7 +3,7 @@ title: "お問い合わせ"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus に関するお問い合わせ — バグ報告、機能のアイデア、パートナーシップ、一般的なフィードバック。"
 layout: contact
-permalink: https://skeletonic.io/ja/otoiawase/
+permalink: https://skeletonic.com/ja/otoiawase/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja

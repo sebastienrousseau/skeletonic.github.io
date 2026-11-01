@@ -3,7 +3,7 @@ title: "सुरक्षा और आपूर्ति श्रृंखल
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 अपनी बिल्ड पाइपलाइन को कैसे सुरक्षित करती है, रिलीज़ साइन करती है, और SBOM शिप करती है।"
 layout: page
-permalink: https://skeletonic.io/hi/suraksha/
+permalink: https://skeletonic.com/hi/suraksha/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi
@@ -42,7 +42,7 @@ keywords: "css सुरक्षा, sbom, cyclonedx, npm provenance, openssf s
 ताज़ा इंस्टॉल किए पैकेज को इस प्रकार सत्यापित करें:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -61,7 +61,7 @@ SBOM प्रकाशन वर्कफ़्लो के दौरान `c
 इंस्टॉलेशन के बाद इस प्रकार सत्यापित करें:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

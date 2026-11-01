@@ -3,7 +3,7 @@ title: "Анимации"
 name: "Skeletonic Stylus"
 description: "Опциональный модуль анимаций, поставляемый с Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake и другие, все под защитой prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/ru/animatsii/
+permalink: https://skeletonic.com/ru/animatsii/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru

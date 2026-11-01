@@ -1,9 +1,9 @@
 ---
 title: "ข้อกำหนดการใช้งาน"
 name: "Skeletonic Stylus"
-description: "ข้อกำหนดที่กำกับการใช้งาน skeletonic.io และไลบรารี Skeletonic Stylus"
+description: "ข้อกำหนดที่กำกับการใช้งาน skeletonic.com และไลบรารี Skeletonic Stylus"
 layout: page
-permalink: https://skeletonic.io/th/kho-kamnot/
+permalink: https://skeletonic.com/th/kho-kamnot/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th
@@ -25,7 +25,7 @@ keywords: "ข้อกำหนดการใช้งาน, สัญญา�
 
 ## 2. เว็บไซต์นี้
 
-เนื้อหาของ `skeletonic.io` (ข้อความ ตัวอย่าง ภาพหน้าจอ เลย์เอาต์)
+เนื้อหาของ `skeletonic.com` (ข้อความ ตัวอย่าง ภาพหน้าจอ เลย์เอาต์)
 เป็นลิขสิทธิ์ของ Skeletonic CSS สงวนลิขสิทธิ์ ปี 2021 - 2026 และ
 อนุญาตภายใต้ [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 — คุณสามารถอ้างอิง แปล หรือดัดแปลงได้ โดยให้เครดิตแหล่งที่มา

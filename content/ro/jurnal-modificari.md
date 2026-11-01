@@ -3,7 +3,7 @@ title: "Jurnal de modificări"
 name: "Skeletonic Stylus"
 description: "Note de lansare pentru Skeletonic Stylus, cu v2.0.0 detaliat complet."
 layout: page
-permalink: https://skeletonic.io/ro/jurnal-modificari/
+permalink: https://skeletonic.com/ro/jurnal-modificari/
 author: Sebastien Rousseau
 language: ro
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "jurnal de modificări skeletonic, note de lansare, v2.0.0, semver"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (curent)
 

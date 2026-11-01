@@ -3,7 +3,7 @@ title: "Sicurezza &amp; supply chain"
 name: "Skeletonic Stylus"
 description: "Come Skeletonic Stylus v2.0.0 protegge la pipeline di build, firma i rilasci e distribuisce un SBOM."
 layout: page
-permalink: https://skeletonic.io/it/sicurezza/
+permalink: https://skeletonic.com/it/sicurezza/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: it
@@ -40,7 +40,7 @@ Le prestazioni sono un controllo di sicurezza. Ogni byte non distribuito e un by
 Ogni archivio pubblicato include un SBOM CycloneDX in `dist/sbom.json`. Puoi verificare un pacchetto appena installato con:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -57,7 +57,7 @@ L'artefatto pubblicato e firmato utilizzando la [provenienza dei pacchetti npm](
 Puoi verificarlo dopo l'installazione con:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

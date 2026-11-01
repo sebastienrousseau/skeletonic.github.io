@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Data apa yang dikumpulkan skeletonic.io, mengapa, dan cara memilih keluar.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

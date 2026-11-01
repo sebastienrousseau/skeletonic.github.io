@@ -3,7 +3,7 @@ title: "Merci !"
 name: "Skeletonic Stylus"
 description: "Votre message a bien été envoyé."
 layout: thanks
-permalink: https://skeletonic.io/fr/merci/
+permalink: https://skeletonic.com/fr/merci/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fr

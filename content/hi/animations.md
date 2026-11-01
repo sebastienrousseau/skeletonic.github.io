@@ -3,7 +3,7 @@ title: "एनिमेशन"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 के साथ शिप वैकल्पिक एनिमेशन मॉड्यूल — bounce, pulse, fade, zoom, shake, और अन्य, सब prefers-reduced-motion के पीछे।"
 layout: page
-permalink: https://skeletonic.io/hi/animations/
+permalink: https://skeletonic.com/hi/animations/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi

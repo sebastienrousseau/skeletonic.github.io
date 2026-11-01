@@ -3,7 +3,7 @@ title: "אנימציות"
 name: "Skeletonic Stylus"
 description: "מודול אנימציות אופציונלי הנשלח עם Skeletonic Stylus v2.0.0 — קפיצה, פעימה, דעיכה, זום, רעידה ועוד, הכול מאחורי prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/he/animatsyot/
+permalink: https://skeletonic.com/he/animatsyot/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he

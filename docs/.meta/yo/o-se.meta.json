@@ -1,12 +1,14 @@
 {
-  "theme_color": "hsl(210, 100%, 42%)",
-  "permalink": "https://skeletonic.io/yo/o-se/",
-  "keywords": "o ṣe",
-  "layout": "thanks",
-  "description": "Ifiranṣẹ rẹ ti dé ni aṣeyọri.",
+  "author": "Sebastien Rousseau",
   "date": "2026-04-08",
+  "description": "Ifiranṣẹ rẹ ti dé ni aṣeyọri.",
+  "keywords": "o ṣe",
   "language": "yo",
-  "title": "O ṣe!",
+  "layout": "thanks",
   "name": "Skeletonic Stylus",
-  "author": "Sebastien Rousseau"
+  "permalink": "https://skeletonic.io/yo/o-se/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "O ṣe!",
+  "word_count": 40
 }

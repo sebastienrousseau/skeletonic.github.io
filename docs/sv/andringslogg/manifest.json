@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Releaseanteckningar for Skeletonic Stylus, med v2.0.0 i sin helhet.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

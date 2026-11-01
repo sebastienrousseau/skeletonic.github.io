@@ -3,7 +3,7 @@ title: "Abubuwan Hadi"
 name: "Skeletonic Stylus"
 description: "Misalan HTML masu rai na kowane abun hadi na Skeletonic Stylus, an haɗa su, an sanya masu maƙala, kuma an nuna su da stylesheet ɗin da ake nunawa."
 layout: page
-permalink: https://skeletonic.io/ha/abubuwan-hadi/
+permalink: https://skeletonic.com/ha/abubuwan-hadi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha
@@ -13,8 +13,8 @@ keywords: "abubuwan hadi na skeletonic, maballin, katunan, sifofi, faɗakarwa, a
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Ana nuna kowane misali da ke ƙasa **da stylesheet ɗin da ake nunawa**. Babu preprocessor. Babu JavaScript. Babu ƙarin abubuwan dogaro. Kwafa kowane ɓangare zuwa sabon fayil na HTML kuma ya yi aiki.
 
@@ -354,43 +354,43 @@ Cikakken kanun shafi na CSS kawai tare da hamburger toggle mai amsa. **Babu Java
       "@type": "ListItem",
       "position": 1,
       "name": "Maballin",
-      "url": "https://skeletonic.io/ha/abubuwan-hadi/#buttons"
+      "url": "https://skeletonic.com/ha/abubuwan-hadi/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Alamomi",
-      "url": "https://skeletonic.io/ha/abubuwan-hadi/#badges"
+      "url": "https://skeletonic.com/ha/abubuwan-hadi/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Faɗakarwa",
-      "url": "https://skeletonic.io/ha/abubuwan-hadi/#alerts"
+      "url": "https://skeletonic.com/ha/abubuwan-hadi/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Katunan",
-      "url": "https://skeletonic.io/ha/abubuwan-hadi/#cards"
+      "url": "https://skeletonic.com/ha/abubuwan-hadi/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Filayen sifofi",
-      "url": "https://skeletonic.io/ha/abubuwan-hadi/#form-fields"
+      "url": "https://skeletonic.com/ha/abubuwan-hadi/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Grid",
-      "url": "https://skeletonic.io/ha/abubuwan-hadi/#grid"
+      "url": "https://skeletonic.com/ha/abubuwan-hadi/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Kanun shafi & hamburger nav",
-      "url": "https://skeletonic.io/ha/abubuwan-hadi/#header"
+      "url": "https://skeletonic.com/ha/abubuwan-hadi/#header"
     }
   ]
 }

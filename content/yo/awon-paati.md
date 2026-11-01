@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Awọn apẹẹrẹ HTML laaye ti gbogbo paati Skeletonic Stylus, ti a ṣe akojọpọ, ti a fi idi mulẹ, ti a si ṣe pẹlu iwe-aṣa kanna ti a n ṣafihan."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/awon-paati/
+permalink: https://skeletonic.com/yo/awon-paati/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "awọn paati skeletonic, awọn bọtini, awọn kaadi, awọn fọ�
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 Gbogbo apẹẹrẹ ni isalẹ ni a **ṣe pẹlu iwe-aṣa kanna ti a n ṣafihan**.
 Ko si preprocessor. Ko si JavaScript. Ko si awọn igbarale afikun. Daakọ
@@ -390,43 +390,43 @@ mu idojukọ mu ni deede funrarẹ.
       "@type": "ListItem",
       "position": 1,
       "name": "Awọn bọtini",
-      "url": "https://skeletonic.io/yo/awon-paati/#buttons"
+      "url": "https://skeletonic.com/yo/awon-paati/#buttons"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Awọn aami",
-      "url": "https://skeletonic.io/yo/awon-paati/#badges"
+      "url": "https://skeletonic.com/yo/awon-paati/#badges"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Awọn itaniji",
-      "url": "https://skeletonic.io/yo/awon-paati/#alerts"
+      "url": "https://skeletonic.com/yo/awon-paati/#alerts"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Awọn kaadi",
-      "url": "https://skeletonic.io/yo/awon-paati/#cards"
+      "url": "https://skeletonic.com/yo/awon-paati/#cards"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Awọn aaye fọọmu",
-      "url": "https://skeletonic.io/yo/awon-paati/#form-fields"
+      "url": "https://skeletonic.com/yo/awon-paati/#form-fields"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Grid",
-      "url": "https://skeletonic.io/yo/awon-paati/#grid"
+      "url": "https://skeletonic.com/yo/awon-paati/#grid"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Akọle ati lilọ kiri hamburger",
-      "url": "https://skeletonic.io/yo/awon-paati/#header"
+      "url": "https://skeletonic.com/yo/awon-paati/#header"
     }
   ]
 }

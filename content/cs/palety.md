@@ -3,7 +3,7 @@ title: "Palety — Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Barevne palety Material, Tachyons a web-safe dodavane ve Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/cs/palety/
+permalink: https://skeletonic.com/cs/palety/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs

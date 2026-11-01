@@ -3,7 +3,7 @@ title: "Skeletonic Stylus — सुलभ CSS, 7.7 KB gzipped"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus एक हल्की, मॉड्यूलर Stylus CSS लाइब्रेरी है — WCAG 2.2 तैयार, cascade-layered, 7.7 KB gzipped — जो आधुनिक वेब UI विकास को सरल बनाती है।"
 layout: index
-permalink: https://skeletonic.io/hi/
+permalink: https://skeletonic.com/hi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi
@@ -15,7 +15,7 @@ keywords: "css, stylus, css framework, सुलभ css, wcag 2.2, हल्क�
 Cascade-layered। शून्य JavaScript। किसी भी पेज में जोड़ें।
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## Skeletonic की संरचना

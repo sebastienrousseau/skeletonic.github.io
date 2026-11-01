@@ -3,7 +3,7 @@ title: "নিরাপত্তা ও সাপ্লাই চেইন"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 কীভাবে তার বিল্ড পাইপলাইন সুরক্ষিত করে, রিলিজ স্বাক্ষর করে এবং SBOM শিপ করে।"
 layout: page
-permalink: https://skeletonic.io/bn/nirapotta/
+permalink: https://skeletonic.com/bn/nirapotta/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn
@@ -42,7 +42,7 @@ keywords: "css নিরাপত্তা, sbom, cyclonedx, npm provenance, ope
 অন্তর্ভুক্ত। আপনি সদ্য ইনস্টল করা প্যাকেজ যাচাই করতে পারেন:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -61,7 +61,7 @@ SBOM প্রকাশ ওয়ার্কফ্লোতে `cyclonedx-npm` 
 ইনস্টলের পর এটি যাচাই করতে পারেন:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

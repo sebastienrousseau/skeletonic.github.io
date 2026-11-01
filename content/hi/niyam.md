@@ -1,9 +1,9 @@
 ---
 title: "उपयोग की शर्तें"
 name: "Skeletonic Stylus"
-description: "skeletonic.io और Skeletonic Stylus लाइब्रेरी के उपयोग को नियंत्रित करने वाली शर्तें।"
+description: "skeletonic.com और Skeletonic Stylus लाइब्रेरी के उपयोग को नियंत्रित करने वाली शर्तें।"
 layout: page
-permalink: https://skeletonic.io/hi/niyam/
+permalink: https://skeletonic.com/hi/niyam/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi
@@ -27,7 +27,7 @@ keywords: "उपयोग की शर्तें, लाइसेंस, mit
 
 ## 2. यह वेबसाइट
 
-`skeletonic.io` की सामग्री (टेक्स्ट, उदाहरण, स्क्रीनशॉट, लेआउट)
+`skeletonic.com` की सामग्री (टेक्स्ट, उदाहरण, स्क्रीनशॉट, लेआउट)
 Copyright © 2021 - 2026 Skeletonic CSS, सर्वाधिकार सुरक्षित है, और
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) के तहत
 लाइसेंस प्राप्त है — आप स्रोत का श्रेय देते हुए इसे उद्धृत,

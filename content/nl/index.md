@@ -3,7 +3,7 @@ title: "Skeletonic Stylus — Toegankelijke CSS, 8,3 KB gzipped"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus is een lichtgewicht, modulaire Stylus CSS-bibliotheek — WCAG 2.2 klaar, met cascade-lagen, 8,3 KB gzipped — ontworpen om moderne web-UI-ontwikkeling te stroomlijnen."
 layout: index
-permalink: https://skeletonic.io/nl/
+permalink: https://skeletonic.com/nl/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl
@@ -15,7 +15,7 @@ Toegankelijke CSS in **minder dan 8&nbsp;KB gzipped**. WCAG&nbsp;2.2 klaar.
 Cascade-layered. Geen JavaScript. Direct in elke pagina te gebruiken.
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ## De anatomie van Skeletonic

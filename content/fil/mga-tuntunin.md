@@ -1,9 +1,9 @@
 ---
 title: "Mga Tuntunin ng Paggamit"
 name: "Skeletonic Stylus"
-description: "Mga tuntunin na namamahala sa iyong paggamit ng skeletonic.io at ng Skeletonic Stylus library."
+description: "Mga tuntunin na namamahala sa iyong paggamit ng skeletonic.com at ng Skeletonic Stylus library."
 layout: page
-permalink: https://skeletonic.io/fil/mga-tuntunin/
+permalink: https://skeletonic.com/fil/mga-tuntunin/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fil
@@ -25,7 +25,7 @@ merchantability, fitness para sa isang partikular na layunin, at non-infringemen
 
 ## 2. Ang website na ito
 
-Ang nilalaman ng `skeletonic.io` (text, halimbawa, screenshot, layout)
+Ang nilalaman ng `skeletonic.com` (text, halimbawa, screenshot, layout)
 ay Copyright © 2021 - 2026 Skeletonic CSS, lahat ng karapatan ay nakalaan, at lisensyado sa ilalim ng
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — maaari mong
 i-quote, i-translate, o i-remix ito basta't i-credit mo ang pinagmulan.

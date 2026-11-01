@@ -3,11 +3,12 @@ title: "Breakpoints — 38-step responsive ladder"
 name: "Skeletonic Stylus"
 description: "Skeletonic doesn't ship the usual xs/sm/md/lg ladder. The container width adapts continuously through 38 min-width media queries from 220 px to 7680 px."
 layout: page
-permalink: https://skeletonic.io/breakpoints/
+permalink: https://skeletonic.com/breakpoints/
 date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css breakpoints, responsive design, mobile first, container queries, em breakpoints"
+language: en-GB
 ---
 
 Most CSS frameworks expose a 4–5 step breakpoint ladder

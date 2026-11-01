@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Welke gegevens skeletonic.io verzamelt, waarom, en hoe je je kunt afmelden.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

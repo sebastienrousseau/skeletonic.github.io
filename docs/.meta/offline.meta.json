@@ -1,11 +1,14 @@
 {
-  "name": "Skeletonic Stylus",
-  "theme_color": "hsl(210, 100%, 42%)",
+  "author": "Sebastien Rousseau",
   "date": "2026-04-08",
   "description": "skeletonic.io could not reach the network. The page you requested has not been cached yet.",
   "keywords": "offline, service worker, pwa",
-  "title": "You're offline",
+  "language": "en-GB",
   "layout": "page",
+  "name": "Skeletonic Stylus",
   "permalink": "https://skeletonic.io/offline/",
-  "author": "Sebastien Rousseau"
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "You're offline",
+  "word_count": 52
 }

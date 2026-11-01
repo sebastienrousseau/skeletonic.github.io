@@ -1,9 +1,9 @@
 ---
 title: "Privacy"
 name: "Skeletonic Stylus"
-description: "Welke gegevens skeletonic.io verzamelt, waarom, en hoe je je kunt afmelden."
+description: "Welke gegevens skeletonic.com verzamelt, waarom, en hoe je je kunt afmelden."
 layout: page
-permalink: https://skeletonic.io/nl/privacy/
+permalink: https://skeletonic.com/nl/privacy/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl
@@ -13,7 +13,7 @@ keywords: "privacy, avg, cookies, geen tracking"
 
 ## Samenvatting
 
-> **skeletonic.io plaatst geen trackingcookies en gebruikt geen
+> **skeletonic.com plaatst geen trackingcookies en gebruikt geen
 > analysetags van derden.** De site is een statische verzameling van HTML, CSS
 > en een enkel service-worker-bestand. Geen verzoek dat je doet wordt
 > geregistreerd buiten de standaard GitHub Pages-toegangslogboeken.

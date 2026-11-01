@@ -1,9 +1,9 @@
 ---
 title: "गोपनीयता"
 name: "Skeletonic Stylus"
-description: "skeletonic.io कौन सा डेटा एकत्र करती है, क्यों, और कैसे ऑप्ट आउट करें।"
+description: "skeletonic.com कौन सा डेटा एकत्र करती है, क्यों, और कैसे ऑप्ट आउट करें।"
 layout: page
-permalink: https://skeletonic.io/hi/gopaniyata/
+permalink: https://skeletonic.com/hi/gopaniyata/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi
@@ -13,7 +13,7 @@ keywords: "गोपनीयता, gdpr, कुकीज़, कोई ट्�
 
 ## संक्षेप में
 
-> **skeletonic.io ट्रैकिंग कुकीज़ सेट नहीं करती और कोई तृतीय-पक्ष
+> **skeletonic.com ट्रैकिंग कुकीज़ सेट नहीं करती और कोई तृतीय-पक्ष
 > एनालिटिक्स टैग नहीं चलाती।** साइट HTML, CSS और एक सिंगल
 > service-worker फ़ाइल का स्थिर सेट है। आपका कोई भी अनुरोध मानक
 > GitHub Pages एक्सेस लॉग से अधिक कहीं लॉग नहीं होता।

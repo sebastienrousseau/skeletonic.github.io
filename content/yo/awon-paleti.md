@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Awọn palẹti awọ Material, Tachyons ati aabo wẹẹbu ti a fi ranṣẹ ninu Skeletonic Stylus v2.0.0."
 language: yo
 layout: page
-permalink: https://skeletonic.io/yo/awon-paleti/
+permalink: https://skeletonic.com/yo/awon-paleti/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

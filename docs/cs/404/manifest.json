@@ -2,7 +2,14 @@
   "background_color": "#ffffff",
   "description": "Stranka, kterou jste pozadovali, na skeletonic.io neexistuje.",
   "display": "standalone",
-  "icons": [],
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "",
+      "type": "image/svg+xml"
+    }
+  ],
   "name": "Skeletonic Stylus",
   "orientation": "portrait-primary",
   "scope": "/",

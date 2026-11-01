@@ -3,7 +3,7 @@ title: "প্রবেশাধিকার — v2.0.0-এ WCAG 2.2"
 name: "Skeletonic Stylus"
 description: "WCAG 2.2 সামঞ্জস্যের জন্য v2.0.0 বাক্সের বাইরে কী শিপ করে — ফোকাস রিং, কনট্রাস্ট, স্কিপ লিংক, মোশন এবং ডার্ক মোড।"
 layout: page
-permalink: https://skeletonic.io/bn/probeshadhikar/
+permalink: https://skeletonic.com/bn/probeshadhikar/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, প্রবেশাধিকার, focus visible, skip l
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 WCAG 2.2 সামঞ্জস্যকে ডিফল্ট আচরণ
 > হিসেবে শিপ করে, ঐচ্ছিক থিম হিসেবে নয়।** এই পেজ ডকুমেন্ট করে

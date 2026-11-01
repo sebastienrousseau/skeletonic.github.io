@@ -3,7 +3,7 @@ title: "Mga Paleta"
 name: "Skeletonic Stylus"
 description: "Mga colour palette na Material, Tachyons at web-safe na kasama sa Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/fil/mga-paleta/
+permalink: https://skeletonic.com/fil/mga-paleta/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fil

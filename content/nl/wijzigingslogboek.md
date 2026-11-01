@@ -3,7 +3,7 @@ title: "Wijzigingslogboek"
 name: "Skeletonic Stylus"
 description: "Releasenotities voor Skeletonic Stylus, met v2.0.0 volledig uitgewerkt."
 layout: page
-permalink: https://skeletonic.io/nl/wijzigingslogboek/
+permalink: https://skeletonic.com/nl/wijzigingslogboek/
 author: Sebastien Rousseau
 language: nl
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "skeletonic wijzigingslogboek, releasenotities, v2.0.0, semver"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (huidig)
 

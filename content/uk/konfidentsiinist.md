@@ -1,10 +1,10 @@
 ---
 title: "Конфіденційність"
 name: "Skeletonic Stylus"
-description: "Які дані збирає skeletonic.io, навіщо та як відмовитися."
+description: "Які дані збирає skeletonic.com, навіщо та як відмовитися."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/konfidentsiinist/
+permalink: https://skeletonic.com/uk/konfidentsiinist/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,7 +13,7 @@ keywords: "конфіденційність, gdpr, cookies, без відсте�
 
 ## Коротко
 
-> **skeletonic.io не встановлює відстежувальних cookie та не використовує
+> **skeletonic.com не встановлює відстежувальних cookie та не використовує
 > сторонніх аналітичних тегів.** Сайт — це статичний набір HTML, CSS та
 > один файл service worker. Жоден ваш запит не журналюється поза
 > стандартними журналами доступу GitHub Pages.

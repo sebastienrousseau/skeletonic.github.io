@@ -3,7 +3,7 @@ title: "Motsin Rai"
 name: "Skeletonic Stylus"
 description: "Module na motsin rai na zaɓi da Skeletonic Stylus v2.0.0 ke aikawa — bounce, pulse, fade, zoom, shake, da abokai, duka a bayan prefers-reduced-motion."
 layout: page
-permalink: https://skeletonic.io/ha/motsin-rai/
+permalink: https://skeletonic.com/ha/motsin-rai/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ha

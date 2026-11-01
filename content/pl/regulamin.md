@@ -1,9 +1,9 @@
 ---
 title: "Regulamin"
 name: "Skeletonic Stylus"
-description: "Warunki korzystania ze strony skeletonic.io i biblioteki Skeletonic Stylus."
+description: "Warunki korzystania ze strony skeletonic.com i biblioteki Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/pl/regulamin/
+permalink: https://skeletonic.com/pl/regulamin/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pl
@@ -25,7 +25,7 @@ przydatnosci handlowej, przydatnosci do okreslonego celu i nienaruszania praw.
 
 ## 2. Ta strona internetowa
 
-Tresc `skeletonic.io` (tekst, przyklady, zrzuty ekranu, uklady)
+Tresc `skeletonic.com` (tekst, przyklady, zrzuty ekranu, uklady)
 jest objeta prawem autorskim © 2021 - 2026 Skeletonic CSS, wszelkie prawa zastrzezone, i licencjonowana na podstawie
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — mozesz
 cytowac, tlumczyc lub remiksowac pod warunkiem podania zrodla.

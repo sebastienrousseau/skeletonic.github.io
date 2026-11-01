@@ -1,9 +1,9 @@
 ---
 title: "Confidențialitate"
 name: "Skeletonic Stylus"
-description: "Ce date colectează skeletonic.io, de ce și cum poți renunța."
+description: "Ce date colectează skeletonic.com, de ce și cum poți renunța."
 layout: page
-permalink: https://skeletonic.io/ro/confidentialitate/
+permalink: https://skeletonic.com/ro/confidentialitate/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro
@@ -13,7 +13,7 @@ keywords: "confidențialitate, gdpr, cookies, fără urmărire"
 
 ## Rezumat
 
-> **skeletonic.io nu setează cookie-uri de urmărire și nu rulează
+> **skeletonic.com nu setează cookie-uri de urmărire și nu rulează
 > tag-uri de analiză de la terți.** Site-ul este un set static de HTML,
 > CSS și un singur fișier service-worker. Nicio cerere pe care o faci
 > nu este înregistrată dincolo de jurnalele standard de acces GitHub

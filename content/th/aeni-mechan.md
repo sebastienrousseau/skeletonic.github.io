@@ -3,7 +3,7 @@ title: "แอนิเมชัน"
 name: "Skeletonic Stylus"
 description: "โมดูลแอนิเมชันเสริมที่มาพร้อมกับ Skeletonic Stylus v2.0.0 — bounce, pulse, fade, zoom, shake และอื่น ๆ ทั้งหมดอยู่หลัง prefers-reduced-motion"
 layout: page
-permalink: https://skeletonic.io/th/aeni-mechan/
+permalink: https://skeletonic.com/th/aeni-mechan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th

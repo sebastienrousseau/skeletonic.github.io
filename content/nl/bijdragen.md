@@ -3,7 +3,7 @@ title: "Bijdragen"
 name: "Skeletonic Stylus"
 description: "Hoe je issues kunt indienen, wijzigingen kunt voorstellen en pull requests kunt insturen voor Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/nl/bijdragen/
+permalink: https://skeletonic.com/nl/bijdragen/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl

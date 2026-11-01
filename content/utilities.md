@@ -3,11 +3,12 @@ title: "Utilities — class names and HTML attributes"
 name: "Skeletonic Stylus"
 description: "Every utility class in Skeletonic Stylus, with the equivalent HTML attribute form. Layout, flex, text, sizing, visibility, spacing — class or attribute, your choice."
 layout: page
-permalink: https://skeletonic.io/utilities/
+permalink: https://skeletonic.com/utilities/
 date: 2026-04-30
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "css utilities, attribute selector, html data attributes, flex utilities, text utilities, css classes vs attributes"
+language: en-GB
 ---
 
 Skeletonic ships a small, opinionated set of utility classes — and

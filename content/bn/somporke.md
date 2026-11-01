@@ -3,7 +3,7 @@ title: "Skeletonic Stylus সম্পর্কে"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus একটি ওপেন-সোর্স Stylus CSS লাইব্রেরি, অ্যাক্সেসিবল, দ্রুত ও মডুলার UI স্টাইলিংয়ের জন্য।"
 layout: page
-permalink: https://skeletonic.io/bn/somporke/
+permalink: https://skeletonic.com/bn/somporke/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn
@@ -13,8 +13,8 @@ keywords: "skeletonic, সম্পর্কে, stylus, css framework, দর�
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 <dl class="stat-strip" aria-label="Project facts">
   <div><dt>Version</dt><dd>2.0.0</dd></div>

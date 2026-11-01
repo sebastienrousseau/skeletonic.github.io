@@ -3,7 +3,7 @@ title: "Katki Saglama"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus'a sorun bildirme, degisiklik onerme ve pull request gonderme rehberi."
 layout: page
-permalink: https://skeletonic.io/tr/katki/
+permalink: https://skeletonic.com/tr/katki/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: tr

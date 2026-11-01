@@ -3,7 +3,7 @@ title: "Bedankt!"
 name: "Skeletonic Stylus"
 description: "Je bericht is succesvol verzonden."
 layout: thanks
-permalink: https://skeletonic.io/nl/bedankt/
+permalink: https://skeletonic.com/nl/bedankt/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: nl

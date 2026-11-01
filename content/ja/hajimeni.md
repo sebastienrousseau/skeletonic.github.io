@@ -3,7 +3,7 @@ title: "Skeletonic Stylus をはじめる"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus を npm または CDN からインストールし、Stylus ビルドにインポートして、数秒で変数をオーバーライドする方法を解説します。"
 layout: page
-permalink: https://skeletonic.io/ja/hajimeni/
+permalink: https://skeletonic.com/ja/hajimeni/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja
@@ -13,8 +13,8 @@ keywords: "skeletonic インストール, stylus セットアップ, css cdn, �
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## はじめに
 
@@ -30,13 +30,13 @@ Skeletonic Stylus は **pnpm**、**npm**、**yarn** でインストールする�
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### CDN から
@@ -47,13 +47,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -63,8 +63,8 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 
 | CDN | URL | HTTPS | コンボ |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | 対応 | 対応 |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | 対応 | 非対応 |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | 対応 | 対応 |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | 対応 | 非対応 |
 
 ### GitHub リリースをダウンロード
 
@@ -139,7 +139,7 @@ Skeletonic はデザイントークンを **CSS カスタムプロパティ** �
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>動作しています。</h1>
@@ -155,7 +155,7 @@ Skeletonic はデザイントークンを **CSS カスタムプロパティ** �
 パッケージの中には、すべてのソースファイル、コンパイルおよびミニファイ済み CSS バンドル、ソースマップ、そしてカテゴリ別に整理された完全な Stylus ツリーが含まれています：
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -193,7 +193,7 @@ Skeletonic はデザイントークンを **CSS カスタムプロパティ** �
 ## よくある質問
 
 **Skeletonic Stylus はどのようにインストールしますか？**
-`pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0` を実行してください。または、コンパイル済み CSS を CDN から直接読み込めます — ビルドステップは不要です。
+`pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0` を実行してください。または、コンパイル済み CSS を CDN から直接読み込めます — ビルドステップは不要です。
 
 **JavaScript は必要ですか？**
 いいえ。コアスタイルシートは純粋な CSS であり、ランタイムコストはゼロです。コンポーネントは JavaScript なしで動作します。
@@ -217,7 +217,7 @@ MIT と Apache 2.0 のデュアルライセンスです — プロジェクト�
       "name": "Skeletonic Stylus はどのようにインストールしますか？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0 を実行してください。または、コンパイル済み CSS を CDN から直接読み込めます — ビルドステップは不要です。"
+        "text": "pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0 を実行してください。または、コンパイル済み CSS を CDN から直接読み込めます — ビルドステップは不要です。"
       }
     },
     {

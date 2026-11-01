@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Bang mau Material, Tachyons va web-safe duoc tich hop trong Skeletonic Stylus v2.0.0."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/bang-mau/
+permalink: https://skeletonic.com/vi/bang-mau/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

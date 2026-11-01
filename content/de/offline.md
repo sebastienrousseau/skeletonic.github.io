@@ -1,9 +1,9 @@
 ---
 title: "Keine Internetverbindung"
 name: "Skeletonic Stylus"
-description: "skeletonic.io konnte das Netzwerk nicht erreichen. Die angeforderte Seite wurde noch nicht zwischengespeichert."
+description: "skeletonic.com konnte das Netzwerk nicht erreichen. Die angeforderte Seite wurde noch nicht zwischengespeichert."
 layout: page
-permalink: https://skeletonic.io/de/offline/
+permalink: https://skeletonic.com/de/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: de

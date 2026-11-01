@@ -3,7 +3,7 @@ title: "セキュリティとサプライチェーン"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0 がビルドパイプラインをどのように保護し、リリースに署名し、SBOM を提供するかについて。"
 layout: page
-permalink: https://skeletonic.io/ja/sekiyurithi/
+permalink: https://skeletonic.com/ja/sekiyurithi/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja
@@ -40,7 +40,7 @@ keywords: "css セキュリティ, sbom, cyclonedx, npm プロベナンス, open
 公開されるすべての tarball には `dist/sbom.json` に CycloneDX SBOM が含まれています。新しくインストールしたパッケージを以下のコマンドで確認できます：
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -57,7 +57,7 @@ SBOM は公開ワークフロー中に `cyclonedx-npm` で生成されます。
 インストール後、以下のコマンドで確認できます：
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

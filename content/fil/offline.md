@@ -1,9 +1,9 @@
 ---
 title: "Ikaw ay offline"
 name: "Skeletonic Stylus"
-description: "Hindi maabot ng skeletonic.io ang network. Ang pahina na hiniling mo ay hindi pa naka-cache."
+description: "Hindi maabot ng skeletonic.com ang network. Ang pahina na hiniling mo ay hindi pa naka-cache."
 layout: page
-permalink: https://skeletonic.io/fil/offline/
+permalink: https://skeletonic.com/fil/offline/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fil

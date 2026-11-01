@@ -3,7 +3,7 @@ title: "Vielen Dank!"
 name: "Skeletonic Stylus"
 description: "Die Nachricht wurde erfolgreich gesendet."
 layout: thanks
-permalink: https://skeletonic.io/de/danke/
+permalink: https://skeletonic.com/de/danke/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: de

@@ -3,7 +3,7 @@ title: "보안 &amp; 공급망"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0이 빌드 파이프라인을 보호하고, 릴리스에 서명하며, SBOM을 제공하는 방법입니다."
 layout: page
-permalink: https://skeletonic.io/ko/boaan/
+permalink: https://skeletonic.com/ko/boaan/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko
@@ -40,7 +40,7 @@ keywords: "css 보안, sbom, cyclonedx, npm 출처 증명, openssf scorecard, �
 모든 게시된 tarball에는 `dist/sbom.json`에 CycloneDX SBOM이 포함되어 있습니다. 새로 설치한 패키지를 다음과 같이 확인할 수 있습니다:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -57,7 +57,7 @@ SBOM은 게시 워크플로우 중 `cyclonedx-npm`으로 생성됩니다.
 설치 후 다음과 같이 확인할 수 있습니다:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

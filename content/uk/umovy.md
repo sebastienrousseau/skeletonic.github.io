@@ -1,10 +1,10 @@
 ---
 title: "Умови використання"
 name: "Skeletonic Stylus"
-description: "Умови, що регулюють використання skeletonic.io та бібліотеки Skeletonic Stylus."
+description: "Умови, що регулюють використання skeletonic.com та бібліотеки Skeletonic Stylus."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/umovy/
+permalink: https://skeletonic.com/uk/umovy/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -26,7 +26,7 @@ keywords: "умови використання, ліцензія, mit, apache 2"
 
 ## 2. Цей веб-сайт
 
-Зміст `skeletonic.io` (текст, приклади, знімки екрану, макети) є
+Зміст `skeletonic.com` (текст, приклади, знімки екрану, макети) є
 Copyright © 2021 - 2026 Skeletonic CSS, всі права захищені, та
 ліцензований за
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — ви можете

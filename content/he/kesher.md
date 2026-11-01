@@ -3,7 +3,7 @@ title: "יצירת קשר"
 name: "Skeletonic Stylus"
 description: "צרו קשר לגבי Skeletonic Stylus — דיווחי באגים, רעיונות לתכונות, שיתופי פעולה או משוב כללי."
 layout: contact
-permalink: https://skeletonic.io/he/kesher/
+permalink: https://skeletonic.com/he/kesher/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: he

@@ -3,7 +3,7 @@ title: "แท็ก"
 name: "Skeletonic Stylus"
 description: "เรียกดูเอกสาร Skeletonic Stylus ตามแท็ก"
 layout: page
-permalink: https://skeletonic.io/th/tags/
+permalink: https://skeletonic.com/th/tags/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th

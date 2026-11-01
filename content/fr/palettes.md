@@ -3,7 +3,7 @@ title: "Palettes"
 name: "Skeletonic Stylus"
 description: "Palettes de couleurs Material, Tachyons et web-safe livrées dans Skeletonic Stylus v2.0.0."
 layout: page
-permalink: https://skeletonic.io/fr/palettes/
+permalink: https://skeletonic.com/fr/palettes/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: fr
@@ -102,7 +102,7 @@ module optionnel.
 ```
 
 La spécification complète de la palette Tachyons est documentée sur
-[tachyons.io/docs/themes/skins](https://tachyons.io/docs/themes/skins/) ;
+[tachyons.io/docs/themes/skins](https://tachyons.io/docs/themes/skins/);
 la version livrée ici est celle compilée par Skeletonic.
 
 [Retour aux composants →](/fr/composants/)

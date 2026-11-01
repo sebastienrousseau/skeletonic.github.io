@@ -1,10 +1,10 @@
 ---
 title: "Nutzungsbedingungen"
 name: "Skeletonic Stylus"
-description: "Bedingungen fuer die Nutzung von skeletonic.io und der Skeletonic-Stylus-Bibliothek."
+description: "Bedingungen fuer die Nutzung von skeletonic.com und der Skeletonic-Stylus-Bibliothek."
 layout: page
 language: de
-permalink: https://skeletonic.io/de/nutzungsbedingungen/
+permalink: https://skeletonic.com/de/nutzungsbedingungen/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -27,7 +27,7 @@ einen bestimmten Zweck und der Nichtverletzung von Rechten Dritter.
 
 ## 2. Diese Website
 
-Der Inhalt von `skeletonic.io` (Text, Beispiele, Screenshots, Layouts)
+Der Inhalt von `skeletonic.com` (Text, Beispiele, Screenshots, Layouts)
 ist Copyright (c) 2021 - 2026 Skeletonic CSS, alle Rechte vorbehalten, und
 lizenziert unter
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Zitieren,

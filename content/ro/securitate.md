@@ -3,7 +3,7 @@ title: "Securitate &amp; lanț de aprovizionare"
 name: "Skeletonic Stylus"
 description: "Cum Skeletonic Stylus v2.0.0 securizează pipeline-ul de build, semnează lansările și livrează un SBOM."
 layout: page
-permalink: https://skeletonic.io/ro/securitate/
+permalink: https://skeletonic.com/ro/securitate/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ro
@@ -41,7 +41,7 @@ Fiecare tarball publicat include un CycloneDX SBOM la `dist/sbom.json`.
 Poți verifica un pachet proaspăt instalat cu:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -59,7 +59,7 @@ Artefactul publicat este semnat folosind
 Poți verifica după instalare cu:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

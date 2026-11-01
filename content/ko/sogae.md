@@ -3,7 +3,7 @@ title: "Skeletonic Stylus 소개"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus는 접근성 높고 빠르며 모듈화된 UI 스타일링을 위한 오픈소스 Stylus CSS 라이브러리입니다."
 layout: page
-permalink: https://skeletonic.io/ko/sogae/
+permalink: https://skeletonic.com/ko/sogae/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ko
@@ -13,8 +13,8 @@ keywords: "skeletonic, 소개, stylus, css 프레임워크, 철학"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 <dl class="stat-strip" aria-label="Project facts">
   <div><dt>Version</dt><dd>2.0.0</dd></div>

@@ -1,18 +1,19 @@
 ---
 title: "Privacy"
 name: "Skeletonic Stylus"
-description: "What data skeletonic.io collects, why, and how to opt out."
+description: "What data skeletonic.com collects, why, and how to opt out."
 layout: page
-permalink: https://skeletonic.io/privacy/
+permalink: https://skeletonic.com/privacy/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "privacy, gdpr, cookies, no tracking"
+language: en-GB
 ---
 
 ## TL;DR
 
-> **skeletonic.io does not set tracking cookies and does not run a
+> **skeletonic.com does not set tracking cookies and does not run a
 > third-party analytics tag.** The site is a static set of HTML, CSS,
 > and a single service-worker file. No request you make is logged
 > beyond the standard GitHub Pages access logs.

@@ -3,7 +3,7 @@ title: "شكرًا!"
 name: "Skeletonic Stylus"
 description: "تم إرسال رسالتك بنجاح."
 layout: thanks
-permalink: https://skeletonic.io/ar/shukran/
+permalink: https://skeletonic.com/ar/shukran/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar

@@ -3,7 +3,7 @@ title: "Bezpecnost a dodavatelsky retezec"
 name: "Skeletonic Stylus"
 description: "Jak Skeletonic Stylus v2.0.0 zabezpecuje svou build pipeline, podepisuje vydani a dodava SBOM."
 layout: page
-permalink: https://skeletonic.io/cs/bezpecnost/
+permalink: https://skeletonic.com/cs/bezpecnost/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs
@@ -42,7 +42,7 @@ Kazdy publikovany tarball obsahuje CycloneDX SBOM v `dist/sbom.json`.
 Cerstve nainstalovan balicek muzete overit pomoci:
 
 ```bash
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 jq '.metadata.component.version' \
   node_modules/@sebastienrousseau/skeletonic-stylus/dist/sbom.json
 # → "2.0.0"
@@ -60,7 +60,7 @@ Publikovany artefakt je podepsan pomoci
 Po instalaci jej muzete overit pomoci:
 
 ```bash
-npm view @sebastienrousseau/skeletonic-stylus@2.0.0 --json | \
+npm view @sebastienrousseau/skeletonic-stylus@3.0.0 --json | \
   jq '.dist."npm-signature"'
 ```
 

@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Nhung gi v2.0.0 cung cap san cho tuan thu WCAG 2.2 — vong focus, do tuong phan, lien ket bo qua, chuyen dong va che do toi."
 layout: page
 language: vi
-permalink: https://skeletonic.io/vi/tro-nang/
+permalink: https://skeletonic.com/vi/tro-nang/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, tro nang, focus visible, skip link, prefers reduced motion,
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 cung cap tuan thu WCAG 2.2 nhu hanh vi
 > mac dinh, khong phai chu de tuy chon.** Trang nay ghi lai nhung gi

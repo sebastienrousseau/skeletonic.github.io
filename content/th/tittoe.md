@@ -3,7 +3,7 @@ title: "ติดต่อ"
 name: "Skeletonic Stylus"
 description: "ติดต่อเกี่ยวกับ Skeletonic Stylus — รายงานบั๊ก แนวคิดฟีเจอร์ ความร่วมมือ หรือข้อเสนอแนะทั่วไป"
 layout: contact
-permalink: https://skeletonic.io/th/tittoe/
+permalink: https://skeletonic.com/th/tittoe/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th

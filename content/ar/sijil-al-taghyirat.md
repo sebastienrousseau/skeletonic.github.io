@@ -3,7 +3,7 @@ title: "سجل التغييرات"
 name: "Skeletonic Stylus"
 description: "ملاحظات الإصدار لـ Skeletonic Stylus، مع الإصدار 2.0.0 بالكامل."
 layout: page
-permalink: https://skeletonic.io/ar/sijil-al-taghyirat/
+permalink: https://skeletonic.com/ar/sijil-al-taghyirat/
 author: Sebastien Rousseau
 language: ar
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "سجل تغييرات skeletonic, ملاحظات الإصدار, v2.0
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## الإصدار 2.0.0 — 2026-04 (الحالي)
 

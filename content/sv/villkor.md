@@ -1,9 +1,9 @@
 ---
 title: "Anvandningsvillkor"
 name: "Skeletonic Stylus"
-description: "Villkor som styr din anvandning av skeletonic.io och Skeletonic Stylus-biblioteket."
+description: "Villkor som styr din anvandning av skeletonic.com och Skeletonic Stylus-biblioteket."
 layout: page
-permalink: https://skeletonic.io/sv/villkor/
+permalink: https://skeletonic.com/sv/villkor/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv
@@ -25,7 +25,7 @@ saljbarhet, lamplighet for ett visst andamal och icke-intrang.
 
 ## 2. Denna webbplats
 
-Innehallet pa `skeletonic.io` (text, exempel, skarmdumpar, layouter)
+Innehallet pa `skeletonic.com` (text, exempel, skarmdumpar, layouter)
 ar Copyright © 2021 - 2026 Skeletonic CSS, alla rattigheter forbehallna, och licensierat under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — du far
 citera, oversatta eller bearbeta det under forutsattning att du anger kallan.

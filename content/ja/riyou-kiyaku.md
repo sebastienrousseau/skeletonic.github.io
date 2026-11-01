@@ -1,9 +1,9 @@
 ---
 title: "利用規約"
 name: "Skeletonic Stylus"
-description: "skeletonic.io および Skeletonic Stylus ライブラリの利用に関する規約。"
+description: "skeletonic.com および Skeletonic Stylus ライブラリの利用に関する規約。"
 layout: page
-permalink: https://skeletonic.io/ja/riyou-kiyaku/
+permalink: https://skeletonic.com/ja/riyou-kiyaku/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ja
@@ -19,7 +19,7 @@ keywords: "利用規約, ライセンス, mit, apache 2"
 
 ## 2. このウェブサイト
 
-`skeletonic.io` のコンテンツ（テキスト、サンプル、スクリーンショット、レイアウト）は Copyright © 2021 - 2026 Skeletonic CSS の全著作権所有であり、[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) の下でライセンスされています — 出典を明記すれば、引用、翻訳、リミックスが可能です。
+`skeletonic.com` のコンテンツ（テキスト、サンプル、スクリーンショット、レイアウト）は Copyright © 2021 - 2026 Skeletonic CSS の全著作権所有であり、[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) の下でライセンスされています — 出典を明記すれば、引用、翻訳、リミックスが可能です。
 
 ## 3. 商標
 

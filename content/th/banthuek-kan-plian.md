@@ -3,7 +3,7 @@ title: "บันทึกการเปลี่ยนแปลง"
 name: "Skeletonic Stylus"
 description: "บันทึกรีลีสของ Skeletonic Stylus พร้อมรายละเอียดฉบับเต็มของ v2.0.0"
 layout: page
-permalink: https://skeletonic.io/th/banthuek-kan-plian/
+permalink: https://skeletonic.com/th/banthuek-kan-plian/
 author: Sebastien Rousseau
 language: th
 theme_color: "hsl(210, 100%, 42%)"
@@ -12,8 +12,8 @@ keywords: "บันทึกการเปลี่ยนแปลง skeleton
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04 (ปัจจุบัน)
 

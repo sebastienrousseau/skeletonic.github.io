@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Встановіть Skeletonic Stylus через npm або CDN, імпортуйте його у ваш Stylus-проєкт та перевизначте змінні за лічені секунди."
 layout: page
 language: uk
-permalink: https://skeletonic.io/uk/pochatok/
+permalink: https://skeletonic.com/uk/pochatok/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
@@ -13,8 +13,8 @@ keywords: "встановити skeletonic, налаштування stylus, css
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## Вступ
 
@@ -36,13 +36,13 @@ keywords: "встановити skeletonic, налаштування stylus, css
 
 ```bash
 # pnpm
-pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0
+pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # npm
-npm install @sebastienrousseau/skeletonic-stylus@2.0.0
+npm install @sebastienrousseau/skeletonic-stylus@3.0.0
 
 # yarn
-yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
+yarn add @sebastienrousseau/skeletonic-stylus@3.0.0
 ```
 
 ### З CDN
@@ -53,13 +53,13 @@ yarn add @sebastienrousseau/skeletonic-stylus@2.0.0
 <!-- jsDelivr -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 
 <!-- unpkg -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css"
+  href="https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css"
   crossorigin="anonymous">
 ```
 
@@ -70,8 +70,8 @@ v2.0.0 та додайте атрибут `integrity="sha384-…"`.
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Так | Так |
-| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css` | Так | Ні |
+| **jsDelivr** | `https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Так | Так |
+| **unpkg** | `https://unpkg.com/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css` | Так | Ні |
 
 ### Завантаження з релізів GitHub
 
@@ -155,7 +155,7 @@ Skeletonic надає свої дизайн-токени як **CSS-змінні
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@2.0.0/css/core/skeletonic.min.css">
+          href="https://cdn.jsdelivr.net/npm/@sebastienrousseau/skeletonic-stylus@3.0.0/css/core/skeletonic.min.css">
   </head>
   <body class="container padding-3">
     <h1>Це працює.</h1>
@@ -174,7 +174,7 @@ Skeletonic надає свої дизайн-токени як **CSS-змінні
 організоване за категоріями:
 
 ```text
-@sebastienrousseau/skeletonic-stylus@2.0.0
+@sebastienrousseau/skeletonic-stylus@3.0.0
 ├── CHANGELOG.md
 ├── LICENSE-APACHE
 ├── LICENSE-MIT
@@ -213,7 +213,7 @@ Skeletonic надає свої дизайн-токени як **CSS-змінні
 ## Часті запитання
 
 **Як встановити Skeletonic Stylus?**
-Виконайте `pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0`. Або
+Виконайте `pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0`. Або
 завантажте скомпільований CSS безпосередньо з CDN — крок збірки
 не потрібен.
 
@@ -245,7 +245,7 @@ skip-link хелперами, підтримкою зменшення руху �
       "name": "Як встановити Skeletonic Stylus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Виконайте pnpm add @sebastienrousseau/skeletonic-stylus@2.0.0. Або завантажте скомпільований CSS безпосередньо з CDN — крок збірки не потрібен."
+        "text": "Виконайте pnpm add @sebastienrousseau/skeletonic-stylus@3.0.0. Або завантажте скомпільований CSS безпосередньо з CDN — крок збірки не потрібен."
       }
     },
     {

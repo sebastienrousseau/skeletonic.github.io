@@ -3,7 +3,7 @@ title: "धन्यवाद!"
 name: "Skeletonic Stylus"
 description: "आपका संदेश सफलतापूर्वक भेज दिया गया।"
 layout: thanks
-permalink: https://skeletonic.io/hi/dhanyavad/
+permalink: https://skeletonic.com/hi/dhanyavad/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: hi

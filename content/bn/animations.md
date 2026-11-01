@@ -3,7 +3,7 @@ title: "অ্যানিমেশন — v2.0.0-এ prefers-reduced-motion"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus v2.0.0-এর সাথে শিপ করা ঐচ্ছিক অ্যানিমেশন মডিউল — bounce, pulse, fade, zoom, shake এবং আরও অনেক, সবই prefers-reduced-motion দ্বারা নিয়ন্ত্রিত।"
 layout: page
-permalink: https://skeletonic.io/bn/animations/
+permalink: https://skeletonic.com/bn/animations/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: bn

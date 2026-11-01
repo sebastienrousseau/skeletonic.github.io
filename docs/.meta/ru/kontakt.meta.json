@@ -1,12 +1,14 @@
 {
-  "theme_color": "hsl(210, 100%, 42%)",
-  "title": "Контакты",
+  "author": "Sebastien Rousseau",
   "date": "2026-04-08",
+  "description": "Свяжитесь с нами по вопросам Skeletonic Stylus — отчёты об ошибках, идеи функций, партнёрство или общие отзывы.",
   "keywords": "контакты, поддержка, обратная связь, skeletonic",
   "language": "ru",
   "layout": "contact",
-  "author": "Sebastien Rousseau",
-  "permalink": "https://skeletonic.io/ru/kontakt/",
   "name": "Skeletonic Stylus",
-  "description": "Свяжитесь с нами по вопросам Skeletonic Stylus — отчёты об ошибках, идеи функций, партнёрство или общие отзывы."
+  "permalink": "https://skeletonic.io/ru/kontakt/",
+  "reading_time": 1,
+  "theme_color": "hsl(210, 100%, 42%)",
+  "title": "Контакты",
+  "word_count": 47
 }

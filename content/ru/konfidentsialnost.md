@@ -1,9 +1,9 @@
 ---
 title: "Конфиденциальность"
 name: "Skeletonic Stylus"
-description: "Какие данные собирает skeletonic.io, зачем и как отказаться."
+description: "Какие данные собирает skeletonic.com, зачем и как отказаться."
 layout: page
-permalink: https://skeletonic.io/ru/konfidentsialnost/
+permalink: https://skeletonic.com/ru/konfidentsialnost/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ru
@@ -13,7 +13,7 @@ keywords: "конфиденциальность, gdpr, cookies, без отсл�
 
 ## Коротко
 
-> **skeletonic.io не устанавливает отслеживающие cookie и не использует
+> **skeletonic.com не устанавливает отслеживающие cookie и не использует
 > сторонние аналитические теги.** Сайт представляет собой статический набор
 > HTML, CSS и один файл service worker. Ни один ваш запрос не логируется
 > сверх стандартных журналов доступа GitHub Pages.

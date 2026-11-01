@@ -3,7 +3,7 @@ title: "Tillganglighet — WCAG 2.2 i v2.0.0"
 name: "Skeletonic Stylus"
 description: "Vad v2.0.0 levererar direkt for WCAG 2.2-uppfyllnad — fokusringar, kontrast, skip-lankar, rorelse och morkt lage."
 layout: page
-permalink: https://skeletonic.io/sv/tillganglighet/
+permalink: https://skeletonic.com/sv/tillganglighet/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: sv
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, tillganglighet, focus visible, skip-lank, prefers reduced m
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 levererar WCAG 2.2-uppfyllnad som
 > standardbeteende, inte som ett valfritt tema.** Denna sida dokumenterar vad

@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Ваше повідомлення успішно надіслано."
 layout: thanks
 language: uk
-permalink: https://skeletonic.io/uk/dyakuyemo/
+permalink: https://skeletonic.com/uk/dyakuyemo/
 date: 2026-04-08
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"

@@ -3,7 +3,7 @@ title: "Dostepnosc — WCAG 2.2 w v2.0.0"
 name: "Skeletonic Stylus"
 description: "Co v2.0.0 dostarcza od razu dla zgodnosci z WCAG 2.2 — pierscienie fokusu, kontrast, skip links, ruch i tryb ciemny."
 layout: page
-permalink: https://skeletonic.io/pl/dostepnosc/
+permalink: https://skeletonic.com/pl/dostepnosc/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: pl
@@ -13,8 +13,8 @@ keywords: "wcag 2.2, dostepnosc, focus visible, skip link, prefers reduced motio
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 > **Skeletonic Stylus v2.0.0 dostarcza zgodnosc z WCAG 2.2 jako domyslne
 > zachowanie, a nie jako opcjonalny motyw.** Ta strona dokumentuje, co jest

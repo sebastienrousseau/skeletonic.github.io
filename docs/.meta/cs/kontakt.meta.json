@@ -1,12 +1,14 @@
 {
-  "permalink": "https://skeletonic.io/cs/kontakt/",
-  "name": "Skeletonic Stylus",
-  "language": "cs",
   "author": "Sebastien Rousseau",
   "date": "2026-04-08",
-  "title": "Kontakt — Skeletonic Stylus",
   "description": "Spojte se s nami ohledne Skeletonic Stylus — hlaseni chyb, napady na funkce, partnerstvi nebo obecna zpetna vazba.",
   "keywords": "kontakt, podpora, zpetna vazba, skeletonic",
+  "language": "cs",
+  "layout": "contact",
+  "name": "Skeletonic Stylus",
+  "permalink": "https://skeletonic.io/cs/kontakt/",
+  "reading_time": 1,
   "theme_color": "hsl(210, 100%, 42%)",
-  "layout": "contact"
+  "title": "Kontakt — Skeletonic Stylus",
+  "word_count": 46
 }

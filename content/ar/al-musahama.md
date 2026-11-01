@@ -3,7 +3,7 @@ title: "المساهمة"
 name: "Skeletonic Stylus"
 description: "كيفية تقديم المشكلات واقتراح التغييرات وإرسال طلبات السحب إلى Skeletonic Stylus."
 layout: page
-permalink: https://skeletonic.io/ar/al-musahama/
+permalink: https://skeletonic.com/ar/al-musahama/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: ar

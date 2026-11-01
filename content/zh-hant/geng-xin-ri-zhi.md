@@ -4,7 +4,7 @@ name: "Skeletonic Stylus"
 description: "Skeletonic Stylus 發行說明，包含 v2.0.0 完整內容。"
 language: zh-hant
 layout: page
-permalink: https://skeletonic.io/zh-hant/geng-xin-ri-zhi/
+permalink: https://skeletonic.com/zh-hant/geng-xin-ri-zhi/
 author: Sebastien Rousseau
 theme_color: "hsl(210, 100%, 42%)"
 keywords: "skeletonic 更新日誌, 發行說明, v2.0.0, 語意化版本"
@@ -12,8 +12,8 @@ keywords: "skeletonic 更新日誌, 發行說明, v2.0.0, 語意化版本"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 ## v2.0.0 — 2026-04（當前版本）
 

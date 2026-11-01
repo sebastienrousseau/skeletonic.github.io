@@ -3,7 +3,7 @@ title: "O projektu Skeletonic Stylus"
 name: "Skeletonic Stylus"
 description: "Skeletonic Stylus je open-source knihovna CSS v preprocesoru Stylus pro pristupne, rychle a modularni stylovani rozhrani."
 layout: page
-permalink: https://skeletonic.io/cs/o-projektu/
+permalink: https://skeletonic.com/cs/o-projektu/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: cs
@@ -13,8 +13,8 @@ keywords: "skeletonic, o projektu, stylus, css framework, filosofie"
 
 > **Translation note (2026-04-30).** v2.0.0 adds RTL support and a refreshed
 > 2026 framework comparison. The English source is the canonical reference
-> while these translations catch up. See <https://skeletonic.io/about/> ·
-> <https://skeletonic.io/components/> · <https://skeletonic.io/benchmarks/>.
+> while these translations catch up. See <https://skeletonic.com/about/> ·
+> <https://skeletonic.com/components/> · <https://skeletonic.com/benchmarks/>.
 
 <dl class="stat-strip" aria-label="Project facts">
   <div><dt>Version</dt><dd>2.0.0</dd></div>

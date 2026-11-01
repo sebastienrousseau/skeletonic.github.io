@@ -3,7 +3,7 @@ title: "ขอบคุณ!"
 name: "Skeletonic Stylus"
 description: "ข้อความของคุณถูกส่งสำเร็จแล้ว"
 layout: thanks
-permalink: https://skeletonic.io/th/khob-khun/
+permalink: https://skeletonic.com/th/khob-khun/
 date: 2026-04-08
 author: Sebastien Rousseau
 language: th
